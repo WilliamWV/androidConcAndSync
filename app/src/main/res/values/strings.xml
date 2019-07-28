@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ConcurrencyEval</string>
+    <string name="init_activity_title">Android concurrency models comparision</string>
+    <string name="init_choose_problems">Chose one of the problems</string>
+    <string name="init_choose_impl">Choose the implementation</string>
+    <string name="done">Done</string>
+    <string-array name="problems">
+        <item>Matrix multiplication</item>
+        <item>Philosophers</item>
+        <item>Concurrent sum</item>
+        <item>Download of large file</item>
+        <item>Download of small files</item>
+        <item>UI/Background interaction</item>
+    </string-array>
+
+    <string-array name="implementations">
+        <item>Threads</item>
+        <item>AsyncTask</item>
+        <item>HaMeR framework</item>
+        <item>IntentServices</item>
+        <item>ThreadPool</item>
+        <item>Kotlin coroutines</item>
+    </string-array>
+</resources>
