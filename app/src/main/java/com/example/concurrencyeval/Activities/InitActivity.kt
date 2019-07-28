@@ -1,4 +1,4 @@
-package com.example.concurrencyeval
+package com.example.concurrencyeval.Activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
+import com.example.concurrencyeval.Constants
+import com.example.concurrencyeval.R
 
 class InitActivity : AppCompatActivity(){
 
@@ -42,18 +44,32 @@ class InitActivity : AppCompatActivity(){
         setContentView(R.layout.activity_init)
 
         //Spinner population
-        this.problemSpinner = populateSpinners(R.id.init_spinner_problems, R.array.problems)
-        this.implSpinner = populateSpinners(R.id.init_spinner_impl, R.array.implementations)
+        this.problemSpinner = populateSpinners(
+            R.id.init_spinner_problems,
+            R.array.problems
+        )
+        this.implSpinner = populateSpinners(
+            R.id.init_spinner_impl,
+            R.array.implementations
+        )
 
         val doneButton: Button = findViewById(R.id.init_b_done)
         doneButton.setOnClickListener{
-          val selectedProblem = this.problemsPositionMap[this.problemSpinner.selectedItemPosition]
-          val selectedImplementation = this.implsPositionMap[this.implSpinner.selectedItemPosition]
-          val intent = Intent(this, ProblemActivity::class.java).apply{
-              putExtra(Constants.PROBLEM_EXTRA, selectedProblem)
-              putExtra(Constants.IMPL_EXTRA, selectedImplementation)
-          }
-          startActivity(intent)
+            val selectedProblem = this.problemsPositionMap[this.problemSpinner.selectedItemPosition]
+            val selectedImplementation = this.implsPositionMap[this.implSpinner.selectedItemPosition]
+
+            val intent: Intent
+            intent = when (selectedProblem){
+                Constants.MATRIX_MULT -> Intent(this, MatMultActivity::class.java).apply {
+                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
+                }
+                else -> Intent(this, ProblemActivity::class.java).apply {
+                    putExtra(Constants.PROBLEM_EXTRA, selectedProblem)
+                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
+                }
+            }
+
+            startActivity(intent)
 
         }
     }

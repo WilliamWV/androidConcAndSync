@@ -4,6 +4,18 @@
     <string name="init_choose_problems">Chose one of the problems</string>
     <string name="init_choose_impl">Choose the implementation</string>
     <string name="done">Done</string>
+    <string name="mm_title">Matrix multiplication</string>
+    <string name="mm_description">Multiplication of two square matrix randomly initialized with size defined by the
+        following parameter
+    </string>
+    <string name="mm_size_label">Matrix size:</string>
+    <string name="mm_size_hint">Size</string>
+    <string name="mm_tasks_label">Tasks to use</string>
+    <string name="mm_tasks_hint">Tasks</string>
+    <string name="run_button">Run</string>
+    <string name="report">Report</string>
+    <string name="time">Time: </string>
+    <string name="energy_consumption">Energy consumption:</string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>

@@ -9,14 +9,24 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ProblemActivity"
-        android:parentActivityName=".InitActivity">
+        <activity
+                android:name=".Activities.MatMultActivity"
+                android:parentActivityName=".Activities.InitActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".InitActivity"
+                android:value=".Activities.InitActivity"
             />
+
+
         </activity>
-        <activity android:name=".InitActivity">
+        <activity
+                android:name=".Activities.ProblemActivity"
+                android:parentActivityName=".Activities.InitActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".Activities.InitActivity"/>
+        </activity>
+        <activity android:name=".Activities.InitActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

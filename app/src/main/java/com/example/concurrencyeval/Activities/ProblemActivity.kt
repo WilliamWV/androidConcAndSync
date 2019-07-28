@@ -1,8 +1,10 @@
-package com.example.concurrencyeval
+package com.example.concurrencyeval.Activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.example.concurrencyeval.Constants
+import com.example.concurrencyeval.R
 
 class ProblemActivity : AppCompatActivity() {
 
@@ -10,7 +12,8 @@ class ProblemActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_problem)
         val reportText: TextView = findViewById(R.id.probl_report)
-        val message = "Selected problem ${Constants.problemNames[intent.getIntExtra(Constants.PROBLEM_EXTRA, -1)]} implemented with ${Constants.implNames[intent.getIntExtra(Constants.IMPL_EXTRA, -1)]}"
+        val message = "Selected problem ${Constants.problemNames[intent.getIntExtra(Constants.PROBLEM_EXTRA, -1)]} implemented with ${Constants.implNames[intent.getIntExtra(
+            Constants.IMPL_EXTRA, -1)]}"
         reportText.text = message
     }
 }
