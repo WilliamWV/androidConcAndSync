@@ -63,6 +63,9 @@ class InitActivity : AppCompatActivity(){
                 Constants.MATRIX_MULT -> Intent(this, MatMultActivity::class.java).apply {
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)
                 }
+                Constants.CONCURR_SUM -> Intent(this, ConcSumActivity::class.java).apply {
+                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
+                }
                 else -> Intent(this, ProblemActivity::class.java).apply {
                     putExtra(Constants.PROBLEM_EXTRA, selectedProblem)
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)
