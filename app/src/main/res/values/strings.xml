@@ -26,6 +26,10 @@
     <string name="ph_tv_description">Philosophers problem used to explore justice on task scheduling</string>
     <string name="ph_tv_philosophers_label">Philosophers</string>
     <string name="justice">Justice:</string>
+    <string name="sf_activity_title">Download of small files</string>
+    <string name="sf_tv_description">Test downloading many small files</string>
+    <string name="lf_activity_title">Download of large file</string>
+    <string name="lf_tv_description">Test downloading one large file</string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>

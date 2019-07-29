@@ -69,6 +69,12 @@ class InitActivity : AppCompatActivity(){
                 Constants.PHILOSOPHERS -> Intent(this, PhilosophersActivity::class.java).apply {
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)
                 }
+                Constants.SMALL_DOWN -> Intent(this, SmallFilesDownActivity::class.java).apply {
+                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
+                }
+                Constants.LARGE_DOWN -> Intent(this, LargeFileDownActivity::class.java).apply {
+                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
+                }
                 else -> Intent(this, ProblemActivity::class.java).apply {
                     putExtra(Constants.PROBLEM_EXTRA, selectedProblem)
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)
