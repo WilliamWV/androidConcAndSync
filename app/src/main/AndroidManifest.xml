@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.concurrencyeval">
+    package="com.example.concurrencyeval">
 
     <application
-            android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-        <activity android:name=".Activities.ConcSumActivity"
-                  android:parentActivityName=".Activities.InitActivity">
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.PhilosophersActivity"
+            android:parentActivityName=".activities.InitActivity">
             <meta-data
-                    android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".Activities.InitActivity"/>
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.InitActivity" />
         </activity>
         <activity
-                android:name=".Activities.MatMultActivity"
-                android:parentActivityName=".Activities.InitActivity">
+            android:name=".activities.ConcSumActivity"
+            android:parentActivityName=".activities.InitActivity">
             <meta-data
-                    android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".Activities.InitActivity"/>
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.InitActivity" />
         </activity>
         <activity
-                android:name=".Activities.ProblemActivity"
-                android:parentActivityName=".Activities.InitActivity">
+            android:name=".activities.MatMultActivity"
+            android:parentActivityName=".activities.InitActivity">
             <meta-data
-                    android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".Activities.InitActivity"/>
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.InitActivity" />
         </activity>
-        <activity android:name=".Activities.InitActivity">
+        <activity
+            android:name=".activities.ProblemActivity"
+            android:parentActivityName=".activities.InitActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.InitActivity" />
+        </activity>
+        <activity android:name=".activities.InitActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

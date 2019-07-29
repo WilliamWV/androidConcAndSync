@@ -1,4 +1,4 @@
-package com.example.concurrencyeval.Activities
+package com.example.concurrencyeval.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -64,6 +64,9 @@ class InitActivity : AppCompatActivity(){
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)
                 }
                 Constants.CONCURR_SUM -> Intent(this, ConcSumActivity::class.java).apply {
+                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
+                }
+                Constants.PHILOSOPHERS -> Intent(this, PhilosophersActivity::class.java).apply {
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)
                 }
                 else -> Intent(this, ProblemActivity::class.java).apply {

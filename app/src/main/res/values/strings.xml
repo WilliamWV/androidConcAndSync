@@ -10,7 +10,7 @@
     </string>
     <string name="mm_size_label">Matrix size:</string>
     <string name="mm_size_hint">Size</string>
-    <string name="tasks_label">Tasks to use:</string>
+    <string name="time_to_run_label">Tasks to use:</string>
     <string name="tasks_hint">Tasks</string>
     <string name="run_button">Run</string>
     <string name="report">Report</string>
@@ -22,6 +22,10 @@
     </string>
     <string name="cs_tv_numbers_label">Numbers</string>
     <string name="cs_tv_numbers_hint">Numbers</string>
+    <string name="ph_activity_title">Philosophers problem</string>
+    <string name="ph_tv_description">Philosophers problem used to explore justice on task scheduling</string>
+    <string name="ph_tv_philosophers_label">Philosophers</string>
+    <string name="justice">Justice:</string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>

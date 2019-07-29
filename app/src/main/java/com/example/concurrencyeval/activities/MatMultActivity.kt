@@ -1,4 +1,4 @@
-package com.example.concurrencyeval.Activities
+package com.example.concurrencyeval.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
