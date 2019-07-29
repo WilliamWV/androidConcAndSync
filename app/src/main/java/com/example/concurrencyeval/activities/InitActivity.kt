@@ -60,28 +60,19 @@ class InitActivity : AppCompatActivity(){
 
             val intent: Intent
             intent = when (selectedProblem){
-                Constants.MATRIX_MULT -> Intent(this, MatMultActivity::class.java).apply {
-                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
-                }
-                Constants.CONCURR_SUM -> Intent(this, ConcSumActivity::class.java).apply {
-                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
-                }
-                Constants.PHILOSOPHERS -> Intent(this, PhilosophersActivity::class.java).apply {
-                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
-                }
-                Constants.SMALL_DOWN -> Intent(this, SmallFilesDownActivity::class.java).apply {
-                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
-                }
-                Constants.LARGE_DOWN -> Intent(this, LargeFileDownActivity::class.java).apply {
-                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
-                }
-                Constants.UI_BACKGROUND -> Intent(this, UiBackActivity::class.java).apply {
-                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
-                }
+
+                Constants.MATRIX_MULT   -> Intent(this, MatMultActivity::class.java)
+                Constants.CONCURR_SUM   -> Intent(this, ConcSumActivity::class.java)
+                Constants.PHILOSOPHERS  -> Intent(this, PhilosophersActivity::class.java)
+                Constants.SMALL_DOWN    -> Intent(this, SmallFilesDownActivity::class.java)
+                Constants.LARGE_DOWN    -> Intent(this, LargeFileDownActivity::class.java)
+                Constants.UI_BACKGROUND -> Intent(this, UiBackActivity::class.java)
+
                 else -> Intent(this, ProblemActivity::class.java).apply {
                     putExtra(Constants.PROBLEM_EXTRA, selectedProblem)
-                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
                 }
+            }.apply {
+                putExtra(Constants.IMPL_EXTRA, selectedImplementation)
             }
 
             startActivity(intent)
