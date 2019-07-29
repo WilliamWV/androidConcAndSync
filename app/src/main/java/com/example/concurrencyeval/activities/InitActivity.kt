@@ -75,6 +75,9 @@ class InitActivity : AppCompatActivity(){
                 Constants.LARGE_DOWN -> Intent(this, LargeFileDownActivity::class.java).apply {
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)
                 }
+                Constants.UI_BACKGROUND -> Intent(this, UiBackActivity::class.java).apply {
+                    putExtra(Constants.IMPL_EXTRA, selectedImplementation)
+                }
                 else -> Intent(this, ProblemActivity::class.java).apply {
                     putExtra(Constants.PROBLEM_EXTRA, selectedProblem)
                     putExtra(Constants.IMPL_EXTRA, selectedImplementation)

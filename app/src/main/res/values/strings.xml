@@ -10,7 +10,8 @@
     </string>
     <string name="mm_size_label">Matrix size:</string>
     <string name="mm_size_hint">Size</string>
-    <string name="time_to_run_label">Tasks to use:</string>
+    <string name="tasks_to_run_label">Tasks to use:</string>
+    <string name="time_to_run_label">Time to run:</string>
     <string name="tasks_hint">Tasks</string>
     <string name="run_button">Run</string>
     <string name="report">Report</string>
@@ -30,6 +31,9 @@
     <string name="sf_tv_description">Test downloading many small files</string>
     <string name="lf_activity_title">Download of large file</string>
     <string name="lf_tv_description">Test downloading one large file</string>
+    <string name="ui_activity_title">UI/Background interaction</string>
+    <string name="ui_tv_description">Tests how well background tasks interact with the UI thread</string>
+    <string name="UiBackInter">UI/Background interaction</string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>

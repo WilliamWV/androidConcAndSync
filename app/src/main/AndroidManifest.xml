@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.UiBackActivity"
+            android:parentActivityName=".activities.InitActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.InitActivity" />
+        </activity>
+        <activity
             android:name=".activities.LargeFileDownActivity"
             android:parentActivityName=".activities.InitActivity">
             <meta-data
