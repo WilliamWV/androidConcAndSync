@@ -39,4 +39,7 @@ object Constants {
         INTENT_SERV to "IntentServices", HAMER to "HaMeR framework", COROUTINES to "Kotlin coroutines",
         -1 to "No implementation selected"
     )
+
+    //Values
+    const val MATRIX_RANGE: Long = 15
 }
