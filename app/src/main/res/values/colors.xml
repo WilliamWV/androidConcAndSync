@@ -8,4 +8,5 @@
     <color name="descriptionColor">#404040</color>
     <color name="buttonColor">#388E3C</color>
     <color name="white">#FFF</color>
+    <color name="progressColor">#206020</color>
 </resources>
