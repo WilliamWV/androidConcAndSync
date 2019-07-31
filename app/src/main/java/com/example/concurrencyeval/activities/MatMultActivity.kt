@@ -11,6 +11,7 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.MMThread
+import com.example.concurrencyeval.implementations.MMThreadPool
 import com.example.concurrencyeval.util.RunReport
 
 class MatMultActivity : AppCompatActivity() {
@@ -28,7 +29,8 @@ class MatMultActivity : AppCompatActivity() {
             val size: Int = findViewById<EditText>(R.id.mm_et_size).text.toString().toInt()
             val tasks: Int = findViewById<EditText>(R.id.mm_et_tasks).text.toString().toInt()
             when (selectedImplementation){
-                Constants.THREADS -> MMThread(size, tasks, this).start()
+                Constants.THREADS -> MMThread(size, tasks, this).start() // OBS on MMThread
+                Constants.THREAD_POOL -> MMThreadPool(size, tasks, this).start() // OBS on MMThreadPool
                 else-> this.updateReport(RunReport(-1))
             }
 
