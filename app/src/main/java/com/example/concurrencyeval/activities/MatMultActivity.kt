@@ -10,6 +10,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
+import com.example.concurrencyeval.implementations.MMCoroutines
 import com.example.concurrencyeval.implementations.MMThread
 import com.example.concurrencyeval.implementations.MMThreadPool
 import com.example.concurrencyeval.util.RunReport
@@ -31,6 +32,7 @@ class MatMultActivity : AppCompatActivity() {
             when (selectedImplementation){
                 Constants.THREADS -> MMThread(size, tasks, this).start() // OBS on MMThread
                 Constants.THREAD_POOL -> MMThreadPool(size, tasks, this).start() // OBS on MMThreadPool
+                Constants.COROUTINES -> MMCoroutines(size, tasks, this).start()
                 else-> this.updateReport(RunReport(-1))
             }
 
