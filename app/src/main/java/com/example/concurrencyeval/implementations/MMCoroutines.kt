@@ -1,21 +1,20 @@
 package com.example.concurrencyeval.implementations
 
-import android.support.annotation.RestrictTo
-import android.util.Log
 import com.example.concurrencyeval.activities.MatMultActivity
 import com.example.concurrencyeval.util.MMUtil
 import com.example.concurrencyeval.util.RunReport
-import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import kotlin.system.measureTimeMillis
-import kotlinx.coroutines.*
-import kotlin.coroutines.CoroutineContext
 
 
+class MMCoroutines(
+    private val size: Int, private val tasks: Int,
+    private val activity: MatMultActivity
+): Thread() {
 
-
-class MMCoroutines(val size: Int, val tasks: Int, val activity: MatMultActivity): Thread() {
-
-    val debug = false
     override fun run() {
 
         val report = this.execute()
@@ -23,19 +22,11 @@ class MMCoroutines(val size: Int, val tasks: Int, val activity: MatMultActivity)
             activity.updateReport(report)
         }
     }
-    fun execute(): RunReport {
+    private fun execute(): RunReport {
 
         val m1 = MMUtil.randMatrix(size)
         val m2 = MMUtil.randMatrix(size)
         val ans = Array(size){LongArray(size)}
-        //OBS: verify if creating more tasks than threads is not better to evaluate
-        if (debug){
-            Log.d("MM_DEBUG", "m1")
-            MMUtil.printMatrix(size, m1)
-            Log.d("MM_DEBUG", "m2")
-            MMUtil.printMatrix(size, m2)
-
-        }
         val jobs: MutableList<Job> = mutableListOf()
 
         val time = measureTimeMillis {
@@ -60,14 +51,6 @@ class MMCoroutines(val size: Int, val tasks: Int, val activity: MatMultActivity)
                     job.join()
                 }
             }
-
-
-        }
-
-        if (debug){
-            Log.d("MM_DEBUG", "ans")
-
-            MMUtil.printMatrix(size, ans)
         }
 
         return RunReport(time)

@@ -1,13 +1,14 @@
 package com.example.concurrencyeval.implementations
 
-import android.util.Log
 import com.example.concurrencyeval.activities.MatMultActivity
 import com.example.concurrencyeval.util.MMUtil
 import com.example.concurrencyeval.util.RunReport
 import kotlin.system.measureTimeMillis
 
-class MMThread (val size: Int, val tasks: Int, val activity: MatMultActivity):Thread(){
-    private val debug: Boolean = false
+class MMThread (
+    private val size: Int, private val tasks: Int,
+    private val activity: MatMultActivity
+):Thread(){
 
     override fun run() {
         val report = this.execute()
@@ -16,18 +17,11 @@ class MMThread (val size: Int, val tasks: Int, val activity: MatMultActivity):Th
         }
     }
 
-    fun execute():RunReport{
+    private fun execute():RunReport{
         val m1 = MMUtil.randMatrix(size)
         val m2 = MMUtil.randMatrix(size)
         val ans = Array(size){LongArray(size)}
 
-        if (debug){
-            Log.d("MM_DEBUG", "m1")
-            MMUtil.printMatrix(size, m1)
-            Log.d("MM_DEBUG", "m2")
-            MMUtil.printMatrix(size, m2)
-
-        }
         val workers :Array<Thread> = Array(tasks){ Thread(MMWorkerRunnable(m1, m2, ans, size, tasks, 0))}
         //OBS: verify here if it is better to test running the tasks soon after its
         //initialization of only when all threads were initialized
@@ -42,15 +36,7 @@ class MMThread (val size: Int, val tasks: Int, val activity: MatMultActivity):Th
             }
         }
 
-        if (debug){
-            Log.d("MM_DEBUG", "ans")
-
-            MMUtil.printMatrix(size, ans)
-        }
-
         return RunReport(time)
     }
 
 }
-
-
