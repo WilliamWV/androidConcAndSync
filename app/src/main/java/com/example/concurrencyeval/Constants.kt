@@ -35,7 +35,7 @@ object Constants {
 
     //Implmentation names
     val implNames = hashMapOf(
-        THREADS to "Threads", THREAD_POOL to "Thread pool", ASYNC_TASK to "AsyncTask",
+        THREADS to "Threads", THREAD_POOL to "Thread pool", ASYNC_TASK to "MMAsyncTask",
         INTENT_SERV to "IntentServices", HAMER to "HaMeR framework", COROUTINES to "Kotlin coroutines",
         -1 to "No implementation selected"
     )
