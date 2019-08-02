@@ -41,4 +41,5 @@ object Constants {
 
     //Values
     const val MATRIX_RANGE: Long = 15
+    const val ARR_RANGE: Long = 15
 }

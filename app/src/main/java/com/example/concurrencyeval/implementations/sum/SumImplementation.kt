@@ -1,12 +1,12 @@
-package com.example.concurrencyeval.implementations.mm
+package com.example.concurrencyeval.implementations.sum
 
-import com.example.concurrencyeval.activities.MatMultActivity
+import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.util.RunReport
 
-abstract class MMImplementation (
-    val size: Int, val tasks: Int,
-    private val activity: MatMultActivity
-):Thread(){
+abstract class SumImplementation (
+    val numbers: Int, val tasks: Int,
+    val activity: ConcSumActivity
+): Thread(){
     override fun run() {
         val report = this.execute()
         activity.runOnUiThread {

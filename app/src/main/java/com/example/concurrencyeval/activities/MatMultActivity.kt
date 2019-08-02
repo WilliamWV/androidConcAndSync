@@ -23,7 +23,7 @@ class MatMultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mat_mult)
-        selectedImplementation = intent.getIntExtra(Constants.IMPL_EXTRA, 0)
+        selectedImplementation = intent.getIntExtra(Constants.IMPL_EXTRA, -1)
         val runButton: Button = findViewById(R.id.mm_run_button)
         runButton.setOnClickListener {
             val progress : ProgressBar = findViewById(R.id.mm_progressBar)
