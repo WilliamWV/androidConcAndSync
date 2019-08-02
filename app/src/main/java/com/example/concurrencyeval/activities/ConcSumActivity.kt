@@ -11,6 +11,7 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.sum.SumThread
+import com.example.concurrencyeval.implementations.sum.SumThreadPool
 import com.example.concurrencyeval.util.RunReport
 
 class ConcSumActivity : AppCompatActivity() {
@@ -29,6 +30,7 @@ class ConcSumActivity : AppCompatActivity() {
             val tasks: Int = findViewById<EditText>(R.id.cs_et_tasks).text.toString().toInt()
             when (selectedImplementation){
                 Constants.THREADS->SumThread(numbers, tasks, this).start()
+                Constants.THREAD_POOL->SumThreadPool(numbers, tasks, this).start()
 
             }
 
