@@ -17,14 +17,7 @@
                 android:value=".activities.InitActivity" />
         </activity>
         <activity
-            android:name=".activities.LargeFileDownActivity"
-            android:parentActivityName=".activities.InitActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".activities.InitActivity" />
-        </activity>
-        <activity
-            android:name=".activities.SmallFilesDownActivity"
+            android:name=".activities.FileDownloadActivity"
             android:parentActivityName=".activities.InitActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

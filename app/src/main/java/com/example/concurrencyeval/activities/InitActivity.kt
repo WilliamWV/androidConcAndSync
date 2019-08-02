@@ -16,8 +16,8 @@ class InitActivity : AppCompatActivity(){
 
     private val problemsPositionMap = hashMapOf(
         0 to Constants.MATRIX_MULT, 1 to Constants.PHILOSOPHERS,
-        2 to Constants.CONCURR_SUM, 3 to Constants.LARGE_DOWN,
-        4 to Constants.SMALL_DOWN, 5 to Constants.UI_BACKGROUND
+        2 to Constants.CONCURR_SUM, 3 to Constants.DOWNLOAD_FILE,
+        4 to Constants.UI_BACKGROUND
     )
 
     private val implsPositionMap = hashMapOf(
@@ -64,8 +64,7 @@ class InitActivity : AppCompatActivity(){
                 Constants.MATRIX_MULT   -> Intent(this, MatMultActivity::class.java)
                 Constants.CONCURR_SUM   -> Intent(this, ConcSumActivity::class.java)
                 Constants.PHILOSOPHERS  -> Intent(this, PhilosophersActivity::class.java)
-                Constants.SMALL_DOWN    -> Intent(this, SmallFilesDownActivity::class.java)
-                Constants.LARGE_DOWN    -> Intent(this, LargeFileDownActivity::class.java)
+                Constants.DOWNLOAD_FILE    -> Intent(this, FileDownloadActivity::class.java)
                 Constants.UI_BACKGROUND -> Intent(this, UiBackActivity::class.java)
 
                 else -> Intent(this, ProblemActivity::class.java).apply {

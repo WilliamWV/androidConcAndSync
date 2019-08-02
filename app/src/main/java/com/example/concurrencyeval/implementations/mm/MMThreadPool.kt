@@ -1,4 +1,4 @@
-package com.example.concurrencyeval.implementations
+package com.example.concurrencyeval.implementations.mm
 
 import com.example.concurrencyeval.activities.MatMultActivity
 import com.example.concurrencyeval.util.MMUtil
@@ -9,21 +9,13 @@ import java.util.concurrent.TimeUnit
 import kotlin.system.measureTimeMillis
 
 class MMThreadPool(
-    private val size: Int, private val tasks: Int,
-    private val activity: MatMultActivity
-) : Thread(){
+    size: Int, tasks: Int, activity: MatMultActivity
+) : MMImplementation(size, tasks, activity){
 
     private val numOfCores = Runtime.getRuntime().availableProcessors()
     private val threadPool : ThreadPoolExecutor = Executors.newFixedThreadPool(numOfCores) as ThreadPoolExecutor
 
-    override fun run() {
-        val report = this.execute()
-        activity.runOnUiThread {
-            activity.updateReport(report)
-        }
-    }
-
-    private fun execute(): RunReport {
+    override fun execute(): RunReport {
         val m1 = MMUtil.randMatrix(size)
         val m2 = MMUtil.randMatrix(size)
         val ans = Array(size){LongArray(size)}
@@ -31,14 +23,14 @@ class MMThreadPool(
 
         val time = measureTimeMillis {
             for (i in 0 until tasks) {
-                threadPool.execute(MMWorkerRunnable(m1, m2, ans, size, tasks, i))
+                threadPool.execute(
+                    MMWorkerRunnable(m1, m2, ans, size, tasks, i)
+                )
             }
             //run all tasks that are not ready yet
             threadPool.shutdown()
             threadPool.awaitTermination(1, TimeUnit.HOURS)
         }
-
-
         return RunReport(time)
     }
 }

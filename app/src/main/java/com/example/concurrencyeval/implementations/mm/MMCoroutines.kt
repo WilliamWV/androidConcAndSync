@@ -1,4 +1,4 @@
-package com.example.concurrencyeval.implementations
+package com.example.concurrencyeval.implementations.mm
 
 import com.example.concurrencyeval.activities.MatMultActivity
 import com.example.concurrencyeval.util.MMUtil
@@ -11,18 +11,10 @@ import kotlin.system.measureTimeMillis
 
 
 class MMCoroutines(
-    private val size: Int, private val tasks: Int,
-    private val activity: MatMultActivity
-): Thread() {
+    size: Int, tasks: Int, activity: MatMultActivity
+): MMImplementation(size, tasks, activity) {
 
-    override fun run() {
-
-        val report = this.execute()
-        activity.runOnUiThread {
-            activity.updateReport(report)
-        }
-    }
-    private fun execute(): RunReport {
+    override fun execute(): RunReport {
 
         val m1 = MMUtil.randMatrix(size)
         val m2 = MMUtil.randMatrix(size)

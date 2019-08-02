@@ -10,10 +10,10 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
-import com.example.concurrencyeval.implementations.MMCoroutines
-import com.example.concurrencyeval.implementations.MMHaMeR
-import com.example.concurrencyeval.implementations.MMThread
-import com.example.concurrencyeval.implementations.MMThreadPool
+import com.example.concurrencyeval.implementations.mm.MMCoroutines
+import com.example.concurrencyeval.implementations.mm.MMHaMeR
+import com.example.concurrencyeval.implementations.mm.MMThread
+import com.example.concurrencyeval.implementations.mm.MMThreadPool
 import com.example.concurrencyeval.util.RunReport
 
 class MatMultActivity : AppCompatActivity() {

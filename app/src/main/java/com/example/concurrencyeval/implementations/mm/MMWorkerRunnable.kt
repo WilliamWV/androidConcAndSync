@@ -1,4 +1,4 @@
-package com.example.concurrencyeval.implementations
+package com.example.concurrencyeval.implementations.mm
 
 class MMWorkerRunnable(
     val m1: Array<LongArray>, val m2: Array<LongArray>,
