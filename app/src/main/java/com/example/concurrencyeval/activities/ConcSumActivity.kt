@@ -11,6 +11,7 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.sum.SumCoroutines
+import com.example.concurrencyeval.implementations.sum.SumHaMeR
 import com.example.concurrencyeval.implementations.sum.SumThread
 import com.example.concurrencyeval.implementations.sum.SumThreadPool
 import com.example.concurrencyeval.util.RunReport
@@ -33,6 +34,7 @@ class ConcSumActivity : AppCompatActivity() {
                 Constants.THREADS->SumThread(numbers, tasks, this).start()
                 Constants.THREAD_POOL->SumThreadPool(numbers, tasks, this).start()
                 Constants.COROUTINES->SumCoroutines(numbers, tasks, this).start()
+                Constants.HAMER->SumHaMeR(numbers, tasks, this).start()
                 else->this.updateReport(RunReport(-1))
             }
         }
