@@ -5,7 +5,6 @@ import android.os.Handler
 import android.util.Log
 import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.util.RunReport
-import com.example.concurrencyeval.util.SumUtil
 import kotlin.math.log
 import kotlin.math.min
 import kotlin.math.pow

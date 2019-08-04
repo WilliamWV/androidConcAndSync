@@ -1,7 +1,6 @@
 package com.example.concurrencyeval.implementations.mm
 
 import com.example.concurrencyeval.activities.MatMultActivity
-import com.example.concurrencyeval.util.MMUtil
 import com.example.concurrencyeval.util.RunReport
 import java.util.concurrent.Executors
 import java.util.concurrent.ThreadPoolExecutor

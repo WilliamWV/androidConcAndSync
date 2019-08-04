@@ -3,7 +3,6 @@ package com.example.concurrencyeval.implementations.sum
 import android.util.Log
 import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.util.RunReport
-import com.example.concurrencyeval.util.SumUtil
 import java.util.concurrent.Executors
 import java.util.concurrent.Future
 import java.util.concurrent.ThreadPoolExecutor

@@ -3,7 +3,6 @@ package com.example.concurrencyeval.implementations.mm
 import android.os.Handler
 import android.os.HandlerThread
 import com.example.concurrencyeval.activities.MatMultActivity
-import com.example.concurrencyeval.util.MMUtil
 import com.example.concurrencyeval.util.RunReport
 import kotlin.system.measureTimeMillis
 

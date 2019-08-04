@@ -1,4 +1,4 @@
-package com.example.concurrencyeval.util
+package com.example.concurrencyeval.implementations.sum
 
 import android.util.Log
 import com.example.concurrencyeval.Constants
