@@ -34,8 +34,8 @@
     <string name="ui_activity_title">UI/Background interaction</string>
     <string name="ui_tv_description">Tests how well background tasks interact with the UI thread</string>
     <string name="UiBackInter">UI/Background interaction</string>
-    <string name="average">Average</string>
-    <string name="deviation">Deviation</string>
+    <string name="average">Average: </string>
+    <string name="deviation">Deviation: </string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>

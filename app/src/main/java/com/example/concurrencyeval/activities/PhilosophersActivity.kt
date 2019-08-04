@@ -9,6 +9,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
+import com.example.concurrencyeval.implementations.philosophers.PhThread
 import com.example.concurrencyeval.util.RunReport
 
 class PhilosophersActivity : AppCompatActivity() {
@@ -26,6 +27,7 @@ class PhilosophersActivity : AppCompatActivity() {
             val philosophers: Int = findViewById<EditText>(R.id.ph_et_philosophers).text.toString().toInt()
             val time: Int = findViewById<EditText>(R.id.ph_et_time).text.toString().toInt()
             when(selectedImplementation){
+                Constants.THREADS -> PhThread(philosophers, time, this).start()
                 else -> this.updateReport(RunReport(-1))
             }
         }
@@ -34,11 +36,11 @@ class PhilosophersActivity : AppCompatActivity() {
     fun updateReport(report: RunReport){
         val avgTV: TextView = findViewById(R.id.ph_average_report)
         val stdTV: TextView = findViewById(R.id.ph_deviation_report)
-        val avgReport = "${report.avg}ms"
-        val stdReport = "${report.std}ms"
+        val avgReport = "${report.avg}"
+        val stdReport = "${report.std}"
         avgTV.text = avgReport
         stdTV.text = stdReport
-        val progress : ProgressBar = findViewById(R.id.mm_progressBar)
+        val progress : ProgressBar = findViewById(R.id.ph_progressBar)
         progress.visibility = View.INVISIBLE
 
 
