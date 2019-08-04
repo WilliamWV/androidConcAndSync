@@ -10,6 +10,7 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.philosophers.PhThread
+import com.example.concurrencyeval.implementations.philosophers.PhThreadPool
 import com.example.concurrencyeval.util.RunReport
 
 class PhilosophersActivity : AppCompatActivity() {
@@ -28,6 +29,7 @@ class PhilosophersActivity : AppCompatActivity() {
             val time: Int = findViewById<EditText>(R.id.ph_et_time).text.toString().toInt()
             when(selectedImplementation){
                 Constants.THREADS -> PhThread(philosophers, time, this).start()
+                Constants.THREAD_POOL -> PhThreadPool(philosophers, time, this).start()
                 else -> this.updateReport(RunReport(-1))
             }
         }

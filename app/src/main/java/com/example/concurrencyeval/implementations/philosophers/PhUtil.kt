@@ -1,10 +1,8 @@
 package com.example.concurrencyeval.implementations.philosophers
 
 import android.util.Log
-import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.util.RunReport
 import java.io.File
-import kotlin.math.sqrt
 
 
 object PhUtil {
