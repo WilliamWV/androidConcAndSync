@@ -14,14 +14,9 @@ class SumCoroutines(
     numbers: Int, tasks: Int, activity: ConcSumActivity
 ): SumImplementation (numbers, tasks, activity){
 
-    private val debug = false
 
     override fun execute(): RunReport {
         val arr = SumUtil.randArray(numbers)
-        if (debug){
-            Log.d("SUM_DEBUG", "arr")
-            SumUtil.printArr(arr)
-        }
         val time = measureTimeMillis {
             runBlocking {
                 val ans = LongArray(numbers)
@@ -48,11 +43,6 @@ class SumCoroutines(
                 }
             }
         }
-        if (debug){
-            Log.d("SUM_DEBUG", "ans")
-            Log.d("SUM_DEBUG", arr[0].toString())
-        }
-
         return RunReport(time)
 
     }

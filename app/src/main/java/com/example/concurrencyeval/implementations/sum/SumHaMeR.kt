@@ -15,15 +15,10 @@ class SumHaMeR(
     numbers: Int, tasks: Int, activity: ConcSumActivity
 ): SumImplementation(numbers, tasks, activity) {
 
-    private val debug = false
     private val cores = Runtime.getRuntime().availableProcessors()
 
     override fun execute(): RunReport {
         val arr = SumUtil.randArray(numbers)
-        if (debug){
-            Log.d("SUM_DEBUG", "arr")
-            SumUtil.printArr(arr)
-        }
         val time = measureTimeMillis {
             //Prepare the handlerThreads
             val ans = LongArray(numbers)
@@ -55,11 +50,6 @@ class SumHaMeR(
 
 
         }
-        if (debug){
-            Log.d("SUM_DEBUG", "ans")
-            Log.d("SUM_DEBUG", arr[0].toString())
-        }
-
         return RunReport(time)
 
     }

@@ -16,7 +16,7 @@ class RunReport{
         this.avg = this.noAvg
         this.std = this.noStd
     }
-    constructor(share: LongArray){
+    constructor(share: IntArray){
         this.time = this.noTime
         this.avg = share.average()
 

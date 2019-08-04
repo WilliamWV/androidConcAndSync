@@ -23,10 +23,6 @@ class SumThreadPool(
 
     override fun execute(): RunReport {
         val arr = SumUtil.randArray(numbers)
-        if (debug){
-            Log.d("SUM_DEBUG", "arr")
-            SumUtil.printArr(arr)
-        }
         val time = measureTimeMillis {
             val ans = LongArray(numbers)
             val logN = (log(numbers.toDouble(), 2.0)).roundToInt() // number of levels
@@ -51,11 +47,6 @@ class SumThreadPool(
                 }
             }
         }
-        if (debug){
-            Log.d("SUM_DEBUG", "ans")
-            Log.d("SUM_DEBUG", arr[0].toString())
-        }
-
         return RunReport(time)
     }
 }
