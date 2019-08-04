@@ -7,15 +7,12 @@ import java.io.File
 
 object PhUtil {
 
-    val debug = false
 
     fun buildReport(philosophers: Int, file: File) : RunReport {
         val timesEaten = IntArray(philosophers){0}
         file.forEachLine {
             timesEaten[it.toInt()] += 1
         }
-        if (debug)
-            this.printAll(timesEaten)
 
         return RunReport(timesEaten)
     }

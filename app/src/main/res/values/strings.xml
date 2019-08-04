@@ -40,8 +40,7 @@
         <item>Matrix multiplication</item>
         <item>Philosophers</item>
         <item>Concurrent sum</item>
-        <item>Download of large file</item>
-        <item>Download of small files</item>
+        <item>Download of file</item>
         <item>UI/Background interaction</item>
     </string-array>
 

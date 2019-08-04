@@ -26,11 +26,12 @@ class PhThreadPool(
             //If all philosophers attempts to obtain the left fork first
             //except from one that attempts the right first there is no
             //possible to occur deadlock
-            threadPool.execute(if (i == 0){
-                PhWorkerRunnable(rightFork, leftFork, time, file, i)
-            } else{
-                PhWorkerRunnable(leftFork, rightFork, time, file, i)
-            }
+            threadPool.execute(
+                if (i == 0){
+                    PhWorkerRunnable(rightFork, leftFork, time, file, i)
+                } else{
+                    PhWorkerRunnable(leftFork, rightFork, time, file, i)
+                }
             )
         }
 
