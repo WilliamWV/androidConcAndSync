@@ -10,6 +10,7 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.philosophers.PhCoroutines
+import com.example.concurrencyeval.implementations.philosophers.PhHaMeR
 import com.example.concurrencyeval.implementations.philosophers.PhThread
 import com.example.concurrencyeval.implementations.philosophers.PhThreadPool
 import com.example.concurrencyeval.util.RunReport
@@ -32,7 +33,8 @@ class PhilosophersActivity : AppCompatActivity() {
                 Constants.THREADS -> PhThread(philosophers, time, this).start()
                 Constants.THREAD_POOL -> PhThreadPool(philosophers, time, this).start()
                 Constants.COROUTINES -> PhCoroutines(philosophers, time, this).start()
-                else -> this.updateReport(RunReport(-1))
+                Constants.HAMER -> PhHaMeR(philosophers, time, this).start()
+                else -> this.updateReport(RunReport(intArrayOf(0)))
             }
         }
 
