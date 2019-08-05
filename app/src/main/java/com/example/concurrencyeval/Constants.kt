@@ -23,6 +23,9 @@ object Constants {
 
     const val PROBLEM_EXTRA = "Problem"
     const val IMPL_EXTRA = "Implementation"
+    const val ACTIVITY_EXTRA = "Activity"
+    const val TIME_EXTRA = "Time"
+    const val TIME_INTENT = "TimeIntent"
 
     // Problem names
     val problemNames = hashMapOf(
