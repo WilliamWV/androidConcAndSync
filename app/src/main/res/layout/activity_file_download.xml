@@ -8,18 +8,18 @@
     tools:context=".activities.FileDownloadActivity">
 
     <TextView
-        android:text="@string/lf_activity_title"
+        android:text="@string/fd_activity_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lf_tv_title" app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/fd_tv_title" app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="16dp" app:layout_constraintTop_toTopOf="parent"
         android:textColor="@color/titleColor" android:textSize="24sp" android:layout_marginTop="16dp"/>
     <TextView
-        android:text="@string/lf_tv_description"
+        android:text="@string/fd_tv_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:id="@+id/lf_tv_description"
-        app:layout_constraintTop_toBottomOf="@+id/lf_tv_title" app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/fd_tv_description"
+        app:layout_constraintTop_toBottomOf="@+id/fd_tv_title" app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
         android:textColor="@color/descriptionColor"
         android:layout_marginTop="12dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="16dp"
@@ -28,35 +28,35 @@
         android:text="@string/run_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lf_run_button" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+        android:id="@+id/fd_run_button" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp" android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@+id/lf_tv_description" android:background="@color/buttonColor"
+        app:layout_constraintTop_toBottomOf="@+id/fd_tv_description" android:background="@color/buttonColor"
         android:textColor="@color/white"/>
     <TextView
         android:text="@string/report"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lf_tv_report" android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@+id/lf_run_button" app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/fd_tv_report" android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/fd_run_button" app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="16dp" android:textSize="24sp"
         android:textColor="@color/titleColor"/>
     <TextView
         android:text="@string/time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lf_time_label" android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/lf_tv_report" app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/fd_time_label" android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/fd_tv_report" app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="16dp" android:textColor="@color/textColor"
         android:textSize="18sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lf_time_report" app:layout_constraintStart_toEndOf="@+id/lf_time_label"
+        android:id="@+id/fd_time_report" app:layout_constraintStart_toEndOf="@+id/fd_time_label"
         android:layout_marginStart="8dp" android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/lf_tv_report" android:textSize="18sp"/>
+        app:layout_constraintTop_toBottomOf="@+id/fd_tv_report" android:textSize="18sp"/>
     <ProgressBar
-        android:id="@+id/lf_progressBar"
+        android:id="@+id/fd_progressBar"
         style="@style/Widget.AppCompat.ProgressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         android:layout_marginTop="32dp"
         android:indeterminateTint="@color/progressColor"
         android:visibility="invisible"
-        app:layout_constraintStart_toEndOf="@+id/lf_run_button"
-        app:layout_constraintTop_toBottomOf="@+id/lf_tv_description" />
+        app:layout_constraintStart_toEndOf="@+id/fd_run_button"
+        app:layout_constraintTop_toBottomOf="@+id/fd_tv_description" />
 
 </android.support.constraint.ConstraintLayout>

@@ -27,10 +27,8 @@
     <string name="ph_tv_description">Philosophers problem used to explore justice on task scheduling</string>
     <string name="ph_tv_philosophers_label">Philosophers</string>
     <string name="justice">Justice:</string>
-    <string name="sf_activity_title">Download of small files</string>
-    <string name="sf_tv_description">Test downloading many small files</string>
-    <string name="lf_activity_title">Download of large file</string>
-    <string name="lf_tv_description">Test downloading one large file</string>
+    <string name="fd_activity_title">Download of file</string>
+    <string name="fd_tv_description">Test downloading one file of 87MB</string>
     <string name="ui_activity_title">UI/Background interaction</string>
     <string name="ui_tv_description">Tests how well background tasks interact with the UI thread</string>
     <string name="UiBackInter">UI/Background interaction</string>

@@ -43,4 +43,7 @@ object Constants {
     const val MATRIX_RANGE: Long = 15
     const val ARR_RANGE: Long = 15
     const val PHILOSOPHERS_FILE: String = "phi_file.txt"
+    const val DOWNLOAD_FILE_87_LINK: String = "http://inf.ufrgs.br/~wwvargas/test/87MB.pdf"
+    const val DOWNLOAD_FILE_9_LINK: String = "http://inf.ufrgs.br/~wwvargas/test/9MB.pdf"
+    const val DOWNLOAD_FILE_DEST: String = "dw/temp_book.pdf"
 }
