@@ -10,6 +10,7 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.download.DwThread
+import com.example.concurrencyeval.implementations.download.DwThreadPoll
 import com.example.concurrencyeval.util.RunReport
 
 class FileDownloadActivity : AppCompatActivity() {
@@ -26,6 +27,7 @@ class FileDownloadActivity : AppCompatActivity() {
             progress.visibility = VISIBLE
             when (selectedImplementation){
                 Constants.THREADS -> DwThread(this).start()
+                Constants.THREAD_POOL->DwThreadPoll(this).start()
                 else-> this.updateReport(RunReport(-1))
             }
 
