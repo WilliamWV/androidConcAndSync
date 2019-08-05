@@ -24,6 +24,9 @@ class ConcSumActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_conc_sum)
         selectedImplementation = intent.getIntExtra(Constants.IMPL_EXTRA, -1)
+        val description: TextView = findViewById(R.id.cs_tv_description)
+        val newDescription = description.text.toString() + ". Implemented with ${Constants.implNames[selectedImplementation]}"
+        description.text = newDescription
         val runButton: Button = findViewById(R.id.cs_run_button)
         runButton.setOnClickListener {
             val progress : ProgressBar = findViewById(R.id.cs_progressBar)

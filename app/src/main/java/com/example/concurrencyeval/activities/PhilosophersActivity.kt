@@ -23,6 +23,10 @@ class PhilosophersActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_philosophers)
         selectedImplementation = intent.getIntExtra(Constants.IMPL_EXTRA, -1)
+        val description: TextView = findViewById(R.id.ph_tv_description)
+        val newDescription = description.text.toString() + ". Implemented with ${Constants.implNames[selectedImplementation]}"
+        description.text = newDescription
+
         val runButton: Button = findViewById(R.id.ph_run_button)
         runButton.setOnClickListener {
             val progress : ProgressBar = findViewById(R.id.ph_progressBar)
