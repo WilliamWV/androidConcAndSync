@@ -11,7 +11,7 @@ import java.net.URL
 import kotlin.system.measureTimeMillis
 
 class DwHaMeR(val activity: FileDownloadActivity): Thread(){
-    fun String.saveTo(file: File) {
+    private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->
             FileOutputStream(file).use { output ->
                 input.copyTo(output)

@@ -12,7 +12,7 @@ import kotlin.system.measureTimeMillis
 class DwIntentServices : IntentService("intent") {
 
 
-    fun String.saveTo(file: File) {
+    private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->
             FileOutputStream(file).use { output ->
                 input.copyTo(output)
@@ -30,10 +30,10 @@ class DwIntentServices : IntentService("intent") {
             file.delete()
         }
 
-        val intent = Intent(Constants.TIME_INTENT)
-        intent.putExtra(Constants.TIME_EXTRA, time)
+        val timeIntent = Intent(Constants.TIME_INTENT)
+        timeIntent.putExtra(Constants.TIME_EXTRA, time)
 
-        LocalBroadcastManager.getInstance(this).sendBroadcast(intent)
+        LocalBroadcastManager.getInstance(this).sendBroadcast(timeIntent)
 
     }
 

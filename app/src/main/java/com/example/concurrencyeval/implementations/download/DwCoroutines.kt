@@ -12,7 +12,7 @@ import kotlin.system.measureTimeMillis
 
 class DwCoroutines(val activity: FileDownloadActivity) {
 
-    fun String.saveTo(file: File) {
+    private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->
             FileOutputStream(file).use { output ->
                 input.copyTo(output)

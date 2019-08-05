@@ -12,7 +12,7 @@ import kotlin.system.measureTimeMillis
 class DwAsyncTask: AsyncTask<FileDownloadActivity, Void, Void>() {
 
 
-    fun String.saveTo(file: File) {
+    private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->
             FileOutputStream(file).use { output ->
                 input.copyTo(output)

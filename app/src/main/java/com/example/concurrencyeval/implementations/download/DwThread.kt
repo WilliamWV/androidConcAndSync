@@ -10,7 +10,7 @@ import kotlin.system.measureTimeMillis
 
 class DwThread(val activity: FileDownloadActivity) : Thread() {
 
-    fun String.saveTo(file: File) {
+    private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->
             FileOutputStream(file).use { output ->
                 input.copyTo(output)
