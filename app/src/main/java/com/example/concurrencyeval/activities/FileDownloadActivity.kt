@@ -10,6 +10,7 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.download.DwCoroutines
+import com.example.concurrencyeval.implementations.download.DwHaMeR
 import com.example.concurrencyeval.implementations.download.DwThread
 import com.example.concurrencyeval.implementations.download.DwThreadPoll
 import com.example.concurrencyeval.util.RunReport
@@ -30,6 +31,7 @@ class FileDownloadActivity : AppCompatActivity() {
                 Constants.THREADS -> DwThread(this).start()
                 Constants.THREAD_POOL->DwThreadPoll(this).start()
                 Constants.COROUTINES->DwCoroutines(this).execute()
+                Constants.HAMER->DwHaMeR(this).start()
                 else-> this.updateReport(RunReport(-1))
             }
 
