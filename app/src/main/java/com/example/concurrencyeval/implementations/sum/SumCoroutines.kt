@@ -1,6 +1,5 @@
 package com.example.concurrencyeval.implementations.sum
 
-import android.util.Log
 import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.util.RunReport
 import kotlinx.coroutines.GlobalScope
@@ -20,21 +19,27 @@ class SumCoroutines(
         val time = measureTimeMillis {
             runBlocking {
                 val ans = LongArray(numbers)
-                val logN = (log(numbers.toDouble(), 2.0)).roundToInt() // number of levels
-                for (level in 0 until logN) {
-                    val threadsToRun = min(tasks, numbers / 2.0.pow((1 + level).toDouble()).toInt())
+                val levels = ceil(log(numbers.toDouble(), 2.0)).roundToInt() // number of levels
+                for (level in 0 until levels) {
+                    val tasksToRun = min(tasks, ceil(numbers / 2.0.pow((1 + level))).toInt())
                     val jobs:MutableList<Job> = mutableListOf()
-                    for (i in 0 until threadsToRun) {
+                    for (i in 0 until tasksToRun) {
                         jobs += GlobalScope.launch {
-                            val sums = numbers / 2.0.pow(1 + level).toInt()
-                            val sumsToRun = max(sums / tasks, 1)
-                            for (t in 0 until sumsToRun) {
-                                val index = i * sumsToRun + t
-                                ans[index] = arr[2 * index] + arr[2 * index + 1]
+                            val sums = ceil(numbers / 2.0.pow(1 + level)).roundToInt()
+                            val extraSum = if (sums % tasks > i) 1 else 0
+                            val taskSums = sums / tasks + extraSum
+                            val firstSumOffset = min(i, sums%tasks)
+                            val firstSum = i * (sums/tasks) + firstSumOffset
+
+                            for (index in firstSum until firstSum + taskSums) {
+                                if(ceil(numbers / 2.0.pow(level)).roundToInt() > 2 * index + 1)
+                                    ans[index] = arr[2 * index] + arr[2 * index + 1]
+                                else
+                                    ans[index] = arr[2 * index]
                             }
                         }
                     }
-                    for (i in 0 until threadsToRun) {
+                    for (i in 0 until tasksToRun) {
                         jobs[i].join()
                     }
                     for (i in 0 until numbers) {
