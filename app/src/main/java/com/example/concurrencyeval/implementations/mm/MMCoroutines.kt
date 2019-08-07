@@ -6,6 +6,7 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import kotlin.math.min
 import kotlin.system.measureTimeMillis
 
 
@@ -24,8 +25,10 @@ class MMCoroutines(
             runBlocking {
                 for (t in 0 until tasks) {
                     jobs += GlobalScope.launch {
-                        val lines = size / tasks
-                        val firstLine = t * lines
+                        val extraLine = if (size % tasks > t) 1 else 0
+                        val lines = size / tasks + extraLine
+                        val firstLineOffset = min(t, size%tasks)
+                        val firstLine = t * (size/tasks) + firstLineOffset
 
                         for (i in firstLine until firstLine + lines) {
                             for (j in 0 until size) {
