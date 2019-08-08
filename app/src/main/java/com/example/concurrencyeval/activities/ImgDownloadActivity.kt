@@ -5,8 +5,9 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.os.Bundle
+import android.os.HandlerThread
+import android.os.Message
 import android.support.v4.content.LocalBroadcastManager
 import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
@@ -18,18 +19,17 @@ import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.download.*
 import com.example.concurrencyeval.util.RunReport
 import java.io.Serializable
-import java.net.URL
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
-import java.util.concurrent.ThreadPoolExecutor
 import kotlin.math.roundToInt
-import kotlin.system.measureTimeMillis
 
 
 class ImgDownloadActivity : AppCompatActivity(), Serializable {
 
     private var selectedImplementation: Int = 0
-    var threadPool: ExecutorService? = null
+    private var threadPool: ExecutorService? = null
+    private var handlerThread: HandlerThread? = null
+    private var handler: DwHandler? = null
 
     private val messageReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context, intent: Intent) {
@@ -86,7 +86,14 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
                     this.threadPool!!.execute (DwTaskRunnable(imageSpinner.selectedItemPosition, this))
                 }
                 Constants.COROUTINES->DwCoroutines(imageSpinner.selectedItemPosition, this).execute()
-                Constants.HAMER->DwHaMeR(this).start()
+                Constants.HAMER->{
+                    if (handlerThread == null) {
+                        handlerThread = HandlerThread("IMG_DOWN")
+                        handlerThread!!.start()
+                        handler = DwHandler(this, handlerThread!!.looper)
+                    }
+                    handler?.sendMessage(Message.obtain(handler, imageSpinner.selectedItemPosition))
+                }
                 Constants.ASYNC_TASK->DwAsyncTask().execute(this)
                 Constants.INTENT_SERV->{
                     val serv = Intent(this, DwIntentServices::class.java)
