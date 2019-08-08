@@ -2,7 +2,7 @@ package com.example.concurrencyeval.implementations.download
 
 import android.os.Handler
 import com.example.concurrencyeval.Constants
-import com.example.concurrencyeval.activities.FileDownloadActivity
+import com.example.concurrencyeval.activities.ImgDownloadActivity
 import com.example.concurrencyeval.implementations.mm.MMHaMeR
 import com.example.concurrencyeval.util.RunReport
 import java.io.File
@@ -10,7 +10,7 @@ import java.io.FileOutputStream
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
-class DwHaMeR(val activity: FileDownloadActivity): Thread(){
+class DwHaMeR(val activity: ImgDownloadActivity): Thread(){
     private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->
             FileOutputStream(file).use { output ->

@@ -1,7 +1,7 @@
 package com.example.concurrencyeval.implementations.download
 
 import com.example.concurrencyeval.Constants
-import com.example.concurrencyeval.activities.FileDownloadActivity
+import com.example.concurrencyeval.activities.ImgDownloadActivity
 import com.example.concurrencyeval.util.RunReport
 import java.io.File
 import java.io.FileOutputStream
@@ -10,7 +10,7 @@ import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 import kotlin.system.measureTimeMillis
 
-class DwThreadPoll(val activity: FileDownloadActivity): Thread() {
+class DwThreadPoll(val activity: ImgDownloadActivity): Thread() {
 
     private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->

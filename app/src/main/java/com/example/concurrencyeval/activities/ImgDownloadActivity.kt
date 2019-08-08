@@ -1,26 +1,23 @@
 package com.example.concurrencyeval.activities
 
 import android.content.BroadcastReceiver
+import android.content.Context
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import android.content.IntentFilter
 import android.os.Bundle
 import android.support.v4.content.LocalBroadcastManager
+import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.View.VISIBLE
-import android.widget.Button
-import android.widget.ProgressBar
-import android.widget.TextView
+import android.widget.*
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.download.*
 import com.example.concurrencyeval.util.RunReport
 import java.io.Serializable
-import android.content.Context
-import android.content.IntentFilter
-import kotlinx.coroutines.channels.consumesAll
 
 
-class FileDownloadActivity : AppCompatActivity(), Serializable {
+class ImgDownloadActivity : AppCompatActivity(), Serializable {
 
     private var selectedImplementation: Int = 0
 
@@ -46,9 +43,22 @@ class FileDownloadActivity : AppCompatActivity(), Serializable {
         )
     }
 
+    private fun populateSpinner(){
+        val spinner: Spinner = findViewById(R.id.id_spinner_choose_img)
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.images,
+            android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinner.adapter = adapter
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_file_download)
+        this.populateSpinner()
+
         selectedImplementation = intent.getIntExtra(Constants.IMPL_EXTRA, -1)
         val description: TextView = findViewById(R.id.fd_tv_description)
         val newDescription = description.text.toString() + ". Implemented with ${Constants.implNames[selectedImplementation]}"

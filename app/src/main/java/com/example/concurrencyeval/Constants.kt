@@ -19,6 +19,14 @@ object Constants {
     const val HAMER: Int = 4
     const val COROUTINES: Int = 5
 
+    // Image names
+
+    const val DOG: Int = 0
+    const val CAT: Int = 0
+    const val LION: Int = 0
+    const val PLATYPUS: Int = 0
+    const val PIGEON: Int = 0
+
     // Extras names
 
     const val PROBLEM_EXTRA = "Problem"
@@ -40,6 +48,13 @@ object Constants {
         THREADS to "Threads", THREAD_POOL to "Thread pool", ASYNC_TASK to "AsyncTask",
         INTENT_SERV to "IntentServices", HAMER to "HaMeR framework", COROUTINES to "Kotlin coroutines",
         -1 to "No implementation selected"
+    )
+
+    //Images URLS
+    private const val BASE_URL = "http://inf.ufrgs.br/~wwvargas/test/"
+    val imgURL = hashMapOf(
+        DOG to BASE_URL + "dog.jpg", CAT to BASE_URL + "cat.jpg", LION to BASE_URL + "lion.jpg",
+        PLATYPUS to BASE_URL + "platypus.jpg", PIGEON to BASE_URL + "pigeon.jpg"
     )
 
     //Values

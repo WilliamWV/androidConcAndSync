@@ -20,7 +20,7 @@
                 android:value=".activities.InitActivity" />
         </activity>
         <activity
-            android:name=".activities.FileDownloadActivity"
+            android:name=".activities.ImgDownloadActivity"
             android:parentActivityName=".activities.InitActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

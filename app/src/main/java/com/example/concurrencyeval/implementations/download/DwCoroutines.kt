@@ -1,7 +1,7 @@
 package com.example.concurrencyeval.implementations.download
 
 import com.example.concurrencyeval.Constants
-import com.example.concurrencyeval.activities.FileDownloadActivity
+import com.example.concurrencyeval.activities.ImgDownloadActivity
 import com.example.concurrencyeval.util.RunReport
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -10,7 +10,7 @@ import java.io.FileOutputStream
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
-class DwCoroutines(val activity: FileDownloadActivity) {
+class DwCoroutines(val activity: ImgDownloadActivity) {
 
     private fun String.saveTo(file: File) {
         URL(this).openStream().use { input ->

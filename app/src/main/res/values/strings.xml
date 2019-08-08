@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ConcurrencyEval</string>
-    <string name="init_activity_title">Android concurrency models comparision</string>
+    <string name="init_activity_title">Android concurrency models comparison</string>
     <string name="init_choose_problems">Chose one of the problems</string>
     <string name="init_choose_impl">Choose the implementation</string>
     <string name="done">Done</string>
@@ -27,18 +27,19 @@
     <string name="ph_tv_description">Philosophers problem used to explore justice on task scheduling</string>
     <string name="ph_tv_philosophers_label">Philosophers</string>
     <string name="justice">Justice:</string>
-    <string name="fd_activity_title">Download of file</string>
-    <string name="fd_tv_description">Test downloading one file of 87MB</string>
+    <string name="fd_activity_title">Download of images</string>
+    <string name="fd_tv_description">Test downloading images</string>
     <string name="ui_activity_title">UI/Background interaction</string>
     <string name="ui_tv_description">Tests how well background tasks interact with the UI thread</string>
     <string name="UiBackInter">UI/Background interaction</string>
     <string name="average">Average: </string>
     <string name="deviation">Deviation: </string>
+    <string name="id_downloaded_image_description">Downloaded image</string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>
         <item>Concurrent sum</item>
-        <item>Download of file</item>
+        <item>Download of image</item>
         <item>UI/Background interaction</item>
     </string-array>
 
@@ -49,5 +50,13 @@
         <item>IntentServices</item>
         <item>ThreadPool</item>
         <item>Kotlin coroutines</item>
+    </string-array>
+
+    <string-array name="images">
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Lion</item>
+        <item>Platypus</item>
+        <item>Pigeon</item>
     </string-array>
 </resources>

@@ -64,7 +64,7 @@ class InitActivity : AppCompatActivity(){
                 Constants.MATRIX_MULT   -> Intent(this, MatMultActivity::class.java)
                 Constants.CONCURR_SUM   -> Intent(this, ConcSumActivity::class.java)
                 Constants.PHILOSOPHERS  -> Intent(this, PhilosophersActivity::class.java)
-                Constants.DOWNLOAD_FILE    -> Intent(this, FileDownloadActivity::class.java)
+                Constants.DOWNLOAD_FILE    -> Intent(this, ImgDownloadActivity::class.java)
                 Constants.UI_BACKGROUND -> Intent(this, UiBackActivity::class.java)
 
                 else -> Intent(this, ProblemActivity::class.java).apply {
