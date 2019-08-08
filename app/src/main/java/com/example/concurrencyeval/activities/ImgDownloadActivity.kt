@@ -39,7 +39,8 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
         override fun onReceive(context: Context, intent: Intent) {
             // Extract data included in the Intent
             val time = intent.getLongExtra(Constants.TIME_EXTRA, -1/*default value*/)
-            updateReport(null, RunReport(time))
+            val img: Bitmap? = intent.getParcelableExtra(Constants.IMG_EXTRA)
+            updateReport(img, RunReport(time))
         }
     }
 
@@ -101,6 +102,7 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
                 Constants.ASYNC_TASK->DwAsyncTask(this).execute(imageSpinner.selectedItemPosition)
                 Constants.INTENT_SERV->{
                     val serv = Intent(this, DwIntentServices::class.java)
+                    serv.putExtra(Constants.IMG_EXTRA, imageSpinner.selectedItemPosition)
                     startService(serv)
                 }
                 else-> this.updateReport(null, RunReport( -1))

@@ -2,6 +2,8 @@ package com.example.concurrencyeval.implementations.download
 
 import android.app.IntentService
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.support.v4.content.LocalBroadcastManager
 import com.example.concurrencyeval.Constants
 import java.io.File
@@ -23,17 +25,23 @@ class DwIntentServices : IntentService("intent") {
 
     override fun onHandleIntent(intent: Intent) {
 
+        var img : Bitmap? = null
         val time = measureTimeMillis {
-            val dir: File = applicationContext.cacheDir
-            val file: File = File.createTempFile("temp_book", "pdf", dir)
-            Constants.DOWNLOAD_FILE_87_LINK.saveTo(file)
-            file.delete()
+
+            val imageId = intent.getIntExtra(Constants.IMG_EXTRA, -1)
+            if (imageId != -1) {
+                val imgSrc = Constants.imgURL[imageId]
+                val inp = URL(imgSrc).openStream()
+                img = BitmapFactory.decodeStream(inp)
+            }
+
         }
 
-        val timeIntent = Intent(Constants.TIME_INTENT)
-        timeIntent.putExtra(Constants.TIME_EXTRA, time)
+        val reportIntent = Intent(Constants.TIME_INTENT)
+        reportIntent.putExtra(Constants.TIME_EXTRA, time)
+        reportIntent.putExtra(Constants.IMG_EXTRA, img)
 
-        LocalBroadcastManager.getInstance(this).sendBroadcast(timeIntent)
+        LocalBroadcastManager.getInstance(this).sendBroadcast(reportIntent)
 
     }
 
