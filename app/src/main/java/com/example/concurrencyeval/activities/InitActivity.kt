@@ -26,7 +26,7 @@ class InitActivity : AppCompatActivity(){
         4 to Constants.THREAD_POOL, 5 to Constants.COROUTINES
     )
 
-    fun populateSpinners(spinnerViewId: Int, spinnerResourcesId: Int) : Spinner{
+    private fun populateSpinners(spinnerViewId: Int, spinnerResourcesId: Int) : Spinner{
         val spinner: Spinner = findViewById(spinnerViewId)
         ArrayAdapter.createFromResource(
             this,

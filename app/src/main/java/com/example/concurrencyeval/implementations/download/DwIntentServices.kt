@@ -6,21 +6,10 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.support.v4.content.LocalBroadcastManager
 import com.example.concurrencyeval.Constants
-import java.io.File
-import java.io.FileOutputStream
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
 class DwIntentServices : IntentService("intent") {
-
-
-    private fun String.saveTo(file: File) {
-        URL(this).openStream().use { input ->
-            FileOutputStream(file).use { output ->
-                input.copyTo(output)
-            }
-        }
-    }
 
 
     override fun onHandleIntent(intent: Intent) {

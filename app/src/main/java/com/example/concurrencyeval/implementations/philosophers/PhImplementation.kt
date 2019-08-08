@@ -1,12 +1,10 @@
 package com.example.concurrencyeval.implementations.philosophers
 
-import android.content.Context
 import android.util.Log
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.util.RunReport
 import java.io.File
-import java.lang.Exception
 
 
 abstract class PhImplementation (

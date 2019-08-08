@@ -7,8 +7,6 @@ import com.example.concurrencyeval.activities.ImgDownloadActivity
 import com.example.concurrencyeval.util.RunReport
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import java.io.File
-import java.io.FileOutputStream
 import java.net.URL
 import kotlin.system.measureTimeMillis
 

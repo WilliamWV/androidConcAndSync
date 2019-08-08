@@ -21,17 +21,16 @@ object Constants {
 
     // Image names
 
-    const val CAT: Int = 0
-    const val DOG: Int = 1
-    const val LION: Int = 2
-    const val PLATYPUS: Int = 3
-    const val PIGEON: Int = 4
+    private const val CAT: Int = 0
+    private const val DOG: Int = 1
+    private const val LION: Int = 2
+    private const val PLATYPUS: Int = 3
+    private const val PIGEON: Int = 4
 
     // Extras names
 
     const val PROBLEM_EXTRA = "Problem"
     const val IMPL_EXTRA = "Implementation"
-    const val ACTIVITY_EXTRA = "Activity"
     const val TIME_EXTRA = "Time"
     const val TIME_INTENT = "TimeIntent"
     const val IMG_EXTRA = "Image"
@@ -62,7 +61,4 @@ object Constants {
     const val MATRIX_RANGE: Long = 15
     const val ARR_RANGE: Long = 15
     const val PHILOSOPHERS_FILE: String = "phi_file.txt"
-    const val DOWNLOAD_FILE_87_LINK: String = "http://inf.ufrgs.br/~wwvargas/test/87MB.pdf"
-    const val DOWNLOAD_FILE_9_LINK: String = "http://inf.ufrgs.br/~wwvargas/test/9MB.pdf"
-    const val DOWNLOAD_FILE_DEST: String = "dw/temp_book.pdf"
 }
