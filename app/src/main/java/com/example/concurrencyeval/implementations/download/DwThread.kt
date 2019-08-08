@@ -1,34 +1,33 @@
 package com.example.concurrencyeval.implementations.download
 
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.widget.ImageView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.ImgDownloadActivity
 import com.example.concurrencyeval.util.RunReport
 import java.io.File
 import java.io.FileOutputStream
+import java.io.InputStream
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
-class DwThread(val activity: ImgDownloadActivity) : Thread() {
+class DwThread(val imageId: Int, val activity: ImgDownloadActivity) : Thread() {
 
-    private fun String.saveTo(file: File) {
-        URL(this).openStream().use { input ->
-            FileOutputStream(file).use { output ->
-                input.copyTo(output)
-            }
-        }
-    }
 
     override fun run() {
 
+        var img : Bitmap? = null
         val time = measureTimeMillis {
-            val dir: File = activity.baseContext.cacheDir
-            val file: File = File.createTempFile("temp_book", "pdf", dir)
-            Constants.DOWNLOAD_FILE_87_LINK.saveTo(file)
-            file.delete()
+
+            val imgSrc = Constants.imgURL[this.imageId]
+            val inp = URL(imgSrc).openStream()
+            img = BitmapFactory.decodeStream(inp)
+
         }
 
         activity.runOnUiThread{
-            activity.updateReport(RunReport(time))
+            activity.updateReport(img, RunReport(time))
         }
 
     }

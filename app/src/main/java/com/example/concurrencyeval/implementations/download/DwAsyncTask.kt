@@ -28,7 +28,7 @@ class DwAsyncTask: AsyncTask<ImgDownloadActivity, Void, Void>() {
         }
 
         activities[0]?.runOnUiThread{
-            activities[0]?.updateReport(RunReport(time))
+            activities[0]?.updateReport(null, RunReport(time))
         }
         return null
     }

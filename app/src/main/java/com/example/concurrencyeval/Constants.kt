@@ -21,11 +21,11 @@ object Constants {
 
     // Image names
 
-    const val DOG: Int = 0
     const val CAT: Int = 0
-    const val LION: Int = 0
-    const val PLATYPUS: Int = 0
-    const val PIGEON: Int = 0
+    const val DOG: Int = 1
+    const val LION: Int = 2
+    const val PLATYPUS: Int = 3
+    const val PIGEON: Int = 4
 
     // Extras names
 

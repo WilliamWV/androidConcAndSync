@@ -35,7 +35,7 @@ class DwThreadPoll(val activity: ImgDownloadActivity): Thread() {
         }
 
         activity.runOnUiThread {
-            activity.updateReport(RunReport(time))
+            activity.updateReport(null, RunReport(time))
         }
 
     }
