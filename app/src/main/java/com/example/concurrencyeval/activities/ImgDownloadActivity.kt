@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.support.v4.content.LocalBroadcastManager
 import android.support.v7.app.AppCompatActivity
@@ -17,12 +18,18 @@ import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.download.*
 import com.example.concurrencyeval.util.RunReport
 import java.io.Serializable
+import java.net.URL
+import java.util.concurrent.ExecutorService
+import java.util.concurrent.Executors
+import java.util.concurrent.ThreadPoolExecutor
 import kotlin.math.roundToInt
+import kotlin.system.measureTimeMillis
 
 
 class ImgDownloadActivity : AppCompatActivity(), Serializable {
 
     private var selectedImplementation: Int = 0
+    var threadPool: ExecutorService? = null
 
     private val messageReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context, intent: Intent) {
@@ -73,7 +80,11 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
             progress.visibility = VISIBLE
             when (selectedImplementation){
                 Constants.THREADS -> DwThread(imageSpinner.selectedItemPosition, this).start()
-                Constants.THREAD_POOL->DwThreadPoll(this).start()
+                Constants.THREAD_POOL->{
+                    if (this.threadPool == null)
+                        this.threadPool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors())
+                    this.threadPool!!.execute (DwTaskRunnable(imageSpinner.selectedItemPosition, this))
+                }
                 Constants.COROUTINES->DwCoroutines(this).execute()
                 Constants.HAMER->DwHaMeR(this).start()
                 Constants.ASYNC_TASK->DwAsyncTask().execute(this)
