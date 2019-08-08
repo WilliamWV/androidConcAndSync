@@ -85,7 +85,7 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
                         this.threadPool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors())
                     this.threadPool!!.execute (DwTaskRunnable(imageSpinner.selectedItemPosition, this))
                 }
-                Constants.COROUTINES->DwCoroutines(this).execute()
+                Constants.COROUTINES->DwCoroutines(imageSpinner.selectedItemPosition, this).execute()
                 Constants.HAMER->DwHaMeR(this).start()
                 Constants.ASYNC_TASK->DwAsyncTask().execute(this)
                 Constants.INTENT_SERV->{
