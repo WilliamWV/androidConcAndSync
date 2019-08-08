@@ -5,6 +5,8 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.os.AsyncTask
 import android.os.Bundle
 import android.os.HandlerThread
 import android.os.Message
@@ -19,9 +21,11 @@ import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.download.*
 import com.example.concurrencyeval.util.RunReport
 import java.io.Serializable
+import java.net.URL
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import kotlin.math.roundToInt
+import kotlin.system.measureTimeMillis
 
 
 class ImgDownloadActivity : AppCompatActivity(), Serializable {
@@ -94,7 +98,7 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
                     }
                     handler?.sendMessage(Message.obtain(handler, imageSpinner.selectedItemPosition))
                 }
-                Constants.ASYNC_TASK->DwAsyncTask().execute(this)
+                Constants.ASYNC_TASK->DwAsyncTask(this).execute(imageSpinner.selectedItemPosition)
                 Constants.INTENT_SERV->{
                     val serv = Intent(this, DwIntentServices::class.java)
                     startService(serv)
@@ -122,4 +126,6 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
             imgView.setImageBitmap(Bitmap.createScaledBitmap(img, width - margin, (img.height * scale).roundToInt(), false))
         }
     }
+
+
 }

@@ -1,5 +1,7 @@
 package com.example.concurrencyeval.implementations.download
 
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.os.AsyncTask
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.ImgDownloadActivity
@@ -9,28 +11,21 @@ import java.io.FileOutputStream
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
-class DwAsyncTask: AsyncTask<ImgDownloadActivity, Void, Void>() {
-
-
-    private fun String.saveTo(file: File) {
-        URL(this).openStream().use { input ->
-            FileOutputStream(file).use { output ->
-                input.copyTo(output)
-            }
-        }
-    }
-    override fun doInBackground(vararg activities: ImgDownloadActivity?): Void? {
+class DwAsyncTask(val activity: ImgDownloadActivity) : AsyncTask<Int, Void, Pair<Bitmap?, Long>>() {
+    override fun doInBackground(vararg imgId: Int?): Pair<Bitmap?, Long> {
+        var img : Bitmap? = null
         val time = measureTimeMillis {
-            val dir: File = activities[0]!!.baseContext.cacheDir
-            val file: File = File.createTempFile("temp_book", "pdf", dir)
-            Constants.DOWNLOAD_FILE_87_LINK.saveTo(file)
-            file.delete()
-        }
 
-        activities[0]?.runOnUiThread{
-            activities[0]?.updateReport(null, RunReport(time))
+            val imgSrc = Constants.imgURL[imgId[0]]
+            val inp = URL(imgSrc).openStream()
+            img = BitmapFactory.decodeStream(inp)
         }
-        return null
+        return Pair(img, time)
     }
 
+    override fun onPostExecute(result: Pair<Bitmap?, Long>?) {
+
+        activity.updateReport(result?.first, RunReport(result?.second as Long))
+
+    }
 }
