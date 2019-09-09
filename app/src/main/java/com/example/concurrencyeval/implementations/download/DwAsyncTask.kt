@@ -23,7 +23,7 @@ class DwAsyncTask(val activity: ImgDownloadActivity) : AsyncTask<Int, Void, Pair
 
     override fun onPostExecute(result: Pair<Bitmap?, Long>?) {
 
-        activity.updateReport(result?.first, RunReport(result?.second as Long))
+        activity.updateReport(RunReport(result?.second as Long, result.first))
 
     }
 }

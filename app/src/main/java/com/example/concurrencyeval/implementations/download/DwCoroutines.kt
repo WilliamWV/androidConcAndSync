@@ -24,7 +24,7 @@ class DwCoroutines(val imageId: Int, val activity: ImgDownloadActivity) {
             }
 
             activity.runOnUiThread {
-                activity.updateReport(img, RunReport(time))
+                activity.updateReport(RunReport(time, img))
             }
         }
     }

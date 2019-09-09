@@ -19,7 +19,7 @@ class DwTaskRunnable(val imageId: Int, val activity: ImgDownloadActivity) : Runn
 
         }
         activity.runOnUiThread {
-            activity.updateReport(img, RunReport(time))
+            activity.updateReport(RunReport(time, img))
         }
     }
 }

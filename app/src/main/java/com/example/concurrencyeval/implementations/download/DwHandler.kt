@@ -22,7 +22,7 @@ class DwHandler(val activity: ImgDownloadActivity, looper: Looper): Handler(loop
 
             }
             activity.runOnUiThread {
-                activity.updateReport(img, RunReport(time))
+                activity.updateReport(RunReport(time, img))
             }
         }
     }

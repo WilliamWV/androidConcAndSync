@@ -1,10 +1,8 @@
 package com.example.concurrencyeval.activities
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.View.VISIBLE
-import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.TextView
@@ -16,24 +14,20 @@ import com.example.concurrencyeval.implementations.sum.SumThread
 import com.example.concurrencyeval.implementations.sum.SumThreadPool
 import com.example.concurrencyeval.util.RunReport
 
-class ConcSumActivity : AppCompatActivity() {
+class ConcSumActivity : AbstractActivity(Constants.CONCURR_SUM) {
 
-    private var selectedImplementation: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.setImplementation(intent.getIntExtra(Constants.IMPL_EXTRA, -1))
         setContentView(R.layout.activity_conc_sum)
-        selectedImplementation = intent.getIntExtra(Constants.IMPL_EXTRA, -1)
-        val description: TextView = findViewById(R.id.cs_tv_description)
-        val newDescription = description.text.toString() + ". Implemented with ${Constants.implNames[selectedImplementation]}"
-        description.text = newDescription
-        val runButton: Button = findViewById(R.id.cs_run_button)
-        runButton.setOnClickListener {
-            val progress : ProgressBar = findViewById(R.id.cs_progressBar)
-            progress.visibility = VISIBLE
+
+        super.onCreate(savedInstanceState)
+        //Use "super" to avoid confusion of where the variable is defined
+        super.mRunButton.setOnClickListener {
+            super.mProgress.visibility = VISIBLE
             val numbers: Int = findViewById<EditText>(R.id.cs_et_numbers).text.toString().toInt()
             val tasks: Int = findViewById<EditText>(R.id.cs_et_tasks).text.toString().toInt()
-            when (selectedImplementation){
+            when (super.mImplementation){
                 Constants.THREADS->SumThread(numbers, tasks, this).start()
                 Constants.THREAD_POOL->SumThreadPool(numbers, tasks, this).start()
                 Constants.COROUTINES->SumCoroutines(numbers, tasks, this).start()
@@ -44,7 +38,7 @@ class ConcSumActivity : AppCompatActivity() {
 
     }
 
-    fun updateReport(report: RunReport) {
+    override fun updateReport(report: RunReport) {
         val timeTV: TextView = findViewById(R.id.cs_time_report)
         val timeReport = "${report.time}ms"
         timeTV.text = timeReport

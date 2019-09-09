@@ -57,6 +57,35 @@ object Constants {
         PLATYPUS to BASE_URL + "platypus.jpg", PIGEON to BASE_URL + "pigeon.jpg"
     )
 
+    //General UI items
+
+    val RUN_BUTTON = 0
+    val DESCRIPTION_TV = 1
+    val PROGRESS_BAR = 2
+
+    val problemsUIIds = hashMapOf(
+        MATRIX_MULT to hashMapOf(
+            RUN_BUTTON to R.id.mm_run_button,
+            DESCRIPTION_TV to R.id.mm_tv_description,
+            PROGRESS_BAR to R.id.mm_progressBar
+        ),
+        CONCURR_SUM to hashMapOf(
+            RUN_BUTTON to R.id.cs_run_button,
+            DESCRIPTION_TV to R.id.cs_tv_description,
+            PROGRESS_BAR to R.id.cs_progressBar
+        ),
+        PHILOSOPHERS to hashMapOf(
+            RUN_BUTTON to R.id.ph_run_button,
+            DESCRIPTION_TV to R.id.ph_tv_description,
+            PROGRESS_BAR to R.id.ph_progressBar
+        ),
+        DOWNLOAD_FILE to hashMapOf(
+            RUN_BUTTON to R.id.fd_run_button,
+            DESCRIPTION_TV to R.id.fd_tv_description,
+            PROGRESS_BAR to R.id.fd_progressBar
+        )
+    )
+
     //Values
     const val MATRIX_RANGE: Long = 15
     const val ARR_RANGE: Long = 15

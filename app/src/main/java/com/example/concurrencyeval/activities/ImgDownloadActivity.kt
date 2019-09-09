@@ -9,7 +9,6 @@ import android.os.Bundle
 import android.os.HandlerThread
 import android.os.Message
 import android.support.v4.content.LocalBroadcastManager
-import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
 import android.view.View
 import android.view.View.VISIBLE
@@ -24,9 +23,8 @@ import java.util.concurrent.Executors
 import kotlin.math.roundToInt
 
 
-class ImgDownloadActivity : AppCompatActivity(), Serializable {
+class ImgDownloadActivity : AbstractActivity(Constants.DOWNLOAD_FILE), Serializable {
 
-    private var selectedImplementation: Int = 0
     private var threadPool: ExecutorService? = null
     private var handlerThread: HandlerThread? = null
     private var handler: DwHandler? = null
@@ -36,7 +34,7 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
             // Extract data included in the Intent
             val time = intent.getLongExtra(Constants.TIME_EXTRA, -1/*default value*/)
             val img: Bitmap? = intent.getParcelableExtra(Constants.IMG_EXTRA)
-            updateReport(img, RunReport(time))
+            updateReport(RunReport(time, img))
         }
     }
 
@@ -67,19 +65,16 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
         return spinner
     }
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.setImplementation(intent.getIntExtra(Constants.IMPL_EXTRA, -1))
         setContentView(R.layout.activity_file_download)
+
+        super.onCreate(savedInstanceState)
+
         val imageSpinner = this.populateSpinner()
 
-        selectedImplementation = intent.getIntExtra(Constants.IMPL_EXTRA, -1)
-        val description: TextView = findViewById(R.id.fd_tv_description)
-        val newDescription = description.text.toString() + ". Implemented with ${Constants.implNames[selectedImplementation]}"
-        description.text = newDescription
-        val runButton: Button = findViewById(R.id.fd_run_button)
-        runButton.setOnClickListener {
-            val progress : ProgressBar = findViewById(R.id.fd_progressBar)
-            progress.visibility = VISIBLE
-            when (selectedImplementation){
+        super.mRunButton.setOnClickListener {
+            super.mProgress.visibility = VISIBLE
+            when (super.mImplementation){
                 Constants.THREADS -> DwThread(imageSpinner.selectedItemPosition, this).start()
                 Constants.THREAD_POOL->{
                     if (this.threadPool == null)
@@ -101,19 +96,20 @@ class ImgDownloadActivity : AppCompatActivity(), Serializable {
                     serv.putExtra(Constants.IMG_EXTRA, imageSpinner.selectedItemPosition)
                     startService(serv)
                 }
-                else-> this.updateReport(null, RunReport( -1))
+                else-> this.updateReport(RunReport( -1, null))
             }
 
         }
 
 
     }
-    fun updateReport(img: Bitmap?, report: RunReport){
+    override fun updateReport(report: RunReport){
         val timeTV: TextView = findViewById(R.id.fd_time_report)
         val timeReport = "${report.time}ms"
         timeTV.text = timeReport
         val progress : ProgressBar = findViewById(R.id.fd_progressBar)
         progress.visibility = View.INVISIBLE
+        val img =  report.ans as Bitmap?
         if(img != null) {
             val imgView: ImageView = findViewById(R.id.id_iv_image_report)
             val displayMetrics = DisplayMetrics()
