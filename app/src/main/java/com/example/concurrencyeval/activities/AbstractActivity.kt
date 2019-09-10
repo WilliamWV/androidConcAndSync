@@ -1,6 +1,5 @@
 package com.example.concurrencyeval.activities
 
-import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
@@ -9,10 +8,10 @@ import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.util.RunReport
 
-abstract class AbstractActivity(val problemId: Int) : AppCompatActivity() {
+abstract class AbstractActivity(private val problemId: Int) : AppCompatActivity() {
 
-    lateinit var mDescriptionTV : TextView
-    lateinit var mDescriptionText : String
+    private lateinit var mDescriptionTV : TextView
+    private lateinit var mDescriptionText : String
     lateinit var mRunButton : Button
     lateinit var mProgress : ProgressBar
     var mImplementation : Int = 0

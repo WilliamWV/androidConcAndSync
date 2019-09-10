@@ -8,7 +8,7 @@ import com.example.concurrencyeval.util.RunReport
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
-class DwTaskRunnable(val imageId: Int, val activity: ImgDownloadActivity) : Runnable {
+class DwTaskRunnable(private val imageId: Int, val activity: ImgDownloadActivity) : Runnable {
     override fun run() {
         var img : Bitmap? = null
         val time = measureTimeMillis {

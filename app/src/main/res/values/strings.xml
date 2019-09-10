@@ -40,7 +40,6 @@
         <item>Philosophers</item>
         <item>Concurrent sum</item>
         <item>Download of image</item>
-        <item>UI/Background interaction</item>
     </string-array>
 
     <string-array name="implementations">

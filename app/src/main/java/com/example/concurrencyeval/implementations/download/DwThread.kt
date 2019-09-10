@@ -8,7 +8,7 @@ import com.example.concurrencyeval.util.RunReport
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
-class DwThread(val imageId: Int, val activity: ImgDownloadActivity) : Thread() {
+class DwThread(private val imageId: Int, val activity: ImgDownloadActivity) : Thread() {
 
 
     override fun run() {

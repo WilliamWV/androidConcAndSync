@@ -8,7 +8,6 @@ object Constants {
     const val CONCURR_SUM: Int = 1
     const val PHILOSOPHERS: Int = 2
     const val DOWNLOAD_FILE: Int = 3
-    const val UI_BACKGROUND: Int = 4
 
     // Implementations identification
 
@@ -39,7 +38,6 @@ object Constants {
     val problemNames = hashMapOf(
         MATRIX_MULT to "Matrix multiplication", CONCURR_SUM to "Concurrent sum",
         PHILOSOPHERS to "Philosophers", DOWNLOAD_FILE to "Download file",
-        UI_BACKGROUND to "UI background interaction",
         -1 to "No problem selected"
     )
 
@@ -59,9 +57,9 @@ object Constants {
 
     //General UI items
 
-    val RUN_BUTTON = 0
-    val DESCRIPTION_TV = 1
-    val PROGRESS_BAR = 2
+    const val RUN_BUTTON = 0
+    const val DESCRIPTION_TV = 1
+    const val PROGRESS_BAR = 2
 
     val problemsUIIds = hashMapOf(
         MATRIX_MULT to hashMapOf(

@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 import java.net.URL
 import kotlin.system.measureTimeMillis
 
-class DwCoroutines(val imageId: Int, val activity: ImgDownloadActivity) {
+class DwCoroutines(private val imageId: Int, val activity: ImgDownloadActivity) {
 
     fun execute(){
         GlobalScope.launch {
