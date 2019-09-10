@@ -11,9 +11,6 @@ class MMHaMeR(
 ): MMImplementation(size, tasks, activity) {
 
     override fun execute(): RunReport{
-        val m1 = MMUtil.randMatrix(size)
-        val m2 = MMUtil.randMatrix(size)
-        val ans = Array(size){LongArray(size)}
 
 
         val time = measureTimeMillis {
@@ -30,7 +27,7 @@ class MMHaMeR(
             }
             for (i in 0 until tasks) {
                 handlers[i%cores].post(
-                    MMWorkerRunnable(m1, m2, ans, size, tasks, i)
+                    MMWorkerRunnable(m1, m2, mAns, size, tasks, i)
                 )
             }
             for (i in 0 until cores){

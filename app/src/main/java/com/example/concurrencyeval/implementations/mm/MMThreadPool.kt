@@ -15,15 +15,12 @@ class MMThreadPool(
     private val threadPool : ThreadPoolExecutor = Executors.newFixedThreadPool(numOfCores) as ThreadPoolExecutor
 
     override fun execute(): RunReport {
-        val m1 = MMUtil.randMatrix(size)
-        val m2 = MMUtil.randMatrix(size)
-        val ans = Array(size){LongArray(size)}
         //OBS: verify if creating more tasks than threads is not better to evaluate
 
         val time = measureTimeMillis {
             for (i in 0 until tasks) {
                 threadPool.execute(
-                    MMWorkerRunnable(m1, m2, ans, size, tasks, i)
+                    MMWorkerRunnable(m1, m2, mAns, size, tasks, i)
                 )
             }
             //run all tasks that are not ready yet

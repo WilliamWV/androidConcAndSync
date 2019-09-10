@@ -16,9 +16,6 @@ class MMCoroutines(
 
     override fun execute(): RunReport {
 
-        val m1 = MMUtil.randMatrix(size)
-        val m2 = MMUtil.randMatrix(size)
-        val ans = Array(size){LongArray(size)}
         val jobs: MutableList<Job> = mutableListOf()
 
         val time = measureTimeMillis {
@@ -36,7 +33,7 @@ class MMCoroutines(
                                 for (k in 0 until size) {
                                     sum += m1[i][k] * m2[k][j]
                                 }
-                                ans[i][j] = sum
+                                mAns[i][j] = sum
                             }
                         }
                     }

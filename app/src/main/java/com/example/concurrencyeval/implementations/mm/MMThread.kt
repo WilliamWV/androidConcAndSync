@@ -9,12 +9,9 @@ class MMThread (
 ): MMImplementation(size, tasks, activity) {
 
     override fun execute():RunReport{
-        val m1 = MMUtil.randMatrix(size)
-        val m2 = MMUtil.randMatrix(size)
-        val ans = Array(size){LongArray(size)}
 
         val workers :Array<Thread> = Array(tasks){ Thread(
-            MMWorkerRunnable(m1, m2, ans, size, tasks, 0)
+            MMWorkerRunnable(m1, m2, mAns, size, tasks, 0)
         )}
         //OBS: verify here if it is better to test running the tasks soon after its
         //initialization of only when all threads were initialized
@@ -22,7 +19,7 @@ class MMThread (
         val time = measureTimeMillis {
             for (i in 0 until tasks) {
                 workers[i] = Thread(
-                    MMWorkerRunnable(m1, m2, ans, size, tasks, i)
+                    MMWorkerRunnable(m1, m2, mAns, size, tasks, i)
                 )
                 workers[i].start()
             }
