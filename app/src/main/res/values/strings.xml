@@ -51,6 +51,13 @@
         <item>Kotlin coroutines</item>
     </string-array>
 
+    <string-array name="multi_concurrency">
+        <item>Threads</item>
+        <item>HaMer framework</item>
+        <item>ThreadPool</item>
+        <item>Kotlin coroutines</item>
+    </string-array>
+
     <string-array name="images">
         <item>Cat</item>
         <item>Dog</item>

@@ -3,13 +3,15 @@ package com.example.concurrencyeval.activities
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 
-class InitActivity : AppCompatActivity(){
+class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
 
     private lateinit var problemSpinner: Spinner
     private lateinit var implSpinner: Spinner
@@ -24,6 +26,29 @@ class InitActivity : AppCompatActivity(){
         2 to Constants.HAMER, 3 to Constants.INTENT_SERV,
         4 to Constants.THREAD_POOL, 5 to Constants.COROUTINES
     )
+
+    override fun onNothingSelected(adapter: AdapterView<*>?) {
+        // do nothing
+    }
+
+    override fun onItemSelected(adapter: AdapterView<*>?, view: View?, pos: Int, id: Long) {
+        if (pos != Constants.DOWNLOAD_FILE){
+            val selectedItem = this.implSpinner.selectedItemPosition
+            this.implSpinner = populateSpinners(R.id.init_spinner_impl, R.array.multi_concurrency)
+            if (
+                implsPositionMap[selectedItem] != Constants.ASYNC_TASK &&
+                implsPositionMap[selectedItem] != Constants.INTENT_SERV
+            ){
+                this.implSpinner.setSelection(selectedItem)
+            }
+        }
+        else{
+            val selectedItem = this.implSpinner.selectedItemPosition
+            this.implSpinner = populateSpinners(R.id.init_spinner_impl, R.array.implementations)
+            this.implSpinner.setSelection(selectedItem)
+        }
+
+    }
 
     private fun populateSpinners(spinnerViewId: Int, spinnerResourcesId: Int) : Spinner{
         val spinner: Spinner = findViewById(spinnerViewId)
@@ -52,6 +77,8 @@ class InitActivity : AppCompatActivity(){
             R.array.implementations
         )
 
+        this.problemSpinner.onItemSelectedListener = this
+
         val doneButton: Button = findViewById(R.id.init_b_done)
         doneButton.setOnClickListener{
             val selectedProblem = this.problemsPositionMap[this.problemSpinner.selectedItemPosition]
@@ -76,6 +103,5 @@ class InitActivity : AppCompatActivity(){
 
         }
     }
-
 
 }
