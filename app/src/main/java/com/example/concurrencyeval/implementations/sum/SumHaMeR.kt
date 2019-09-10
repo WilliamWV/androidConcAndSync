@@ -14,7 +14,6 @@ class SumHaMeR(
     private val cores = Runtime.getRuntime().availableProcessors()
 
     override fun execute(): RunReport {
-        val arr = SumUtil.randArray(numbers)
         val time = measureTimeMillis {
             //Prepare the handlerThreads
             val ans = LongArray(numbers)
@@ -33,14 +32,14 @@ class SumHaMeR(
 
                 val tasksToRun = min(tasks, ceil(numbers / 2.0.pow((1 + level))).toInt())
                 for (i in 0 until tasksToRun) {
-                    handlers[i%cores].post(SumWorkerRunnable(arr, ans, numbers, level, tasks, i))
+                    handlers[i%cores].post(SumWorkerRunnable(mArr, ans, numbers, level, tasks, i))
                 }
                 for (i in 0 until cores) {
                     handlerThreads[i].quitSafely()
                     handlerThreads[i].join()
                 }
                 for (i in 0 until numbers) {
-                    arr[i] = ans[i]
+                    mArr[i] = ans[i]
                 }
             }
 

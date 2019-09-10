@@ -11,8 +11,6 @@ class SumThread(
 ) : SumImplementation(numbers, tasks, activity){
 
     override fun execute(): RunReport {
-        val arr = SumUtil.randArray(numbers)
-
         val time = measureTimeMillis {
             val ans = LongArray(numbers)
             val levels = ceil(log(numbers.toDouble(), 2.0)).roundToInt() // number of levels
@@ -20,7 +18,7 @@ class SumThread(
                 val tasksToRun = min(tasks, ceil(numbers / 2.0.pow((1 + level))).toInt())
                 val threads = mutableListOf<Thread>()
                 for (i in 0 until tasksToRun) {
-                    threads+= Thread(SumWorkerRunnable(arr, ans, numbers, level, tasks, i))
+                    threads+= Thread(SumWorkerRunnable(mArr, ans, numbers, level, tasks, i))
                 }
                 for (i in 0 until tasksToRun) {
                     threads[i].start()
@@ -29,7 +27,7 @@ class SumThread(
                     threads[i].join()
                 }
                 for (i in 0 until numbers) {
-                    arr[i] = ans[i]
+                    mArr[i] = ans[i]
                 }
             }
         }

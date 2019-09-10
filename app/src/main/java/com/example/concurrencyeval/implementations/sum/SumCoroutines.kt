@@ -15,7 +15,6 @@ class SumCoroutines(
 
 
     override fun execute(): RunReport {
-        val arr = SumUtil.randArray(numbers)
         val time = measureTimeMillis {
             runBlocking {
                 val ans = LongArray(numbers)
@@ -33,9 +32,9 @@ class SumCoroutines(
 
                             for (index in firstSum until firstSum + taskSums) {
                                 if(ceil(numbers / 2.0.pow(level)).roundToInt() > 2 * index + 1)
-                                    ans[index] = arr[2 * index] + arr[2 * index + 1]
+                                    ans[index] = mArr[2 * index] + mArr[2 * index + 1]
                                 else
-                                    ans[index] = arr[2 * index]
+                                    ans[index] = mArr[2 * index]
                             }
                         }
                     }
@@ -43,7 +42,7 @@ class SumCoroutines(
                         jobs[i].join()
                     }
                     for (i in 0 until numbers) {
-                        arr[i] = ans[i]
+                        mArr[i] = ans[i]
                     }
                 }
             }

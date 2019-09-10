@@ -17,7 +17,6 @@ class SumThreadPool(
 
 
     override fun execute(): RunReport {
-        val arr = SumUtil.randArray(numbers)
         val time = measureTimeMillis {
             val ans = LongArray(numbers)
             val levels = ceil(log(numbers.toDouble(), 2.0)).roundToInt() // number of levels
@@ -29,7 +28,7 @@ class SumThreadPool(
                 for (i in 0 until tasksToRun) {
                     //store reference to the execution of current level tasks
                     tasksOfThisLevel += threadPool.submit(
-                        SumWorkerRunnable(arr, ans, numbers, level, tasks, i)
+                        SumWorkerRunnable(mArr, ans, numbers, level, tasks, i)
                     )
                 }
                 //waits until the execution of the current level threads to end
@@ -38,7 +37,7 @@ class SumThreadPool(
                 }
 
                 for (i in 0 until numbers) {
-                    arr[i] = ans[i]
+                    mArr[i] = ans[i]
                 }
             }
         }
