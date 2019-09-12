@@ -42,18 +42,33 @@
         <item>Download of image</item>
     </string-array>
 
-    <string-array name="implementations">
+    <string-array name="mm_implementations">
         <item>Threads</item>
-        <item>AsyncTask</item>
-        <item>HaMeR framework</item>
-        <item>IntentServices</item>
+        <item>HaMer framework</item>
         <item>ThreadPool</item>
         <item>Kotlin coroutines</item>
     </string-array>
 
-    <string-array name="multi_concurrency">
+    <string-array name="cs_implementations">
+        <item>Threads</item>
+        <item>Threads with barriers</item>
+        <item>HaMer framework</item>
+        <item>ThreadPool</item>
+        <item>Kotlin coroutines</item>
+    </string-array>
+
+    <string-array name="ph_implementations">
         <item>Threads</item>
         <item>HaMer framework</item>
+        <item>ThreadPool</item>
+        <item>Kotlin coroutines</item>
+    </string-array>
+
+    <string-array name="id_implementations">
+        <item>Threads</item>
+        <item>AsyncTask</item>
+        <item>HaMeR framework</item>
+        <item>IntentServices</item>
         <item>ThreadPool</item>
         <item>Kotlin coroutines</item>
     </string-array>

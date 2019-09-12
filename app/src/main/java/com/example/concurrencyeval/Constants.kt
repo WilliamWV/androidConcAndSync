@@ -17,6 +17,7 @@ object Constants {
     const val INTENT_SERV: Int = 3
     const val HAMER: Int = 4
     const val COROUTINES: Int = 5
+    const val THREADS_BARRIER: Int = 6
 
     // Image names
 
@@ -45,7 +46,7 @@ object Constants {
     val implNames = hashMapOf(
         THREADS to "Threads", THREAD_POOL to "ThreadPool", ASYNC_TASK to "AsyncTask",
         INTENT_SERV to "IntentServices", HAMER to "HaMeR framework", COROUTINES to "Kotlin coroutines",
-        -1 to "No implementation selected"
+        THREADS_BARRIER to "Threads with barriers", -1 to "No implementation selected"
     )
 
     //Images URLS

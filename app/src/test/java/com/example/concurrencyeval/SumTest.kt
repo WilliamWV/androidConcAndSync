@@ -3,6 +3,7 @@ package com.example.concurrencyeval
 import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.implementations.sum.SumCoroutines
 import com.example.concurrencyeval.implementations.sum.SumThread
+import com.example.concurrencyeval.implementations.sum.SumThreadBarrier
 import com.example.concurrencyeval.implementations.sum.SumThreadPool
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
@@ -58,6 +59,20 @@ class SumTest {
                 sCoroutines.start()
                 sCoroutines.join()
                 assertEquals(pair.second, sCoroutines.getAns())
+            }
+        }
+    }
+
+    @Test
+    fun sumThreadsBarrierTest(){
+        tasksToUse.forEach { tasks ->
+            pairTestAns.forEach { pair ->
+                val sThreadsBarr = SumThreadBarrier(pair.first.size, tasks, activity).also {
+                    it.setArr(pair.first)
+                }
+                sThreadsBarr.start()
+                sThreadsBarr.join()
+                assertEquals(pair.second, sThreadsBarr.getAns())
             }
         }
     }

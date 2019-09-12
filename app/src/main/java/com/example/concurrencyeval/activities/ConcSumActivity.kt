@@ -8,10 +8,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
-import com.example.concurrencyeval.implementations.sum.SumCoroutines
-import com.example.concurrencyeval.implementations.sum.SumHaMeR
-import com.example.concurrencyeval.implementations.sum.SumThread
-import com.example.concurrencyeval.implementations.sum.SumThreadPool
+import com.example.concurrencyeval.implementations.sum.*
 import com.example.concurrencyeval.util.RunReport
 
 class ConcSumActivity : AbstractActivity(Constants.CONCURR_SUM) {
@@ -29,6 +26,7 @@ class ConcSumActivity : AbstractActivity(Constants.CONCURR_SUM) {
             val tasks: Int = findViewById<EditText>(R.id.cs_et_tasks).text.toString().toInt()
             when (super.mImplementation){
                 Constants.THREADS->SumThread(numbers, tasks, this).start()
+                Constants.THREADS_BARRIER->SumThreadBarrier(numbers, tasks, this).start()
                 Constants.THREAD_POOL->SumThreadPool(numbers, tasks, this).start()
                 Constants.COROUTINES->SumCoroutines(numbers, tasks, this).start()
                 Constants.HAMER->SumHaMeR(numbers, tasks, this).start()

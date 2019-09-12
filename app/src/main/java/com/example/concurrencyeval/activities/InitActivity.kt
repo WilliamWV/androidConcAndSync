@@ -32,37 +32,57 @@ class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
         // do nothing
     }
 
-    override fun onItemSelected(adapter: AdapterView<*>?, view: View?, pos: Int, id: Long) {
-        if (pos != Constants.DOWNLOAD_FILE){
-            val selectedText = this.implSpinner.selectedItem.toString()
-            this.implSpinner = populateSpinners(R.id.init_spinner_impl, R.array.multi_concurrency)
-            if (
-                selectedText != Constants.implNames[Constants.ASYNC_TASK] &&
-                selectedText != Constants.implNames[Constants.INTENT_SERV]
-            ){
-                val spinnerAdapter = this.implSpinner.adapter as ArrayAdapter<String>
-                val newItemPosition = spinnerAdapter.getPosition(selectedText)
-                this.implSpinner.setSelection(newItemPosition)
-            }
-            implsPositionMap = hashMapOf(
-                0 to Constants.THREADS, 1 to Constants.HAMER,
-                2 to Constants.THREAD_POOL, 3 to Constants.COROUTINES
-            )
-        }
-        else{
-            val selectedText = this.implSpinner.selectedItem.toString()
-            this.implSpinner = populateSpinners(R.id.init_spinner_impl, R.array.implementations)
-            val spinnerAdapter = this.implSpinner.adapter as ArrayAdapter<String>
-            val newItemPosition = spinnerAdapter.getPosition(selectedText)
+    private fun updateSpinnerToProblem(spinnerOptionsId: Int, implPosMap: HashMap<Int, Int>){
+        val selectedText = this.implSpinner.selectedItem.toString()
+        this.implSpinner = populateSpinners(R.id.init_spinner_impl, spinnerOptionsId)
+        val spinnerAdapter = this.implSpinner.adapter as ArrayAdapter<String>
+        val newItemPosition = spinnerAdapter.getPosition(selectedText)
+        if (newItemPosition != -1)
             this.implSpinner.setSelection(newItemPosition)
+        implsPositionMap = implPosMap
+    }
 
-            implsPositionMap = hashMapOf(
-                0 to Constants.THREADS, 1 to Constants.ASYNC_TASK,
-                2 to Constants.HAMER, 3 to Constants.INTENT_SERV,
-                4 to Constants.THREAD_POOL, 5 to Constants.COROUTINES
-            )
+    override fun onItemSelected(adapter: AdapterView<*>?, view: View?, pos: Int, id: Long) {
+        when(this.problemsPositionMap[pos]){
+            Constants.DOWNLOAD_FILE -> {
+                updateSpinnerToProblem(
+                    R.array.id_implementations,
+                    hashMapOf(
+                        0 to Constants.THREADS, 1 to Constants.ASYNC_TASK,
+                        2 to Constants.HAMER, 3 to Constants.INTENT_SERV,
+                        4 to Constants.THREAD_POOL, 5 to Constants.COROUTINES
+                    )
+                )
+            }
+            Constants.MATRIX_MULT -> {
+                updateSpinnerToProblem(
+                    R.array.mm_implementations,
+                    hashMapOf(
+                        0 to Constants.THREADS, 1 to Constants.HAMER,
+                        2 to Constants.THREAD_POOL, 3 to Constants.COROUTINES
+                    )
+                )
+            }
+            Constants.PHILOSOPHERS -> {
+                updateSpinnerToProblem(
+                    R.array.ph_implementations,
+                    hashMapOf(
+                        0 to Constants.THREADS, 1 to Constants.HAMER,
+                        2 to Constants.THREAD_POOL, 3 to Constants.COROUTINES
+                    )
+                )
+            }
+            Constants.CONCURR_SUM -> {
+                updateSpinnerToProblem(
+                    R.array.cs_implementations,
+                    hashMapOf(
+                        0 to Constants.THREADS, 1 to Constants.THREADS_BARRIER,
+                        2 to Constants.HAMER, 3 to Constants.THREAD_POOL,
+                        4 to Constants.COROUTINES
+                    )
+                )
+            }
         }
-
     }
 
     private fun populateSpinners(spinnerViewId: Int, spinnerResourcesId: Int) : Spinner{
@@ -89,7 +109,7 @@ class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
         )
         this.implSpinner = populateSpinners(
             R.id.init_spinner_impl,
-            R.array.implementations
+            R.array.mm_implementations
         )
 
         this.problemSpinner.onItemSelectedListener = this
