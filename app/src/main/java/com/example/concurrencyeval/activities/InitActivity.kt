@@ -11,6 +11,7 @@ import android.widget.Spinner
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 
+@Suppress("UNCHECKED_CAST")
 class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
 
     private lateinit var problemSpinner: Spinner
@@ -21,7 +22,7 @@ class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
         2 to Constants.CONCURR_SUM, 3 to Constants.DOWNLOAD_FILE
     )
 
-    private val implsPositionMap = hashMapOf(
+    private var implsPositionMap = hashMapOf(
         0 to Constants.THREADS, 1 to Constants.ASYNC_TASK,
         2 to Constants.HAMER, 3 to Constants.INTENT_SERV,
         4 to Constants.THREAD_POOL, 5 to Constants.COROUTINES
@@ -33,19 +34,33 @@ class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
 
     override fun onItemSelected(adapter: AdapterView<*>?, view: View?, pos: Int, id: Long) {
         if (pos != Constants.DOWNLOAD_FILE){
-            val selectedItem = this.implSpinner.selectedItemPosition
+            val selectedText = this.implSpinner.selectedItem.toString()
             this.implSpinner = populateSpinners(R.id.init_spinner_impl, R.array.multi_concurrency)
             if (
-                implsPositionMap[selectedItem] != Constants.ASYNC_TASK &&
-                implsPositionMap[selectedItem] != Constants.INTENT_SERV
+                selectedText != Constants.implNames[Constants.ASYNC_TASK] &&
+                selectedText != Constants.implNames[Constants.INTENT_SERV]
             ){
-                this.implSpinner.setSelection(selectedItem)
+                val spinnerAdapter = this.implSpinner.adapter as ArrayAdapter<String>
+                val newItemPosition = spinnerAdapter.getPosition(selectedText)
+                this.implSpinner.setSelection(newItemPosition)
             }
+            implsPositionMap = hashMapOf(
+                0 to Constants.THREADS, 1 to Constants.HAMER,
+                2 to Constants.THREAD_POOL, 3 to Constants.COROUTINES
+            )
         }
         else{
-            val selectedItem = this.implSpinner.selectedItemPosition
+            val selectedText = this.implSpinner.selectedItem.toString()
             this.implSpinner = populateSpinners(R.id.init_spinner_impl, R.array.implementations)
-            this.implSpinner.setSelection(selectedItem)
+            val spinnerAdapter = this.implSpinner.adapter as ArrayAdapter<String>
+            val newItemPosition = spinnerAdapter.getPosition(selectedText)
+            this.implSpinner.setSelection(newItemPosition)
+
+            implsPositionMap = hashMapOf(
+                0 to Constants.THREADS, 1 to Constants.ASYNC_TASK,
+                2 to Constants.HAMER, 3 to Constants.INTENT_SERV,
+                4 to Constants.THREAD_POOL, 5 to Constants.COROUTINES
+            )
         }
 
     }
