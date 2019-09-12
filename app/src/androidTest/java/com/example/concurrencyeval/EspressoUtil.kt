@@ -1,4 +1,4 @@
-package com.example.concurrencyeval.util
+package com.example.concurrencyeval
 
 import android.support.test.espresso.Espresso.onView
 import android.support.test.espresso.action.ViewActions.click
