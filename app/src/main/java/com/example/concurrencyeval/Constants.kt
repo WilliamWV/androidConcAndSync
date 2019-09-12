@@ -20,11 +20,11 @@ object Constants {
 
     // Image names
 
-    private const val CAT: Int = 0
-    private const val DOG: Int = 1
-    private const val LION: Int = 2
-    private const val PLATYPUS: Int = 3
-    private const val PIGEON: Int = 4
+    const val CAT: Int = 0
+    const val DOG: Int = 1
+    const val LION: Int = 2
+    const val PLATYPUS: Int = 3
+    const val PIGEON: Int = 4
 
     // Extras names
 
@@ -37,13 +37,13 @@ object Constants {
     // Problem names
     val problemNames = hashMapOf(
         MATRIX_MULT to "Matrix multiplication", CONCURR_SUM to "Concurrent sum",
-        PHILOSOPHERS to "Philosophers", DOWNLOAD_FILE to "Download file",
+        PHILOSOPHERS to "Philosophers", DOWNLOAD_FILE to "Download of image",
         -1 to "No problem selected"
     )
 
     //Implmentation names
     val implNames = hashMapOf(
-        THREADS to "Threads", THREAD_POOL to "Thread pool", ASYNC_TASK to "AsyncTask",
+        THREADS to "Threads", THREAD_POOL to "ThreadPool", ASYNC_TASK to "AsyncTask",
         INTENT_SERV to "IntentServices", HAMER to "HaMeR framework", COROUTINES to "Kotlin coroutines",
         -1 to "No implementation selected"
     )
@@ -53,6 +53,10 @@ object Constants {
     val imgURL = hashMapOf(
         DOG to BASE_URL + "dog.jpg", CAT to BASE_URL + "cat.jpg", LION to BASE_URL + "lion.jpg",
         PLATYPUS to BASE_URL + "platypus.jpg", PIGEON to BASE_URL + "pigeon.jpg"
+    )
+
+    val imgDescr = hashMapOf(
+        DOG to "Dog", CAT to "Cat", LION to "Lion", PLATYPUS to "Platypus", PIGEON to "Pigeon"
     )
 
     //General UI items

@@ -28,6 +28,7 @@ class ImgDownloadActivity : AbstractActivity(Constants.DOWNLOAD_FILE), Serializa
     private var threadPool: ExecutorService? = null
     private var handlerThread: HandlerThread? = null
     private var handler: DwHandler? = null
+    var img: Bitmap? = null
 
     private val messageReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context, intent: Intent) {
@@ -74,6 +75,7 @@ class ImgDownloadActivity : AbstractActivity(Constants.DOWNLOAD_FILE), Serializa
 
         super.mRunButton.setOnClickListener {
             super.mProgress.visibility = VISIBLE
+            this.img = null // removes reference to previous image
             when (super.mImplementation){
                 Constants.THREADS -> DwThread(imageSpinner.selectedItemPosition, this).start()
                 Constants.THREAD_POOL->{
@@ -109,15 +111,15 @@ class ImgDownloadActivity : AbstractActivity(Constants.DOWNLOAD_FILE), Serializa
         timeTV.text = timeReport
         val progress : ProgressBar = findViewById(R.id.fd_progressBar)
         progress.visibility = View.INVISIBLE
-        val img =  report.ans as Bitmap?
+        img =  report.ans as Bitmap?
         if(img != null) {
             val imgView: ImageView = findViewById(R.id.id_iv_image_report)
             val displayMetrics = DisplayMetrics()
             windowManager.defaultDisplay.getMetrics(displayMetrics)
             val width = displayMetrics.widthPixels
-            val scale = (width.toDouble()) / img.width.toDouble()
+            val scale = (width.toDouble()) / img!!.width.toDouble()
             val margin = 32
-            imgView.setImageBitmap(Bitmap.createScaledBitmap(img, width - margin, (img.height * scale).roundToInt(), false))
+            imgView.setImageBitmap(Bitmap.createScaledBitmap(img!!, width - margin, (img!!.height * scale).roundToInt(), false))
         }
     }
 
