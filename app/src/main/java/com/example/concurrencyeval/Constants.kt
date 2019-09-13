@@ -8,6 +8,7 @@ object Constants {
     const val CONCURR_SUM: Int = 1
     const val PHILOSOPHERS: Int = 2
     const val DOWNLOAD_FILE: Int = 3
+    const val PROD_CONS: Int = 4
 
     // Implementations identification
 
@@ -18,6 +19,10 @@ object Constants {
     const val HAMER: Int = 4
     const val COROUTINES: Int = 5
     const val THREADS_BARRIER: Int = 6
+    const val SEMAPHORE: Int = 7
+    const val SYNCHRONIZED: Int = 8
+    const val ATOMIC: Int = 9
+    const val LOCK: Int = 10
 
     // Image names
 
@@ -39,14 +44,16 @@ object Constants {
     val problemNames = hashMapOf(
         MATRIX_MULT to "Matrix multiplication", CONCURR_SUM to "Concurrent sum",
         PHILOSOPHERS to "Philosophers", DOWNLOAD_FILE to "Download of image",
-        -1 to "No problem selected"
+        PROD_CONS to "Producers and Consumers", -1 to "No problem selected"
     )
 
     //Implmentation names
     val implNames = hashMapOf(
         THREADS to "Threads", THREAD_POOL to "ThreadPool", ASYNC_TASK to "AsyncTask",
         INTENT_SERV to "IntentServices", HAMER to "HaMeR framework", COROUTINES to "Kotlin coroutines",
-        THREADS_BARRIER to "Threads with barriers", -1 to "No implementation selected"
+        THREADS_BARRIER to "Threads with barriers", SEMAPHORE to "Semaphore",
+        SYNCHRONIZED to "Synchronized", ATOMIC to "Atomic variables", LOCK to "Lock",
+        -1 to "No implementation selected"
     )
 
     //Images URLS
@@ -86,6 +93,11 @@ object Constants {
             RUN_BUTTON to R.id.fd_run_button,
             DESCRIPTION_TV to R.id.fd_tv_description,
             PROGRESS_BAR to R.id.fd_progressBar
+        ),
+        PROD_CONS to hashMapOf(
+            RUN_BUTTON to R.id.pc_run_button,
+            DESCRIPTION_TV to R.id.pc_tv_description,
+            PROGRESS_BAR to R.id.pc_progressBar
         )
     )
 

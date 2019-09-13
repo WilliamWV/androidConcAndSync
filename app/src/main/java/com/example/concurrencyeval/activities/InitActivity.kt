@@ -19,7 +19,8 @@ class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
 
     private val problemsPositionMap = hashMapOf(
         0 to Constants.MATRIX_MULT, 1 to Constants.PHILOSOPHERS,
-        2 to Constants.CONCURR_SUM, 3 to Constants.DOWNLOAD_FILE
+        2 to Constants.CONCURR_SUM, 3 to Constants.DOWNLOAD_FILE,
+        4 to Constants.PROD_CONS
     )
 
     private var implsPositionMap = hashMapOf(
@@ -82,6 +83,16 @@ class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
                     )
                 )
             }
+            Constants.PROD_CONS -> {
+                updateSpinnerToProblem(
+                    R.array.pc_implementations,
+                    hashMapOf(
+                        0 to Constants.SEMAPHORE, 1 to Constants.SYNCHRONIZED,
+                        2 to Constants.ATOMIC, 3 to Constants.LOCK
+                    )
+
+                )
+            }
         }
     }
 
@@ -125,7 +136,8 @@ class InitActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener{
                 Constants.MATRIX_MULT   -> Intent(this, MatMultActivity::class.java)
                 Constants.CONCURR_SUM   -> Intent(this, ConcSumActivity::class.java)
                 Constants.PHILOSOPHERS  -> Intent(this, PhilosophersActivity::class.java)
-                Constants.DOWNLOAD_FILE    -> Intent(this, ImgDownloadActivity::class.java)
+                Constants.DOWNLOAD_FILE -> Intent(this, ImgDownloadActivity::class.java)
+                Constants.PROD_CONS     -> Intent(this, ProdConsActivity::class.java)
 
                 else -> Intent(this, ProblemActivity::class.java).apply {
                     putExtra(Constants.PROBLEM_EXTRA, selectedProblem)

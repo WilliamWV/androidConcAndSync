@@ -35,11 +35,19 @@
     <string name="average">Average: </string>
     <string name="deviation">Deviation: </string>
     <string name="id_downloaded_image_description">Downloaded image</string>
+    <string name="consumed_items">Consumed items:</string>
+    <string name="produced_items">Produced items:</string>
+    <string name="pc_consumers_label">Consumers</string>
+    <string name="pc_producers_label">Producers</string>
+    <string name="pc_description">Uses Producers-Consumers problem to explore synchronization methods</string>
+    <string name="pc_title">Producers Consumers</string>
+    <string name="pc_buffer_size_label">Buffer size</string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>
         <item>Concurrent sum</item>
         <item>Download of image</item>
+        <item>Producers and Consumers</item>
     </string-array>
 
     <string-array name="mm_implementations">
@@ -71,6 +79,13 @@
         <item>IntentServices</item>
         <item>ThreadPool</item>
         <item>Kotlin coroutines</item>
+    </string-array>
+
+    <string-array name="pc_implementations">
+        <item>Semaphore</item>
+        <item>Synchronized</item>
+        <item>Atomic variables</item>
+        <item>Lock</item>
     </string-array>
 
     <string-array name="images">

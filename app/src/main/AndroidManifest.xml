@@ -14,6 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.ProdConsActivity"
+            android:parentActivityName=".activities.InitActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.InitActivity" />
+        </activity>
+        <activity
             android:name=".activities.ImgDownloadActivity"
             android:parentActivityName=".activities.InitActivity">
             <meta-data

@@ -7,6 +7,8 @@ class RunReport{
     val avg: Double
     val std: Double
     val ans: Any?
+    val prod: Int
+    val cons: Int
 
     private val noTime: Long = -1
     private val noAvg: Double = 0.0
@@ -17,6 +19,8 @@ class RunReport{
         this.avg = this.noAvg
         this.std = this.noStd
         this.ans = null
+        this.prod = 0
+        this.cons = 0
     }
     constructor(share: IntArray){
         this.time = this.noTime
@@ -28,11 +32,24 @@ class RunReport{
         }
         this.std = diffs/share.size
         this.ans = null
+        this.prod = 0
+        this.cons = 0
     }
 
     constructor(time: Long, ans: Any?){
         this.time = time
         this.ans = ans
+        this.std = this.noStd
+        this.avg = this.noAvg
+        this.prod = 0
+        this.cons = 0
+    }
+
+    constructor(producedItems: Int, consumedItems: Int){
+        this.prod = producedItems
+        this.cons = consumedItems
+        this.time = this.noTime
+        this.ans = null
         this.std = this.noStd
         this.avg = this.noAvg
     }
