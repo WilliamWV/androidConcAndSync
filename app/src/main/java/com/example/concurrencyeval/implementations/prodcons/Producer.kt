@@ -7,10 +7,11 @@ class Producer(private val millis: Long, private val buffer: GeneralBuffer) : Th
         var current = begin
         while (current - begin < millis){
 
+            val arrSize = 1024
+            val input = FFT.Complex.randComplexArray(arrSize)
+            val transform = FFT.Complex.fft(input)
 
-            val item = buffer.obtain()
-
-            // do something
+            buffer.insert(transform)
 
             current = System.currentTimeMillis()
         }
