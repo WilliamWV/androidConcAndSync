@@ -6,6 +6,7 @@ import android.widget.EditText
 import android.widget.TextView
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
+import com.example.concurrencyeval.implementations.prodcons.ProdConsManager
 import com.example.concurrencyeval.util.RunReport
 
 class ProdConsActivity : AbstractActivity(Constants.PROD_CONS) {
@@ -21,10 +22,7 @@ class ProdConsActivity : AbstractActivity(Constants.PROD_CONS) {
             val producers: Int = findViewById<EditText>(R.id.pc_et_producers).text.toString().toInt()
             val consumers: Int = findViewById<EditText>(R.id.pc_et_consumers).text.toString().toInt()
             val bufferSize: Int = findViewById<EditText>(R.id.pc_et_buffer).text.toString().toInt()
-            when(super.mImplementation){
-
-                else -> this.updateReport(RunReport(-1))
-            }
+            ProdConsManager(super.mImplementation, producers, consumers, bufferSize, this).start()
         }
 
     }

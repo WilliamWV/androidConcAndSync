@@ -148,7 +148,7 @@
             android:indeterminateTint="@color/progressColor"
             android:visibility="invisible"
             app:layout_constraintStart_toEndOf="@+id/pc_run_button"
-            app:layout_constraintTop_toBottomOf="@+id/pc_et_consumers"
+            app:layout_constraintTop_toBottomOf="@+id/pc_et_buffer"
             tools:targetApi="lollipop" />
 
     </android.support.constraint.ConstraintLayout>

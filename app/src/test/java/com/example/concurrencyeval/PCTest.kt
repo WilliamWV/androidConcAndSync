@@ -3,6 +3,7 @@ package com.example.concurrencyeval
 import com.example.concurrencyeval.implementations.prodcons.BufferSemaphore
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
+import java.util.concurrent.TimeUnit
 
 
 class PCTest {
@@ -10,7 +11,7 @@ class PCTest {
 
     @Test
     fun testBufferSemaphore() {
-        val buffer = BufferSemaphore(4)
+        val buffer = BufferSemaphore(4, TimeUnit.SECONDS.toMillis(1))
         assertEquals(0, buffer.itensOnBuffer)
         buffer.insert("String item")
         assertEquals(1, buffer.itensOnBuffer)
