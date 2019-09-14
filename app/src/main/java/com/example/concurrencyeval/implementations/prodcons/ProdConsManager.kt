@@ -52,6 +52,7 @@ class ProdConsManager(
             Constants.SEMAPHORE -> { startProcess(BufferSemaphore(bufferSize, TimeUnit.SECONDS.toMillis(timeToRun)))}
             Constants.LOCK -> {startProcess(BufferLock(bufferSize, TimeUnit.SECONDS.toMillis(timeToRun)))}
             Constants.SYNCHRONIZED -> synchronizedProcess(BufferSynchronized(bufferSize))
+            Constants.ATOMIC -> {startProcess(BufferAtomic(bufferSize, TimeUnit.SECONDS.toMillis(timeToRun)))}
 
             else -> (activity.runOnUiThread{activity.updateReport(RunReport(-1, -1))})
         }

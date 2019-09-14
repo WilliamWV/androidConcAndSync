@@ -4,7 +4,7 @@ import java.util.*
 
 class BufferSynchronized(override val size: Int) : GeneralBuffer {
 
-    override val buffer: Queue<Any?> = ArrayDeque(size)
+    private val buffer: Queue<Any?> = ArrayDeque(size)
 
     override var totalProdItems: Int = 0
     override var totalConsItems: Int = 0

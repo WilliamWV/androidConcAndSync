@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit
 import java.util.concurrent.locks.ReentrantLock
 
 class BufferLock(override val size: Int, private val millis: Long) : GeneralBuffer{
-    override val buffer: Queue<Any?> = ArrayDeque(size)
+    private val buffer: Queue<Any?> = ArrayDeque(size)
 
     override var itensOnBuffer = 0
     override var totalConsItems = 0
