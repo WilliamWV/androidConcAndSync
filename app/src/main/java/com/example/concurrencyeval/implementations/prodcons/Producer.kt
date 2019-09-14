@@ -1,7 +1,5 @@
 package com.example.concurrencyeval.implementations.prodcons
 
-import android.util.Log
-
 class Producer(private val millis: Long, private val buffer: GeneralBuffer) : Thread() {
     override fun run() {
 
