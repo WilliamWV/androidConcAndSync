@@ -52,7 +52,7 @@ object Constants {
         THREADS to "Threads", THREAD_POOL to "ThreadPool", ASYNC_TASK to "AsyncTask",
         INTENT_SERV to "IntentServices", HAMER to "HaMeR framework", COROUTINES to "Kotlin coroutines",
         THREADS_BARRIER to "Threads with barriers", SEMAPHORE to "Semaphore",
-        SYNCHRONIZED to "Synchronized", ATOMIC to "Atomic variables", LOCK to "Lock",
+        SYNCHRONIZED to "Synchronized", ATOMIC to "Atomic variables", LOCK to "Lock and Condition",
         -1 to "No implementation selected"
     )
 

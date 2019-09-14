@@ -85,7 +85,7 @@
         <item>Semaphore</item>
         <item>Synchronized</item>
         <item>Atomic variables</item>
-        <item>Lock</item>
+        <item>Lock and Condition</item>
     </string-array>
 
     <string-array name="images">

@@ -4,7 +4,7 @@ import java.util.*
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
 
-class BufferSemaphore(override val size: Int, val millis: Long) : GeneralBuffer {
+class BufferSemaphore(override val size: Int, private val millis: Long) : GeneralBuffer {
 
     override val buffer: Queue<Any?> = ArrayDeque(size)
 
@@ -17,7 +17,7 @@ class BufferSemaphore(override val size: Int, val millis: Long) : GeneralBuffer 
     private val mutex = Semaphore(1, true)
 
 
-    var begin = System.currentTimeMillis()
+    private var begin = System.currentTimeMillis()
 
     private fun remainingTime(): Long{
         return millis - (System.currentTimeMillis() - begin)

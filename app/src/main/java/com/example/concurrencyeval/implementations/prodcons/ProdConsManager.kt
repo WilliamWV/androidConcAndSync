@@ -21,8 +21,8 @@ class ProdConsManager(
         val consumers = MutableList(consumers) { Consumer(TimeUnit.SECONDS.toMillis(timeToRun), buffer)}
         producers.forEach { p -> p.start()}
         consumers.forEach { c -> c.start()}
-        producers.forEach { p -> p.join() }
-        consumers.forEach { c -> c.join() }
+        producers.forEach { p -> p.join()}
+        consumers.forEach { c -> c.join()}
 
         val report = RunReport(buffer.totalProdItems, buffer.totalConsItems)
         activity.runOnUiThread {
@@ -33,7 +33,8 @@ class ProdConsManager(
     override fun run() {
 
         when(bufferType){
-            Constants.SEMAPHORE -> { startProcess(BufferSemaphore(bufferSize, timeToRun))}
+            Constants.SEMAPHORE -> { startProcess(BufferSemaphore(bufferSize, TimeUnit.SECONDS.toMillis(timeToRun)))}
+            Constants.LOCK -> {startProcess(BufferLock(bufferSize, TimeUnit.SECONDS.toMillis(timeToRun)))}
 
             else -> (activity.runOnUiThread{activity.updateReport(RunReport(-1, -1))})
         }
