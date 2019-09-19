@@ -4,7 +4,6 @@ import com.example.concurrencyeval.implementations.prodcons.FFT
 import junit.framework.TestCase.assertTrue
 import org.junit.Test
 import kotlin.math.abs
-import kotlin.system.measureTimeMillis
 
 class FFTTest {
 
