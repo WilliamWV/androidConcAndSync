@@ -57,7 +57,7 @@ object Constants {
     )
 
     //Images URLS
-    private const val BASE_URL = "http://inf.ufrgs.br/~wwvargas/test/"
+    private const val BASE_URL = "https://gitlab.com/wwvargas/androidconcurrency/raw/master/imgs/"
     val imgURL = hashMapOf(
         DOG to BASE_URL + "dog.jpg", CAT to BASE_URL + "cat.jpg", LION to BASE_URL + "lion.jpg",
         PLATYPUS to BASE_URL + "platypus.jpg", PIGEON to BASE_URL + "pigeon.jpg"

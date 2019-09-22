@@ -26,7 +26,7 @@ class DwTest {
         EspressoUtil.clickOnViewText(Constants.imgDescr[id]!!)
         EspressoUtil.clickOnViewId(R.id.fd_run_button)
         //TODO: Change this Thread.sleep by a better option to avoid wasting time on tests
-        Thread.sleep(TimeUnit.SECONDS.toMillis(1))
+        Thread.sleep(TimeUnit.SECONDS.toMillis(2))
         onView(withId(R.id.id_iv_image_report)).check(matches(isDisplayingAtLeast(1)))
 
     }
