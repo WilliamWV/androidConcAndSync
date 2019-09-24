@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.concurrencyeval.Constants
+import com.example.concurrencyeval.util.RunManager
 import com.example.concurrencyeval.util.RunReport
 
 abstract class AbstractActivity(private val problemId: Int) : AppCompatActivity() {
@@ -14,7 +15,9 @@ abstract class AbstractActivity(private val problemId: Int) : AppCompatActivity(
     private lateinit var mDescriptionText : String
     lateinit var mRunButton : Button
     lateinit var mProgress : ProgressBar
+    var runManager = RunManager()
     var mImplementation : Int = 0
+    var report: RunReport = RunReport(-1)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val descriptionTVId = Constants.problemsUIIds[problemId]!![Constants.DESCRIPTION_TV]!!
@@ -33,5 +36,9 @@ abstract class AbstractActivity(private val problemId: Int) : AppCompatActivity(
 
     fun setImplementation(impl: Int){
         mImplementation = impl
+    }
+
+    fun waitTask(){
+        runManager.waitUntilComplete()
     }
 }

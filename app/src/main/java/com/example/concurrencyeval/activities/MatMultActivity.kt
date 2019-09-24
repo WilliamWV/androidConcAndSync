@@ -1,6 +1,7 @@
 package com.example.concurrencyeval.activities
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View.INVISIBLE
 import android.view.View.VISIBLE
 import android.widget.EditText
@@ -24,6 +25,7 @@ class MatMultActivity : AbstractActivity(Constants.MATRIX_MULT) {
         super.onCreate(savedInstanceState)
 
         super.mRunButton.setOnClickListener {
+            super.runManager.taskStarted()
             super.mProgress.visibility = VISIBLE
             val size: Int = findViewById<EditText>(R.id.mm_et_size).text.toString().toInt()
             val tasks: Int = findViewById<EditText>(R.id.mm_et_tasks).text.toString().toInt()
@@ -44,5 +46,9 @@ class MatMultActivity : AbstractActivity(Constants.MATRIX_MULT) {
         timeTV.text = timeReport
         val progress : ProgressBar = findViewById(R.id.mm_progressBar)
         progress.visibility = INVISIBLE
+        super.report = report
+        Log.d("TEST_ESPRESSO", super.report.time.toString())
+        Log.d("TEST_ESPRESSO", report.time.toString())
+        super.runManager.taskCompleted()
     }
 }
