@@ -40,7 +40,7 @@ class FinalSumTest {
     fun csTest(){
 
         val tasksToUse = listOf(1, 2, 8, 32, 256)
-        val numbersToTest = listOf(1048576, 2097152, 4194304)
+        val numbersToTest = listOf(1048576)
         val implementations = listOf(Constants.THREADS, Constants.THREAD_POOL, Constants.HAMER, Constants.COROUTINES, Constants.THREADS_BARRIER)
 
         implementations.forEach { impl ->

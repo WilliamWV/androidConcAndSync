@@ -22,6 +22,7 @@ class PhilosophersActivity : AbstractActivity(Constants.PHILOSOPHERS) {
         super.onCreate(savedInstanceState)
 
         super.mRunButton.setOnClickListener {
+            super.runManager.taskStarted()
             super.mProgress.visibility = View.VISIBLE
             val philosophers: Int = findViewById<EditText>(R.id.ph_et_philosophers).text.toString().toInt()
             val time: Int = findViewById<EditText>(R.id.ph_et_time).text.toString().toInt()
@@ -43,6 +44,8 @@ class PhilosophersActivity : AbstractActivity(Constants.PHILOSOPHERS) {
         stdTV.text = stdReport
         val progress : ProgressBar = findViewById(R.id.ph_progressBar)
         progress.visibility = View.INVISIBLE
+        super.report = report
+        super.runManager.taskCompleted()
 
     }
 }
