@@ -1,5 +1,6 @@
 package com.example.concurrencyeval.implementations.philosophers
 
+import kotlin.math.abs
 import kotlin.math.max
 import kotlin.random.Random
 
@@ -39,7 +40,7 @@ class LCS {
         //range is the number of characters to consider to generate the maximum string
         fun randString(range: Int, length: Int): String{
             assert(range < 26)
-            return Array(length){ Random.nextInt() % range }.map { 'a'.plus(it) }.toString()
+            return Array(length){ abs(Random.nextInt()) % range }.map { ('a'.toInt() + it).toChar() }.toString()
         }
 
     }

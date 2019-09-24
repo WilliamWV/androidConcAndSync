@@ -13,7 +13,7 @@ class PhCoroutines(
     override fun execute(): RunReport {
         runBlocking {
             val jobs: MutableList<Job> = mutableListOf()
-            val forks: Array<Any> = Array(philosophers){Any()}
+            val forks: Array<String> = Array(philosophers){LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)}
             val file = File(phDir, Constants.PHILOSOPHERS_FILE)
             val pool = Executors.newFixedThreadPool(philosophers).asCoroutineDispatcher()
 
@@ -31,13 +31,17 @@ class PhCoroutines(
         return PhUtil.buildReport(philosophers, File(phDir, Constants.PHILOSOPHERS_FILE))
     }
 
-    private fun think(id: Int, forks: Array<Any>, file: File){
+    private fun think(id: Int, forks: Array<String>, file: File){
         val beg = System.currentTimeMillis()
         var end = beg
         while ((end - beg) / 1000 <= time) {
             if (id == 0) {
                 synchronized(forks[id]) {
                     synchronized(forks[(id+1) % forks.size]) {
+                        LCS.lcsLength(forks[id], forks[id+1])
+                        forks[id] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
+                        forks[id+1] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
+
                         file.appendText("$id\n")
                     }
                 }

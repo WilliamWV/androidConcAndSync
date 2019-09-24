@@ -16,7 +16,7 @@ class PhThreadPool(
 
 
     override fun execute(): RunReport {
-        val forks: Array<Any> = Array(philosophers){Any()}
+        val forks: Array<String> = Array(philosophers){LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)}
         val file = File(phDir, Constants.PHILOSOPHERS_FILE)
 
         for (i in 0 until philosophers){

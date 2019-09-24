@@ -37,8 +37,8 @@ class PhilosophersActivity : AbstractActivity(Constants.PHILOSOPHERS) {
     override fun updateReport(report: RunReport){
         val avgTV: TextView = findViewById(R.id.ph_average_report)
         val stdTV: TextView = findViewById(R.id.ph_deviation_report)
-        val avgReport = "${report.avg}"
-        val stdReport = "${report.std}"
+        val avgReport = "%.4f".format(report.avg)
+        val stdReport = "%.4f".format(report.std)
         avgTV.text = avgReport
         stdTV.text = stdReport
         val progress : ProgressBar = findViewById(R.id.ph_progressBar)

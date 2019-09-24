@@ -105,4 +105,7 @@ object Constants {
     const val MATRIX_RANGE: Long = 15
     const val ARR_RANGE: Long = 15
     const val PHILOSOPHERS_FILE: String = "phi_file.txt"
+
+    const val LCS_LENGTH: Int = 64
+    const val LCS_RANGE: Int = 3
 }
