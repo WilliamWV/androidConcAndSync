@@ -14,7 +14,7 @@ import android.support.test.espresso.matcher.ViewMatchers.isRoot
 import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
-import com.example.concurrencyeval.activities.MatMultActivity
+import com.example.concurrencyeval.activities.ConcSumActivity
 import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -22,38 +22,38 @@ import org.junit.runner.RunWith
 
 
 @RunWith(AndroidJUnit4::class)
-class FinalMMTest {
+class FinalSumTest {
 
     @get:Rule
-    var mmActivity: ActivityTestRule<MatMultActivity> = ActivityTestRule(MatMultActivity::class.java, false, false)
+    var csActivity: ActivityTestRule<ConcSumActivity> = ActivityTestRule(ConcSumActivity::class.java, false, false)
 
-    private fun runMMTest(tasks: Int, size: Int){
-        onView(withId(R.id.mm_et_size)).perform(clearText(), typeText(size.toString()), click())
-        onView(withId(R.id.mm_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
+    private fun runSumTest(tasks: Int, numbers: Int){
+        onView(withId(R.id.cs_et_numbers)).perform(clearText(), typeText(numbers.toString()), click())
+        onView(withId(R.id.cs_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
         onView(isRoot()).perform(closeSoftKeyboard())
-        onView(withId(R.id.mm_run_button)).perform(click())
-        mmActivity.activity.waitTask()
-        assertTrue(mmActivity.activity.report.time > 0)
+        onView(withId(R.id.cs_run_button)).perform(click())
+        csActivity.activity.waitTask()
+        assertTrue(csActivity.activity.report.time > 0)
     }
 
     @Test
-    fun mmTest(){
+    fun csTest(){
 
-        val tasksToUse = listOf(1, 2, 8, 64)
-        val sizesToTest = listOf(128, 256, 512)
-        val implementations = listOf(Constants.THREADS, Constants.THREAD_POOL, Constants.HAMER, Constants.COROUTINES)
+        val tasksToUse = listOf(1, 2, 8, 32, 256)
+        val numbersToTest = listOf(1048576, 2097152, 4194304)
+        val implementations = listOf(Constants.THREADS, Constants.THREAD_POOL, Constants.HAMER, Constants.COROUTINES, Constants.THREADS_BARRIER)
 
         implementations.forEach { impl ->
             val intent = Intent()
             intent.putExtra(Constants.IMPL_EXTRA, impl)
-            mmActivity.launchActivity(intent)
+            csActivity.launchActivity(intent)
 
-            sizesToTest.forEach{ size ->
+            numbersToTest.forEach{ size ->
                 tasksToUse.forEach { tasks ->
-                    runMMTest(tasks, size)
+                    runSumTest(tasks, size)
                 }
             }
-            mmActivity.finishActivity()
+            csActivity.finishActivity()
         }
     }
 

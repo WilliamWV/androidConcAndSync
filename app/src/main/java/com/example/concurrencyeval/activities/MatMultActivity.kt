@@ -47,8 +47,6 @@ class MatMultActivity : AbstractActivity(Constants.MATRIX_MULT) {
         val progress : ProgressBar = findViewById(R.id.mm_progressBar)
         progress.visibility = INVISIBLE
         super.report = report
-        Log.d("TEST_ESPRESSO", super.report.time.toString())
-        Log.d("TEST_ESPRESSO", report.time.toString())
         super.runManager.taskCompleted()
     }
 }

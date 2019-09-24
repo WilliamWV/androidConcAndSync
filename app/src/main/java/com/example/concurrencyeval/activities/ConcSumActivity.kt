@@ -21,6 +21,7 @@ class ConcSumActivity : AbstractActivity(Constants.CONCURR_SUM) {
         super.onCreate(savedInstanceState)
         //Use "super" to avoid confusion of where the variable is defined
         super.mRunButton.setOnClickListener {
+            super.runManager.taskStarted()
             super.mProgress.visibility = VISIBLE
             val numbers: Int = findViewById<EditText>(R.id.cs_et_numbers).text.toString().toInt()
             val tasks: Int = findViewById<EditText>(R.id.cs_et_tasks).text.toString().toInt()
@@ -42,5 +43,7 @@ class ConcSumActivity : AbstractActivity(Constants.CONCURR_SUM) {
         timeTV.text = timeReport
         val progress : ProgressBar = findViewById(R.id.cs_progressBar)
         progress.visibility = View.INVISIBLE
+        super.report = report
+        super.runManager.taskCompleted()
     }
 }
