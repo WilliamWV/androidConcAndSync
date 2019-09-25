@@ -73,7 +73,7 @@ class FinalProdConsTest : GeneralInstrTest{
         val consumersToTest = listOf(5, 10, 20)
         val bufferToUse = listOf(2, 5, 10)
 
-        val implementations = listOf(Constants.SEMAPHORE, Constants.SYNCHRONIZED, Constants.LOCK, Constants.ATOMIC)
+        val implementations = listOf(Constants.LOCK, Constants.ATOMIC, Constants.SEMAPHORE, Constants.SYNCHRONIZED)
 
         implementations.forEach { impl ->
             val intent = Intent()
