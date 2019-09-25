@@ -9,12 +9,15 @@ class Consumer(private val millis: Long, private val buffer: GeneralBuffer) : Th
         val begin = System.currentTimeMillis()
         var current = begin
         while (current - begin < millis){
+
             val item = buffer.obtain()
             if (item != null) {
                 val transformed = item as Array<Complex>
                 Complex.ifft(transformed)
             }
             current = System.currentTimeMillis()
+
         }
+
     }
 }

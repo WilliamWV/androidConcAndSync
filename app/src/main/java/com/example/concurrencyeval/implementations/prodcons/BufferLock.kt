@@ -25,9 +25,11 @@ class BufferLock(override val size: Int, private val millis: Long) : GeneralBuff
         if(!mutexLock.tryLock(remainingTime(), TimeUnit.MILLISECONDS)) {
             return
         }
+
         while(itensOnBuffer == size){
-            if (remainingTime() <= 0) return
-            if(!bufferFull.await(remainingTime(), TimeUnit.MILLISECONDS)){
+            val remTime = remainingTime()
+            if(!bufferFull.await(remTime, TimeUnit.MILLISECONDS)){
+                mutexLock.unlock()
                 return
             }
 
@@ -42,18 +44,22 @@ class BufferLock(override val size: Int, private val millis: Long) : GeneralBuff
     }
 
     override fun obtain(): Any? {
-
         if(!mutexLock.tryLock(remainingTime(), TimeUnit.MILLISECONDS)){
             return null
         }
 
         while (itensOnBuffer == 0){
-            if (remainingTime() <= 0) return null
+            val remTime = remainingTime()
 
-            if(!bufferEmpty.await(remainingTime(), TimeUnit.MILLISECONDS)){
+
+            if(!bufferEmpty.await(remTime, TimeUnit.MILLISECONDS)){
+                mutexLock.unlock()
+
                 return null
             }
+
         }
+
 
         val item = buffer.poll()
         itensOnBuffer-=1
@@ -62,6 +68,7 @@ class BufferLock(override val size: Int, private val millis: Long) : GeneralBuff
 
         bufferFull.signalAll()
         mutexLock.unlock()
+
         return item
     }
 }
