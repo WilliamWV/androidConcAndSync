@@ -20,6 +20,7 @@ import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.util.concurrent.TimeoutException
 
 
 @RunWith(AndroidJUnit4::class)
@@ -31,7 +32,7 @@ class FinalSumTest : GeneralInstrTest{
     @get:Rule
     var csActivity: ActivityTestRule<ConcSumActivity> = ActivityTestRule(ConcSumActivity::class.java, false, false)
 
-    private fun runSumTest(tasks: Int, numbers: Int){
+    private fun performInteractions(tasks: Int, numbers: Int){
         onView(withId(R.id.cs_et_numbers)).perform(clearText(), typeText(numbers.toString()), click())
         onView(withId(R.id.cs_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
         onView(isRoot()).perform(closeSoftKeyboard())
@@ -39,6 +40,16 @@ class FinalSumTest : GeneralInstrTest{
         csActivity.activity.waitTask()
         assertTrue(csActivity.activity.report.time > 0)
         reports.add(csActivity.activity.report)
+    }
+
+    private fun runSumTest(tasks: Int, numbers: Int, fails: Int = 0){
+        try {
+            performInteractions(tasks, numbers)
+        }catch(te: TimeoutException){
+            // try again if number of fails does not have passed maximum
+            if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
+            else runSumTest(tasks, numbers, fails + 1)
+        }
     }
 
     @Test
@@ -53,9 +64,9 @@ class FinalSumTest : GeneralInstrTest{
             intent.putExtra(Constants.IMPL_EXTRA, impl)
             csActivity.launchActivity(intent)
 
-            numbersToTest.forEach{ size ->
+            numbersToTest.forEach{ numbers ->
                 tasksToUse.forEach { tasks ->
-                    runSumTest(tasks, size)
+                    runSumTest(tasks, numbers)
                 }
             }
             csActivity.finishActivity()

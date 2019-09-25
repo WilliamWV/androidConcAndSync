@@ -20,6 +20,7 @@ import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.util.concurrent.TimeoutException
 
 
 @RunWith(AndroidJUnit4::class)
@@ -30,7 +31,7 @@ class FinalMMTest : GeneralInstrTest{
     @get:Rule
     var mmActivity: ActivityTestRule<MatMultActivity> = ActivityTestRule(MatMultActivity::class.java, false, false)
 
-    private fun runMMTest(tasks: Int, size: Int){
+    private fun performInteractions(tasks: Int, size: Int){
         onView(withId(R.id.mm_et_size)).perform(clearText(), typeText(size.toString()), click())
         onView(withId(R.id.mm_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
         onView(isRoot()).perform(closeSoftKeyboard())
@@ -38,6 +39,15 @@ class FinalMMTest : GeneralInstrTest{
         mmActivity.activity.waitTask()
         assertTrue(mmActivity.activity.report.time > 0)
         reports.add(mmActivity.activity.report)
+    }
+    private fun runMMTest(tasks: Int, size: Int, fails: Int = 0){
+        try {
+            performInteractions(tasks, size)
+        }catch(te: TimeoutException){
+            // try again if number of fails does not have passed maximum
+            if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
+            else runMMTest(tasks, size, fails + 1)
+        }
     }
     @Test
     override fun runTest() {

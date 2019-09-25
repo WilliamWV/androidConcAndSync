@@ -20,6 +20,7 @@ import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.util.concurrent.TimeoutException
 
 
 @RunWith(AndroidJUnit4::class)
@@ -28,7 +29,7 @@ class FinalImgDownTest : GeneralInstrTest{
 
     @get:Rule
     var idActivity: ActivityTestRule<ImgDownloadActivity> = ActivityTestRule(ImgDownloadActivity::class.java, false, false)
-    private fun uiInteractions(img: Int){
+    private fun performInteractions(img: Int){
         onView(withId(R.id.id_spinner_choose_img)).perform(click())
         onView(withText(Constants.imgDescr[img]!!)).perform(click())
         onView(withId(R.id.fd_run_button)).perform(click())
@@ -36,6 +37,17 @@ class FinalImgDownTest : GeneralInstrTest{
         assertTrue(idActivity.activity.report.time > 0)
         reports.add(idActivity.activity.report)
     }
+
+    private fun runIDTest(img: Int, fails: Int = 0){
+        try {
+            performInteractions(img)
+        }catch(te: TimeoutException){
+            // try again if number of fails does not have passed maximum
+            if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
+            else runIDTest(img , fails + 1)
+        }
+    }
+
     @Test
     override fun runTest(){
 
@@ -53,7 +65,7 @@ class FinalImgDownTest : GeneralInstrTest{
             intent.putExtra(Constants.IMPL_EXTRA, impl)
             idActivity.launchActivity(intent)
 
-            imgs.forEach{ img -> uiInteractions(img) }
+            imgs.forEach{ img -> runIDTest(img) }
             idActivity.finishActivity()
         }
     }

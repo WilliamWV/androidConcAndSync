@@ -20,6 +20,7 @@ import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.util.concurrent.TimeoutException
 
 
 @RunWith(AndroidJUnit4::class)
@@ -30,15 +31,33 @@ class FinalPhTest : GeneralInstrTest{
     @get:Rule
     var phActivity: ActivityTestRule<PhilosophersActivity> = ActivityTestRule(PhilosophersActivity::class.java, false, false)
 
-    private fun runPhTest(philosophers: Int, time: Int){
-        onView(withId(R.id.ph_et_time)).perform(clearText(), typeText(time.toString()), click())
-        onView(withId(R.id.ph_et_philosophers)).perform(clearText(), typeText(philosophers.toString()), click())
+    private fun performInteractions(philosophers: Int, time: Int){
+        onView(withId(R.id.ph_et_time)).perform(
+            clearText(),
+            typeText(time.toString()),
+            click()
+        )
+        onView(withId(R.id.ph_et_philosophers)).perform(
+            clearText(),
+            typeText(philosophers.toString()),
+            click()
+        )
         onView(isRoot()).perform(closeSoftKeyboard())
         onView(withId(R.id.ph_run_button)).perform(click())
         phActivity.activity.waitTask()
         assertTrue(phActivity.activity.report.avg > 0)
         assertTrue(phActivity.activity.report.std > 0)
         reports.add(phActivity.activity.report)
+    }
+
+    private fun runPhTest(philosophers: Int, time: Int, fails: Int = 0){
+        try {
+            performInteractions(philosophers, time)
+        }catch(te: TimeoutException){
+            // try again if number of fails does not have passed maximum
+            if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
+            else runPhTest(philosophers, time, fails + 1)
+        }
     }
 
     @Test

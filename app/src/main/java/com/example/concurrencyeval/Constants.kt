@@ -108,4 +108,6 @@ object Constants {
 
     const val LCS_LENGTH: Int = 64
     const val LCS_RANGE: Int = 3
+
+    const val MAX_TIMEOUT_FAILS: Int = 5
 }

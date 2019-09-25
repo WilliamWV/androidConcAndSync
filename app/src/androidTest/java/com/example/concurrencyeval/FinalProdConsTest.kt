@@ -20,6 +20,7 @@ import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.util.concurrent.TimeoutException
 
 
 @RunWith(AndroidJUnit4::class)
@@ -30,16 +31,39 @@ class FinalProdConsTest : GeneralInstrTest{
     @get:Rule
     var pcActivity: ActivityTestRule<ProdConsActivity> = ActivityTestRule(ProdConsActivity::class.java, false, false)
 
-    private fun runPcTest(producers: Int, consumers: Int, buffSize: Int){
-        onView(withId(R.id.pc_et_producers)).perform(clearText(), typeText(producers.toString()), click())
-        onView(withId(R.id.pc_et_consumers)).perform(clearText(), typeText(consumers.toString()), click())
-        onView(withId(R.id.pc_et_buffer)).perform(clearText(), typeText(buffSize.toString()), click())
+    private fun performInteractions(producers: Int, consumers: Int, buffSize: Int){
+        onView(withId(R.id.pc_et_producers)).perform(
+            clearText(),
+            typeText(producers.toString()),
+            click()
+        )
+        onView(withId(R.id.pc_et_consumers)).perform(
+            clearText(),
+            typeText(consumers.toString()),
+            click()
+        )
+        onView(withId(R.id.pc_et_buffer)).perform(
+            clearText(),
+            typeText(buffSize.toString()),
+            click()
+        )
         onView(isRoot()).perform(closeSoftKeyboard())
         onView(withId(R.id.pc_run_button)).perform(click())
         pcActivity.activity.waitTask()
         assertTrue(pcActivity.activity.report.prod > 0)
         assertTrue(pcActivity.activity.report.cons > 0)
         reports.add(pcActivity.activity.report)
+    }
+
+    private fun runPcTest(producers: Int, consumers: Int, buffSize: Int, fails: Int = 0){
+        try {
+            performInteractions(producers, consumers, buffSize)
+        }catch(te: TimeoutException){
+            // try again if number of fails does not have passed maximum
+            if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
+            else runPcTest(producers, consumers, buffSize, fails + 1)
+        }
+
     }
 
     @Test
