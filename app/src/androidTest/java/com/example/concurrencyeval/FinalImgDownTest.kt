@@ -35,7 +35,7 @@ class FinalImgDownTest {
     }
 
     @Test
-    fun mmTest(){
+    fun idTest(){
 
         val implementations = listOf(
             Constants.THREADS, Constants.THREAD_POOL, Constants.ASYNC_TASK,

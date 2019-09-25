@@ -18,6 +18,7 @@ class ProdConsActivity : AbstractActivity(Constants.PROD_CONS) {
         super.onCreate(savedInstanceState)
 
         super.mRunButton.setOnClickListener {
+            super.runManager.taskStarted()
             super.mProgress.visibility = View.VISIBLE
             val producers: Int = findViewById<EditText>(R.id.pc_et_producers).text.toString().toInt()
             val consumers: Int = findViewById<EditText>(R.id.pc_et_consumers).text.toString().toInt()
@@ -37,5 +38,7 @@ class ProdConsActivity : AbstractActivity(Constants.PROD_CONS) {
         consumedTV.text = consumedReport
 
         super.mProgress.visibility = View.INVISIBLE
+        super.report = report
+        super.runManager.taskCompleted()
     }
 }
