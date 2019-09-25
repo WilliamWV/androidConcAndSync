@@ -74,6 +74,7 @@ class ImgDownloadActivity : AbstractActivity(Constants.DOWNLOAD_FILE), Serializa
         val imageSpinner = this.populateSpinner()
 
         super.mRunButton.setOnClickListener {
+            super.runManager.taskStarted()
             super.mProgress.visibility = VISIBLE
             this.img = null // removes reference to previous image
             when (super.mImplementation){
@@ -121,6 +122,8 @@ class ImgDownloadActivity : AbstractActivity(Constants.DOWNLOAD_FILE), Serializa
             val margin = 32
             imgView.setImageBitmap(Bitmap.createScaledBitmap(img!!, width - margin, (img!!.height * scale).roundToInt(), false))
         }
+        super.report = report
+        super.runManager.taskCompleted()
     }
 
 
