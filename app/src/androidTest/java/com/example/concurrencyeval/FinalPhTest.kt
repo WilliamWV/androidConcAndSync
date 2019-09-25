@@ -15,6 +15,7 @@ import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import com.example.concurrencyeval.activities.PhilosophersActivity
+import com.example.concurrencyeval.util.RunReport
 import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -22,7 +23,9 @@ import org.junit.runner.RunWith
 
 
 @RunWith(AndroidJUnit4::class)
-class FinalPhTest {
+class FinalPhTest : GeneralInstrTest{
+
+    override var reports: MutableList<RunReport> = mutableListOf()
 
     @get:Rule
     var phActivity: ActivityTestRule<PhilosophersActivity> = ActivityTestRule(PhilosophersActivity::class.java, false, false)
@@ -35,10 +38,11 @@ class FinalPhTest {
         phActivity.activity.waitTask()
         assertTrue(phActivity.activity.report.avg > 0)
         assertTrue(phActivity.activity.report.std > 0)
+        reports.add(phActivity.activity.report)
     }
 
     @Test
-    fun phTest(){
+    override fun runTest(){
 
         val philosophersToUse = listOf(5, 11, 101)
         val timeToTest = listOf(2)
