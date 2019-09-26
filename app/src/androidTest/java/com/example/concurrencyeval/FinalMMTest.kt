@@ -14,6 +14,7 @@ import android.support.test.espresso.matcher.ViewMatchers.isRoot
 import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
+import android.util.Log
 import com.example.concurrencyeval.activities.MatMultActivity
 import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
@@ -26,8 +27,21 @@ import java.util.concurrent.TimeoutException
 @RunWith(AndroidJUnit4::class)
 class FinalMMTest : GeneralInstrTest{
 
+    private val logTag = "MM_TEST"
     override fun analizeReports() {
-
+        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(3) + " MATRIX MULTIPLICATION " + "=".repeat(4))
+        Log.d(logTag, "=".repeat(30))
+        reports.forEach { report ->
+            Log.d(logTag,
+                "Report execution of " + Constants.implNames[report.testParams["impl"]] +
+                        " implementation, with size: " + report.testParams["size"] + "X" +
+                        report.testParams["size"] + "; using " + report.testParams["tasks"] +
+                        " tasks"
+            )
+            Log.d(logTag, "Time: " + report.runReport.time.toString() + " ms")
+        }
+        Log.d(logTag, "=".repeat(30))
     }
 
     override var reports: MutableList<TestReport> = mutableListOf()
@@ -35,7 +49,7 @@ class FinalMMTest : GeneralInstrTest{
     @get:Rule
     var mmActivity: ActivityTestRule<MatMultActivity> = ActivityTestRule(MatMultActivity::class.java, false, false)
 
-    private fun performInteractions(tasks: Int, size: Int){
+    private fun performInteractions(tasks: Int, size: Int, impl: Int){
         onView(withId(R.id.mm_et_size)).perform(clearText(), typeText(size.toString()), click())
         onView(withId(R.id.mm_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
         onView(isRoot()).perform(closeSoftKeyboard())
@@ -46,12 +60,12 @@ class FinalMMTest : GeneralInstrTest{
             TestReport(
                 Constants.MATRIX_MULT,
                 mmActivity.activity.report,
-                mapOf("tasks" to tasks, "size" to size)
+                mapOf("tasks" to tasks, "size" to size, "impl" to impl)
             ))
     }
-    private fun runMMTest(tasks: Int, size: Int, fails: Int = 0){
+    private fun runMMTest(tasks: Int, size: Int, impl: Int, fails: Int = 0){
         try {
-            performInteractions(tasks, size)
+            performInteractions(tasks, size, impl)
         }catch(te: TimeoutException){
             // try again if number of fails does not have passed maximum
             if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
@@ -71,7 +85,7 @@ class FinalMMTest : GeneralInstrTest{
 
             sizesToTest.forEach{ size ->
                 tasksToUse.forEach { tasks ->
-                    runMMTest(tasks, size)
+                    runMMTest(tasks, size, impl)
                 }
             }
             mmActivity.finishActivity()

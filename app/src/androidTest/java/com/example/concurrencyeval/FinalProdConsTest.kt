@@ -14,6 +14,7 @@ import android.support.test.espresso.matcher.ViewMatchers.isRoot
 import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
+import android.util.Log
 import com.example.concurrencyeval.activities.ProdConsActivity
 import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
@@ -25,8 +26,22 @@ import java.util.concurrent.TimeoutException
 
 @RunWith(AndroidJUnit4::class)
 class FinalProdConsTest : GeneralInstrTest{
+    private val logTag = "PC_TEST"
     override fun analizeReports() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(2) + " PRODUCERS AND CONSUMERS " + "=".repeat(3))
+        Log.d(logTag, "=".repeat(30))
+        reports.forEach { report ->
+            Log.d(logTag,
+                "Report execution of " + Constants.implNames[report.testParams["impl"]] +
+                        " implementation, with " + report.testParams["producers"] + " producers and " +
+                        report.testParams["consumers"] + " consumers, using a buffer with " +
+                        report.testParams["buffSize"] + " positions."
+            )
+            Log.d(logTag, "Produced items: " + report.runReport.prod.toString())
+            Log.d(logTag, "Consumed items: " + report.runReport.cons.toString())
+        }
+        Log.d(logTag, "=".repeat(30))
     }
 
     override var reports: MutableList<TestReport> = mutableListOf()
@@ -34,7 +49,7 @@ class FinalProdConsTest : GeneralInstrTest{
     @get:Rule
     var pcActivity: ActivityTestRule<ProdConsActivity> = ActivityTestRule(ProdConsActivity::class.java, false, false)
 
-    private fun performInteractions(producers: Int, consumers: Int, buffSize: Int){
+    private fun performInteractions(producers: Int, consumers: Int, buffSize: Int, impl: Int){
         onView(withId(R.id.pc_et_producers)).perform(
             clearText(),
             typeText(producers.toString()),
@@ -59,13 +74,14 @@ class FinalProdConsTest : GeneralInstrTest{
             TestReport(
                 Constants.PROD_CONS,
                 pcActivity.activity.report,
-                mapOf("producers" to producers, "consumers" to consumers, "buffSize" to buffSize)
+                mapOf("producers" to producers, "consumers" to consumers,
+                    "buffSize" to buffSize, "impl" to impl)
             ))
     }
 
-    private fun runPcTest(producers: Int, consumers: Int, buffSize: Int, fails: Int = 0){
+    private fun runPcTest(producers: Int, consumers: Int, buffSize: Int, impl: Int, fails: Int = 0){
         try {
-            performInteractions(producers, consumers, buffSize)
+            performInteractions(producers, consumers, buffSize, impl)
         }catch(te: TimeoutException){
             // try again if number of fails does not have passed maximum
             if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
@@ -91,7 +107,7 @@ class FinalProdConsTest : GeneralInstrTest{
             bufferToUse.forEach{ buffSize ->
                 producersToTest.forEach { producers ->
                     consumersToTest.forEach { consumers ->
-                        runPcTest(producers, consumers, buffSize)
+                        runPcTest(producers, consumers, buffSize, impl)
                     }
                 }
             }

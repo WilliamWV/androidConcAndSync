@@ -14,6 +14,7 @@ import android.support.test.espresso.matcher.ViewMatchers.isRoot
 import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
+import android.util.Log
 import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
@@ -25,8 +26,20 @@ import java.util.concurrent.TimeoutException
 
 @RunWith(AndroidJUnit4::class)
 class FinalSumTest : GeneralInstrTest{
+    private val logTag = "CS_TEST"
     override fun analizeReports() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(7) + " CONCURRENT SUM " + "=".repeat(7))
+        Log.d(logTag, "=".repeat(30))
+        reports.forEach { report ->
+            Log.d(logTag,
+                "Report execution of " + Constants.implNames[report.testParams["impl"]] +
+                        " implementation, adding " + report.testParams["numbers"] +
+                        " numbers and using " + report.testParams["tasks"] + " tasks"
+            )
+            Log.d(logTag, "Time: " + report.runReport.time.toString() + " ms")
+        }
+        Log.d(logTag, "=".repeat(30))
     }
 
     override var reports: MutableList<TestReport> = mutableListOf()
@@ -35,7 +48,7 @@ class FinalSumTest : GeneralInstrTest{
     @get:Rule
     var csActivity: ActivityTestRule<ConcSumActivity> = ActivityTestRule(ConcSumActivity::class.java, false, false)
 
-    private fun performInteractions(tasks: Int, numbers: Int){
+    private fun performInteractions(tasks: Int, numbers: Int, impl: Int){
         onView(withId(R.id.cs_et_numbers)).perform(clearText(), typeText(numbers.toString()), click())
         onView(withId(R.id.cs_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
         onView(isRoot()).perform(closeSoftKeyboard())
@@ -46,13 +59,13 @@ class FinalSumTest : GeneralInstrTest{
             TestReport(
                 Constants.CONCURR_SUM,
                 csActivity.activity.report,
-                mapOf("tasks" to tasks, "numbers" to numbers)
+                mapOf("tasks" to tasks, "numbers" to numbers, "impl" to impl)
             ))
     }
 
-    private fun runSumTest(tasks: Int, numbers: Int, fails: Int = 0){
+    private fun runSumTest(tasks: Int, numbers: Int, impl: Int, fails: Int = 0){
         try {
-            performInteractions(tasks, numbers)
+            performInteractions(tasks, numbers, impl)
         }catch(te: TimeoutException){
             // try again if number of fails does not have passed maximum
             if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
@@ -74,7 +87,7 @@ class FinalSumTest : GeneralInstrTest{
 
             numbersToTest.forEach{ numbers ->
                 tasksToUse.forEach { tasks ->
-                    runSumTest(tasks, numbers)
+                    runSumTest(tasks, numbers, impl)
                 }
             }
             csActivity.finishActivity()
