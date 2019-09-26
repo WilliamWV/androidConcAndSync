@@ -30,20 +30,20 @@ class FinalProdConsTest : GeneralInstrTest{
     private val logTag = "PC_TEST"
     @After
     override fun analizeReports() {
-        Log.d(logTag, "=".repeat(30))
-        Log.d(logTag, "=".repeat(2) + " PRODUCERS AND CONSUMERS " + "=".repeat(3))
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
+        Log.d(logTag, "=".repeat(37) + " PRODUCERS AND CONSUMERS " + "=".repeat(38))
+        Log.d(logTag, "=".repeat(100))
         reports.forEach { report ->
             Log.d(logTag,
                 "Report execution of " + Constants.implNames[report.testParams["impl"]] +
                         " implementation, with " + report.testParams["producers"] + " producers and " +
-                        report.testParams["consumers"] + " consumers, using a buffer with " +
-                        report.testParams["buffSize"] + " positions."
+                        report.testParams["consumers"] + " consumers, and " +
+                        report.testParams["buffSize"] + " buffer positions."
             )
             Log.d(logTag, "Produced items: " + report.runReport.prod.toString())
             Log.d(logTag, "Consumed items: " + report.runReport.cons.toString())
         }
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
     }
 
     override var reports: MutableList<TestReport> = mutableListOf()

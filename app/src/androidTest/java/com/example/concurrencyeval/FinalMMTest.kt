@@ -31,19 +31,19 @@ class FinalMMTest : GeneralInstrTest{
     private val logTag = "MM_TEST"
     @After
     override fun analizeReports() {
-        Log.d(logTag, "=".repeat(30))
-        Log.d(logTag, "=".repeat(3) + " MATRIX MULTIPLICATION " + "=".repeat(4))
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
+        Log.d(logTag, "=".repeat(38) + " MATRIX MULTIPLICATION " + "=".repeat(39))
+        Log.d(logTag, "=".repeat(100))
         reports.forEach { report ->
             Log.d(logTag,
                 "Report execution of " + Constants.implNames[report.testParams["impl"]] +
-                        " implementation, with size: " + report.testParams["size"] + "X" +
+                        " implementation, with size: " + report.testParams["size"] + "x" +
                         report.testParams["size"] + "; using " + report.testParams["tasks"] +
                         " tasks"
             )
             Log.d(logTag, "Time: " + report.runReport.time.toString() + " ms")
         }
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
     }
 
     override var reports: MutableList<TestReport> = mutableListOf()

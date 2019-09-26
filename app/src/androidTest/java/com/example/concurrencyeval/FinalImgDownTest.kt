@@ -30,9 +30,9 @@ class FinalImgDownTest : GeneralInstrTest{
     private val logTag = "ID_TEST"
     @After
     override fun analizeReports() {
-        Log.d(logTag, "=".repeat(30))
-        Log.d(logTag, "=".repeat(7) + " IMAGE DOWNLOAD " + "=".repeat(7))
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
+        Log.d(logTag, "=".repeat(42) + " IMAGE DOWNLOAD " + "=".repeat(42))
+        Log.d(logTag, "=".repeat(100))
         reports.forEach { report ->
             Log.d(logTag,
                 "Report execution of " + Constants.implNames[report.testParams["impl"]] +
@@ -41,7 +41,7 @@ class FinalImgDownTest : GeneralInstrTest{
             )
             Log.d(logTag, "Time: " + report.runReport.time.toString() + " ms")
         }
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
     }
 
     override var reports: MutableList<TestReport> = mutableListOf()

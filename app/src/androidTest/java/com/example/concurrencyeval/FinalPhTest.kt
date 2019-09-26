@@ -30,19 +30,19 @@ class FinalPhTest : GeneralInstrTest{
     private val logTag = "PH_TEST"
     @After
     override fun analizeReports() {
-        Log.d(logTag, "=".repeat(30))
-        Log.d(logTag, "=".repeat(8) + " PHILOSOPHERS " + "=".repeat(8))
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
+        Log.d(logTag, "=".repeat(43) + " PHILOSOPHERS " + "=".repeat(43))
+        Log.d(logTag, "=".repeat(100))
         reports.forEach { report ->
             Log.d(logTag,
                 "Report execution of " + Constants.implNames[report.testParams["impl"]] +
                         " implementation, with " + report.testParams["philosophers"] +
-                        "philosophers, running by " + report.testParams["time"] + " seconds"
+                        " philosophers, running by " + report.testParams["time"] + " seconds"
             )
             Log.d(logTag, "Average executions: " + report.runReport.avg.toString())
             Log.d(logTag, "Standard deviation: " + report.runReport.std.toString())
         }
-        Log.d(logTag, "=".repeat(30))
+        Log.d(logTag, "=".repeat(100))
     }
 
     override var reports: MutableList<TestReport> = mutableListOf()
