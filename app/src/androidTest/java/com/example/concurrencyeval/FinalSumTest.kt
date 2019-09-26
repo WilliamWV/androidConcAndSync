@@ -18,6 +18,7 @@ import android.util.Log
 import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
+import org.junit.After
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -27,6 +28,7 @@ import java.util.concurrent.TimeoutException
 @RunWith(AndroidJUnit4::class)
 class FinalSumTest : GeneralInstrTest{
     private val logTag = "CS_TEST"
+    @After
     override fun analizeReports() {
         Log.d(logTag, "=".repeat(30))
         Log.d(logTag, "=".repeat(7) + " CONCURRENT SUM " + "=".repeat(7))

@@ -18,6 +18,7 @@ import android.util.Log
 import com.example.concurrencyeval.activities.MatMultActivity
 import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
+import org.junit.After
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -28,6 +29,7 @@ import java.util.concurrent.TimeoutException
 class FinalMMTest : GeneralInstrTest{
 
     private val logTag = "MM_TEST"
+    @After
     override fun analizeReports() {
         Log.d(logTag, "=".repeat(30))
         Log.d(logTag, "=".repeat(3) + " MATRIX MULTIPLICATION " + "=".repeat(4))
