@@ -25,6 +25,10 @@ import java.util.concurrent.TimeoutException
 
 @RunWith(AndroidJUnit4::class)
 class FinalImgDownTest : GeneralInstrTest{
+    override fun analizeReports() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
     override var reports: MutableList<RunReport> = mutableListOf()
 
     @get:Rule

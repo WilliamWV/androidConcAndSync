@@ -15,10 +15,10 @@ class TestManager {
 
     @Test
     fun allTests(){
-        pcTests.runTest()
         mmTests.runTest()
         csTests.runTest()
         phTests.runTest()
         idTests.runTest()
+        pcTests.runTest()
     }
 }

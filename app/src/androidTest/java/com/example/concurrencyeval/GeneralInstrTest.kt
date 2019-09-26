@@ -6,5 +6,6 @@ interface GeneralInstrTest {
 
     var reports: MutableList<RunReport>
     fun runTest()
+    fun analizeReports()
 
 }
