@@ -15,7 +15,7 @@ import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import com.example.concurrencyeval.activities.ProdConsActivity
-import com.example.concurrencyeval.util.RunReport
+import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -29,7 +29,7 @@ class FinalProdConsTest : GeneralInstrTest{
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override var reports: MutableList<RunReport> = mutableListOf()
+    override var reports: MutableList<TestReport> = mutableListOf()
 
     @get:Rule
     var pcActivity: ActivityTestRule<ProdConsActivity> = ActivityTestRule(ProdConsActivity::class.java, false, false)
@@ -55,7 +55,12 @@ class FinalProdConsTest : GeneralInstrTest{
         pcActivity.activity.waitTask()
         assertTrue(pcActivity.activity.report.prod > 0)
         assertTrue(pcActivity.activity.report.cons > 0)
-        reports.add(pcActivity.activity.report)
+        reports.add(
+            TestReport(
+                Constants.PROD_CONS,
+                pcActivity.activity.report,
+                mapOf("producers" to producers, "consumers" to consumers, "buffSize" to buffSize)
+            ))
     }
 
     private fun runPcTest(producers: Int, consumers: Int, buffSize: Int, fails: Int = 0){

@@ -15,7 +15,7 @@ import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import com.example.concurrencyeval.activities.ConcSumActivity
-import com.example.concurrencyeval.util.RunReport
+import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -29,7 +29,7 @@ class FinalSumTest : GeneralInstrTest{
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override var reports: MutableList<RunReport> = mutableListOf()
+    override var reports: MutableList<TestReport> = mutableListOf()
 
 
     @get:Rule
@@ -42,7 +42,12 @@ class FinalSumTest : GeneralInstrTest{
         onView(withId(R.id.cs_run_button)).perform(click())
         csActivity.activity.waitTask()
         assertTrue(csActivity.activity.report.time > 0)
-        reports.add(csActivity.activity.report)
+        reports.add(
+            TestReport(
+                Constants.CONCURR_SUM,
+                csActivity.activity.report,
+                mapOf("tasks" to tasks, "numbers" to numbers)
+            ))
     }
 
     private fun runSumTest(tasks: Int, numbers: Int, fails: Int = 0){

@@ -15,7 +15,7 @@ import android.support.test.espresso.matcher.ViewMatchers.withId
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import com.example.concurrencyeval.activities.MatMultActivity
-import com.example.concurrencyeval.util.RunReport
+import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -25,11 +25,12 @@ import java.util.concurrent.TimeoutException
 
 @RunWith(AndroidJUnit4::class)
 class FinalMMTest : GeneralInstrTest{
+
     override fun analizeReports() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
     }
 
-    override var reports: MutableList<RunReport> = mutableListOf()
+    override var reports: MutableList<TestReport> = mutableListOf()
 
     @get:Rule
     var mmActivity: ActivityTestRule<MatMultActivity> = ActivityTestRule(MatMultActivity::class.java, false, false)
@@ -41,7 +42,12 @@ class FinalMMTest : GeneralInstrTest{
         onView(withId(R.id.mm_run_button)).perform(click())
         mmActivity.activity.waitTask()
         assertTrue(mmActivity.activity.report.time > 0)
-        reports.add(mmActivity.activity.report)
+        reports.add(
+            TestReport(
+                Constants.MATRIX_MULT,
+                mmActivity.activity.report,
+                mapOf("tasks" to tasks, "size" to size)
+            ))
     }
     private fun runMMTest(tasks: Int, size: Int, fails: Int = 0){
         try {

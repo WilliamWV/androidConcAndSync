@@ -15,7 +15,7 @@ import android.support.test.espresso.matcher.ViewMatchers.withText
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import com.example.concurrencyeval.activities.ImgDownloadActivity
-import com.example.concurrencyeval.util.RunReport
+import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -29,7 +29,7 @@ class FinalImgDownTest : GeneralInstrTest{
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override var reports: MutableList<RunReport> = mutableListOf()
+    override var reports: MutableList<TestReport> = mutableListOf()
 
     @get:Rule
     var idActivity: ActivityTestRule<ImgDownloadActivity> = ActivityTestRule(ImgDownloadActivity::class.java, false, false)
@@ -39,7 +39,12 @@ class FinalImgDownTest : GeneralInstrTest{
         onView(withId(R.id.fd_run_button)).perform(click())
         idActivity.activity.waitTask()
         assertTrue(idActivity.activity.report.time > 0)
-        reports.add(idActivity.activity.report)
+        reports.add(
+            TestReport(
+                Constants.DOWNLOAD_FILE,
+                idActivity.activity.report,
+                mapOf("img" to img)
+            ))
     }
 
     private fun runIDTest(img: Int, fails: Int = 0){

@@ -1,10 +1,10 @@
 package com.example.concurrencyeval
 
-import com.example.concurrencyeval.util.RunReport
+import com.example.concurrencyeval.util.TestReport
 
 interface GeneralInstrTest {
 
-    var reports: MutableList<RunReport>
+    var reports: MutableList<TestReport>
     fun runTest()
     fun analizeReports()
 
