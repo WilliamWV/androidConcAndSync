@@ -97,7 +97,7 @@ class FinalProdConsTest : GeneralInstrTest{
 
         val producersToTest = listOf(5, 10, 20)
         val consumersToTest = listOf(5, 10, 20)
-        val bufferToUse = listOf(2, 5, 10)
+        val bufferToUse = listOf(2, 8)
 
         val implementations = listOf(Constants.LOCK, Constants.ATOMIC, Constants.SEMAPHORE, Constants.SYNCHRONIZED)
 
