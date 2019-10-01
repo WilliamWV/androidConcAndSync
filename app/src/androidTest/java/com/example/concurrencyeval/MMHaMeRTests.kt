@@ -7,7 +7,7 @@
 
 package com.example.concurrencyeval
 
-import android.support.test.rule.ActivityTestRule
+import androidx.test.rule.ActivityTestRule
 import com.example.concurrencyeval.activities.MatMultActivity
 import com.example.concurrencyeval.implementations.mm.MMHaMeR
 import com.example.concurrencyeval.util.TestUtil.matrixEqual

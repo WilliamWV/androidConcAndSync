@@ -7,7 +7,7 @@
 
 package com.example.concurrencyeval
 
-import android.support.test.rule.ActivityTestRule
+import androidx.test.rule.ActivityTestRule
 import com.example.concurrencyeval.activities.ConcSumActivity
 import com.example.concurrencyeval.implementations.sum.SumHaMeR
 import junit.framework.TestCase

@@ -12,9 +12,9 @@ import android.support.test.espresso.Espresso.onView
 import android.support.test.espresso.action.ViewActions.*
 import android.support.test.espresso.matcher.ViewMatchers.isRoot
 import android.support.test.espresso.matcher.ViewMatchers.withId
-import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
 import android.util.Log
+import androidx.test.rule.ActivityTestRule
 import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.util.TestReport
 import junit.framework.TestCase.assertTrue
