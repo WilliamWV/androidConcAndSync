@@ -4,7 +4,7 @@ import android.app.IntentService
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.support.v4.content.LocalBroadcastManager
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.example.concurrencyeval.Constants
 import java.net.URL
 import kotlin.system.measureTimeMillis

@@ -8,6 +8,7 @@ package com.example.concurrencyeval.implementations.prodcons
 import kotlin.math.*
 import kotlin.random.Random
 
+@Suppress("UNCHECKED_CAST")
 class FFT {
     class Complex
         (

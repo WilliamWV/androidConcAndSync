@@ -8,11 +8,11 @@ import android.graphics.Bitmap
 import android.os.Bundle
 import android.os.HandlerThread
 import android.os.Message
-import android.support.v4.content.LocalBroadcastManager
 import android.util.DisplayMetrics
 import android.view.View
 import android.view.View.VISIBLE
 import android.widget.*
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.download.*
