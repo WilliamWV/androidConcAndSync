@@ -35,7 +35,7 @@ class FinalProdConsTest : GeneralInstrTest{
         Log.d(logTag, "=".repeat(100))
         reports.forEach { report ->
             Log.d(logTag,
-                "Report execution of " + Constants.implNames[report.testParams["impl"]] +
+                "Repetition "+ report.testParams["rep"] + ": " + "Report execution of " + Constants.implNames[report.testParams["impl"]] +
                         " implementation, with " + report.testParams["producers"] + " producers and " +
                         report.testParams["consumers"] + " consumers, and " +
                         report.testParams["buffSize"] + " buffer positions."
@@ -68,17 +68,22 @@ class FinalProdConsTest : GeneralInstrTest{
             click()
         )
         onView(isRoot()).perform(closeSoftKeyboard())
-        onView(withId(R.id.pc_run_button)).perform(click())
-        pcActivity.activity.waitTask()
-        assertTrue(pcActivity.activity.report.prod > 0)
-        assertTrue(pcActivity.activity.report.cons > 0)
-        reports.add(
-            TestReport(
-                Constants.PROD_CONS,
-                pcActivity.activity.report,
-                mapOf("producers" to producers, "consumers" to consumers,
-                    "buffSize" to buffSize, "impl" to impl)
-            ))
+        for (i in 0 until Constants.REPETITIONS) {
+            onView(withId(R.id.pc_run_button)).perform(click())
+            pcActivity.activity.waitTask()
+            assertTrue(pcActivity.activity.report.prod > 0)
+            assertTrue(pcActivity.activity.report.cons > 0)
+            reports.add(
+                TestReport(
+                    Constants.PROD_CONS,
+                    pcActivity.activity.report,
+                    mapOf(
+                        "producers" to producers, "consumers" to consumers,
+                        "buffSize" to buffSize, "impl" to impl, "rep" to i + 1
+                    )
+                )
+            )
+        }
     }
 
     private fun runPcTest(producers: Int, consumers: Int, buffSize: Int, impl: Int, fails: Int = 0){

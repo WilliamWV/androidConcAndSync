@@ -35,7 +35,7 @@ class FinalImgDownTest : GeneralInstrTest{
         Log.d(logTag, "=".repeat(100))
         reports.forEach { report ->
             Log.d(logTag,
-                "Report execution of " + Constants.implNames[report.testParams["impl"]] +
+                "Repetition "+ report.testParams["rep"] + ": " + "Report execution of " + Constants.implNames[report.testParams["impl"]] +
                         " implementation, downloading image of a: " +
                         Constants.imgDescr[report.testParams["img"]]
             )
@@ -51,15 +51,18 @@ class FinalImgDownTest : GeneralInstrTest{
     private fun performInteractions(img: Int, impl: Int){
         onView(withId(R.id.id_spinner_choose_img)).perform(click())
         onView(withText(Constants.imgDescr[img]!!)).perform(click())
-        onView(withId(R.id.fd_run_button)).perform(click())
-        idActivity.activity.waitTask()
-        assertTrue(idActivity.activity.report.time > 0)
-        reports.add(
-            TestReport(
-                Constants.DOWNLOAD_FILE,
-                idActivity.activity.report,
-                mapOf("img" to img, "impl" to impl)
-            ))
+        for (i in 0 until Constants.REPETITIONS) {
+            onView(withId(R.id.fd_run_button)).perform(click())
+            idActivity.activity.waitTask()
+            assertTrue(idActivity.activity.report.time > 0)
+            reports.add(
+                TestReport(
+                    Constants.DOWNLOAD_FILE,
+                    idActivity.activity.report,
+                    mapOf("img" to img, "impl" to impl, "rep" to i + 1)
+                )
+            )
+        }
     }
 
     private fun runIDTest(img: Int, impl: Int, fails: Int = 0){

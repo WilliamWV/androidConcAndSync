@@ -109,5 +109,8 @@ object Constants {
     const val LCS_LENGTH: Int = 64
     const val LCS_RANGE: Int = 3
 
+    //Test related constants
     const val MAX_TIMEOUT_FAILS: Int = 5
+    const val REPETITIONS: Int = 3
+
 }
