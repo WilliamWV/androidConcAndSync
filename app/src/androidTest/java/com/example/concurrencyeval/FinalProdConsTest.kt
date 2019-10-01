@@ -71,8 +71,8 @@ class FinalProdConsTest : GeneralInstrTest{
         for (i in 0 until Constants.REPETITIONS) {
             onView(withId(R.id.pc_run_button)).perform(click())
             pcActivity.activity.waitTask()
-            assertTrue(pcActivity.activity.report.prod > 0)
-            assertTrue(pcActivity.activity.report.cons > 0)
+            assertTrue(pcActivity.activity.report.prod >= 0)
+            assertTrue(pcActivity.activity.report.cons >= 0)
             reports.add(
                 TestReport(
                     Constants.PROD_CONS,
