@@ -55,17 +55,20 @@ class FinalMMTest : GeneralInstrTest{
         onView(withId(R.id.mm_et_size)).perform(clearText(), typeText(size.toString()), click())
         onView(withId(R.id.mm_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
         onView(isRoot()).perform(closeSoftKeyboard())
-        for (i in 0 until Constants.REPETITIONS) {
+        for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.mm_run_button)).perform(click())
             mmActivity.activity.waitTask()
-            assertTrue(mmActivity.activity.report.time > 0)
-            reports.add(
-                TestReport(
-                    Constants.MATRIX_MULT,
-                    mmActivity.activity.report,
-                    mapOf("tasks" to tasks, "size" to size, "impl" to impl, "rep" to i + 1)
+            if (!(i == 0 && Constants.IGNORE_FIRST)) {
+
+                assertTrue(mmActivity.activity.report.time > 0)
+                reports.add(
+                    TestReport(
+                        Constants.MATRIX_MULT,
+                        mmActivity.activity.report,
+                        mapOf("tasks" to tasks, "size" to size, "impl" to impl, "rep" to i)
+                    )
                 )
-            )
+            }
         }
     }
     private fun runMMTest(tasks: Int, size: Int, impl: Int, fails: Int = 0){

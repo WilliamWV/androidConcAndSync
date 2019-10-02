@@ -62,18 +62,26 @@ class FinalPhTest : GeneralInstrTest{
             click()
         )
         onView(isRoot()).perform(closeSoftKeyboard())
-        for (i in 0 until Constants.REPETITIONS) {
+        for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.ph_run_button)).perform(click())
             phActivity.activity.waitTask()
-            assertTrue(phActivity.activity.report.avg > 0)
-            assertTrue(phActivity.activity.report.std > 0)
-            reports.add(
-                TestReport(
-                    Constants.PHILOSOPHERS,
-                    phActivity.activity.report,
-                    mapOf("philosophers" to philosophers, "time" to time, "impl" to impl, "rep" to i + 1)
+            if (!(i == 0 && Constants.IGNORE_FIRST)) {
+
+                assertTrue(phActivity.activity.report.avg > 0)
+                assertTrue(phActivity.activity.report.std > 0)
+                reports.add(
+                    TestReport(
+                        Constants.PHILOSOPHERS,
+                        phActivity.activity.report,
+                        mapOf(
+                            "philosophers" to philosophers,
+                            "time" to time,
+                            "impl" to impl,
+                            "rep" to i
+                        )
+                    )
                 )
-            )
+            }
         }
     }
 

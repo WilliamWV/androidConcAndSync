@@ -54,17 +54,25 @@ class FinalSumTest : GeneralInstrTest{
         onView(withId(R.id.cs_et_numbers)).perform(clearText(), typeText(numbers.toString()), click())
         onView(withId(R.id.cs_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
         onView(isRoot()).perform(closeSoftKeyboard())
-        for (i in 0 until Constants.REPETITIONS) {
+        for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.cs_run_button)).perform(click())
             csActivity.activity.waitTask()
-            assertTrue(csActivity.activity.report.time > 0)
-            reports.add(
-                TestReport(
-                    Constants.CONCURR_SUM,
-                    csActivity.activity.report,
-                    mapOf("tasks" to tasks, "numbers" to numbers, "impl" to impl, "rep" to i + 1)
+            if (!(i == 0 && Constants.IGNORE_FIRST)) {
+
+                assertTrue(csActivity.activity.report.time > 0)
+                reports.add(
+                    TestReport(
+                        Constants.CONCURR_SUM,
+                        csActivity.activity.report,
+                        mapOf(
+                            "tasks" to tasks,
+                            "numbers" to numbers,
+                            "impl" to impl,
+                            "rep" to i
+                        )
+                    )
                 )
-            )
+            }
         }
     }
 

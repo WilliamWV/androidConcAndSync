@@ -68,21 +68,25 @@ class FinalProdConsTest : GeneralInstrTest{
             click()
         )
         onView(isRoot()).perform(closeSoftKeyboard())
-        for (i in 0 until Constants.REPETITIONS) {
+        for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.pc_run_button)).perform(click())
             pcActivity.activity.waitTask()
-            assertTrue(pcActivity.activity.report.prod >= 0)
-            assertTrue(pcActivity.activity.report.cons >= 0)
-            reports.add(
-                TestReport(
-                    Constants.PROD_CONS,
-                    pcActivity.activity.report,
-                    mapOf(
-                        "producers" to producers, "consumers" to consumers,
-                        "buffSize" to buffSize, "impl" to impl, "rep" to i + 1
+            if (!(i == 0 && Constants.IGNORE_FIRST)) {
+
+                assertTrue(pcActivity.activity.report.prod >= 0)
+                assertTrue(pcActivity.activity.report.cons >= 0)
+                reports.add(
+                    TestReport(
+                        Constants.PROD_CONS,
+                        pcActivity.activity.report,
+                        mapOf(
+                            "producers" to producers, "consumers" to consumers,
+                            "buffSize" to buffSize, "impl" to impl, "rep" to i
+                        )
                     )
+
                 )
-            )
+            }
         }
     }
 
