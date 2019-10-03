@@ -53,18 +53,24 @@ for s in sizes:
 	out.write(str(s) + 'x' + str(s) + ';\n')
 	out.write('\n')
 	for t in tasks:
-		out.write(';'+str(t) + ' Tasks' + ';\n;;')
+		out.write(';'+str(t) + ' Tasks' + ';;;;;;')
+	out.write(';\n;;')
+	for t in tasks:
 		for i in impls:
 			out.write(str(i)+';')
-		out.write(';\n')
-		for r in range(repetitions):
-			out.write(';;')
+		out.write(';;;')
+	
+	out.write(';\n')
+	for r in range(repetitions):
+		out.write(';;')
+		for t in tasks:
 			for i in impls:
 				if (len(logs[i][s][t]) > r):
 					out.write(str(logs[i][s][t][r])+';')
 				else:
 					out.write(';')
-			out.write(';\n')
-		out.write(';\n;\n;\n')
+			out.write(';;;')
+		out.write(';\n')
+	out.write(';\n;\n;\n')
 
 
