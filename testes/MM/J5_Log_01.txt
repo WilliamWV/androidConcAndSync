@@ -1,0 +1,943 @@
+2019-10-02 15:58:35.371 8992-9054/com.example.concurrencyeval D/MM_TEST: ====================================================================================================
+2019-10-02 15:58:35.371 8992-9054/com.example.concurrencyeval D/MM_TEST: ====================================== MATRIX MULTIPLICATION =======================================
+2019-10-02 15:58:35.371 8992-9054/com.example.concurrencyeval D/MM_TEST: ====================================================================================================
+2019-10-02 15:58:35.371 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.371 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 55 ms
+2019-10-02 15:58:35.371 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 53 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 54 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 55 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 56 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 64 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 56 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 53 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 57 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 56 ms
+2019-10-02 15:58:35.372 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 30 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 31 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 31 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 34 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 27 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.373 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 35 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 22 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 22 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 21 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 34 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 30 ms
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.374 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 28 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 28 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 23 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 32 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 42 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 40 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 51 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 55 ms
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.375 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 43 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 53 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 47 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 45 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 49 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 54 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 682 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 676 ms
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.376 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 674 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 686 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 662 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 685 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 685 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 676 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 662 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 662 ms
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.377 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 347 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 335 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 339 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 338 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 344 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 343 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 350 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 355 ms
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.378 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 345 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 344 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 185 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 108 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 127 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 111 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 103 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 139 ms
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.379 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 123 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 142 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 121 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 132 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 215 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 129 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 157 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 139 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 165 ms
+2019-10-02 15:58:35.380 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.381 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 142 ms
+2019-10-02 15:58:35.381 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.381 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 147 ms
+2019-10-02 15:58:35.381 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.381 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 144 ms
+2019-10-02 15:58:35.381 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.381 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 201 ms
+2019-10-02 15:58:35.382 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.382 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 169 ms
+2019-10-02 15:58:35.382 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.382 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7366 ms
+2019-10-02 15:58:35.382 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.382 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7353 ms
+2019-10-02 15:58:35.382 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7124 ms
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7294 ms
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7252 ms
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7470 ms
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7187 ms
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7540 ms
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7230 ms
+2019-10-02 15:58:35.383 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7413 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3651 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3793 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3624 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3543 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3486 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3539 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3512 ms
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.384 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3752 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3501 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3536 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1062 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1079 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1060 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1093 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1030 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1093 ms
+2019-10-02 15:58:35.385 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1467 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1376 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1275 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1294 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1088 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1234 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1012 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1043 ms
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.386 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 996 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1099 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1031 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1022 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 997 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1015 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 52 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 53 ms
+2019-10-02 15:58:35.387 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 54 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 58 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 55 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 64 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 54 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 57 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 53 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 54 ms
+2019-10-02 15:58:35.388 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 28 ms
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 30 ms
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 30 ms
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.389 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 28 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 28 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 32 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 22 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 39 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 23 ms
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.390 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 27 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 20 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 22 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 22 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 31 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 44 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 21 ms
+2019-10-02 15:58:35.391 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 21 ms
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 23 ms
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 22 ms
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 21 ms
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 21 ms
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 708 ms
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.392 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 743 ms
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 728 ms
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 709 ms
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 788 ms
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 744 ms
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 706 ms
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 737 ms
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.393 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 718 ms
+2019-10-02 15:58:35.394 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.394 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 708 ms
+2019-10-02 15:58:35.394 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.394 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 353 ms
+2019-10-02 15:58:35.394 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.394 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 371 ms
+2019-10-02 15:58:35.394 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.395 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 358 ms
+2019-10-02 15:58:35.395 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.395 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 358 ms
+2019-10-02 15:58:35.395 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.396 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 356 ms
+2019-10-02 15:58:35.396 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.396 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 359 ms
+2019-10-02 15:58:35.396 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 375 ms
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 371 ms
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 368 ms
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 366 ms
+2019-10-02 15:58:35.397 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 129 ms
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 141 ms
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 137 ms
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 149 ms
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 124 ms
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.398 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 153 ms
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 119 ms
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 128 ms
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 112 ms
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 121 ms
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 103 ms
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 106 ms
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.399 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 110 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 103 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 106 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 104 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 110 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 103 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 115 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 112 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7315 ms
+2019-10-02 15:58:35.400 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7150 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7163 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7278 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7336 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7198 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7241 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7406 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7439 ms
+2019-10-02 15:58:35.401 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7302 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3673 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3818 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3770 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3784 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3755 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3747 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3644 ms
+2019-10-02 15:58:35.402 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3693 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3657 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3581 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1090 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1047 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1064 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1072 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1133 ms
+2019-10-02 15:58:35.403 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1078 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1129 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1032 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1062 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1088 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1014 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1031 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1060 ms
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.404 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1057 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1024 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1044 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1066 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 994 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1070 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1043 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 60 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 59 ms
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.405 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 58 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 61 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 65 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 74 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 59 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 75 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 60 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 60 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 33 ms
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.406 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 34 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 36 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 35 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 35 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 37 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 34 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 35 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 34 ms
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.407 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 34 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 33 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 25 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.408 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 25 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 29 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 27 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 24 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.409 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 27 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 26 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 23 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 40 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 741 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 765 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 733 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 744 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 710 ms
+2019-10-02 15:58:35.410 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 738 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 749 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 736 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 756 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 737 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 367 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 368 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 386 ms
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.411 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 363 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 348 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 314 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 351 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 350 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 368 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 376 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 123 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 133 ms
+2019-10-02 15:58:35.412 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 123 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 116 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 125 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 122 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 117 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 123 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 119 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 126 ms
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.413 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 151 ms
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 128 ms
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 136 ms
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 125 ms
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 122 ms
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 132 ms
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.414 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.415 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.415 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7246 ms
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7225 ms
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7531 ms
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7192 ms
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.416 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 7268 ms
+2019-10-02 15:58:35.417 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3775 ms
+2019-10-02 15:58:35.417 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.417 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3772 ms
+2019-10-02 15:58:35.417 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3808 ms
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3571 ms
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3501 ms
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3550 ms
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3551 ms
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 3696 ms
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1023 ms
+2019-10-02 15:58:35.418 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1047 ms
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1073 ms
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1202 ms
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1038 ms
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1301 ms
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1044 ms
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.419 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1039 ms
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1025 ms
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1061 ms
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1066 ms
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1159 ms
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1112 ms
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1023 ms
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.420 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1059 ms
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1048 ms
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1007 ms
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1075 ms
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1027 ms
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1021 ms
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 219 ms
+2019-10-02 15:58:35.421 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 223 ms
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 221 ms
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 226 ms
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 224 ms
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 221 ms
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 212 ms
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.422 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 215 ms
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 218 ms
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 221 ms
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 122 ms
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 147 ms
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 146 ms
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 142 ms
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.423 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 150 ms
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 105 ms
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 127 ms
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 153 ms
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 135 ms
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+2019-10-02 15:58:35.424 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 150 ms
+2019-10-02 15:58:35.425 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.425 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 78 ms
+2019-10-02 15:58:35.425 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.425 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 73 ms
+2019-10-02 15:58:35.425 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.425 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 73 ms
+2019-10-02 15:58:35.425 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 71 ms
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 67 ms
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 69 ms
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 77 ms
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 67 ms
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 72 ms
+2019-10-02 15:58:35.426 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 80 ms
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 74 ms
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 78 ms
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 79 ms
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.427 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 86 ms
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 77 ms
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 100 ms
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 79 ms
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 85 ms
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 80 ms
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 77 ms
+2019-10-02 15:58:35.428 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2031 ms
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1966 ms
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2002 ms
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1851 ms
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2038 ms
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1981 ms
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.429 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1971 ms
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1870 ms
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2028 ms
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2022 ms
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 916 ms
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 983 ms
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.430 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 989 ms
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 986 ms
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 912 ms
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1010 ms
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 996 ms
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.431 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 999 ms
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 959 ms
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 1012 ms
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 303 ms
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 253 ms
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 379 ms
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 268 ms
+2019-10-02 15:58:35.432 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 270 ms
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 248 ms
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 271 ms
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 275 ms
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 285 ms
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 260 ms
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.433 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 278 ms
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 300 ms
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 280 ms
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 276 ms
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 283 ms
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 276 ms
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.434 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 273 ms
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 273 ms
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 262 ms
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 278 ms
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 16906 ms
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 16759 ms
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 16883 ms
+2019-10-02 15:58:35.435 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 16824 ms
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 17024 ms
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 16925 ms
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 17031 ms
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 16884 ms
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 16993 ms
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+2019-10-02 15:58:35.436 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 17014 ms
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8446 ms
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8596 ms
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8615 ms
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8413 ms
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8662 ms
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.437 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8512 ms
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8530 ms
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8457 ms
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8509 ms
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 8523 ms
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2400 ms
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.438 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2424 ms
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2293 ms
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2318 ms
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2350 ms
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2384 ms
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2317 ms
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2261 ms
+2019-10-02 15:58:35.439 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2299 ms
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2404 ms
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2365 ms
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2329 ms
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2400 ms
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2388 ms
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.440 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2529 ms
+2019-10-02 15:58:35.441 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.441 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2455 ms
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2584 ms
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2321 ms
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2365 ms
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: Time: 2358 ms
+2019-10-02 15:58:35.442 8992-9054/com.example.concurrencyeval D/MM_TEST: ====================================================================================================

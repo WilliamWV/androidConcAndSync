@@ -1,0 +1,364 @@
+====================================================================================================
+=========================================== PHILOSOPHERS ===========================================
+====================================================================================================
+Repetition 1: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 563.4
+Standard deviation: 3.4400000000000004
+Repetition 2: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 566.8
+Standard deviation: 18.16
+Repetition 3: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 555.0
+Standard deviation: 16.4
+Repetition 4: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 558.6
+Standard deviation: 13.440000000000001
+Repetition 5: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 554.4
+Standard deviation: 1.0399999999999998
+Repetition 6: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 555.0
+Standard deviation: 17.2
+Repetition 7: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 554.6
+Standard deviation: 11.440000000000001
+Repetition 8: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 557.8
+Standard deviation: 16.160000000000004
+Repetition 9: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 553.0
+Standard deviation: 22.0
+Repetition 10: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+Average executions: 564.4
+Standard deviation: 8.24
+Repetition 1: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 248.27272727272728
+Standard deviation: 20.19834710743801
+Repetition 2: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 245.63636363636363
+Standard deviation: 35.867768595041326
+Repetition 3: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 247.54545454545453
+Standard deviation: 39.5206611570248
+Repetition 4: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 249.0909090909091
+Standard deviation: 36.26446280991734
+Repetition 5: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 247.0
+Standard deviation: 51.27272727272727
+Repetition 6: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 246.54545454545453
+Standard deviation: 28.42975206611571
+Repetition 7: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 239.8181818181818
+Standard deviation: 20.148760330578515
+Repetition 8: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 253.45454545454547
+Standard deviation: 20.429752066115707
+Repetition 9: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 258.6363636363636
+Standard deviation: 15.685950413223141
+Repetition 10: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+Average executions: 248.8181818181818
+Standard deviation: 33.78512396694215
+Repetition 1: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 26.95049504950495
+Standard deviation: 193.51240074502505
+Repetition 2: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 31.0
+Standard deviation: 313.6237623762376
+Repetition 3: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 30.287128712871286
+Standard deviation: 264.5215174982845
+Repetition 4: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 30.22772277227723
+Standard deviation: 240.80952847760025
+Repetition 5: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 29.900990099009903
+Standard deviation: 661.6337613959416
+Repetition 6: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 28.77227722772277
+Standard deviation: 111.581805705323
+Repetition 7: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 29.643564356435643
+Standard deviation: 254.20958729536318
+Repetition 8: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 28.900990099009903
+Standard deviation: 129.13871189099103
+Repetition 9: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 29.07920792079208
+Standard deviation: 151.71649838251153
+Repetition 10: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
+Average executions: 28.405940594059405
+Standard deviation: 145.31045975884717
+Repetition 1: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 545.2
+Standard deviation: 8.56
+Repetition 2: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 549.4
+Standard deviation: 12.64
+Repetition 3: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 562.8
+Standard deviation: 0.56
+Repetition 4: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 549.4
+Standard deviation: 35.04
+Repetition 5: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 545.0
+Standard deviation: 13.2
+Repetition 6: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 555.2
+Standard deviation: 40.56
+Repetition 7: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 551.6
+Standard deviation: 11.84
+Repetition 8: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 554.4
+Standard deviation: 7.040000000000001
+Repetition 9: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 561.0
+Standard deviation: 14.4
+Repetition 10: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+Average executions: 558.6
+Standard deviation: 23.84
+Repetition 1: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 245.27272727272728
+Standard deviation: 44.01652892561983
+Repetition 2: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 248.36363636363637
+Standard deviation: 21.867768595041316
+Repetition 3: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 175.0909090909091
+Standard deviation: 65.35537190082644
+Repetition 4: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 137.0909090909091
+Standard deviation: 41.7190082644628
+Repetition 5: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 216.45454545454547
+Standard deviation: 40.61157024793389
+Repetition 6: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 244.45454545454547
+Standard deviation: 55.33884297520661
+Repetition 7: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 242.8181818181818
+Standard deviation: 20.148760330578515
+Repetition 8: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 255.0
+Standard deviation: 36.18181818181818
+Repetition 9: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 253.63636363636363
+Standard deviation: 21.867768595041323
+Repetition 10: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+Average executions: 246.0909090909091
+Standard deviation: 40.628099173553714
+Repetition 1: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 28.485148514851485
+Standard deviation: 24.150769532398773
+Repetition 2: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 26.316831683168317
+Standard deviation: 388.9887265954318
+Repetition 3: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 28.97029702970297
+Standard deviation: 200.88030585236734
+Repetition 4: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 27.336633663366335
+Standard deviation: 85.98568767767865
+Repetition 5: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 32.257425742574256
+Standard deviation: 554.2901676306245
+Repetition 6: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 27.861386138613863
+Standard deviation: 134.65405352416425
+Repetition 7: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 28.10891089108911
+Standard deviation: 81.10695029899028
+Repetition 8: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 29.18811881188119
+Standard deviation: 194.39035388687387
+Repetition 9: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 29.297029702970296
+Standard deviation: 307.23850602882084
+Repetition 10: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
+Average executions: 30.306930693069308
+Standard deviation: 41.084011371434165
+Repetition 1: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 525.0
+Standard deviation: 9.2
+Repetition 2: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 511.0
+Standard deviation: 5.2
+Repetition 3: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 507.8
+Standard deviation: 5.36
+Repetition 4: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 519.8
+Standard deviation: 1.7600000000000002
+Repetition 5: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 522.0
+Standard deviation: 22.8
+Repetition 6: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 520.8
+Standard deviation: 12.559999999999999
+Repetition 7: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 509.6
+Standard deviation: 3.4400000000000004
+Repetition 8: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 512.4
+Standard deviation: 9.440000000000001
+Repetition 9: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 518.8
+Standard deviation: 10.56
+Repetition 10: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+Average executions: 516.6
+Standard deviation: 21.04
+Repetition 1: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 232.63636363636363
+Standard deviation: 24.776859504132222
+Repetition 2: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 240.36363636363637
+Standard deviation: 61.867768595041326
+Repetition 3: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 240.36363636363637
+Standard deviation: 35.867768595041326
+Repetition 4: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 248.27272727272728
+Standard deviation: 44.19834710743801
+Repetition 5: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 237.36363636363637
+Standard deviation: 28.41322314049586
+Repetition 6: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 247.36363636363637
+Standard deviation: 43.1404958677686
+Repetition 7: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 233.63636363636363
+Standard deviation: 54.95867768595041
+Repetition 8: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 236.9090909090909
+Standard deviation: 20.26446280991735
+Repetition 9: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 242.8181818181818
+Standard deviation: 32.876033057851245
+Repetition 10: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+Average executions: 238.36363636363637
+Standard deviation: 48.59504132231405
+Repetition 1: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 20.534653465346533
+Standard deviation: 420.1695912165473
+Repetition 2: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 20.792079207920793
+Standard deviation: 284.9369669640231
+Repetition 3: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 20.326732673267326
+Standard deviation: 773.7447309087347
+Repetition 4: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 20.336633663366335
+Standard deviation: 579.4114302519355
+Repetition 5: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 20.91089108910891
+Standard deviation: 163.82374277031664
+Repetition 6: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 17.92079207920792
+Standard deviation: 489.7957063033036
+Repetition 7: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 19.722772277227723
+Standard deviation: 123.92314478972663
+Repetition 8: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 21.14851485148515
+Standard deviation: 329.6116067052251
+Repetition 9: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 18.514851485148515
+Standard deviation: 369.7745319086368
+Repetition 10: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
+Average executions: 19.940594059405942
+Standard deviation: 766.9667679639248
+Repetition 1: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 240.4
+Standard deviation: 67803.44
+Repetition 2: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 263.4
+Standard deviation: 62433.43999999999
+Repetition 3: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 239.2
+Standard deviation: 69026.16
+Repetition 4: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 248.8
+Standard deviation: 68409.36
+Repetition 5: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 259.6
+Standard deviation: 60937.840000000004
+Repetition 6: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 260.4
+Standard deviation: 67088.63999999998
+Repetition 7: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 237.0
+Standard deviation: 73030.8
+Repetition 8: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 253.8
+Standard deviation: 69813.36
+Repetition 9: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 236.8
+Standard deviation: 73197.36
+Repetition 10: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+Average executions: 241.8
+Standard deviation: 72596.56000000001
+Repetition 1: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 2375.818181818182
+Standard deviation: 3.979658887603307E7
+Repetition 2: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 2407.909090909091
+Standard deviation: 3.862009371900826E7
+Repetition 3: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 155.72727272727272
+Standard deviation: 47701.28925619834
+Repetition 4: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 123.18181818181819
+Standard deviation: 46875.421487603315
+Repetition 5: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 167.54545454545453
+Standard deviation: 46729.88429752067
+Repetition 6: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 2402.4545454545455
+Standard deviation: 4.329390697520661E7
+Repetition 7: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 141.8181818181818
+Standard deviation: 43137.239669421484
+Repetition 8: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 109.27272727272727
+Standard deviation: 44384.7438016529
+Repetition 9: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 123.63636363636364
+Standard deviation: 45625.50413223141
+Repetition 10: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+Average executions: 150.9090909090909
+Standard deviation: 44155.900826446275
+Repetition 1: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 23.564356435643564
+Standard deviation: 6330.899323595693
+Repetition 2: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 14.277227722772277
+Standard deviation: 5828.893441819466
+Repetition 3: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 45.504950495049506
+Standard deviation: 7735.2400745025
+Repetition 4: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 254.12871287128712
+Standard deviation: 3622784.2705617133
+Repetition 5: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 30.425742574257427
+Standard deviation: 6890.640525438671
+Repetition 6: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 36.693069306930695
+Standard deviation: 6088.668169787273
+Repetition 7: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 22.178217821782177
+Standard deviation: 5703.988040388212
+Repetition 8: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 29.504950495049506
+Standard deviation: 6434.309381433176
+Repetition 9: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 38.20792079207921
+Standard deviation: 14182.93696696402
+Repetition 10: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
+Average executions: 24.613861386138613
+Standard deviation: 6271.128124693664
+====================================================================================================

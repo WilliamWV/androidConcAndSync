@@ -82,8 +82,8 @@ class FinalImgDownTest : GeneralInstrTest{
     override fun runTest(){
 
         val implementations = listOf(
-            Constants.THREADS, Constants.THREAD_POOL, Constants.ASYNC_TASK,
-            Constants.INTENT_SERV, Constants.HAMER, Constants.COROUTINES
+            Constants.COROUTINES, Constants.THREADS, Constants.THREAD_POOL,
+            Constants.ASYNC_TASK, Constants.INTENT_SERV, Constants.HAMER
         )
         val imgs = listOf(
             Constants.CAT, Constants.DOG, Constants.LION,

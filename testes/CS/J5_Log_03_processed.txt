@@ -1,0 +1,504 @@
+====================================================================================================
+========================================== CONCURRENT SUM ==========================================
+====================================================================================================
+Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1053 ms
+Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1077 ms
+Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1044 ms
+Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1102 ms
+Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1047 ms
+Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1045 ms
+Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1050 ms
+Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1048 ms
+Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1050 ms
+Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+Time: 1332 ms
+Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 850 ms
+Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 839 ms
+Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 838 ms
+Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 854 ms
+Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 841 ms
+Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 854 ms
+Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 846 ms
+Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 854 ms
+Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 838 ms
+Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+Time: 856 ms
+Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 782 ms
+Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 787 ms
+Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 797 ms
+Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 794 ms
+Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 788 ms
+Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 781 ms
+Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 797 ms
+Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 798 ms
+Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 792 ms
+Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+Time: 914 ms
+Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 970 ms
+Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 981 ms
+Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 930 ms
+Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 891 ms
+Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 887 ms
+Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 929 ms
+Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 909 ms
+Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 1037 ms
+Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 1008 ms
+Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+Time: 901 ms
+Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1450 ms
+Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1557 ms
+Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1541 ms
+Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1472 ms
+Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1423 ms
+Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1476 ms
+Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1442 ms
+Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1461 ms
+Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1473 ms
+Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+Time: 1492 ms
+Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1092 ms
+Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1104 ms
+Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1094 ms
+Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1089 ms
+Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1108 ms
+Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1105 ms
+Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1112 ms
+Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1101 ms
+Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1095 ms
+Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+Time: 1103 ms
+Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 888 ms
+Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 884 ms
+Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 890 ms
+Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 1230 ms
+Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 1204 ms
+Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 886 ms
+Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 890 ms
+Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 883 ms
+Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 895 ms
+Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+Time: 889 ms
+Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 807 ms
+Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 797 ms
+Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 796 ms
+Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 802 ms
+Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 796 ms
+Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 798 ms
+Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 846 ms
+Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 798 ms
+Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 860 ms
+Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+Time: 780 ms
+Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 806 ms
+Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 800 ms
+Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 834 ms
+Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 798 ms
+Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 804 ms
+Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 800 ms
+Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 796 ms
+Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 794 ms
+Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 799 ms
+Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+Time: 809 ms
+Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 885 ms
+Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 788 ms
+Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 852 ms
+Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 779 ms
+Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 830 ms
+Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 846 ms
+Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 861 ms
+Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 828 ms
+Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 761 ms
+Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+Time: 838 ms
+Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1158 ms
+Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1168 ms
+Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1497 ms
+Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1154 ms
+Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1147 ms
+Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1180 ms
+Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1148 ms
+Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1148 ms
+Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1247 ms
+Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+Time: 1161 ms
+Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 948 ms
+Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 951 ms
+Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 1172 ms
+Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 930 ms
+Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 930 ms
+Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 1015 ms
+Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 1180 ms
+Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 925 ms
+Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 921 ms
+Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+Time: 923 ms
+Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 837 ms
+Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 1019 ms
+Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 862 ms
+Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 856 ms
+Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 899 ms
+Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 829 ms
+Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 835 ms
+Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 904 ms
+Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 957 ms
+Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+Time: 981 ms
+Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 855 ms
+Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 838 ms
+Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 914 ms
+Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 841 ms
+Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 849 ms
+Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 840 ms
+Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 848 ms
+Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 880 ms
+Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 871 ms
+Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+Time: 941 ms
+Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 879 ms
+Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 928 ms
+Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 936 ms
+Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 967 ms
+Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 884 ms
+Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 1061 ms
+Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 994 ms
+Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 1003 ms
+Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 1048 ms
+Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+Time: 865 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1240 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1253 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1234 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1242 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1204 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1221 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1246 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1235 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1218 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+Time: 1219 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 993 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 991 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 1002 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 980 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 1031 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 977 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 994 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 991 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 1006 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+Time: 1012 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 864 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 802 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 822 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 853 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 834 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 837 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 838 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 846 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 809 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+Time: 824 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 799 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 807 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 788 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 805 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 798 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 821 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 812 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 830 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 819 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+Time: 837 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 811 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 819 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 811 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 830 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 868 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 807 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 843 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 823 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 811 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+Time: 801 ms
+Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1780 ms
+Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1800 ms
+Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1778 ms
+Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1781 ms
+Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1847 ms
+Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1759 ms
+Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1814 ms
+Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1794 ms
+Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1778 ms
+Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+Time: 1798 ms
+Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1558 ms
+Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1554 ms
+Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1560 ms
+Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1551 ms
+Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1545 ms
+Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1553 ms
+Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1552 ms
+Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1561 ms
+Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1548 ms
+Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+Time: 1561 ms
+Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1472 ms
+Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1480 ms
+Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1482 ms
+Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1488 ms
+Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1475 ms
+Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1485 ms
+Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1482 ms
+Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1477 ms
+Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1606 ms
+Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+Time: 1503 ms
+Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1837 ms
+Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1737 ms
+Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1645 ms
+Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1512 ms
+Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1530 ms
+Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1517 ms
+Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1519 ms
+Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1562 ms
+Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1524 ms
+Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+Time: 1563 ms
+Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1701 ms
+Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1729 ms
+Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1753 ms
+Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1727 ms
+Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1706 ms
+Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1748 ms
+Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1705 ms
+Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1708 ms
+Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1728 ms
+Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+Time: 1716 ms
+====================================================================================================

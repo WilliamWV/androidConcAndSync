@@ -1,0 +1,504 @@
+2019-10-02 20:16:52.162 32764-342/com.example.concurrencyeval D/CS_TEST: ====================================================================================================
+2019-10-02 20:16:52.162 32764-342/com.example.concurrencyeval D/CS_TEST: ========================================== CONCURRENT SUM ==========================================
+2019-10-02 20:16:52.162 32764-342/com.example.concurrencyeval D/CS_TEST: ====================================================================================================
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1081 ms
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1035 ms
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1090 ms
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.163 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1042 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1078 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1044 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1041 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1046 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1045 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1482 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 838 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 865 ms
+2019-10-02 20:16:52.164 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 845 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 860 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 840 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 839 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 847 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1091 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 837 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 844 ms
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.165 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 794 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 781 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 786 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 790 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 777 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 782 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 780 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 795 ms
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.166 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 780 ms
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 868 ms
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 909 ms
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 916 ms
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 897 ms
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1053 ms
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.167 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 873 ms
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 898 ms
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 895 ms
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 938 ms
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 914 ms
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 893 ms
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1564 ms
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.168 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1682 ms
+2019-10-02 20:16:52.169 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.169 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1475 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1546 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1621 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1692 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1684 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1804 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1748 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1534 ms
+2019-10-02 20:16:52.170 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1116 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1092 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1091 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1123 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1090 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1095 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1087 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1093 ms
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.171 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1099 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1151 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 881 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 895 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 880 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 886 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 885 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 888 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 889 ms
+2019-10-02 20:16:52.172 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 889 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 884 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 897 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 794 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 806 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 810 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 837 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 795 ms
+2019-10-02 20:16:52.173 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 801 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 820 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 817 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 817 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 812 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 893 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 793 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 844 ms
+2019-10-02 20:16:52.174 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 812 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 815 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 859 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 766 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 776 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 835 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 808 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 803 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 801 ms
+2019-10-02 20:16:52.175 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 780 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 869 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 816 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 808 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 837 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 762 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 805 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of ThreadPool implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 779 ms
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.176 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1188 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1175 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1182 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1178 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1163 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1142 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1145 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1562 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1141 ms
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.177 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1282 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 944 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 923 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 921 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 918 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 975 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 954 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 992 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1149 ms
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.178 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1178 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 957 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 889 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 839 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 904 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 923 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1110 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 836 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 834 ms
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.179 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 840 ms
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 838 ms
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 826 ms
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 834 ms
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1105 ms
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 928 ms
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 868 ms
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.180 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 984 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 911 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 929 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 966 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 909 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 933 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 854 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 873 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 892 ms
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.181 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 887 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 909 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 907 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 990 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 933 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 884 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of HaMeR framework implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 891 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1252 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1280 ms
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.182 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1198 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1364 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1378 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1276 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1312 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1329 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1255 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1273 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1106 ms
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.183 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1021 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1037 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 958 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1164 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 979 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 961 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1016 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1065 ms
+2019-10-02 20:16:52.184 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1184 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 894 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 879 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 892 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 847 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 817 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 853 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 790 ms
+2019-10-02 20:16:52.185 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 827 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 850 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 815 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 862 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 833 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 809 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 808 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 815 ms
+2019-10-02 20:16:52.186 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 808 ms
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 802 ms
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 822 ms
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 792 ms
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 823 ms
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 863 ms
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.187 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 824 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 822 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 820 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 799 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 816 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 804 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 824 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 798 ms
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.188 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 832 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1762 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1752 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1736 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1731 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1812 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1737 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1763 ms
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.189 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1731 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1754 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 1 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1752 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1547 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1547 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1559 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1555 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1560 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1564 ms
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.190 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1879 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1548 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1558 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 2 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1557 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1464 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1474 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1478 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1874 ms
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.191 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1812 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1497 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1489 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1500 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1483 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 8 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1480 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1502 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1615 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1529 ms
+2019-10-02 20:16:52.192 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1522 ms
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1543 ms
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1589 ms
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1542 ms
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1526 ms
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1537 ms
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 32 tasks
+2019-10-02 20:16:52.193 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1516 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 1: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1714 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 2: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1697 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 3: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1774 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 4: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 2218 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 5: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1731 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 6: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1737 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 7: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1760 ms
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 8: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.194 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1757 ms
+2019-10-02 20:16:52.195 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 9: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.195 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1699 ms
+2019-10-02 20:16:52.195 32764-342/com.example.concurrencyeval D/CS_TEST: Repetition 10: Report execution of Threads with barriers implementation, adding 1048576 numbers and using 256 tasks
+2019-10-02 20:16:52.195 32764-342/com.example.concurrencyeval D/CS_TEST: Time: 1727 ms
+2019-10-02 20:16:52.195 32764-342/com.example.concurrencyeval D/CS_TEST: ====================================================================================================

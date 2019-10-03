@@ -111,7 +111,7 @@ object Constants {
 
     //Test related constants
     const val MAX_TIMEOUT_FAILS: Int = 5
-    const val REPETITIONS: Int = 3
+    const val REPETITIONS: Int = 10
     const val IGNORE_FIRST: Boolean = true
 
 }
