@@ -1,0 +1,484 @@
+====================================================================================================
+========================================== IMAGE DOWNLOAD ==========================================
+====================================================================================================
+Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 576 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 537 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 545 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 1261 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 641 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 651 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 753 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+Time: 683 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 635 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 607 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 599 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 595 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 591 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 585 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 612 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+Time: 812 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 495 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 442 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 485 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 482 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 449 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 479 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 429 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+Time: 453 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 309 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 317 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 512 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 345 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 303 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 300 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 329 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+Time: 1211 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 320 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 295 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 287 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 299 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 335 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 295 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 288 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+Time: 285 ms
+Repetition 1: Report execution of Threads implementation, downloading image of a: Cat
+Time: 1117 ms
+Repetition 2: Report execution of Threads implementation, downloading image of a: Cat
+Time: 1038 ms
+Repetition 3: Report execution of Threads implementation, downloading image of a: Cat
+Time: 932 ms
+Repetition 4: Report execution of Threads implementation, downloading image of a: Cat
+Time: 954 ms
+Repetition 5: Report execution of Threads implementation, downloading image of a: Cat
+Time: 952 ms
+Repetition 6: Report execution of Threads implementation, downloading image of a: Cat
+Time: 1059 ms
+Repetition 7: Report execution of Threads implementation, downloading image of a: Cat
+Time: 1671 ms
+Repetition 8: Report execution of Threads implementation, downloading image of a: Cat
+Time: 1438 ms
+Repetition 1: Report execution of Threads implementation, downloading image of a: Dog
+Time: 1048 ms
+Repetition 2: Report execution of Threads implementation, downloading image of a: Dog
+Time: 1017 ms
+Repetition 3: Report execution of Threads implementation, downloading image of a: Dog
+Time: 1054 ms
+Repetition 4: Report execution of Threads implementation, downloading image of a: Dog
+Time: 1187 ms
+Repetition 5: Report execution of Threads implementation, downloading image of a: Dog
+Time: 1002 ms
+Repetition 6: Report execution of Threads implementation, downloading image of a: Dog
+Time: 933 ms
+Repetition 7: Report execution of Threads implementation, downloading image of a: Dog
+Time: 965 ms
+Repetition 8: Report execution of Threads implementation, downloading image of a: Dog
+Time: 771 ms
+Repetition 1: Report execution of Threads implementation, downloading image of a: Lion
+Time: 473 ms
+Repetition 2: Report execution of Threads implementation, downloading image of a: Lion
+Time: 458 ms
+Repetition 3: Report execution of Threads implementation, downloading image of a: Lion
+Time: 454 ms
+Repetition 4: Report execution of Threads implementation, downloading image of a: Lion
+Time: 475 ms
+Repetition 5: Report execution of Threads implementation, downloading image of a: Lion
+Time: 454 ms
+Repetition 6: Report execution of Threads implementation, downloading image of a: Lion
+Time: 487 ms
+Repetition 7: Report execution of Threads implementation, downloading image of a: Lion
+Time: 472 ms
+Repetition 8: Report execution of Threads implementation, downloading image of a: Lion
+Time: 455 ms
+Repetition 1: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 420 ms
+Repetition 2: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 446 ms
+Repetition 3: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 423 ms
+Repetition 4: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 431 ms
+Repetition 5: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 440 ms
+Repetition 6: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 418 ms
+Repetition 7: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 416 ms
+Repetition 8: Report execution of Threads implementation, downloading image of a: Pigeon
+Time: 919 ms
+Repetition 1: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 519 ms
+Repetition 2: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 487 ms
+Repetition 3: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 435 ms
+Repetition 4: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 420 ms
+Repetition 5: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 419 ms
+Repetition 6: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 428 ms
+Repetition 7: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 429 ms
+Repetition 8: Report execution of Threads implementation, downloading image of a: Platypus
+Time: 409 ms
+Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1581 ms
+Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1574 ms
+Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1542 ms
+Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1514 ms
+Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1366 ms
+Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1225 ms
+Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1093 ms
+Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Cat
+Time: 1180 ms
+Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 793 ms
+Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 712 ms
+Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 776 ms
+Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 616 ms
+Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 773 ms
+Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 804 ms
+Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 624 ms
+Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Dog
+Time: 755 ms
+Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 456 ms
+Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 766 ms
+Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 1376 ms
+Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 584 ms
+Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 582 ms
+Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 597 ms
+Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 440 ms
+Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Lion
+Time: 452 ms
+Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 444 ms
+Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 278 ms
+Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 429 ms
+Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 434 ms
+Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 449 ms
+Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 444 ms
+Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 456 ms
+Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+Time: 437 ms
+Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 411 ms
+Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 422 ms
+Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 277 ms
+Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 424 ms
+Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 270 ms
+Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 426 ms
+Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 428 ms
+Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Platypus
+Time: 421 ms
+Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 1429 ms
+Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 1266 ms
+Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 1223 ms
+Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 1097 ms
+Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 967 ms
+Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 920 ms
+Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 799 ms
+Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Cat
+Time: 772 ms
+Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 1138 ms
+Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 767 ms
+Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 744 ms
+Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 755 ms
+Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 769 ms
+Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 1076 ms
+Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 746 ms
+Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Dog
+Time: 756 ms
+Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 450 ms
+Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 450 ms
+Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 443 ms
+Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 485 ms
+Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 471 ms
+Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 438 ms
+Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 430 ms
+Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Lion
+Time: 479 ms
+Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 436 ms
+Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 483 ms
+Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 427 ms
+Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 410 ms
+Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 425 ms
+Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 428 ms
+Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 419 ms
+Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+Time: 410 ms
+Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 429 ms
+Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 418 ms
+Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 459 ms
+Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 423 ms
+Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 462 ms
+Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 428 ms
+Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 446 ms
+Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Platypus
+Time: 415 ms
+Repetition 1: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 770 ms
+Repetition 2: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 779 ms
+Repetition 3: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 756 ms
+Repetition 4: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 740 ms
+Repetition 5: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 824 ms
+Repetition 6: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 627 ms
+Repetition 7: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 685 ms
+Repetition 8: Report execution of IntentServices implementation, downloading image of a: Cat
+Time: 646 ms
+Repetition 1: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 595 ms
+Repetition 2: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 769 ms
+Repetition 3: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 956 ms
+Repetition 4: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 945 ms
+Repetition 5: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 925 ms
+Repetition 6: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 1000 ms
+Repetition 7: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 1003 ms
+Repetition 8: Report execution of IntentServices implementation, downloading image of a: Dog
+Time: 972 ms
+Repetition 1: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 590 ms
+Repetition 2: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 435 ms
+Repetition 3: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 579 ms
+Repetition 4: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 614 ms
+Repetition 5: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 634 ms
+Repetition 6: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 573 ms
+Repetition 7: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 590 ms
+Repetition 8: Report execution of IntentServices implementation, downloading image of a: Lion
+Time: 620 ms
+Repetition 1: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 287 ms
+Repetition 2: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 444 ms
+Repetition 3: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 453 ms
+Repetition 4: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 424 ms
+Repetition 5: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 438 ms
+Repetition 6: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 423 ms
+Repetition 7: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 414 ms
+Repetition 8: Report execution of IntentServices implementation, downloading image of a: Pigeon
+Time: 406 ms
+Repetition 1: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 415 ms
+Repetition 2: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 446 ms
+Repetition 3: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 403 ms
+Repetition 4: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 254 ms
+Repetition 5: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 433 ms
+Repetition 6: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 286 ms
+Repetition 7: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 431 ms
+Repetition 8: Report execution of IntentServices implementation, downloading image of a: Platypus
+Time: 438 ms
+Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1535 ms
+Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1592 ms
+Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1394 ms
+Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1273 ms
+Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1098 ms
+Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1152 ms
+Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1101 ms
+Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Cat
+Time: 1128 ms
+Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 1194 ms
+Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 1352 ms
+Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 905 ms
+Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 893 ms
+Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 1274 ms
+Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 1057 ms
+Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 1017 ms
+Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Dog
+Time: 1048 ms
+Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 433 ms
+Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 445 ms
+Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 579 ms
+Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 438 ms
+Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 657 ms
+Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 633 ms
+Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 827 ms
+Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Lion
+Time: 648 ms
+Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 447 ms
+Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 426 ms
+Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 287 ms
+Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 3228 ms
+Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 433 ms
+Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 470 ms
+Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 457 ms
+Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+Time: 289 ms
+Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 463 ms
+Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 449 ms
+Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 275 ms
+Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 296 ms
+Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 271 ms
+Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 276 ms
+Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 473 ms
+Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+Time: 255 ms
+====================================================================================================

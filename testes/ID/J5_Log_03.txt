@@ -1,0 +1,484 @@
+2019-10-04 11:31:15.524 19210-19372/com.example.concurrencyeval D/ID_TEST: ====================================================================================================
+2019-10-04 11:31:15.524 19210-19372/com.example.concurrencyeval D/ID_TEST: ========================================== IMAGE DOWNLOAD ==========================================
+2019-10-04 11:31:15.524 19210-19372/com.example.concurrencyeval D/ID_TEST: ====================================================================================================
+2019-10-04 11:31:15.525 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.525 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 548 ms
+2019-10-04 11:31:15.525 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.525 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 627 ms
+2019-10-04 11:31:15.525 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 611 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 518 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 539 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 596 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 633 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Cat
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 509 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 487 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 499 ms
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.526 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 498 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 484 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 498 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 587 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 478 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Dog
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 504 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 461 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 405 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1036 ms
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.527 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 458 ms
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 464 ms
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 472 ms
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 421 ms
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Lion
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 465 ms
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 443 ms
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.528 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 458 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 420 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 732 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 435 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 443 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 402 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 418 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 429 ms
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.529 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 429 ms
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 422 ms
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 409 ms
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 285 ms
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 431 ms
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.530 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 419 ms
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 397 ms
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1359 ms
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1362 ms
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1251 ms
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1215 ms
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1097 ms
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.531 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 934 ms
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 956 ms
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Threads implementation, downloading image of a: Cat
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 930 ms
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 609 ms
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 579 ms
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1112 ms
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.532 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 655 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 610 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 489 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 628 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Threads implementation, downloading image of a: Dog
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 682 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 424 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 332 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 424 ms
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.533 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 439 ms
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 709 ms
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 468 ms
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 455 ms
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Threads implementation, downloading image of a: Lion
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 446 ms
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 463 ms
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 450 ms
+2019-10-04 11:31:15.534 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 520 ms
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 443 ms
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 850 ms
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 472 ms
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 434 ms
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Threads implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 431 ms
+2019-10-04 11:31:15.535 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 470 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 461 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 421 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 280 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 442 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 416 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 273 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of Threads implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 521 ms
+2019-10-04 11:31:15.536 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1426 ms
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1359 ms
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1291 ms
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1240 ms
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1039 ms
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.537 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1122 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1854 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Cat
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1691 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1231 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1236 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1193 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1105 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1087 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 758 ms
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.538 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 878 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Dog
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 612 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 439 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 302 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 460 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 440 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 438 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 448 ms
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.539 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 591 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Lion
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 589 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 439 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 419 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 431 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1671 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 290 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 433 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 462 ms
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.540 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 413 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 274 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 435 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 433 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 452 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 405 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 449 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 428 ms
+2019-10-04 11:31:15.541 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of ThreadPool implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 413 ms
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1612 ms
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1645 ms
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1547 ms
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1543 ms
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.542 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1529 ms
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1464 ms
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1351 ms
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Cat
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1221 ms
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 826 ms
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 738 ms
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.543 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 799 ms
+2019-10-04 11:31:15.544 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.544 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 626 ms
+2019-10-04 11:31:15.544 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.544 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 607 ms
+2019-10-04 11:31:15.544 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.544 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 612 ms
+2019-10-04 11:31:15.544 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 602 ms
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Dog
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 593 ms
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 528 ms
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 399 ms
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.545 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 414 ms
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 447 ms
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 428 ms
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 524 ms
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 445 ms
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Lion
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 436 ms
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 417 ms
+2019-10-04 11:31:15.546 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 419 ms
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 434 ms
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 408 ms
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 409 ms
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 409 ms
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 637 ms
+2019-10-04 11:31:15.547 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.548 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 433 ms
+2019-10-04 11:31:15.548 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.548 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 474 ms
+2019-10-04 11:31:15.548 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.548 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 422 ms
+2019-10-04 11:31:15.548 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.548 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 452 ms
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 417 ms
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 437 ms
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 412 ms
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 406 ms
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of AsyncTask implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 430 ms
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.549 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1210 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1197 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1524 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1343 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1263 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1225 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1207 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of IntentServices implementation, downloading image of a: Cat
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1251 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 910 ms
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.550 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 760 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 896 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1050 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1113 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1091 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 895 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of IntentServices implementation, downloading image of a: Dog
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1101 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 425 ms
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.551 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 583 ms
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 591 ms
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 597 ms
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 441 ms
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 592 ms
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 620 ms
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of IntentServices implementation, downloading image of a: Lion
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 640 ms
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.552 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 429 ms
+2019-10-04 11:31:15.553 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.553 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 425 ms
+2019-10-04 11:31:15.553 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.553 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 409 ms
+2019-10-04 11:31:15.554 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.554 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 416 ms
+2019-10-04 11:31:15.555 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.555 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 283 ms
+2019-10-04 11:31:15.555 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.555 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 445 ms
+2019-10-04 11:31:15.555 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.555 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 435 ms
+2019-10-04 11:31:15.555 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of IntentServices implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.559 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 453 ms
+2019-10-04 11:31:15.559 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.560 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 413 ms
+2019-10-04 11:31:15.560 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.560 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 456 ms
+2019-10-04 11:31:15.560 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.560 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 453 ms
+2019-10-04 11:31:15.560 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.560 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 446 ms
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 422 ms
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 458 ms
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 440 ms
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of IntentServices implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 415 ms
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 923 ms
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 772 ms
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.561 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 626 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1268 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 794 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 647 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 782 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Cat
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1351 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 740 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 589 ms
+2019-10-04 11:31:15.562 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 934 ms
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1225 ms
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1058 ms
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 916 ms
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1084 ms
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Dog
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 927 ms
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.563 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 444 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 592 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 570 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 741 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 564 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 572 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 574 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Lion
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 645 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 401 ms
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.564 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 446 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 269 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 283 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 1010 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 430 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 417 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Pigeon
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 439 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 1: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 278 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 2: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 482 ms
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 3: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.565 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 271 ms
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 4: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 416 ms
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 5: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 435 ms
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 6: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 429 ms
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 7: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 438 ms
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Repetition 8: Report execution of HaMeR framework implementation, downloading image of a: Platypus
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: Time: 397 ms
+2019-10-04 11:31:15.566 19210-19372/com.example.concurrencyeval D/ID_TEST: ====================================================================================================
