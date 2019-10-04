@@ -1,364 +1,484 @@
-2019-10-02 22:05:30.145 29567-29599/com.example.concurrencyeval D/PH_TEST: ====================================================================================================
-2019-10-02 22:05:30.146 29567-29599/com.example.concurrencyeval D/PH_TEST: =========================================== PHILOSOPHERS ===========================================
-2019-10-02 22:05:30.146 29567-29599/com.example.concurrencyeval D/PH_TEST: ====================================================================================================
-2019-10-02 22:05:30.146 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.146 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 563.4
-2019-10-02 22:05:30.146 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3.4400000000000004
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 566.8
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 18.16
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 555.0
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 16.4
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 558.6
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.440000000000001
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 554.4
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 1.0399999999999998
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.147 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 555.0
-2019-10-02 22:05:30.148 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 17.2
-2019-10-02 22:05:30.148 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.148 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 554.6
-2019-10-02 22:05:30.148 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 11.440000000000001
-2019-10-02 22:05:30.148 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.148 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 557.8
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 16.160000000000004
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 553.0
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 22.0
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 564.4
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 8.24
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.149 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 248.27272727272728
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.19834710743801
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 245.63636363636363
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 35.867768595041326
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 247.54545454545453
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 39.5206611570248
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 249.0909090909091
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 36.26446280991734
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 247.0
-2019-10-02 22:05:30.150 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 51.27272727272727
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 246.54545454545453
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 28.42975206611571
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 239.8181818181818
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.148760330578515
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 253.45454545454547
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.429752066115707
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 258.6363636363636
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 15.685950413223141
-2019-10-02 22:05:30.151 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 248.8181818181818
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 33.78512396694215
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 26.95049504950495
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 193.51240074502505
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 31.0
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 313.6237623762376
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 30.287128712871286
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 264.5215174982845
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.152 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 30.22772277227723
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 240.80952847760025
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 29.900990099009903
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 661.6337613959416
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 28.77227722772277
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 111.581805705323
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 29.643564356435643
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 254.20958729536318
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 28.900990099009903
-2019-10-02 22:05:30.153 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 129.13871189099103
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 29.07920792079208
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 151.71649838251153
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Threads implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 28.405940594059405
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 145.31045975884717
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 545.2
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 8.56
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 549.4
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 12.64
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.154 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 562.8
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 0.56
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 549.4
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 35.04
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 545.0
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.2
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 555.2
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 40.56
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 551.6
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 11.84
-2019-10-02 22:05:30.155 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 554.4
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 7.040000000000001
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 561.0
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 14.4
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 558.6
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 23.84
-2019-10-02 22:05:30.156 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 245.27272727272728
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 44.01652892561983
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 248.36363636363637
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 21.867768595041316
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 175.0909090909091
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 65.35537190082644
-2019-10-02 22:05:30.157 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 137.0909090909091
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 41.7190082644628
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 216.45454545454547
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 40.61157024793389
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 244.45454545454547
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 55.33884297520661
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.158 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 242.8181818181818
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.148760330578515
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 255.0
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 36.18181818181818
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 253.63636363636363
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 21.867768595041323
-2019-10-02 22:05:30.159 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.160 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 246.0909090909091
-2019-10-02 22:05:30.161 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 40.628099173553714
-2019-10-02 22:05:30.161 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.162 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 28.485148514851485
-2019-10-02 22:05:30.162 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 24.150769532398773
-2019-10-02 22:05:30.162 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.162 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 26.316831683168317
-2019-10-02 22:05:30.163 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 388.9887265954318
-2019-10-02 22:05:30.163 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.163 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 28.97029702970297
-2019-10-02 22:05:30.164 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 200.88030585236734
-2019-10-02 22:05:30.164 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.165 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 27.336633663366335
-2019-10-02 22:05:30.165 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 85.98568767767865
-2019-10-02 22:05:30.165 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.165 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 32.257425742574256
-2019-10-02 22:05:30.165 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 554.2901676306245
-2019-10-02 22:05:30.165 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.166 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 27.861386138613863
-2019-10-02 22:05:30.166 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 134.65405352416425
-2019-10-02 22:05:30.166 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.167 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 28.10891089108911
-2019-10-02 22:05:30.167 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 81.10695029899028
-2019-10-02 22:05:30.167 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.168 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 29.18811881188119
-2019-10-02 22:05:30.168 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 194.39035388687387
-2019-10-02 22:05:30.168 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.168 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 29.297029702970296
-2019-10-02 22:05:30.168 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 307.23850602882084
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of ThreadPool implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 30.306930693069308
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 41.084011371434165
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 525.0
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 9.2
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 511.0
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5.2
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 507.8
-2019-10-02 22:05:30.169 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5.36
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 519.8
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 1.7600000000000002
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 522.0
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 22.8
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 520.8
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 12.559999999999999
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.170 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 509.6
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3.4400000000000004
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 512.4
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 9.440000000000001
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 518.8
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 10.56
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 516.6
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 21.04
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.171 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 232.63636363636363
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 24.776859504132222
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 240.36363636363637
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 61.867768595041326
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 240.36363636363637
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 35.867768595041326
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.172 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 248.27272727272728
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 44.19834710743801
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 237.36363636363637
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 28.41322314049586
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 247.36363636363637
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 43.1404958677686
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 233.63636363636363
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 54.95867768595041
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 236.9090909090909
-2019-10-02 22:05:30.173 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.26446280991735
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 242.8181818181818
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 32.876033057851245
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 238.36363636363637
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 48.59504132231405
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 20.534653465346533
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 420.1695912165473
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 20.792079207920793
-2019-10-02 22:05:30.174 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 284.9369669640231
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 20.326732673267326
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 773.7447309087347
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 20.336633663366335
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 579.4114302519355
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 20.91089108910891
-2019-10-02 22:05:30.175 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 163.82374277031664
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 17.92079207920792
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 489.7957063033036
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 19.722772277227723
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 123.92314478972663
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 21.14851485148515
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 329.6116067052251
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 18.514851485148515
-2019-10-02 22:05:30.176 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 369.7745319086368
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of HaMeR framework implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 19.940594059405942
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 766.9667679639248
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 240.4
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 67803.44
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 263.4
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 62433.43999999999
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 239.2
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 69026.16
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.177 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 248.8
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 68409.36
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 259.6
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 60937.840000000004
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 260.4
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 67088.63999999998
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 237.0
-2019-10-02 22:05:30.178 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 73030.8
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 253.8
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 69813.36
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 236.8
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 73197.36
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 241.8
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 72596.56000000001
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 2375.818181818182
-2019-10-02 22:05:30.179 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3.979658887603307E7
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 2407.909090909091
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3.862009371900826E7
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 155.72727272727272
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 47701.28925619834
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 123.18181818181819
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 46875.421487603315
-2019-10-02 22:05:30.180 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.181 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 167.54545454545453
-2019-10-02 22:05:30.181 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 46729.88429752067
-2019-10-02 22:05:30.181 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.181 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 2402.4545454545455
-2019-10-02 22:05:30.181 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 4.329390697520661E7
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 141.8181818181818
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 43137.239669421484
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 109.27272727272727
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 44384.7438016529
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 123.63636363636364
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 45625.50413223141
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
-2019-10-02 22:05:30.182 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 150.9090909090909
-2019-10-02 22:05:30.184 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 44155.900826446275
-2019-10-02 22:05:30.184 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 23.564356435643564
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6330.899323595693
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 14.277227722772277
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5828.893441819466
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 45.504950495049506
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 7735.2400745025
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 254.12871287128712
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3622784.2705617133
-2019-10-02 22:05:30.185 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 30.425742574257427
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6890.640525438671
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 36.693069306930695
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6088.668169787273
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 22.178217821782177
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5703.988040388212
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 29.504950495049506
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6434.309381433176
-2019-10-02 22:05:30.186 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.187 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 38.20792079207921
-2019-10-02 22:05:30.187 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 14182.93696696402
-2019-10-02 22:05:30.187 29567-29599/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with 101 philosophers, running by 2 seconds
-2019-10-02 22:05:30.187 29567-29599/com.example.concurrencyeval D/PH_TEST: Average executions: 24.613861386138613
-2019-10-02 22:05:30.187 29567-29599/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6271.128124693664
-2019-10-02 22:05:30.187 29567-29599/com.example.concurrencyeval D/PH_TEST: ====================================================================================================
+2019-10-03 18:41:25.657 24410-24624/com.example.concurrencyeval D/PH_TEST: ====================================================================================================
+2019-10-03 18:41:25.657 24410-24624/com.example.concurrencyeval D/PH_TEST: =========================================== PHILOSOPHERS ===========================================
+2019-10-03 18:41:25.657 24410-24624/com.example.concurrencyeval D/PH_TEST: ====================================================================================================
+2019-10-03 18:41:25.658 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.659 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 558.6
+2019-10-03 18:41:25.659 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 28.2
+2019-10-03 18:41:25.659 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.660 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 552.8
+2019-10-03 18:41:25.660 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 11.8
+2019-10-03 18:41:25.660 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.660 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 563.8
+2019-10-03 18:41:25.660 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 11.0
+2019-10-03 18:41:25.660 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 567.8
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 33.0
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 555.2
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 22.2
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 535.4
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 21.4
+2019-10-03 18:41:25.661 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 411.2
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 200.6
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 554.0
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 12.8
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 544.6
+2019-10-03 18:41:25.662 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 2.2
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 560.8
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 25.4
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 246.8
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 40.5
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 240.6
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 21.0
+2019-10-03 18:41:25.663 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.664 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 243.0
+2019-10-03 18:41:25.664 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 63.3
+2019-10-03 18:41:25.664 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.664 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 243.1
+2019-10-03 18:41:25.665 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 73.5
+2019-10-03 18:41:25.665 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.665 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 255.7
+2019-10-03 18:41:25.665 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 9.5
+2019-10-03 18:41:25.665 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.665 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 253.7
+2019-10-03 18:41:25.666 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 33.3
+2019-10-03 18:41:25.666 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.666 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 254.3
+2019-10-03 18:41:25.666 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 55.3
+2019-10-03 18:41:25.666 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.667 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 254.2
+2019-10-03 18:41:25.667 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 15.8
+2019-10-03 18:41:25.667 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.667 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 249.1
+2019-10-03 18:41:25.668 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 31.4
+2019-10-03 18:41:25.668 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.668 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 248.5
+2019-10-03 18:41:25.668 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 33.7
+2019-10-03 18:41:25.668 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.668 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 49.1
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 68.4
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 48.3
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 126.1
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 45.3
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 86.7
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.669 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 47.1
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 162.0
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 46.0
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 76.4
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 48.1
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 142.3
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.670 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 48.0
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 146.5
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 45.1
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 153.3
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 45.7
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 50.7
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.671 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 49.3
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 362.8
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 18.9
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 33.6
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 23.6
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 23.0
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.672 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 26.7
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 321.5
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 24.3
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 252.1
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 22.9
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 255.8
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 21.8
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 72.3
+2019-10-03 18:41:25.673 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 24.9
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 30.7
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 33.1
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 459.9
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 24.0
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 173.1
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Threads implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.674 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 23.7
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 25.9
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 542.2
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 11.4
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 547.6
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6.6
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.675 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 554.0
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3.6
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 553.8
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3.0
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 547.4
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.8
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.676 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 546.4
+2019-10-03 18:41:25.677 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 15.8
+2019-10-03 18:41:25.677 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.677 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 549.4
+2019-10-03 18:41:25.677 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.0
+2019-10-03 18:41:25.677 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.677 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 551.2
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 8.6
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 556.2
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.8
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 540.8
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 16.2
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.678 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 248.8
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 21.8
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 250.6
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 26.6
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 246.3
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 28.2
+2019-10-03 18:41:25.679 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.680 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 255.1
+2019-10-03 18:41:25.680 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 24.4
+2019-10-03 18:41:25.680 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.680 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 246.9
+2019-10-03 18:41:25.681 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 19.4
+2019-10-03 18:41:25.681 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.681 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 238.8
+2019-10-03 18:41:25.682 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 32.3
+2019-10-03 18:41:25.682 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.683 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 250.5
+2019-10-03 18:41:25.683 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6.4
+2019-10-03 18:41:25.684 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.685 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 245.8
+2019-10-03 18:41:25.685 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.7
+2019-10-03 18:41:25.685 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.685 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 244.6
+2019-10-03 18:41:25.686 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 35.3
+2019-10-03 18:41:25.686 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.686 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 241.8
+2019-10-03 18:41:25.686 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 76.5
+2019-10-03 18:41:25.687 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.687 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 45.3
+2019-10-03 18:41:25.687 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 82.4
+2019-10-03 18:41:25.687 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.687 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 49.3
+2019-10-03 18:41:25.687 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 224.5
+2019-10-03 18:41:25.688 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.688 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 47.2
+2019-10-03 18:41:25.688 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 125.4
+2019-10-03 18:41:25.688 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.688 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 46.7
+2019-10-03 18:41:25.689 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 105.4
+2019-10-03 18:41:25.689 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.689 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 48.6
+2019-10-03 18:41:25.689 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 108.3
+2019-10-03 18:41:25.689 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.689 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 44.9
+2019-10-03 18:41:25.690 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 62.5
+2019-10-03 18:41:25.690 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.690 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 46.8
+2019-10-03 18:41:25.690 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 61.5
+2019-10-03 18:41:25.690 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.690 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 48.2
+2019-10-03 18:41:25.690 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 142.0
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 49.6
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 370.2
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 47.5
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 88.5
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 22.7
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 102.0
+2019-10-03 18:41:25.691 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 22.6
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 18.0
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 22.0
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 132.7
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 20.1
+2019-10-03 18:41:25.692 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 26.8
+2019-10-03 18:41:25.693 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.693 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 21.2
+2019-10-03 18:41:25.693 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 17.8
+2019-10-03 18:41:25.693 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.693 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 21.6
+2019-10-03 18:41:25.694 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 26.4
+2019-10-03 18:41:25.694 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.694 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 19.4
+2019-10-03 18:41:25.694 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 137.3
+2019-10-03 18:41:25.694 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.694 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 20.9
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 144.2
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 28.0
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 229.1
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of ThreadPool implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 21.7
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 40.5
+2019-10-03 18:41:25.695 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 543.8
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5.0
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 540.6
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 3.4
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 541.4
+2019-10-03 18:41:25.696 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.0
+2019-10-03 18:41:25.697 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.697 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 546.2
+2019-10-03 18:41:25.697 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 9.0
+2019-10-03 18:41:25.697 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.697 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 536.6
+2019-10-03 18:41:25.698 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 8.6
+2019-10-03 18:41:25.698 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.698 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 546.2
+2019-10-03 18:41:25.698 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5.4
+2019-10-03 18:41:25.698 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.698 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 551.8
+2019-10-03 18:41:25.699 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 2.2
+2019-10-03 18:41:25.699 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.699 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 554.4
+2019-10-03 18:41:25.699 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 25.8
+2019-10-03 18:41:25.699 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.700 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 539.8
+2019-10-03 18:41:25.700 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5.4
+2019-10-03 18:41:25.700 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.700 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 487.6
+2019-10-03 18:41:25.700 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 125.0
+2019-10-03 18:41:25.700 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.701 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 243.1
+2019-10-03 18:41:25.701 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 27.0
+2019-10-03 18:41:25.702 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.702 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 246.0
+2019-10-03 18:41:25.702 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 26.0
+2019-10-03 18:41:25.702 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.702 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 253.5
+2019-10-03 18:41:25.703 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 28.1
+2019-10-03 18:41:25.703 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.703 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 252.6
+2019-10-03 18:41:25.703 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 52.0
+2019-10-03 18:41:25.703 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 255.4
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 29.5
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 255.7
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 36.4
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 254.7
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 24.0
+2019-10-03 18:41:25.704 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 256.6
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 19.1
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 247.4
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 35.0
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 247.6
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 60.2
+2019-10-03 18:41:25.705 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.706 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 46.5
+2019-10-03 18:41:25.706 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 25.9
+2019-10-03 18:41:25.706 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.706 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 43.3
+2019-10-03 18:41:25.706 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.3
+2019-10-03 18:41:25.707 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.707 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 41.4
+2019-10-03 18:41:25.707 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 24.5
+2019-10-03 18:41:25.707 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.708 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 40.6
+2019-10-03 18:41:25.708 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 18.7
+2019-10-03 18:41:25.708 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.708 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 43.0
+2019-10-03 18:41:25.709 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 23.0
+2019-10-03 18:41:25.709 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.709 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 42.7
+2019-10-03 18:41:25.709 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 27.8
+2019-10-03 18:41:25.709 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.710 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 43.4
+2019-10-03 18:41:25.710 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 20.2
+2019-10-03 18:41:25.710 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.710 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 42.4
+2019-10-03 18:41:25.711 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 22.5
+2019-10-03 18:41:25.711 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.711 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 40.5
+2019-10-03 18:41:25.711 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 23.5
+2019-10-03 18:41:25.711 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.712 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 41.1
+2019-10-03 18:41:25.712 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 19.9
+2019-10-03 18:41:25.712 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.713 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 17.6
+2019-10-03 18:41:25.713 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.9
+2019-10-03 18:41:25.713 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.713 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 16.2
+2019-10-03 18:41:25.713 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 180.9
+2019-10-03 18:41:25.713 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.714 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 17.8
+2019-10-03 18:41:25.714 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 207.8
+2019-10-03 18:41:25.714 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.715 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 17.5
+2019-10-03 18:41:25.715 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 42.7
+2019-10-03 18:41:25.715 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.715 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 16.9
+2019-10-03 18:41:25.715 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 26.6
+2019-10-03 18:41:25.715 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 15.9
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13.2
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 17.0
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 21.6
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 17.4
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 17.0
+2019-10-03 18:41:25.716 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.717 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 17.7
+2019-10-03 18:41:25.717 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 58.9
+2019-10-03 18:41:25.717 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of HaMeR framework implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.717 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 15.6
+2019-10-03 18:41:25.717 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 19.8
+2019-10-03 18:41:25.717 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.717 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 263.6
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 77691.8
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 264.2
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 75545.8
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 265.2
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 74631.0
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.718 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 320.8
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 66607.8
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 292.4
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 70761.4
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 307.8
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 61297.4
+2019-10-03 18:41:25.719 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.720 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 322.8
+2019-10-03 18:41:25.720 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 54596.6
+2019-10-03 18:41:25.720 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.720 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 258.2
+2019-10-03 18:41:25.720 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 78660.6
+2019-10-03 18:41:25.721 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.721 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 274.4
+2019-10-03 18:41:25.721 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 77286.2
+2019-10-03 18:41:25.722 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds
+2019-10-03 18:41:25.722 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 265.0
+2019-10-03 18:41:25.722 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 74125.6
+2019-10-03 18:41:25.722 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.722 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 141.2
+2019-10-03 18:41:25.722 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 50507.4
+2019-10-03 18:41:25.722 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.723 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 143.9
+2019-10-03 18:41:25.723 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 54736.3
+2019-10-03 18:41:25.723 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.723 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 130.8
+2019-10-03 18:41:25.724 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 51643.2
+2019-10-03 18:41:25.724 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.724 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 132.0
+2019-10-03 18:41:25.724 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 49286.7
+2019-10-03 18:41:25.724 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.725 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 2614.8
+2019-10-03 18:41:25.725 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 53155424.1
+2019-10-03 18:41:25.725 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.726 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 2510.4
+2019-10-03 18:41:25.726 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 45154029.7
+2019-10-03 18:41:25.726 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.726 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 161.0
+2019-10-03 18:41:25.726 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 50482.9
+2019-10-03 18:41:25.726 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.727 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 138.8
+2019-10-03 18:41:25.727 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 55674.1
+2019-10-03 18:41:25.727 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.727 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 118.4
+2019-10-03 18:41:25.727 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 52987.3
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 2583.5
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 53980091.3
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 537.8
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 9787113.6
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 58.8
+2019-10-03 18:41:25.728 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13997.4
+2019-10-03 18:41:25.729 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.729 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 44.7
+2019-10-03 18:41:25.729 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13291.4
+2019-10-03 18:41:25.729 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.729 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 49.0
+2019-10-03 18:41:25.729 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13192.3
+2019-10-03 18:41:25.729 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.730 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 42.5
+2019-10-03 18:41:25.730 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 14571.0
+2019-10-03 18:41:25.730 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.730 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 29.7
+2019-10-03 18:41:25.730 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 15086.9
+2019-10-03 18:41:25.730 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.731 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 62.1
+2019-10-03 18:41:25.731 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 26172.0
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 32.0
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 13314.0
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 57.3
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 12897.2
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds
+2019-10-03 18:41:25.732 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 37.6
+2019-10-03 18:41:25.733 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 14200.0
+2019-10-03 18:41:25.733 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 1: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.733 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 34.1
+2019-10-03 18:41:25.733 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6100.4
+2019-10-03 18:41:25.733 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 2: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.733 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 23.0
+2019-10-03 18:41:25.734 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5375.2
+2019-10-03 18:41:25.734 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 3: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.734 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 33.6
+2019-10-03 18:41:25.734 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 6406.4
+2019-10-03 18:41:25.734 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 4: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 24.2
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 8573.4
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 5: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 43.3
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5901.7
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 6: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 204.7
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 2655647.0
+2019-10-03 18:41:25.735 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 7: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.736 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 36.4
+2019-10-03 18:41:25.736 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5579.7
+2019-10-03 18:41:25.736 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 8: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.736 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 28.7
+2019-10-03 18:41:25.736 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 4915.5
+2019-10-03 18:41:25.737 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 9: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.737 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 23.8
+2019-10-03 18:41:25.737 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 5545.6
+2019-10-03 18:41:25.738 24410-24624/com.example.concurrencyeval D/PH_TEST: Repetition 10: Report execution of Kotlin coroutines implementation, with 125 philosophers, running by 2 seconds
+2019-10-03 18:41:25.738 24410-24624/com.example.concurrencyeval D/PH_TEST: Average executions: 16.7
+2019-10-03 18:41:25.738 24410-24624/com.example.concurrencyeval D/PH_TEST: Standard deviation: 4375.9
+2019-10-03 18:41:25.738 24410-24624/com.example.concurrencyeval D/PH_TEST: ====================================================================================================

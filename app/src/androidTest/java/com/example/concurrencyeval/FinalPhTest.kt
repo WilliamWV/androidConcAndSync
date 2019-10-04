@@ -22,6 +22,7 @@ import org.junit.After
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
+import java.util.*
 import java.util.concurrent.TimeoutException
 
 
@@ -39,8 +40,8 @@ class FinalPhTest : GeneralInstrTest{
                         " implementation, with " + report.testParams["philosophers"] +
                         " philosophers, running by " + report.testParams["time"] + " seconds"
             )
-            Log.d(logTag, "Average executions: " + report.runReport.avg.toString())
-            Log.d(logTag, "Standard deviation: " + report.runReport.std.toString())
+            Log.d(logTag, "Average executions: " + String.format(Locale.US, "%.1f", report.runReport.avg))
+            Log.d(logTag, "Standard deviation: " + String.format(Locale.US, "%.1f", report.runReport.std))
         }
         Log.d(logTag, "=".repeat(100))
     }
@@ -98,7 +99,7 @@ class FinalPhTest : GeneralInstrTest{
     @Test
     override fun runTest(){
 
-        val philosophersToUse = listOf(5, 11, 101)
+        val philosophersToUse = listOf(5, 11, 51, 125)
         val timeToTest = listOf(2)
         val implementations = listOf(Constants.THREADS, Constants.THREAD_POOL, Constants.HAMER, Constants.COROUTINES)
 
