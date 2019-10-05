@@ -2,25 +2,16 @@ package com.example.concurrencyeval.implementations.prodcons
 
 import java.util.concurrent.atomic.AtomicReferenceArray
 
-class BufferAtomic(override val size: Int, val millis : Long) : GeneralBuffer{
+class BufferAtomic(size: Int, millis : Long) : GeneralBuffer(size, millis){
 
     private val buffer = AtomicReferenceArray<Any?>(size)
     private val bufferOccupation = AtomicReferenceArray<Boolean>(size)
 
-    override var totalProdItems: Int = 0
-    override var totalConsItems: Int = 0
-    override var itensOnBuffer: Int = 0
-
-    private val begin = System.currentTimeMillis()
 
     init {
         for(i in 0 until size){
             bufferOccupation.set(i, false)
         }
-    }
-
-    private fun remainingTime(): Long {
-        return millis - (System.currentTimeMillis() - begin)
     }
 
     private fun getAndSetEmptyPosition() : Int{

@@ -4,22 +4,12 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.locks.ReentrantLock
 
-class BufferLock(override val size: Int, private val millis: Long) : GeneralBuffer{
+class BufferLock(size: Int, millis: Long) : GeneralBuffer(size, millis){
     private val buffer: Queue<Any?> = ArrayDeque(size)
-
-    override var itensOnBuffer = 0
-    override var totalConsItems = 0
-    override var totalProdItems = 0
 
     private val mutexLock = ReentrantLock(true)
     private val bufferFull = mutexLock.newCondition()
     private val bufferEmpty = mutexLock.newCondition()
-
-    private var begin = System.currentTimeMillis()
-
-    private fun remainingTime(): Long{
-        return millis - (System.currentTimeMillis() - begin)
-    }
 
     override fun insert(obj: Any) {
         if(!mutexLock.tryLock(remainingTime(), TimeUnit.MILLISECONDS)) {

@@ -4,24 +4,13 @@ import java.util.*
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
 
-class BufferSemaphore(override val size: Int, private val millis: Long) : GeneralBuffer {
+class BufferSemaphore(size: Int, millis: Long) : GeneralBuffer(size, millis){
 
     private val buffer: Queue<Any?> = ArrayDeque(size)
-
-    override var itensOnBuffer = 0
-    override var totalConsItems = 0
-    override var totalProdItems = 0
 
     private val empty = Semaphore(size, true)
     private val full = Semaphore(0, true)
     private val mutex = Semaphore(1, true)
-
-
-    private var begin = System.currentTimeMillis()
-
-    private fun remainingTime(): Long{
-        return millis - (System.currentTimeMillis() - begin)
-    }
 
 
     override fun insert(obj: Any) {

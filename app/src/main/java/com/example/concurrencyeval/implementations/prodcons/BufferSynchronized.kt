@@ -2,19 +2,9 @@ package com.example.concurrencyeval.implementations.prodcons
 
 import java.util.*
 
-class BufferSynchronized(override val size: Int, private val millis: Long) : GeneralBuffer {
+class BufferSynchronized(size: Int, millis: Long) : GeneralBuffer(size, millis) {
 
     private val buffer: Queue<Any?> = ArrayDeque(size)
-
-    override var totalProdItems: Int = 0
-    override var totalConsItems: Int = 0
-    override var itensOnBuffer: Int = 0
-
-    private var begin = System.currentTimeMillis()
-
-    private fun remainingTime(): Long{
-        return millis - (System.currentTimeMillis() - begin)
-    }
 
     override fun insert(obj: Any) {
 
