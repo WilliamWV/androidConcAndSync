@@ -1,0 +1,544 @@
+2019-10-04 17:50:04.036 19383-19418/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 17:50:04.036 19383-19418/com.example.concurrencyeval D/PC_TEST: ===================================== PRODUCERS AND CONSUMERS ======================================
+2019-10-04 17:50:04.036 19383-19418/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 197
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 195
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.037 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 208
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 206
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 195
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 206
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 194
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 192
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 203
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.038 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 195
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 193
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 191
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 201
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 195
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:50:04.039 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 207
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 205
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 195
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 199
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 193
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 191
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 199
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:50:04.040 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 169
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 184
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 203
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 187
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 188
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 201
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.041 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 180
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 191
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 189
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 183
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:50:04.042 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 180
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 194
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 192
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 180
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 168
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 166
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.043 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 172
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 183
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 175
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 180
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 174
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 172
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.044 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 162
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 171
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 169
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 168
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 165
+2019-10-04 17:50:04.045 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 164
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 172
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 168
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 166
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 166
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 166
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 169
+2019-10-04 17:50:04.046 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 165
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 165
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 172
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 172
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:50:04.047 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 154
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 153
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 152
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 152
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.048 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 151
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 151
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 159
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 153
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 153
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 138
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 138
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 155
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 154
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 17:50:04.049 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 162
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 162
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 138
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 138
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 146
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 144
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 144
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 147
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 147
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 148
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 148
+2019-10-04 17:50:04.050 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 135
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 146
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 215
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 208
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 206
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 201
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.051 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 201
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 209
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 210
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 205
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 207
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 202
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 204
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 214
+2019-10-04 17:50:04.052 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 209
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 210
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 210
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 205
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 201
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 212
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 207
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 201
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:50:04.053 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 209
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 214
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 209
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 210
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 205
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 210
+2019-10-04 17:50:04.054 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 205
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 204
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 192
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 187
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 191
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 187
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 207
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 203
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 209
+2019-10-04 17:50:04.055 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 207
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 202
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 176
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 169
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 192
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 184
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.056 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 190
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 191
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 185
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 190
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:50:04.057 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 175
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 176
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 186
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 180
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 173
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:50:04.058 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 175
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 172
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 174
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 172
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 168
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.059 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 190
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 190
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 180
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 180
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 180
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 160
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 167
+2019-10-04 17:50:04.060 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 164
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 164
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 174
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 175
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:50:04.061 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 162
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 152
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 171
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 163
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 162
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 164
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 17:50:04.062 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 149
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 149
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 154
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 146
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 167
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 163
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 164
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 164
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 166
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.063 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 160
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 143
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 142
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 145
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 145
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 152
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 144
+2019-10-04 17:50:04.064 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 144
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 148
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 167
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 166
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 145
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 145
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 140
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 140
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Semaphore implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: Consumed items: 154
+2019-10-04 17:50:04.065 19383-19418/com.example.concurrencyeval D/PC_TEST: ====================================================================================================

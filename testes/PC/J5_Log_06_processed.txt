@@ -1,0 +1,544 @@
+====================================================================================================
+===================================== PRODUCERS AND CONSUMERS ======================================
+====================================================================================================
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 161
+Consumed items: 163
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 157
+Consumed items: 156
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 161
+Consumed items: 161
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 153
+Consumed items: 153
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 159
+Consumed items: 159
+Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 167
+Consumed items: 167
+Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 169
+Consumed items: 169
+Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 170
+Consumed items: 170
+Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 165
+Consumed items: 165
+Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 156
+Consumed items: 156
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 63
+Consumed items: 63
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 73
+Consumed items: 73
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 67
+Consumed items: 67
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 65
+Consumed items: 65
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 71
+Consumed items: 71
+Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 68
+Consumed items: 68
+Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 71
+Consumed items: 71
+Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 67
+Consumed items: 67
+Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 67
+Consumed items: 67
+Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 66
+Consumed items: 66
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 39
+Consumed items: 39
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 34
+Consumed items: 34
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 40
+Consumed items: 40
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 41
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 37
+Consumed items: 37
+Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 38
+Consumed items: 38
+Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 36
+Consumed items: 36
+Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 40
+Consumed items: 40
+Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 37
+Consumed items: 37
+Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 35
+Consumed items: 35
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 92
+Consumed items: 90
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 91
+Consumed items: 89
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 88
+Consumed items: 86
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 97
+Consumed items: 95
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 88
+Consumed items: 86
+Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 89
+Consumed items: 87
+Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 89
+Consumed items: 87
+Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 89
+Consumed items: 87
+Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 96
+Consumed items: 94
+Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 91
+Consumed items: 89
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 125
+Consumed items: 124
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 133
+Consumed items: 132
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 125
+Consumed items: 125
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 115
+Consumed items: 115
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 111
+Consumed items: 111
+Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 116
+Consumed items: 116
+Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 135
+Consumed items: 136
+Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 135
+Consumed items: 135
+Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 132
+Consumed items: 132
+Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 124
+Consumed items: 123
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 50
+Consumed items: 50
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 49
+Consumed items: 49
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 55
+Consumed items: 55
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 50
+Consumed items: 50
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 55
+Consumed items: 55
+Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 52
+Consumed items: 52
+Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 49
+Consumed items: 49
+Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 60
+Consumed items: 60
+Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 54
+Consumed items: 54
+Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 55
+Consumed items: 55
+Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 35
+Consumed items: 33
+Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 49
+Consumed items: 47
+Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 48
+Consumed items: 46
+Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 50
+Consumed items: 48
+Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 46
+Consumed items: 44
+Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 45
+Consumed items: 43
+Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 48
+Consumed items: 46
+Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 54
+Consumed items: 52
+Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 45
+Consumed items: 43
+Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 74
+Consumed items: 74
+Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 44
+Consumed items: 42
+Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 70
+Consumed items: 68
+Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 65
+Consumed items: 63
+Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 66
+Consumed items: 64
+Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 56
+Consumed items: 54
+Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 62
+Consumed items: 60
+Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 32
+Consumed items: 30
+Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 62
+Consumed items: 60
+Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 48
+Consumed items: 46
+Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 110
+Consumed items: 109
+Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 102
+Consumed items: 101
+Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 104
+Consumed items: 104
+Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 104
+Consumed items: 102
+Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 106
+Consumed items: 106
+Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 103
+Consumed items: 103
+Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 103
+Consumed items: 102
+Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 107
+Consumed items: 107
+Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 101
+Consumed items: 98
+Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 98
+Consumed items: 98
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 157
+Consumed items: 158
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 173
+Consumed items: 172
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 162
+Consumed items: 162
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 169
+Consumed items: 168
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 162
+Consumed items: 162
+Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 162
+Consumed items: 162
+Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 167
+Consumed items: 167
+Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 155
+Consumed items: 155
+Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 153
+Consumed items: 153
+Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 170
+Consumed items: 170
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 73
+Consumed items: 73
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 80
+Consumed items: 80
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 67
+Consumed items: 67
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 70
+Consumed items: 70
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 73
+Consumed items: 73
+Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 69
+Consumed items: 69
+Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 76
+Consumed items: 76
+Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 71
+Consumed items: 71
+Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 63
+Consumed items: 63
+Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 74
+Consumed items: 74
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 41
+Consumed items: 41
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 42
+Consumed items: 42
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 41
+Consumed items: 41
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 38
+Consumed items: 38
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 43
+Consumed items: 43
+Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 33
+Consumed items: 33
+Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 46
+Consumed items: 46
+Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 45
+Consumed items: 45
+Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 44
+Consumed items: 44
+Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 40
+Consumed items: 40
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 100
+Consumed items: 92
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 95
+Consumed items: 87
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 103
+Consumed items: 95
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 91
+Consumed items: 83
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 95
+Consumed items: 87
+Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 93
+Consumed items: 85
+Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 91
+Consumed items: 83
+Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 94
+Consumed items: 86
+Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 100
+Consumed items: 92
+Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 100
+Consumed items: 92
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 120
+Consumed items: 120
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 139
+Consumed items: 139
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 131
+Consumed items: 131
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 145
+Consumed items: 146
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 138
+Consumed items: 138
+Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 134
+Consumed items: 134
+Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 121
+Consumed items: 119
+Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 139
+Consumed items: 139
+Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 139
+Consumed items: 138
+Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 124
+Consumed items: 124
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 53
+Consumed items: 53
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 49
+Consumed items: 49
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 58
+Consumed items: 58
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 56
+Consumed items: 56
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 53
+Consumed items: 53
+Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 55
+Consumed items: 55
+Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 58
+Consumed items: 58
+Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 56
+Consumed items: 56
+Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 66
+Consumed items: 66
+Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 40
+Consumed items: 40
+Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 47
+Consumed items: 39
+Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 50
+Consumed items: 42
+Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 39
+Consumed items: 31
+Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 52
+Consumed items: 44
+Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 50
+Consumed items: 41
+Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 51
+Consumed items: 43
+Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 56
+Consumed items: 48
+Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 56
+Consumed items: 48
+Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 51
+Consumed items: 43
+Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 50
+Consumed items: 42
+Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 79
+Consumed items: 71
+Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 75
+Consumed items: 67
+Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 47
+Consumed items: 39
+Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 96
+Consumed items: 87
+Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 60
+Consumed items: 53
+Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 52
+Consumed items: 44
+Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 78
+Consumed items: 70
+Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 76
+Consumed items: 68
+Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 63
+Consumed items: 55
+Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 64
+Consumed items: 56
+Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 110
+Consumed items: 110
+Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 106
+Consumed items: 106
+Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 111
+Consumed items: 111
+Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 128
+Consumed items: 124
+Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 109
+Consumed items: 109
+Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 107
+Consumed items: 107
+Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 121
+Consumed items: 116
+Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 101
+Consumed items: 101
+Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 109
+Consumed items: 109
+Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 101
+Consumed items: 101
+====================================================================================================

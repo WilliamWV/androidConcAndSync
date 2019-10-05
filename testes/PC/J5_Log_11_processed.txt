@@ -1,0 +1,544 @@
+====================================================================================================
+===================================== PRODUCERS AND CONSUMERS ======================================
+====================================================================================================
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 170
+Consumed items: 170
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 181
+Consumed items: 181
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 178
+Consumed items: 178
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 167
+Consumed items: 167
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 180
+Consumed items: 179
+Repetition 6: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 182
+Consumed items: 182
+Repetition 7: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 170
+Consumed items: 170
+Repetition 8: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 175
+Consumed items: 175
+Repetition 9: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 171
+Consumed items: 171
+Repetition 10: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 180
+Consumed items: 180
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 153
+Consumed items: 153
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 154
+Consumed items: 154
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 164
+Consumed items: 164
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 152
+Consumed items: 152
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 149
+Consumed items: 149
+Repetition 6: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 155
+Consumed items: 155
+Repetition 7: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 160
+Consumed items: 160
+Repetition 8: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 162
+Consumed items: 162
+Repetition 9: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 158
+Consumed items: 158
+Repetition 10: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 165
+Consumed items: 165
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 125
+Consumed items: 125
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 125
+Consumed items: 125
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 139
+Consumed items: 139
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 135
+Consumed items: 135
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 130
+Consumed items: 130
+Repetition 6: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 129
+Consumed items: 129
+Repetition 7: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 136
+Consumed items: 136
+Repetition 8: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 139
+Consumed items: 139
+Repetition 9: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 134
+Consumed items: 134
+Repetition 10: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 136
+Consumed items: 136
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 160
+Consumed items: 158
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 153
+Consumed items: 151
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 159
+Consumed items: 157
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 162
+Consumed items: 160
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 150
+Consumed items: 148
+Repetition 6: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 154
+Consumed items: 152
+Repetition 7: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 159
+Consumed items: 157
+Repetition 8: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 154
+Consumed items: 152
+Repetition 9: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 157
+Consumed items: 155
+Repetition 10: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 147
+Consumed items: 145
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 150
+Consumed items: 150
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 142
+Consumed items: 142
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 153
+Consumed items: 153
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 142
+Consumed items: 142
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 156
+Consumed items: 156
+Repetition 6: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 151
+Consumed items: 151
+Repetition 7: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 146
+Consumed items: 146
+Repetition 8: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 155
+Consumed items: 155
+Repetition 9: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 152
+Consumed items: 152
+Repetition 10: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 143
+Consumed items: 143
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 139
+Consumed items: 139
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 143
+Consumed items: 143
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 144
+Consumed items: 144
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 141
+Consumed items: 141
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 143
+Consumed items: 143
+Repetition 6: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 149
+Consumed items: 149
+Repetition 7: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 145
+Consumed items: 145
+Repetition 8: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 134
+Consumed items: 134
+Repetition 9: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 136
+Consumed items: 136
+Repetition 10: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 146
+Consumed items: 146
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 120
+Consumed items: 118
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 120
+Consumed items: 118
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 117
+Consumed items: 115
+Repetition 4: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 125
+Consumed items: 123
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 123
+Consumed items: 120
+Repetition 6: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 121
+Consumed items: 119
+Repetition 7: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 117
+Consumed items: 115
+Repetition 8: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 125
+Consumed items: 123
+Repetition 9: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 119
+Consumed items: 117
+Repetition 10: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 118
+Consumed items: 116
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 130
+Consumed items: 128
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 139
+Consumed items: 137
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 137
+Consumed items: 135
+Repetition 4: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 133
+Consumed items: 132
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 144
+Consumed items: 142
+Repetition 6: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 131
+Consumed items: 129
+Repetition 7: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 136
+Consumed items: 134
+Repetition 8: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 137
+Consumed items: 135
+Repetition 9: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 135
+Consumed items: 133
+Repetition 10: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 131
+Consumed items: 129
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 121
+Consumed items: 121
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 117
+Consumed items: 117
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 112
+Consumed items: 112
+Repetition 4: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 126
+Consumed items: 126
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 125
+Consumed items: 125
+Repetition 6: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 129
+Consumed items: 128
+Repetition 7: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 118
+Consumed items: 116
+Repetition 8: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 113
+Consumed items: 113
+Repetition 9: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 119
+Consumed items: 117
+Repetition 10: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 116
+Consumed items: 114
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 180
+Consumed items: 180
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 181
+Consumed items: 181
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 185
+Consumed items: 185
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 176
+Consumed items: 176
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 176
+Consumed items: 176
+Repetition 6: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 181
+Consumed items: 181
+Repetition 7: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 166
+Consumed items: 166
+Repetition 8: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 163
+Consumed items: 163
+Repetition 9: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 188
+Consumed items: 188
+Repetition 10: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 180
+Consumed items: 180
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 157
+Consumed items: 157
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 152
+Consumed items: 152
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 162
+Consumed items: 162
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 150
+Consumed items: 150
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 164
+Consumed items: 163
+Repetition 6: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 160
+Consumed items: 160
+Repetition 7: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 165
+Consumed items: 165
+Repetition 8: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 164
+Consumed items: 164
+Repetition 9: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 161
+Consumed items: 161
+Repetition 10: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 157
+Consumed items: 157
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 131
+Consumed items: 131
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 136
+Consumed items: 136
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 122
+Consumed items: 122
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 131
+Consumed items: 131
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 128
+Consumed items: 128
+Repetition 6: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 134
+Consumed items: 134
+Repetition 7: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 117
+Consumed items: 117
+Repetition 8: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 135
+Consumed items: 135
+Repetition 9: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 129
+Consumed items: 129
+Repetition 10: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 136
+Consumed items: 136
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 150
+Consumed items: 142
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 159
+Consumed items: 151
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 166
+Consumed items: 159
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 168
+Consumed items: 160
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 158
+Consumed items: 150
+Repetition 6: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 164
+Consumed items: 156
+Repetition 7: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 167
+Consumed items: 159
+Repetition 8: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 152
+Consumed items: 144
+Repetition 9: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 166
+Consumed items: 158
+Repetition 10: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 162
+Consumed items: 154
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 156
+Consumed items: 156
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 157
+Consumed items: 157
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 155
+Consumed items: 155
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 168
+Consumed items: 168
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 148
+Consumed items: 148
+Repetition 6: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 168
+Consumed items: 167
+Repetition 7: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 155
+Consumed items: 155
+Repetition 8: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 145
+Consumed items: 144
+Repetition 9: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 153
+Consumed items: 153
+Repetition 10: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 168
+Consumed items: 168
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 142
+Consumed items: 142
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 141
+Consumed items: 141
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 141
+Consumed items: 141
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 140
+Consumed items: 140
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 144
+Consumed items: 144
+Repetition 6: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 146
+Consumed items: 146
+Repetition 7: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 137
+Consumed items: 137
+Repetition 8: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 133
+Consumed items: 133
+Repetition 9: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 134
+Consumed items: 134
+Repetition 10: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 147
+Consumed items: 147
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 116
+Consumed items: 108
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 122
+Consumed items: 114
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 134
+Consumed items: 126
+Repetition 4: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 121
+Consumed items: 113
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 119
+Consumed items: 111
+Repetition 6: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 123
+Consumed items: 115
+Repetition 7: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 109
+Consumed items: 102
+Repetition 8: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 122
+Consumed items: 114
+Repetition 9: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 114
+Consumed items: 106
+Repetition 10: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 111
+Consumed items: 103
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 130
+Consumed items: 122
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 140
+Consumed items: 132
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 142
+Consumed items: 134
+Repetition 4: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 134
+Consumed items: 126
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 137
+Consumed items: 129
+Repetition 6: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 133
+Consumed items: 125
+Repetition 7: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 142
+Consumed items: 134
+Repetition 8: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 120
+Consumed items: 112
+Repetition 9: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 129
+Consumed items: 121
+Repetition 10: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 124
+Consumed items: 116
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 141
+Consumed items: 137
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 118
+Consumed items: 117
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 134
+Consumed items: 131
+Repetition 4: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 128
+Consumed items: 128
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 137
+Consumed items: 134
+Repetition 6: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 128
+Consumed items: 128
+Repetition 7: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 139
+Consumed items: 139
+Repetition 8: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 122
+Consumed items: 121
+Repetition 9: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 133
+Consumed items: 128
+Repetition 10: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 117
+Consumed items: 117
+====================================================================================================

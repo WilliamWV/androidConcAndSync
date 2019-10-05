@@ -1,0 +1,544 @@
+2019-10-04 21:27:04.152 5789-5823/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 21:27:04.152 5789-5823/com.example.concurrencyeval D/PC_TEST: ===================================== PRODUCERS AND CONSUMERS ======================================
+2019-10-04 21:27:04.152 5789-5823/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 21:27:04.152 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 161
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 162
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 162
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 176
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.153 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 165
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 164
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 173
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 173
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 160
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 21:27:04.154 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 161
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 152
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 150
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 150
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 155
+2019-10-04 21:27:04.155 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 163
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 162
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 160
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 128
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 128
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 128
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 128
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 130
+2019-10-04 21:27:04.156 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 130
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 121
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 133
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 120
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 120
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 139
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 139
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 21:27:04.157 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 130
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 130
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 138
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 138
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 130
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 128
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 134
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 150
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.158 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 163
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.159 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 173
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 172
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 147
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 147
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 151
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 141
+2019-10-04 21:27:04.160 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 141
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 164
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 162
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 153
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 153
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 150
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 145
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 149
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 149
+2019-10-04 21:27:04.161 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 120
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 120
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 142
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 142
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 139
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 139
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 139
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 139
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 147
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 147
+2019-10-04 21:27:04.162 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 137
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 137
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 146
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 134
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 134
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 113
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 111
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 115
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 113
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 21:27:04.163 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 127
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 125
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 124
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 120
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 118
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 117
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 115
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 115
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 113
+2019-10-04 21:27:04.164 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 118
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 116
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 144
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 142
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 129
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 131
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 129
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 129
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 21:27:04.165 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 130
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 128
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 139
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 137
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 141
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 139
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 118
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 118
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.166 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 117
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 117
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 113
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 113
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 119
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 138
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 116
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 115
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 113
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 113
+2019-10-04 21:27:04.167 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 118
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 118
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 115
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 115
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 115
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 115
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 168
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 169
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 21:27:04.168 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 175
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 175
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 176
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 185
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 171
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.169 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 160
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 163
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 163
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 146
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.170 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 155
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 159
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 137
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 137
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 133
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 130
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 130
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.171 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 132
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 132
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 132
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 132
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 126
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 135
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 133
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 125
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 125
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.172 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 131
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 123
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 129
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 121
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 128
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 120
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 123
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 115
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 118
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 110
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 132
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 124
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 113
+2019-10-04 21:27:04.173 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 118
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 141
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 138
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 138
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 149
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 149
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 21:27:04.174 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 159
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 165
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 164
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 150
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 149
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 155
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 153
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 153
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 21:27:04.175 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 135
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 145
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 145
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 133
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 146
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 127
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 138
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 138
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 146
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 148
+2019-10-04 21:27:04.176 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 148
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 137
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 137
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 144
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 144
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 128
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 120
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 116
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 108
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 127
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 21:27:04.177 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 131
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 123
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 132
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 124
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 127
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 130
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 122
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 113
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 118
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 142
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 134
+2019-10-04 21:27:04.178 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 140
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 132
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 137
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 129
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 124
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 116
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 137
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 129
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 139
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 131
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 146
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 138
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 21:27:04.179 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 141
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 140
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 132
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 117
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 117
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 117
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 117
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 125
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 125
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 118
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 118
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 131
+2019-10-04 21:27:04.180 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 131
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 116
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 116
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 131
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 131
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 117
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 117
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 127
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Produced items: 130
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: Consumed items: 124
+2019-10-04 21:27:04.181 5789-5823/com.example.concurrencyeval D/PC_TEST: ====================================================================================================

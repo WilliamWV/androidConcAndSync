@@ -1,0 +1,1087 @@
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: ===================================== PRODUCERS AND CONSUMERS ======================================
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 204
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 202
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:16:14.755 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 206
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 206
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 197
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 195
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 195
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 211
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 209
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.756 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 203
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 207
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 205
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 203
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 201
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 195
+2019-10-04 17:16:14.757 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 192
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 190
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 206
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 201
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 197
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 195
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.758 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 187
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 190
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 188
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 197
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 195
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 185
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 193
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 191
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:16:14.759 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 185
+2019-10-04 17:16:14.760 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.760 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 199
+2019-10-04 17:16:14.760 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:16:14.760 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.760 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 195
+2019-10-04 17:16:14.760 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 191
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 189
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 196
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 194
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 193
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 191
+2019-10-04 17:16:14.761 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 191
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 189
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 199
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 193
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 191
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 194
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 192
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:16:14.762 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 187
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 180
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 188
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 186
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 196
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 194
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 190
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 188
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 183
+2019-10-04 17:16:14.763 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 184
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 184
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 183
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 167
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 165
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.764 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 162
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 162
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 168
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 168
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 183
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 175
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 173
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 176
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.765 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 163
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 171
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 171
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 175
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 175
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 160
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 17:16:14.766 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.767 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:16:14.767 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.767 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.767 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 165
+2019-10-04 17:16:14.767 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 165
+2019-10-04 17:16:14.767 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 171
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 171
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 165
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 165
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 169
+2019-10-04 17:16:14.768 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 172
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 172
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 141
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 141
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 144
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 144
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 156
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 156
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 153
+2019-10-04 17:16:14.769 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 153
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 144
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 144
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 142
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 142
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 140
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 140
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 161
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 159
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 145
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 145
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 126
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.770 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 122
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 122
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 131
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 131
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 122
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 122
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 119
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 119
+2019-10-04 17:16:14.771 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 123
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 123
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 141
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 141
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 117
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 117
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 208
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 203
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 204
+2019-10-04 17:16:14.772 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 200
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 204
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 201
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 219
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 214
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 204
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.773 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 213
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 208
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 212
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 206
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 205
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 201
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 201
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 196
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:16:14.774 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 197
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 209
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 204
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 198
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 193
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:16:14.775 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 195
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 196
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 191
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 203
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 199
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 194
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 202
+2019-10-04 17:16:14.776 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 199
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 184
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 190
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 188
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 203
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 198
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 199
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 194
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 185
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:16:14.777 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 183
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 194
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 186
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 197
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 189
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 200
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 192
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.778 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 189
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 181
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 186
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 173
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:16:14.779 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 193
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 185
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 188
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 187
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 182
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 180
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 177
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 177
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 166
+2019-10-04 17:16:14.780 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 159
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 183
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 175
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 172
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 167
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 184
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 191
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 183
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 190
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 182
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 173
+2019-10-04 17:16:14.781 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 181
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 174
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 171
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 163
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 178
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 17:16:14.782 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 168
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 168
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 168
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 176
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 179
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 171
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 178
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 170
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 175
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 187
+2019-10-04 17:16:14.783 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 179
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 160
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 170
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 168
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 150
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 149
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 159
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 155
+2019-10-04 17:16:14.784 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 151
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 157
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 157
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 176
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 173
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 168
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 160
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 128
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 128
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 134
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 134
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 120
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 120
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.785 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 125
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 125
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 126
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 134
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 134
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 139
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 139
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 116
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 116
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Produced items: 155
+2019-10-04 17:16:14.786 14915-14948/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 17:16:14.787 14915-14948/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 17:22:23.459 20815-20976/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 17:22:23.459 20815-20976/com.example.concurrencyeval D/PC_TEST: ===================================== PRODUCERS AND CONSUMERS ======================================
+2019-10-04 17:22:23.459 20815-20976/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
+2019-10-04 17:22:23.460 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.460 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 143
+2019-10-04 17:22:23.460 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 143
+2019-10-04 17:22:23.460 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.460 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 151
+2019-10-04 17:22:23.460 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 151
+2019-10-04 17:22:23.460 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 154
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 154
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 153
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 154
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 172
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 172
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 125
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 125
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 163
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 163
+2019-10-04 17:22:23.461 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 167
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 167
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 153
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 153
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 61
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 61
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 72
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 72
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 59
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 59
+2019-10-04 17:22:23.462 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 65
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 65
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 64
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 64
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 71
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 71
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 76
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 76
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 71
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 71
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.463 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 68
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 68
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 73
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 73
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 40
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 40
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 34
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 34
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 36
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 36
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.464 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 37
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 37
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 35
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 35
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 36
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 36
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 37
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 37
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 38
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 38
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 37
+2019-10-04 17:22:23.465 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 37
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 38
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 38
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 83
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 81
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 76
+2019-10-04 17:22:23.466 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 75
+2019-10-04 17:22:23.468 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.468 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 85
+2019-10-04 17:22:23.468 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 83
+2019-10-04 17:22:23.468 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.468 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 89
+2019-10-04 17:22:23.468 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 87
+2019-10-04 17:22:23.468 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 88
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 86
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 78
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 76
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 87
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 85
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 87
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 85
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 87
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 85
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 76
+2019-10-04 17:22:23.469 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 74
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 124
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 124
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 133
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 133
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 138
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 132
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 132
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 135
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 135
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 133
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 131
+2019-10-04 17:22:23.470 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 129
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 129
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 127
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 127
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 129
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 129
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 121
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 53
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 53
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 46
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 54
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 54
+2019-10-04 17:22:23.471 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 50
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 50
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 52
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 52
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 59
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 59
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 53
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 53
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 51
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 51
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 63
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 63
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.472 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 53
+2019-10-04 17:22:23.473 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 53
+2019-10-04 17:22:23.473 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.473 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 44
+2019-10-04 17:22:23.473 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 42
+2019-10-04 17:22:23.473 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.473 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 41
+2019-10-04 17:22:23.473 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 39
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 41
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 39
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 34
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 32
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 43
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 41
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 44
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 41
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 39
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 40
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 38
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.474 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 50
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 48
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 52
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 50
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 66
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 64
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 40
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 38
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 57
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 55
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 44
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 54
+2019-10-04 17:22:23.475 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 52
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 42
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 40
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 61
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 59
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 44
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 63
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 61
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 76
+2019-10-04 17:22:23.476 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 74
+2019-10-04 17:22:23.477 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.477 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 115
+2019-10-04 17:22:23.477 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 114
+2019-10-04 17:22:23.477 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 102
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 102
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 75
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 75
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 89
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 89
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 105
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 105
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 105
+2019-10-04 17:22:23.478 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 105
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 99
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 99
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 104
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 104
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 111
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 109
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 85
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 85
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 159
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 161
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 17:22:23.479 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 158
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 162
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 161
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 152
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 152
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 155
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 155
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 163
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 163
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 164
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 162
+2019-10-04 17:22:23.480 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 159
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 158
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 169
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 169
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 63
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 63
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 64
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 64
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 68
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 68
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 73
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 73
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 67
+2019-10-04 17:22:23.481 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 67
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 67
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 67
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 67
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 67
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 63
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 63
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 62
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 62
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 71
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 71
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 46
+2019-10-04 17:22:23.482 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 40
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 40
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 38
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 38
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 47
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 47
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 41
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 41
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 41
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 41
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 40
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 40
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.483 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 46
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 43
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 43
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 41
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 41
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 86
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 78
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 93
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 85
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 83
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 75
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 92
+2019-10-04 17:22:23.484 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 84
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 94
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 87
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 87
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 79
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 93
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 85
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 86
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 78
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 80
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 72
+2019-10-04 17:22:23.485 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 93
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 85
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 97
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 97
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 119
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 118
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 114
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 114
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 103
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 103
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 121
+2019-10-04 17:22:23.486 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 125
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 136
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 136
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 67
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 67
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 52
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 48
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 66
+2019-10-04 17:22:23.487 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 66
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 50
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 50
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 53
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 53
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 49
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 49
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 57
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 57
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.488 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 56
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 56
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 51
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 51
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 57
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 57
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 59
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 59
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 46
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 60
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 60
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.489 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 45
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 37
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 49
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 41
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 48
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 40
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 42
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 34
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 46
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 38
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 44
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 36
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 49
+2019-10-04 17:22:23.490 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 41
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 53
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 45
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 49
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 41
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 44
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 36
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 57
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 49
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 71
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 63
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 61
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 53
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 66
+2019-10-04 17:22:23.491 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 58
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 43
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 35
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 89
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 82
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 97
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 89
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 69
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 61
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 81
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 73
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 73
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 65
+2019-10-04 17:22:23.492 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 1: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 105
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 103
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 2: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 126
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 124
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 3: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 104
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 104
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 4: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 101
+2019-10-04 17:22:23.493 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 101
+2019-10-04 17:22:23.494 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 5: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.494 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 112
+2019-10-04 17:22:23.494 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 106
+2019-10-04 17:22:23.494 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 6: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.494 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 121
+2019-10-04 17:22:23.494 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 113
+2019-10-04 17:22:23.495 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 7: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.495 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 107
+2019-10-04 17:22:23.495 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 106
+2019-10-04 17:22:23.495 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 8: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.495 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 131
+2019-10-04 17:22:23.496 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 131
+2019-10-04 17:22:23.496 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 9: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.496 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 98
+2019-10-04 17:22:23.496 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 98
+2019-10-04 17:22:23.496 20815-20976/com.example.concurrencyeval D/PC_TEST: Repetition 10: Report execution of Atomic variables implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+2019-10-04 17:22:23.497 20815-20976/com.example.concurrencyeval D/PC_TEST: Produced items: 122
+2019-10-04 17:22:23.497 20815-20976/com.example.concurrencyeval D/PC_TEST: Consumed items: 121
+2019-10-04 17:22:23.497 20815-20976/com.example.concurrencyeval D/PC_TEST: ====================================================================================================
