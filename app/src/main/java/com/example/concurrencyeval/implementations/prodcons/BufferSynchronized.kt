@@ -2,7 +2,7 @@ package com.example.concurrencyeval.implementations.prodcons
 
 import java.util.*
 
-class BufferSynchronized(override val size: Int) : GeneralBuffer {
+class BufferSynchronized(override val size: Int, private val millis: Long) : GeneralBuffer {
 
     private val buffer: Queue<Any?> = ArrayDeque(size)
 
@@ -10,44 +10,43 @@ class BufferSynchronized(override val size: Int) : GeneralBuffer {
     override var totalConsItems: Int = 0
     override var itensOnBuffer: Int = 0
 
+    private var begin = System.currentTimeMillis()
+
+    private fun remainingTime(): Long{
+        return millis - (System.currentTimeMillis() - begin)
+    }
+
     override fun insert(obj: Any) {
 
-        try{
-            var inserted = false
-            while (!inserted){
-                synchronized(itensOnBuffer){
-                    if (itensOnBuffer < size) {
-                        synchronized(buffer) {
-                            buffer.add(obj)
-                            itensOnBuffer += 1
-                            totalProdItems += 1
-                            inserted = true
-                        }
+        var inserted = false
+        while (!inserted && remainingTime() > 0){
+            synchronized(itensOnBuffer){
+                if (itensOnBuffer < size) {
+                    synchronized(buffer) {
+                        buffer.add(obj)
+                        itensOnBuffer += 1
+                        totalProdItems += 1
+                        inserted = true
                     }
                 }
             }
-        }catch (e: InterruptedException){
-            //do nothing
         }
+
     }
 
     override fun obtain(): Any? {
         var item : Any? = null
-        try {
-            while(item == null) {
-                synchronized(itensOnBuffer) {
-                    if (itensOnBuffer > 0) {
-                        synchronized(buffer) {
-                            item = buffer.poll()
-                            itensOnBuffer -= 1
-                            totalConsItems += 1
+        while(item == null && remainingTime() > 0) {
+            synchronized(itensOnBuffer) {
+                if (itensOnBuffer > 0) {
+                    synchronized(buffer) {
+                        item = buffer.poll()
+                        itensOnBuffer -= 1
+                        totalConsItems += 1
 
-                        }
                     }
                 }
             }
-        } catch (e: InterruptedException) {
-            // do nothing
         }
         return item
     }
