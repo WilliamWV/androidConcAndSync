@@ -40,7 +40,7 @@ class PhCoroutines(
                     synchronized(forks[(id+1) % forks.size]) {
                         LCS.lcsLength(forks[id], forks[id+1])
                         forks[id] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
-                        forks[id+1] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
+                        forks[(id+1)%forks.size] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
 
                         freq[id]+=1
                     }
@@ -49,7 +49,7 @@ class PhCoroutines(
                 synchronized(forks[(id+1)%forks.size]) {
                     synchronized(forks[id]) {
                         forks[id] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
-                        forks[id+1] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
+                        forks[(id+1)%forks.size] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
 
                         freq[id]+=1
                     }
