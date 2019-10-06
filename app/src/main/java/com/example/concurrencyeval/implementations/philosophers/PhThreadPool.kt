@@ -3,7 +3,6 @@ package com.example.concurrencyeval.implementations.philosophers
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.util.RunReport
-import java.io.File
 import java.util.concurrent.Executors
 import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
@@ -17,7 +16,8 @@ class PhThreadPool(
 
     override fun execute(): RunReport {
         val forks: Array<String> = Array(philosophers){LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)}
-        val file = File(phDir, Constants.PHILOSOPHERS_FILE)
+        val frequencies = IntArray(philosophers) {0}
+
 
         for (i in 0 until philosophers){
             val leftFork = forks[i]
@@ -28,9 +28,9 @@ class PhThreadPool(
             //possible to occur deadlock
             threadPool.execute(
                 if (i == 0){
-                    PhWorkerRunnable(rightFork, leftFork, time, file, i)
+                    PhWorkerRunnable(rightFork, leftFork, time, frequencies, i)
                 } else{
-                    PhWorkerRunnable(leftFork, rightFork, time, file, i)
+                    PhWorkerRunnable(leftFork, rightFork, time, frequencies, i)
                 }
             )
         }
@@ -38,6 +38,6 @@ class PhThreadPool(
         threadPool.shutdown()
         threadPool.awaitTermination(1, TimeUnit.HOURS)
 
-        return PhUtil.buildReport(philosophers, File(phDir, Constants.PHILOSOPHERS_FILE))
+        return RunReport(frequencies)
     }
 }

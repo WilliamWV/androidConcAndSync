@@ -12,22 +12,11 @@ abstract class PhImplementation (
     val activity: PhilosophersActivity
 ) : Thread(){
 
-    val phDir = File(activity.applicationContext.filesDir, "PH")
 
     override fun run() {
-        this.cleanFile()
         val report = this.execute()
         activity.runOnUiThread {
             activity.updateReport(report)
-        }
-    }
-    private fun cleanFile(){
-        try {
-            File(phDir, Constants.PHILOSOPHERS_FILE).writeText("")
-        } catch (ex : Exception){
-            Log.d("ERROR", ex.toString())
-            phDir.mkdirs()
-            File(phDir, Constants.PHILOSOPHERS_FILE).createNewFile()
         }
     }
 

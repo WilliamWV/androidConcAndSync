@@ -5,7 +5,6 @@ import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.implementations.mm.MMHaMeR
 import com.example.concurrencyeval.util.RunReport
-import java.io.File
 
 class PhHaMeR(
     philosophers: Int, time: Int, activity: PhilosophersActivity
@@ -22,7 +21,7 @@ class PhHaMeR(
         }
 
         val forks: Array<String> = Array(philosophers){LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)}
-        val file = File(phDir, Constants.PHILOSOPHERS_FILE)
+        val frequencies = IntArray(philosophers) {0}
 
         for (i in 0 until philosophers){
             val leftFork = forks[i]
@@ -32,9 +31,9 @@ class PhHaMeR(
             //except from one that attempts the right first there is no
             //possible to occur deadlock
             if (i == 0){
-                handlers[i].post(PhWorkerRunnable(rightFork, leftFork, time, file, i))
+                handlers[i].post(PhWorkerRunnable(rightFork, leftFork, time, frequencies, i))
             } else{
-                handlers[i].post(PhWorkerRunnable(leftFork, rightFork, time, file, i))
+                handlers[i].post(PhWorkerRunnable(leftFork, rightFork, time, frequencies, i))
             }
 
         }
@@ -44,7 +43,7 @@ class PhHaMeR(
             handlerThreads[i].join()
         }
 
-        return PhUtil.buildReport(philosophers, File(phDir, Constants.PHILOSOPHERS_FILE))
+        return RunReport(frequencies)
     }
 
 }

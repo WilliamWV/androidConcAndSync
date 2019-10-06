@@ -1,11 +1,10 @@
 package com.example.concurrencyeval.implementations.philosophers
 
 import com.example.concurrencyeval.Constants
-import java.io.File
 
 
 class PhWorkerRunnable(
-    var fork1: String, var fork2: String, val time: Int, val file: File, val id: Int
+    var fork1: String, var fork2: String, val time: Int, val freq: IntArray, val id: Int
 ): Runnable{
 
 
@@ -19,7 +18,7 @@ class PhWorkerRunnable(
                     fork1 = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
                     fork2 = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
 
-                    file.appendText("$id\n")
+                    freq[id] += 1
                 }
             }
             end = System.currentTimeMillis()

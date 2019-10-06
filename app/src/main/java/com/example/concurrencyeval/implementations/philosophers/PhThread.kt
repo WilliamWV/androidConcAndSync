@@ -3,7 +3,6 @@ package com.example.concurrencyeval.implementations.philosophers
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.util.RunReport
-import java.io.File
 
 
 class PhThread(
@@ -13,7 +12,7 @@ class PhThread(
     override fun execute(): RunReport {
         val phThreads: MutableList<Thread> = mutableListOf()
         val forks: Array<String> = Array(philosophers){LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)}
-        val file = File(phDir, Constants.PHILOSOPHERS_FILE)
+        val frequencies = IntArray(philosophers) {0}
 
         for (i in 0 until philosophers){
             val leftFork = forks[i]
@@ -23,9 +22,9 @@ class PhThread(
             //except from one that attempts the right first there is no
             //possible to occur deadlock
             phThreads += if (i == 0){
-                Thread(PhWorkerRunnable(rightFork, leftFork, time, file, i))
+                Thread(PhWorkerRunnable(rightFork, leftFork, time, frequencies, i))
             } else{
-                Thread(PhWorkerRunnable(leftFork, rightFork, time, file, i))
+                Thread(PhWorkerRunnable(leftFork, rightFork, time, frequencies, i))
             }
             phThreads[i].start()
         }
@@ -33,6 +32,6 @@ class PhThread(
         for (i in 0 until philosophers){
             phThreads[i].join()
         }
-        return PhUtil.buildReport(philosophers, File(phDir, Constants.PHILOSOPHERS_FILE))
+        return RunReport(frequencies)
     }
 }
