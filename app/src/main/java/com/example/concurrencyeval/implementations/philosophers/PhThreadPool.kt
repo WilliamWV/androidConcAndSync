@@ -4,6 +4,7 @@ import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.util.RunReport
 import java.util.concurrent.Executors
+import java.util.concurrent.Semaphore
 import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
 
@@ -19,14 +20,14 @@ class PhThreadPool(
         val frequencies = IntArray(philosophers) {0}
 
 
-        for (i in 0 until philosophers){
-            val leftFork = forks[i]
-            val rightFork = forks[(i+1)%forks.size]
+        when (sync) {
+            Constants.SYNCHRONIZED -> for (i in 0 until philosophers) {
+                val leftFork = forks[i]
+                val rightFork = forks[(i + 1) % forks.size]
 
-            //If all philosophers attempts to obtain the left fork first
-            //except from one that attempts the right first there is no
-            //possible to occur deadlock
-            if(sync == Constants.SYNCHRONIZED) {
+                //If all philosophers attempts to obtain the left fork first
+                //except from one that attempts the right first there is no
+                //possible to occur deadlock
                 threadPool.execute(
                     if (i == 0) {
                         PhWorkerRunnableSync(rightFork, leftFork, time, frequencies, i)
@@ -35,7 +36,15 @@ class PhThreadPool(
                     }
                 )
             }
+            Constants.SEMAPHORE -> for (i in 0 until philosophers) {
+
+                val sems = Array(forks.size) { Semaphore(1, true) }
+                threadPool.execute {
+                    PhWorkerRunnableSemaphore(forks, sems, time, frequencies, i)
+                }
+            }
         }
+
 
         threadPool.shutdown()
         threadPool.awaitTermination(1, TimeUnit.HOURS)
