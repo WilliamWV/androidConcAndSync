@@ -4,6 +4,7 @@ import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.util.RunReport
 import java.util.concurrent.Semaphore
+import java.util.concurrent.locks.ReentrantLock
 
 
 class PhThread(
@@ -33,6 +34,12 @@ class PhThread(
             Constants.SEMAPHORE -> for (i in 0 until philosophers){
                 val sems = Array(forks.size) { Semaphore(1, true) }
                 phThreads += Thread(PhWorkerRunnableSemaphore(forks, sems, time, frequencies, i))
+                phThreads[i].start()
+
+            }
+            Constants.LOCK -> for (i in 0 until philosophers){
+                val locks = Array(forks.size) { ReentrantLock(true) }
+                phThreads += Thread(PhWorkerRunnableLock(forks, locks, time, frequencies, i))
                 phThreads[i].start()
 
             }

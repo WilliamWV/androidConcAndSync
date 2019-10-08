@@ -6,6 +6,7 @@ import com.example.concurrencyeval.activities.PhilosophersActivity
 import com.example.concurrencyeval.implementations.mm.MMHaMeR
 import com.example.concurrencyeval.util.RunReport
 import java.util.concurrent.Semaphore
+import java.util.concurrent.locks.ReentrantLock
 
 class PhHaMeR(
     philosophers: Int, time: Int, sync: Int, activity: PhilosophersActivity
@@ -43,6 +44,11 @@ class PhHaMeR(
             Constants.SEMAPHORE -> for(i in 0 until philosophers){
                 val sems = Array(forks.size) { Semaphore(1, true) }
                 handlers[i].post(PhWorkerRunnableSemaphore(forks, sems, time, frequencies, i))
+            }
+
+            Constants.LOCK -> for(i in 0 until philosophers){
+                val locks = Array(forks.size) { ReentrantLock(true) }
+                handlers[i].post(PhWorkerRunnableLock(forks, locks, time, frequencies, i))
             }
         }
         for (i in 0 until philosophers){

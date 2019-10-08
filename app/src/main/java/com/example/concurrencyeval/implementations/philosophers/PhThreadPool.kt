@@ -7,6 +7,7 @@ import java.util.concurrent.Executors
 import java.util.concurrent.Semaphore
 import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
+import java.util.concurrent.locks.ReentrantLock
 
 class PhThreadPool(
     philosophers: Int, time: Int, sync: Int, activity: PhilosophersActivity
@@ -41,6 +42,12 @@ class PhThreadPool(
                 val sems = Array(forks.size) { Semaphore(1, true) }
                 threadPool.execute {
                     PhWorkerRunnableSemaphore(forks, sems, time, frequencies, i)
+                }
+            }
+            Constants.LOCK -> for (i in 0 until philosophers){
+                val locks = Array(forks.size) { ReentrantLock(true) }
+                threadPool.execute {
+                    PhWorkerRunnableLock(forks, locks, time, frequencies, i)
                 }
             }
         }

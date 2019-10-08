@@ -7,11 +7,12 @@ import kotlinx.coroutines.*
 import java.util.concurrent.Executors
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
+import java.util.concurrent.locks.ReentrantLock
 
 class PhCoroutines(
     philosophers: Int, time: Int, sync: Int, activity: PhilosophersActivity
 ): PhImplementation(philosophers, time, sync, activity){
-    val frequencies = IntArray(philosophers) {0}
+    private val frequencies = IntArray(philosophers) {0}
 
     override fun execute(): RunReport {
         runBlocking {
@@ -29,6 +30,12 @@ class PhCoroutines(
                     jobs += GlobalScope.launch (pool) {
                         val sems = Array(forks.size){Semaphore(1, true)}
                         thinkSemaphore(i, forks, sems, frequencies)
+                    }
+                }
+                Constants.LOCK -> for (i in 0 until philosophers){
+                    jobs += GlobalScope.launch (pool) {
+                        val locks = Array(forks.size){ReentrantLock(true)}
+                        thinkLock(i, forks, locks, frequencies)
                     }
                 }
             }
@@ -98,6 +105,40 @@ class PhCoroutines(
 
             sems[secondFork].release()
             sems[firstFork].release()
+            end = System.currentTimeMillis()
+        }
+
+    }
+
+    private fun thinkLock(id: Int, forks: Array<String>, locks: Array<ReentrantLock>, freq: IntArray){
+
+        var firstFork = id%forks.size
+        var secondFork = (id+1)%forks.size
+        if (id == 0){
+            firstFork = (id+1)%forks.size
+            secondFork = id%forks.size
+        }
+
+        val beg = System.currentTimeMillis()
+        var end = beg
+
+        while ((end - beg) / 1000 <= time){
+            if (!locks[firstFork].tryLock(1000 * time - (end - beg), TimeUnit.MILLISECONDS)) return
+            val fork1 = forks[firstFork]
+            if (!locks[secondFork].tryLock(1000 * time - (end - beg), TimeUnit.MILLISECONDS)){
+                locks[firstFork].unlock()
+                return
+            }
+            val fork2 = forks[secondFork]
+
+            LCS.lcsLength(fork1, fork2)
+            forks[id%locks.size] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
+            forks[(id+1)%locks.size] = LCS.randString(Constants.LCS_RANGE, Constants.LCS_LENGTH)
+
+            freq[id] += 1
+
+            locks[secondFork].unlock()
+            locks[firstFork].unlock()
             end = System.currentTimeMillis()
         }
 

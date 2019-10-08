@@ -16,8 +16,7 @@ class PhilosophersActivity : AbstractActivity(Constants.PHILOSOPHERS) {
     private val positionOfSyncs = hashMapOf(
         0 to Constants.SEMAPHORE,
         1 to Constants.SYNCHRONIZED,
-        2 to Constants.ATOMIC,
-        3 to Constants.LOCK
+        2 to Constants.LOCK
     )
 
     private fun populateSpinner() : Spinner {

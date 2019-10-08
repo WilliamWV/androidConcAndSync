@@ -92,7 +92,6 @@
     <string-array name="ph_sync">
         <item>Semaphore</item>
         <item>Synchronized</item>
-        <item>Atomic variables</item>
         <item>Lock and Condition</item>
     </string-array>
 
