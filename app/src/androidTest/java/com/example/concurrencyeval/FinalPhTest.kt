@@ -72,8 +72,8 @@ class FinalPhTest : GeneralInstrTest{
             phActivity.activity.waitTask()
             if (!(i == 0 && Constants.IGNORE_FIRST)) {
 
-                assertTrue(phActivity.activity.report.avg > 0)
-                assertTrue(phActivity.activity.report.std > 0)
+                assertTrue(phActivity.activity.report.avg >= 0)
+                assertTrue(phActivity.activity.report.std >= 0)
                 reports.add(
                     TestReport(
                         Constants.PHILOSOPHERS,

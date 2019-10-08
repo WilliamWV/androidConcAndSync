@@ -40,15 +40,15 @@ class PhThreadPool(
             Constants.SEMAPHORE -> for (i in 0 until philosophers) {
 
                 val sems = Array(forks.size) { Semaphore(1, true) }
-                threadPool.execute {
+                threadPool.execute (
                     PhWorkerRunnableSemaphore(forks, sems, time, frequencies, i)
-                }
+                )
             }
             Constants.LOCK -> for (i in 0 until philosophers){
                 val locks = Array(forks.size) { ReentrantLock(true) }
-                threadPool.execute {
+                threadPool.execute (
                     PhWorkerRunnableLock(forks, locks, time, frequencies, i)
-                }
+                )
             }
         }
 

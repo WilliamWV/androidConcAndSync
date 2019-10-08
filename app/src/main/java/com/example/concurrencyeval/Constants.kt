@@ -104,14 +104,13 @@ object Constants {
     //Values
     const val MATRIX_RANGE: Long = 15
     const val ARR_RANGE: Long = 15
-    const val PHILOSOPHERS_FILE: String = "phi_file.txt"
 
     const val LCS_LENGTH: Int = 64
     const val LCS_RANGE: Int = 3
 
     //Test related constants
     const val MAX_TIMEOUT_FAILS: Int = 5
-    const val REPETITIONS: Int = 10
+    const val REPETITIONS: Int = 1
     const val IGNORE_FIRST: Boolean = true
 
 }
