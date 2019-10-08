@@ -89,8 +89,8 @@ class FinalSumTest : GeneralInstrTest{
     @Test
     override fun runTest(){
 
-        val tasksToUse = listOf(1, 2, 8, 32, 256)
-        val numbersToTest = listOf(1048576)
+        val tasksToUse = listOf(1, 8, 64, 512)
+        val numbersToTest = listOf(524288, 4194304)
         val implementations = listOf(Constants.THREADS, Constants.THREAD_POOL, Constants.HAMER, Constants.COROUTINES, Constants.THREADS_BARRIER)
 
         implementations.forEach { impl ->
