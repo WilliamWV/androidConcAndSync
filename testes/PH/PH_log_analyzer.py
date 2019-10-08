@@ -33,6 +33,7 @@ for file in log_files:
 				time = int(prev_prev_line[prev_prev_line.find('running by') + 11:prev_prev_line.find('seconds')-1])
 				philosophers = int(prev_prev_line[prev_prev_line.find('with') + 5:prev_prev_line.find('philosophers')-1])
 				impl = prev_prev_line[prev_prev_line.find("of") + 3:prev_prev_line.find('implementation')-1]
+				sync = prev_prev_line[prev_prev_line.find("using") + 6: prev_prev_line.find('to synchronize')-1]
 				avg = float(prev_line[prev_line.find('Average executions:') + 20:])
 				std = float(line[line.find('Standard deviation:')+20:])
 				if logs.get(impl) == None:
@@ -40,7 +41,9 @@ for file in log_files:
 				if logs[impl].get(time) == None:
 					logs[impl][time] = {}
 				if logs[impl][time].get(philosophers) == None:
-					logs[impl][time][philosophers] = []
+					logs[impl][time][philosophers] = {}
+				if logs[impl][time][philosophers].get(sync) == None:
+					logs[impl][time][philosophers][sync] = []
 				
 				logs[impl][time][philosophers].append((avg, std))
 				
@@ -50,40 +53,45 @@ for file in log_files:
 		
 out.write(';Philosophers problem;\n')
 times = [2]
-philosophers = [5, 11, 51, 125]
+philosophers = [5, 11, 51]
 impls = ['Threads', 'ThreadPool', 'HaMeR framework', 'Kotlin coroutines']
+sync = ['Semaphores', 'Synchronized', 'Locks']
+
 repetitions = 30
 for p in philosophers:
 	out.write(str(p) + ' Philosophers;\n')
-	out.write('\n')
 	for t in times:
 		out.write('Running by ' + str(t) + 's;\n')
-	
-		out.write('; Average executions;;;;;;Standard deviation;\n;;')
+		for s in sync:
+			out.write('Using ' + str(s) + ';;;;;;;;;;;;;')
+		out.write(';\n')
+		out.write('; Average executions;;;;;;Standard deviation;;;;;;Average executions;;;;;;Standard deviation;;;;;;Average executions;;;;;;Standard deviation\n;;')
 
-		for i in impls:
-			out.write(str(i)+';')
-		out.write(';;')
-		
-		for i in impls:
-			out.write(str(i)+';')
-		out.write(';;;')
+		for s in sync:
+			for i in impls:
+				out.write(str(i)+';')
+			out.write(';;')
+			
+			for i in impls:
+				out.write(str(i)+';')
+			out.write(';;;')
 		
 		out.write(';\n')
 		for r in range(repetitions):
 			out.write(';;')
-			for i in impls:
-				if (len(logs[i][t][p]) > r):
-					out.write(str(logs[i][t][p][r][0])+';')
-				else:
-					out.write(';')
-			out.write(';;')
-			for i in impls:
-				if (len(logs[i][t][p]) > r):
-					out.write(str(logs[i][t][p][r][1])+';')
-				else:
-					out.write(';')
-			
+			for s in sync:
+				for i in impls:
+					if (len(logs[i][t][p][s]) > r):
+						out.write(str(logs[i][t][p][r][0])+';')
+					else:
+						out.write(';')
+				out.write(';;')
+				for i in impls:
+					if (len(logs[i][t][p]) > r):
+						out.write(str(logs[i][t][p][r][1])+';')
+					else:
+						out.write(';')
+				out.write(';;')
 			out.write(';\n')
 	out.write(';\n;\n;\n')
 

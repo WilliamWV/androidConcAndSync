@@ -39,7 +39,8 @@ class FinalPhTest : GeneralInstrTest{
             Log.d(logTag,
                 "Repetition "+ report.testParams["rep"] + ": " + "Report execution of " + Constants.implNames[report.testParams["impl"]] +
                         " implementation, with " + report.testParams["philosophers"] +
-                        " philosophers, running by " + report.testParams["time"] + " seconds"
+                        " philosophers, running by " + report.testParams["time"] + " seconds" +
+                        "using " + Constants.implNames[report.testParams["sync"]] + " to synchronize"
             )
             Log.d(logTag, "Average executions: " + String.format(Locale.US, "%.1f", report.runReport.avg))
             Log.d(logTag, "Standard deviation: " + String.format(Locale.US, "%.1f", report.runReport.std))
@@ -81,6 +82,7 @@ class FinalPhTest : GeneralInstrTest{
                             "philosophers" to philosophers,
                             "time" to time,
                             "impl" to impl,
+                            "sync" to sync,
                             "rep" to i
                         )
                     )

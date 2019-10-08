@@ -45,8 +45,8 @@ for file in log_files:
 			previousLine = line
 		
 out.write(';Concurrent sum;\n')
-nums = [1048576]
-tasks = [1, 2, 8, 32, 256]
+nums = [262144, 1048576]
+tasks = [1, 16, 256]
 impls = ['Threads', 'ThreadPool', 'HaMeR framework', 'Kotlin coroutines', 'Threads with barriers']
 repetitions = 30
 for n in nums:
