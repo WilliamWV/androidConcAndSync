@@ -42,6 +42,7 @@
     <string name="pc_description">Uses Producers-Consumers problem to explore synchronization methods</string>
     <string name="pc_title">Producers Consumers</string>
     <string name="pc_buffer_size_label">Buffer size</string>
+    <string name="synchronization_method">Synchronization method:</string>
     <string-array name="problems">
         <item>Matrix multiplication</item>
         <item>Philosophers</item>
@@ -82,6 +83,13 @@
     </string-array>
 
     <string-array name="pc_implementations">
+        <item>Semaphore</item>
+        <item>Synchronized</item>
+        <item>Atomic variables</item>
+        <item>Lock and Condition</item>
+    </string-array>
+
+    <string-array name="ph_sync">
         <item>Semaphore</item>
         <item>Synchronized</item>
         <item>Atomic variables</item>

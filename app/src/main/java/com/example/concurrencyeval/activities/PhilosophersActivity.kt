@@ -2,9 +2,7 @@ package com.example.concurrencyeval.activities
 
 import android.os.Bundle
 import android.view.View
-import android.widget.EditText
-import android.widget.ProgressBar
-import android.widget.TextView
+import android.widget.*
 import com.example.concurrencyeval.Constants
 import com.example.concurrencyeval.R
 import com.example.concurrencyeval.implementations.philosophers.PhCoroutines
@@ -15,22 +13,46 @@ import com.example.concurrencyeval.util.RunReport
 
 class PhilosophersActivity : AbstractActivity(Constants.PHILOSOPHERS) {
 
+    private val positionOfSyncs = hashMapOf(
+        0 to Constants.SEMAPHORE,
+        1 to Constants.SYNCHRONIZED,
+        2 to Constants.ATOMIC,
+        3 to Constants.LOCK
+    )
+
+    private fun populateSpinner() : Spinner {
+        val spinner: Spinner = findViewById(R.id.ph_spinner_choose_sync)
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.ph_sync,
+            android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            spinner.adapter = adapter
+        }
+        return spinner
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.setImplementation(intent.getIntExtra(Constants.IMPL_EXTRA, -1))
         setContentView(R.layout.activity_philosophers)
 
         super.onCreate(savedInstanceState)
 
+        val syncSpinner = this.populateSpinner()
+
         super.mRunButton.setOnClickListener {
             super.runManager.taskStarted()
             super.mProgress.visibility = View.VISIBLE
             val philosophers: Int = findViewById<EditText>(R.id.ph_et_philosophers).text.toString().toInt()
             val time: Int = findViewById<EditText>(R.id.ph_et_time).text.toString().toInt()
+            val syncPosition = syncSpinner.selectedItemPosition
+
             when(super.mImplementation){
-                Constants.THREADS -> PhThread(philosophers, time, this).start()
-                Constants.THREAD_POOL -> PhThreadPool(philosophers, time, this).start()
-                Constants.COROUTINES -> PhCoroutines(philosophers, time, this).start()
-                Constants.HAMER -> PhHaMeR(philosophers, time, this).start()
+                Constants.THREADS -> PhThread(philosophers, time, positionOfSyncs[syncPosition]!!,this).start()
+                Constants.THREAD_POOL -> PhThreadPool(philosophers, time, positionOfSyncs[syncPosition]!!, this).start()
+                Constants.COROUTINES -> PhCoroutines(philosophers, time, positionOfSyncs[syncPosition]!!, this).start()
+                Constants.HAMER -> PhHaMeR(philosophers, time, positionOfSyncs[syncPosition]!!, this).start()
                 else -> this.updateReport(RunReport(intArrayOf(0)))
             }
         }

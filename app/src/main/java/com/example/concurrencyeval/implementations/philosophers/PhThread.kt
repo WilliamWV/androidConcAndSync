@@ -6,8 +6,8 @@ import com.example.concurrencyeval.util.RunReport
 
 
 class PhThread(
-    philosophers: Int, time: Int, activity:PhilosophersActivity
-): PhImplementation(philosophers, time, activity){
+    philosophers: Int, time: Int, sync: Int, activity:PhilosophersActivity
+): PhImplementation(philosophers, time, sync, activity){
 
     override fun execute(): RunReport {
         val phThreads: MutableList<Thread> = mutableListOf()
@@ -22,9 +22,9 @@ class PhThread(
             //except from one that attempts the right first there is no
             //possible to occur deadlock
             phThreads += if (i == 0){
-                Thread(PhWorkerRunnable(rightFork, leftFork, time, frequencies, i))
+                Thread(PhWorkerRunnableSync(rightFork, leftFork, time, frequencies, i))
             } else{
-                Thread(PhWorkerRunnable(leftFork, rightFork, time, frequencies, i))
+                Thread(PhWorkerRunnableSync(leftFork, rightFork, time, frequencies, i))
             }
             phThreads[i].start()
         }

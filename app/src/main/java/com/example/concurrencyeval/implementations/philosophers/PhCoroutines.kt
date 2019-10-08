@@ -7,8 +7,8 @@ import kotlinx.coroutines.*
 import java.util.concurrent.Executors
 
 class PhCoroutines(
-    philosophers: Int, time: Int, activity: PhilosophersActivity
-): PhImplementation(philosophers, time, activity){
+    philosophers: Int, time: Int, sync: Int, activity: PhilosophersActivity
+): PhImplementation(philosophers, time, sync, activity){
     val frequencies = IntArray(philosophers) {0}
 
     override fun execute(): RunReport {

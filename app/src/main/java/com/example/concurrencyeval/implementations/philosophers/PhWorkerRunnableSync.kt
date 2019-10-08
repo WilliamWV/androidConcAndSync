@@ -3,7 +3,7 @@ package com.example.concurrencyeval.implementations.philosophers
 import com.example.concurrencyeval.Constants
 
 
-class PhWorkerRunnable(
+class PhWorkerRunnableSync(
     var fork1: String, var fork2: String, val time: Int, val freq: IntArray, val id: Int
 ): Runnable{
 

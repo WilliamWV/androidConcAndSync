@@ -8,8 +8,8 @@ import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
 
 class PhThreadPool(
-    philosophers: Int, time: Int, activity: PhilosophersActivity
-) : PhImplementation(philosophers, time, activity) {
+    philosophers: Int, time: Int, sync: Int, activity: PhilosophersActivity
+) : PhImplementation(philosophers, time, sync, activity) {
 
     private val threadPool : ThreadPoolExecutor = Executors.newFixedThreadPool(philosophers) as ThreadPoolExecutor
 
@@ -26,13 +26,15 @@ class PhThreadPool(
             //If all philosophers attempts to obtain the left fork first
             //except from one that attempts the right first there is no
             //possible to occur deadlock
-            threadPool.execute(
-                if (i == 0){
-                    PhWorkerRunnable(rightFork, leftFork, time, frequencies, i)
-                } else{
-                    PhWorkerRunnable(leftFork, rightFork, time, frequencies, i)
-                }
-            )
+            if(sync == Constants.SYNCHRONIZED) {
+                threadPool.execute(
+                    if (i == 0) {
+                        PhWorkerRunnableSync(rightFork, leftFork, time, frequencies, i)
+                    } else {
+                        PhWorkerRunnableSync(leftFork, rightFork, time, frequencies, i)
+                    }
+                )
+            }
         }
 
         threadPool.shutdown()

@@ -7,8 +7,8 @@ import com.example.concurrencyeval.implementations.mm.MMHaMeR
 import com.example.concurrencyeval.util.RunReport
 
 class PhHaMeR(
-    philosophers: Int, time: Int, activity: PhilosophersActivity
-) : PhImplementation(philosophers, time, activity){
+    philosophers: Int, time: Int, sync: Int, activity: PhilosophersActivity
+) : PhImplementation(philosophers, time, sync, activity){
     override fun execute(): RunReport {
         val handlerThreads = mutableListOf<MMHaMeR.HaMeRThread>()
         val handlers = mutableListOf<Handler>()
@@ -31,9 +31,9 @@ class PhHaMeR(
             //except from one that attempts the right first there is no
             //possible to occur deadlock
             if (i == 0){
-                handlers[i].post(PhWorkerRunnable(rightFork, leftFork, time, frequencies, i))
+                handlers[i].post(PhWorkerRunnableSync(rightFork, leftFork, time, frequencies, i))
             } else{
-                handlers[i].post(PhWorkerRunnable(leftFork, rightFork, time, frequencies, i))
+                handlers[i].post(PhWorkerRunnableSync(leftFork, rightFork, time, frequencies, i))
             }
 
         }
