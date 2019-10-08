@@ -11,6 +11,7 @@ import android.content.Intent
 import android.util.Log
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.*
+import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -51,7 +52,7 @@ class FinalPhTest : GeneralInstrTest{
     @get:Rule
     var phActivity: ActivityTestRule<PhilosophersActivity> = ActivityTestRule(PhilosophersActivity::class.java, false, false)
 
-    private fun performInteractions(philosophers: Int, time: Int, impl: Int){
+    private fun performInteractions(philosophers: Int, time: Int, impl: Int, sync: Int){
         onView(withId(R.id.ph_et_time)).perform(
             clearText(),
             typeText(time.toString()),
@@ -63,6 +64,8 @@ class FinalPhTest : GeneralInstrTest{
             click()
         )
         onView(isRoot()).perform(closeSoftKeyboard())
+        onView(withId(R.id.ph_spinner_choose_sync)).perform(click())
+        onView(ViewMatchers.withText(Constants.implNames[sync])).perform(click())
         for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.ph_run_button)).perform(click())
             phActivity.activity.waitTask()
@@ -86,22 +89,23 @@ class FinalPhTest : GeneralInstrTest{
         }
     }
 
-    private fun runPhTest(philosophers: Int, time: Int, impl: Int, fails: Int = 0){
+    private fun runPhTest(philosophers: Int, time: Int, impl: Int, sync: Int, fails: Int = 0){
         try {
-            performInteractions(philosophers, time, impl)
+            performInteractions(philosophers, time, impl, sync)
         }catch(te: TimeoutException){
             // try again if number of fails does not have passed maximum
             if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
-            else runPhTest(philosophers, time, fails + 1)
+            else runPhTest(philosophers, time, sync, fails + 1)
         }
     }
 
     @Test
     override fun runTest(){
 
-        val philosophersToUse = listOf(5, 11, 51, 125)
+        val philosophersToUse = listOf(5, 11, 51)
         val timeToTest = listOf(2)
         val implementations = listOf(Constants.THREADS, Constants.THREAD_POOL, Constants.HAMER, Constants.COROUTINES)
+        val synchronization = listOf(Constants.SEMAPHORE, Constants.SYNCHRONIZED, Constants.LOCK)
 
         implementations.forEach { impl ->
             val intent = Intent()
@@ -110,7 +114,9 @@ class FinalPhTest : GeneralInstrTest{
 
             timeToTest.forEach{ size ->
                 philosophersToUse.forEach { tasks ->
-                    runPhTest(tasks, size, impl)
+                    synchronization.forEach { sync ->
+                        runPhTest(tasks, size, impl, sync)
+                    }
                 }
             }
             phActivity.finishActivity()
