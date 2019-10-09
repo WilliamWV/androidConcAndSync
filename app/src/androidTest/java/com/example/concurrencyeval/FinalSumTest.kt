@@ -51,9 +51,6 @@ class FinalSumTest : GeneralInstrTest{
     var csActivity: ActivityTestRule<ConcSumActivity> = ActivityTestRule(ConcSumActivity::class.java, false, false)
 
     private fun performInteractions(tasks: Int, numbers: Int, impl: Int){
-        onView(withId(R.id.cs_et_numbers)).perform(clearText(), typeText(numbers.toString()), click())
-        onView(withId(R.id.cs_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
-        onView(isRoot()).perform(closeSoftKeyboard())
         for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.cs_run_button)).perform(click())
             csActivity.activity.waitTask()
@@ -86,6 +83,17 @@ class FinalSumTest : GeneralInstrTest{
         }
     }
 
+    private fun writeNumbers(numbers: Int){
+        onView(withId(R.id.cs_et_numbers)).perform(clearText(), typeText(numbers.toString()), click())
+
+    }
+
+    private fun writeTasks(tasks: Int){
+        onView(withId(R.id.cs_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
+        onView(isRoot()).perform(closeSoftKeyboard())
+
+    }
+
     @Test
     override fun runTest(){
 
@@ -99,7 +107,9 @@ class FinalSumTest : GeneralInstrTest{
             csActivity.launchActivity(intent)
 
             numbersToTest.forEach{ numbers ->
+                writeNumbers(numbers)
                 tasksToUse.forEach { tasks ->
+                    writeTasks(tasks)
                     runSumTest(tasks, numbers, impl)
                 }
             }

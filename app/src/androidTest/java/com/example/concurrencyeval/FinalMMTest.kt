@@ -52,9 +52,6 @@ class FinalMMTest : GeneralInstrTest{
     var mmActivity: ActivityTestRule<MatMultActivity> = ActivityTestRule(MatMultActivity::class.java, false, false)
 
     private fun performInteractions(tasks: Int, size: Int, impl: Int){
-        onView(withId(R.id.mm_et_size)).perform(clearText(), typeText(size.toString()), click())
-        onView(withId(R.id.mm_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
-        onView(isRoot()).perform(closeSoftKeyboard())
         for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.mm_run_button)).perform(click())
             mmActivity.activity.waitTask()
@@ -77,9 +74,20 @@ class FinalMMTest : GeneralInstrTest{
         }catch(te: TimeoutException){
             // try again if number of fails does not have passed maximum
             if (fails >= Constants.MAX_TIMEOUT_FAILS) throw te
-            else runMMTest(tasks, size, fails + 1)
+            else runMMTest(tasks, size, impl, fails + 1)
         }
     }
+
+    private fun writeSize(size: Int){
+        onView(withId(R.id.mm_et_size)).perform(clearText(), typeText(size.toString()), click())
+    }
+
+    private fun writeTasks(tasks: Int){
+        onView(withId(R.id.mm_et_tasks)).perform(clearText(), typeText(tasks.toString()), click())
+        onView(isRoot()).perform(closeSoftKeyboard())
+    }
+
+
     @Test
     override fun runTest() {
         val tasksToUse = listOf(1, 2, 8, 64)
@@ -92,7 +100,9 @@ class FinalMMTest : GeneralInstrTest{
             mmActivity.launchActivity(intent)
 
             sizesToTest.forEach{ size ->
+                writeSize(size)
                 tasksToUse.forEach { tasks ->
+                    writeTasks(tasks)
                     runMMTest(tasks, size, impl)
                 }
             }

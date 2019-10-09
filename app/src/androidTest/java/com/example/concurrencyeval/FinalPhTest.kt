@@ -54,19 +54,6 @@ class FinalPhTest : GeneralInstrTest{
     var phActivity: ActivityTestRule<PhilosophersActivity> = ActivityTestRule(PhilosophersActivity::class.java, false, false)
 
     private fun performInteractions(philosophers: Int, time: Int, impl: Int, sync: Int){
-        onView(withId(R.id.ph_et_time)).perform(
-            clearText(),
-            typeText(time.toString()),
-            click()
-        )
-        onView(withId(R.id.ph_et_philosophers)).perform(
-            clearText(),
-            typeText(philosophers.toString()),
-            click()
-        )
-        onView(isRoot()).perform(closeSoftKeyboard())
-        onView(withId(R.id.ph_spinner_choose_sync)).perform(click())
-        onView(ViewMatchers.withText(Constants.implNames[sync])).perform(click())
         for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.ph_run_button)).perform(click())
             phActivity.activity.waitTask()
@@ -101,6 +88,28 @@ class FinalPhTest : GeneralInstrTest{
         }
     }
 
+    private fun writePhilosophers(philosophers: Int){
+        onView(withId(R.id.ph_et_philosophers)).perform(
+            clearText(),
+            typeText(philosophers.toString()),
+            click()
+        )
+        onView(isRoot()).perform(closeSoftKeyboard())
+
+    }
+    private fun writeTime(time: Int){
+        onView(withId(R.id.ph_et_time)).perform(
+            clearText(),
+            typeText(time.toString()),
+            click()
+        )
+    }
+
+    private fun chooseSync(sync: Int){
+        onView(withId(R.id.ph_spinner_choose_sync)).perform(click())
+        onView(ViewMatchers.withText(Constants.implNames[sync])).perform(click())
+    }
+
     @Test
     override fun runTest(){
 
@@ -114,10 +123,13 @@ class FinalPhTest : GeneralInstrTest{
             intent.putExtra(Constants.IMPL_EXTRA, impl)
             phActivity.launchActivity(intent)
 
-            timeToTest.forEach{ size ->
-                philosophersToUse.forEach { tasks ->
+            timeToTest.forEach{ time ->
+                writeTime(time)
+                philosophersToUse.forEach { philosophers ->
+                    writePhilosophers(philosophers)
                     synchronization.forEach { sync ->
-                        runPhTest(tasks, size, impl, sync)
+                        chooseSync(sync)
+                        runPhTest(philosophers, time, impl, sync)
                     }
                 }
             }

@@ -52,22 +52,6 @@ class FinalProdConsTest : GeneralInstrTest{
     var pcActivity: ActivityTestRule<ProdConsActivity> = ActivityTestRule(ProdConsActivity::class.java, false, false)
 
     private fun performInteractions(producers: Int, consumers: Int, buffSize: Int, impl: Int){
-        onView(withId(R.id.pc_et_producers)).perform(
-            clearText(),
-            typeText(producers.toString()),
-            click()
-        )
-        onView(withId(R.id.pc_et_consumers)).perform(
-            clearText(),
-            typeText(consumers.toString()),
-            click()
-        )
-        onView(withId(R.id.pc_et_buffer)).perform(
-            clearText(),
-            typeText(buffSize.toString()),
-            click()
-        )
-        onView(isRoot()).perform(closeSoftKeyboard())
         for (i in 0 .. Constants.REPETITIONS) {
             onView(withId(R.id.pc_run_button)).perform(click())
             pcActivity.activity.waitTask()
@@ -101,6 +85,33 @@ class FinalProdConsTest : GeneralInstrTest{
 
     }
 
+    private fun writeBuffer(buffSize: Int){
+        onView(withId(R.id.pc_et_buffer)).perform(
+            clearText(),
+            typeText(buffSize.toString()),
+            click()
+        )
+
+    }
+
+    private fun writeProducer(producers: Int){
+        onView(withId(R.id.pc_et_producers)).perform(
+            clearText(),
+            typeText(producers.toString()),
+            click()
+        )
+
+    }
+    private fun writeConsumer(consumers: Int){
+
+        onView(withId(R.id.pc_et_consumers)).perform(
+            clearText(),
+            typeText(consumers.toString()),
+            click()
+        )
+        onView(isRoot()).perform(closeSoftKeyboard())
+    }
+
     @Test
     override fun runTest(){
 
@@ -116,8 +127,11 @@ class FinalProdConsTest : GeneralInstrTest{
             pcActivity.launchActivity(intent)
 
             bufferToUse.forEach{ buffSize ->
+                writeBuffer(buffSize)
                 producersToTest.forEach { producers ->
+                    writeProducer(producers)
                     consumersToTest.forEach { consumers ->
+                        writeConsumer(consumers)
                         runPcTest(producers, consumers, buffSize, impl)
                     }
                 }
