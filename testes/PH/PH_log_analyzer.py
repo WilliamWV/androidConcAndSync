@@ -45,7 +45,7 @@ for file in log_files:
 				if logs[impl][time][philosophers].get(sync) == None:
 					logs[impl][time][philosophers][sync] = []
 				
-				logs[impl][time][philosophers].append((avg, std))
+				logs[impl][time][philosophers][sync].append((avg, std))
 				
 			prev_prev_line = prev_line
 			prev_line = line
@@ -55,7 +55,7 @@ out.write(';Philosophers problem;\n')
 times = [2]
 philosophers = [5, 11, 51]
 impls = ['Threads', 'ThreadPool', 'HaMeR framework', 'Kotlin coroutines']
-sync = ['Semaphores', 'Synchronized', 'Locks']
+sync = ['Semaphore', 'Synchronized', 'Lock and Condition']
 
 repetitions = 30
 for p in philosophers:
@@ -65,7 +65,7 @@ for p in philosophers:
 		for s in sync:
 			out.write('Using ' + str(s) + ';;;;;;;;;;;;;')
 		out.write(';\n')
-		out.write('; Average executions;;;;;;Standard deviation;;;;;;Average executions;;;;;;Standard deviation;;;;;;Average executions;;;;;;Standard deviation\n;;')
+		out.write('; Average executions;;;;;;Standard deviation;;;;;;;Average executions;;;;;;Standard deviation;;;;;;;Average executions;;;;;;Standard deviation\n;;')
 
 		for s in sync:
 			for i in impls:
@@ -82,16 +82,16 @@ for p in philosophers:
 			for s in sync:
 				for i in impls:
 					if (len(logs[i][t][p][s]) > r):
-						out.write(str(logs[i][t][p][r][0])+';')
+						out.write(str(logs[i][t][p][s][r][0])+';')
 					else:
 						out.write(';')
 				out.write(';;')
 				for i in impls:
-					if (len(logs[i][t][p]) > r):
-						out.write(str(logs[i][t][p][r][1])+';')
+					if (len(logs[i][t][p][s]) > r):
+						out.write(str(logs[i][t][p][s][r][1])+';')
 					else:
 						out.write(';')
-				out.write(';;')
+				out.write(';;;')
 			out.write(';\n')
 	out.write(';\n;\n;\n')
 
