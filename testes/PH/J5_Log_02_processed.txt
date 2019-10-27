@@ -2,1083 +2,1083 @@
 =========================================== PHILOSOPHERS ===========================================
 ====================================================================================================
 Repetition 1: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 404.2
-Standard deviation: 20.6
+Average executions: 402.0; Standard deviation: 3.3
+Min: 396; Max: 406
 Repetition 2: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 396.8
-Standard deviation: 21.0
+Average executions: 398.2; Standard deviation: 1.3
+Min: 396; Max: 400
 Repetition 3: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 400.8
-Standard deviation: 11.0
+Average executions: 400.2; Standard deviation: 4.3
+Min: 395; Max: 407
 Repetition 4: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 404.2
-Standard deviation: 0.6
+Average executions: 400.0; Standard deviation: 1.7
+Min: 398; Max: 402
 Repetition 5: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 402.2
-Standard deviation: 17.0
+Average executions: 359.8; Standard deviation: 4.4
+Min: 352; Max: 365
 Repetition 6: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 401.8
-Standard deviation: 4.2
+Average executions: 248.0; Standard deviation: 13.3
+Min: 223; Max: 263
 Repetition 7: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 402.0
-Standard deviation: 6.4
+Average executions: 309.2; Standard deviation: 8.0
+Min: 295; Max: 320
 Repetition 8: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 399.0
-Standard deviation: 22.0
+Average executions: 307.4; Standard deviation: 16.6
+Min: 280; Max: 332
 Repetition 9: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 401.0
-Standard deviation: 14.0
+Average executions: 383.2; Standard deviation: 5.2
+Min: 376; Max: 390
 Repetition 10: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 396.4
-Standard deviation: 14.6
+Average executions: 371.0; Standard deviation: 3.2
+Min: 367; Max: 376
 Repetition 1: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 593.0
-Standard deviation: 22.0
+Average executions: 604.2; Standard deviation: 2.5
+Min: 602; Max: 609
 Repetition 2: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 603.2
-Standard deviation: 81.0
+Average executions: 600.8; Standard deviation: 4.1
+Min: 596; Max: 608
 Repetition 3: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 605.6
-Standard deviation: 47.0
+Average executions: 598.0; Standard deviation: 5.1
+Min: 592; Max: 604
 Repetition 4: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 598.4
-Standard deviation: 39.8
+Average executions: 599.2; Standard deviation: 3.5
+Min: 594; Max: 603
 Repetition 5: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 597.8
-Standard deviation: 35.0
+Average executions: 600.2; Standard deviation: 5.6
+Min: 596; Max: 610
 Repetition 6: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 602.2
-Standard deviation: 14.2
+Average executions: 604.0; Standard deviation: 2.8
+Min: 600; Max: 608
 Repetition 7: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 605.6
-Standard deviation: 59.8
+Average executions: 599.8; Standard deviation: 4.9
+Min: 594; Max: 607
 Repetition 8: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 602.0
-Standard deviation: 60.8
+Average executions: 604.8; Standard deviation: 4.7
+Min: 601; Max: 614
 Repetition 9: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 608.0
-Standard deviation: 2.0
+Average executions: 606.4; Standard deviation: 2.9
+Min: 601; Max: 609
 Repetition 10: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 597.8
-Standard deviation: 5.4
+Average executions: 606.2; Standard deviation: 6.1
+Min: 598; Max: 614
 Repetition 1: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 397.0
-Standard deviation: 11.6
+Average executions: 387.0; Standard deviation: 6.7
+Min: 378; Max: 397
 Repetition 2: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 399.6
-Standard deviation: 16.6
+Average executions: 398.4; Standard deviation: 3.2
+Min: 393; Max: 403
 Repetition 3: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 396.8
-Standard deviation: 24.2
+Average executions: 400.8; Standard deviation: 1.9
+Min: 397; Max: 402
 Repetition 4: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 399.6
-Standard deviation: 32.2
+Average executions: 402.4; Standard deviation: 5.4
+Min: 398; Max: 413
 Repetition 5: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 401.6
-Standard deviation: 33.8
+Average executions: 397.6; Standard deviation: 4.6
+Min: 390; Max: 404
 Repetition 6: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 400.6
-Standard deviation: 8.2
+Average executions: 401.0; Standard deviation: 2.8
+Min: 397; Max: 405
 Repetition 7: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 390.4
-Standard deviation: 3.0
+Average executions: 390.8; Standard deviation: 3.7
+Min: 385; Max: 396
 Repetition 8: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 400.6
-Standard deviation: 11.4
+Average executions: 401.0; Standard deviation: 7.9
+Min: 393; Max: 411
 Repetition 9: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 395.4
-Standard deviation: 1.8
+Average executions: 394.0; Standard deviation: 4.9
+Min: 385; Max: 398
 Repetition 10: Report execution of Threads implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 393.6
-Standard deviation: 13.0
+Average executions: 400.8; Standard deviation: 2.3
+Min: 397; Max: 404
 Repetition 1: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 152.3
-Standard deviation: 14.4
+Average executions: 156.4; Standard deviation: 3.5
+Min: 151; Max: 162
 Repetition 2: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 168.1
-Standard deviation: 37.5
+Average executions: 165.5; Standard deviation: 4.3
+Min: 158; Max: 171
 Repetition 3: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 159.7
-Standard deviation: 8.9
+Average executions: 164.8; Standard deviation: 3.1
+Min: 158; Max: 168
 Repetition 4: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 150.1
-Standard deviation: 61.7
+Average executions: 158.9; Standard deviation: 4.9
+Min: 150; Max: 166
 Repetition 5: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 165.4
-Standard deviation: 75.0
+Average executions: 161.4; Standard deviation: 3.3
+Min: 157; Max: 169
 Repetition 6: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 159.0
-Standard deviation: 19.5
+Average executions: 169.8; Standard deviation: 6.2
+Min: 160; Max: 180
 Repetition 7: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 162.2
-Standard deviation: 9.8
+Average executions: 158.1; Standard deviation: 5.4
+Min: 149; Max: 168
 Repetition 8: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 140.8
-Standard deviation: 12.5
+Average executions: 167.7; Standard deviation: 4.6
+Min: 159; Max: 178
 Repetition 9: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 165.8
-Standard deviation: 16.9
+Average executions: 159.5; Standard deviation: 5.0
+Min: 153; Max: 171
 Repetition 10: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 162.1
-Standard deviation: 34.4
+Average executions: 152.5; Standard deviation: 3.1
+Min: 148; Max: 159
 Repetition 1: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 241.3
-Standard deviation: 37.5
+Average executions: 236.2; Standard deviation: 5.0
+Min: 227; Max: 244
 Repetition 2: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 239.4
-Standard deviation: 37.3
+Average executions: 252.5; Standard deviation: 5.9
+Min: 241; Max: 260
 Repetition 3: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 237.7
-Standard deviation: 34.2
+Average executions: 255.7; Standard deviation: 4.6
+Min: 249; Max: 263
 Repetition 4: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 256.3
-Standard deviation: 32.9
+Average executions: 243.0; Standard deviation: 7.2
+Min: 228; Max: 255
 Repetition 5: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 221.3
-Standard deviation: 52.0
+Average executions: 242.7; Standard deviation: 4.0
+Min: 238; Max: 251
 Repetition 6: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 228.6
-Standard deviation: 47.7
+Average executions: 243.1; Standard deviation: 9.5
+Min: 221; Max: 258
 Repetition 7: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 245.0
-Standard deviation: 13.6
+Average executions: 251.6; Standard deviation: 5.4
+Min: 242; Max: 261
 Repetition 8: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 239.4
-Standard deviation: 19.7
+Average executions: 239.0; Standard deviation: 7.5
+Min: 230; Max: 253
 Repetition 9: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 252.3
-Standard deviation: 20.9
+Average executions: 244.7; Standard deviation: 6.7
+Min: 235; Max: 262
 Repetition 10: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 238.7
-Standard deviation: 19.3
+Average executions: 245.3; Standard deviation: 5.5
+Min: 237; Max: 255
 Repetition 1: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 155.6
-Standard deviation: 24.2
+Average executions: 163.3; Standard deviation: 4.3
+Min: 155; Max: 171
 Repetition 2: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 162.5
-Standard deviation: 36.6
+Average executions: 152.1; Standard deviation: 5.2
+Min: 144; Max: 161
 Repetition 3: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 165.5
-Standard deviation: 24.2
+Average executions: 148.8; Standard deviation: 4.4
+Min: 140; Max: 156
 Repetition 4: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 163.1
-Standard deviation: 18.6
+Average executions: 156.5; Standard deviation: 5.0
+Min: 147; Max: 168
 Repetition 5: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 158.5
-Standard deviation: 34.2
+Average executions: 153.3; Standard deviation: 2.4
+Min: 150; Max: 158
 Repetition 6: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 169.5
-Standard deviation: 20.8
+Average executions: 143.5; Standard deviation: 3.0
+Min: 138; Max: 148
 Repetition 7: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 151.2
-Standard deviation: 11.2
+Average executions: 164.5; Standard deviation: 5.4
+Min: 157; Max: 174
 Repetition 8: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 167.6
-Standard deviation: 7.1
+Average executions: 153.7; Standard deviation: 4.2
+Min: 146; Max: 161
 Repetition 9: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 158.6
-Standard deviation: 15.7
+Average executions: 155.5; Standard deviation: 5.2
+Min: 145; Max: 164
 Repetition 10: Report execution of Threads implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 159.6
-Standard deviation: 17.7
+Average executions: 158.7; Standard deviation: 4.5
+Min: 152; Max: 167
 Repetition 1: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 34.4
-Standard deviation: 120.2
+Average executions: 30.6; Standard deviation: 7.9
+Min: 20; Max: 58
 Repetition 2: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 34.8
-Standard deviation: 122.9
+Average executions: 33.9; Standard deviation: 8.9
+Min: 21; Max: 61
 Repetition 3: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 35.6
-Standard deviation: 148.1
+Average executions: 30.0; Standard deviation: 10.0
+Min: 17; Max: 69
 Repetition 4: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 36.7
-Standard deviation: 207.1
+Average executions: 32.9; Standard deviation: 6.8
+Min: 23; Max: 62
 Repetition 5: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 34.1
-Standard deviation: 126.2
+Average executions: 35.4; Standard deviation: 10.8
+Min: 24; Max: 74
 Repetition 6: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 35.6
-Standard deviation: 69.8
+Average executions: 32.4; Standard deviation: 8.0
+Min: 21; Max: 56
 Repetition 7: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 35.3
-Standard deviation: 170.7
+Average executions: 32.3; Standard deviation: 14.4
+Min: 19; Max: 80
 Repetition 8: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 34.7
-Standard deviation: 149.1
+Average executions: 34.2; Standard deviation: 10.4
+Min: 20; Max: 64
 Repetition 9: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 33.8
-Standard deviation: 100.9
+Average executions: 33.7; Standard deviation: 13.2
+Min: 14; Max: 71
 Repetition 10: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 30.6
-Standard deviation: 191.9
+Average executions: 35.7; Standard deviation: 10.9
+Min: 22; Max: 68
 Repetition 1: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 47.7
-Standard deviation: 79.5
+Average executions: 44.6; Standard deviation: 8.4
+Min: 33; Max: 66
 Repetition 2: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 46.6
-Standard deviation: 85.0
+Average executions: 47.6; Standard deviation: 11.9
+Min: 35; Max: 88
 Repetition 3: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 46.3
-Standard deviation: 109.6
+Average executions: 50.5; Standard deviation: 35.9
+Min: 16; Max: 129
 Repetition 4: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 48.3
-Standard deviation: 115.8
+Average executions: 47.5; Standard deviation: 11.4
+Min: 30; Max: 84
 Repetition 5: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 49.4
-Standard deviation: 117.1
+Average executions: 48.6; Standard deviation: 14.4
+Min: 32; Max: 98
 Repetition 6: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 46.9
-Standard deviation: 118.7
+Average executions: 46.5; Standard deviation: 10.5
+Min: 28; Max: 81
 Repetition 7: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 46.9
-Standard deviation: 110.7
+Average executions: 46.6; Standard deviation: 9.0
+Min: 35; Max: 82
 Repetition 8: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 45.2
-Standard deviation: 67.0
+Average executions: 46.0; Standard deviation: 9.7
+Min: 34; Max: 76
 Repetition 9: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 44.0
-Standard deviation: 57.4
+Average executions: 45.1; Standard deviation: 11.1
+Min: 29; Max: 94
 Repetition 10: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 45.5
-Standard deviation: 87.3
+Average executions: 45.9; Standard deviation: 9.6
+Min: 37; Max: 83
 Repetition 1: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 35.2
-Standard deviation: 215.2
+Average executions: 33.5; Standard deviation: 10.8
+Min: 20; Max: 69
 Repetition 2: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 33.0
-Standard deviation: 280.3
+Average executions: 34.6; Standard deviation: 9.1
+Min: 23; Max: 64
 Repetition 3: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 29.4
-Standard deviation: 249.8
+Average executions: 35.5; Standard deviation: 10.8
+Min: 22; Max: 69
 Repetition 4: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 34.6
-Standard deviation: 102.7
+Average executions: 33.8; Standard deviation: 19.9
+Min: 15; Max: 99
 Repetition 5: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 34.9
-Standard deviation: 215.0
+Average executions: 33.4; Standard deviation: 11.7
+Min: 21; Max: 72
 Repetition 6: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 34.0
-Standard deviation: 123.0
+Average executions: 30.3; Standard deviation: 11.8
+Min: 18; Max: 75
 Repetition 7: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 33.1
-Standard deviation: 148.0
+Average executions: 33.1; Standard deviation: 9.4
+Min: 20; Max: 68
 Repetition 8: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 36.8
-Standard deviation: 154.8
+Average executions: 33.8; Standard deviation: 11.9
+Min: 18; Max: 70
 Repetition 9: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 33.8
-Standard deviation: 164.4
+Average executions: 33.8; Standard deviation: 14.2
+Min: 17; Max: 81
 Repetition 10: Report execution of Threads implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 37.2
-Standard deviation: 536.0
+Average executions: 34.1; Standard deviation: 14.8
+Min: 20; Max: 96
 Repetition 1: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 398.0
-Standard deviation: 5.2
+Average executions: 368.2; Standard deviation: 1.3
+Min: 366; Max: 370
 Repetition 2: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 397.8
-Standard deviation: 28.2
+Average executions: 371.0; Standard deviation: 6.6
+Min: 360; Max: 377
 Repetition 3: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 397.2
-Standard deviation: 22.6
+Average executions: 378.2; Standard deviation: 2.2
+Min: 376; Max: 382
 Repetition 4: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 394.8
-Standard deviation: 13.8
+Average executions: 377.0; Standard deviation: 4.4
+Min: 370; Max: 382
 Repetition 5: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 395.0
-Standard deviation: 41.2
+Average executions: 373.8; Standard deviation: 4.5
+Min: 365; Max: 377
 Repetition 6: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 399.0
-Standard deviation: 28.8
+Average executions: 370.0; Standard deviation: 2.4
+Min: 367; Max: 374
 Repetition 7: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 401.8
-Standard deviation: 18.2
+Average executions: 378.2; Standard deviation: 2.6
+Min: 375; Max: 382
 Repetition 8: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 391.0
-Standard deviation: 5.2
+Average executions: 368.2; Standard deviation: 2.6
+Min: 365; Max: 373
 Repetition 9: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 401.2
-Standard deviation: 23.8
+Average executions: 378.8; Standard deviation: 3.4
+Min: 375; Max: 383
 Repetition 10: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 397.8
-Standard deviation: 20.6
+Average executions: 372.2; Standard deviation: 2.0
+Min: 369; Max: 375
 Repetition 1: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 592.0
-Standard deviation: 28.4
+Average executions: 566.0; Standard deviation: 2.3
+Min: 563; Max: 569
 Repetition 2: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 597.0
-Standard deviation: 12.4
+Average executions: 555.0; Standard deviation: 2.8
+Min: 551; Max: 559
 Repetition 3: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 592.4
-Standard deviation: 5.8
+Average executions: 560.4; Standard deviation: 3.4
+Min: 555; Max: 564
 Repetition 4: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 601.8
-Standard deviation: 10.2
+Average executions: 556.4; Standard deviation: 4.2
+Min: 551; Max: 562
 Repetition 5: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 597.4
-Standard deviation: 10.2
+Average executions: 569.6; Standard deviation: 2.9
+Min: 565; Max: 573
 Repetition 6: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 600.4
-Standard deviation: 10.2
+Average executions: 561.6; Standard deviation: 5.2
+Min: 554; Max: 567
 Repetition 7: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 599.8
-Standard deviation: 5.4
+Average executions: 568.0; Standard deviation: 1.5
+Min: 567; Max: 571
 Repetition 8: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 597.2
-Standard deviation: 1.4
+Average executions: 564.8; Standard deviation: 2.0
+Min: 562; Max: 568
 Repetition 9: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 598.2
-Standard deviation: 20.2
+Average executions: 563.2; Standard deviation: 5.0
+Min: 555; Max: 570
 Repetition 10: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 590.8
-Standard deviation: 11.8
+Average executions: 559.0; Standard deviation: 4.1
+Min: 554; Max: 566
 Repetition 1: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 392.6
-Standard deviation: 3.8
+Average executions: 375.8; Standard deviation: 4.0
+Min: 370; Max: 382
 Repetition 2: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 395.2
-Standard deviation: 7.8
+Average executions: 378.0; Standard deviation: 1.4
+Min: 376; Max: 380
 Repetition 3: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 396.2
-Standard deviation: 5.4
+Average executions: 381.4; Standard deviation: 1.2
+Min: 380; Max: 383
 Repetition 4: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 394.8
-Standard deviation: 5.8
+Average executions: 379.0; Standard deviation: 3.3
+Min: 375; Max: 382
 Repetition 5: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 391.6
-Standard deviation: 11.4
+Average executions: 376.2; Standard deviation: 3.6
+Min: 372; Max: 381
 Repetition 6: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 397.2
-Standard deviation: 16.2
+Average executions: 378.2; Standard deviation: 1.8
+Min: 376; Max: 380
 Repetition 7: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 399.8
-Standard deviation: 12.2
+Average executions: 379.0; Standard deviation: 5.7
+Min: 372; Max: 384
 Repetition 8: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 399.4
-Standard deviation: 28.2
+Average executions: 375.0; Standard deviation: 1.9
+Min: 372; Max: 377
 Repetition 9: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 397.8
-Standard deviation: 6.6
+Average executions: 371.4; Standard deviation: 2.3
+Min: 367; Max: 373
 Repetition 10: Report execution of ThreadPool implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 396.2
-Standard deviation: 23.0
+Average executions: 373.8; Standard deviation: 1.9
+Min: 371; Max: 376
 Repetition 1: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 157.7
-Standard deviation: 41.3
+Average executions: 153.5; Standard deviation: 4.2
+Min: 147; Max: 163
 Repetition 2: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 162.5
-Standard deviation: 18.6
+Average executions: 154.4; Standard deviation: 4.9
+Min: 149; Max: 166
 Repetition 3: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 164.9
-Standard deviation: 8.3
+Average executions: 152.5; Standard deviation: 5.1
+Min: 145; Max: 163
 Repetition 4: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 155.5
-Standard deviation: 32.1
+Average executions: 161.2; Standard deviation: 5.5
+Min: 151; Max: 168
 Repetition 5: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 156.0
-Standard deviation: 14.4
+Average executions: 158.2; Standard deviation: 4.5
+Min: 151; Max: 166
 Repetition 6: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 159.8
-Standard deviation: 15.4
+Average executions: 163.8; Standard deviation: 2.9
+Min: 160; Max: 169
 Repetition 7: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 161.3
-Standard deviation: 18.0
+Average executions: 153.1; Standard deviation: 4.8
+Min: 144; Max: 160
 Repetition 8: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 162.4
-Standard deviation: 47.1
+Average executions: 153.2; Standard deviation: 3.4
+Min: 149; Max: 159
 Repetition 9: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 149.0
-Standard deviation: 17.6
+Average executions: 159.8; Standard deviation: 4.2
+Min: 152; Max: 167
 Repetition 10: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 148.2
-Standard deviation: 4.5
+Average executions: 151.1; Standard deviation: 4.1
+Min: 144; Max: 158
 Repetition 1: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 252.6
-Standard deviation: 25.5
+Average executions: 236.5; Standard deviation: 6.9
+Min: 226; Max: 251
 Repetition 2: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 239.7
-Standard deviation: 21.1
+Average executions: 234.0; Standard deviation: 5.0
+Min: 223; Max: 242
 Repetition 3: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 236.6
-Standard deviation: 43.1
+Average executions: 237.5; Standard deviation: 6.7
+Min: 225; Max: 248
 Repetition 4: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 251.8
-Standard deviation: 30.0
+Average executions: 235.4; Standard deviation: 3.9
+Min: 229; Max: 242
 Repetition 5: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 242.6
-Standard deviation: 15.9
+Average executions: 236.8; Standard deviation: 5.1
+Min: 228; Max: 244
 Repetition 6: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 244.3
-Standard deviation: 88.0
+Average executions: 244.1; Standard deviation: 6.9
+Min: 233; Max: 254
 Repetition 7: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 259.7
-Standard deviation: 77.3
+Average executions: 241.4; Standard deviation: 6.9
+Min: 232; Max: 255
 Repetition 8: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 215.5
-Standard deviation: 29.3
+Average executions: 231.7; Standard deviation: 6.6
+Min: 220; Max: 242
 Repetition 9: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 243.5
-Standard deviation: 20.4
+Average executions: 241.2; Standard deviation: 4.7
+Min: 235; Max: 248
 Repetition 10: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 246.4
-Standard deviation: 30.8
+Average executions: 239.9; Standard deviation: 7.9
+Min: 229; Max: 252
 Repetition 1: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 157.2
-Standard deviation: 27.4
+Average executions: 159.1; Standard deviation: 5.5
+Min: 152; Max: 172
 Repetition 2: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 160.2
-Standard deviation: 10.5
+Average executions: 165.5; Standard deviation: 3.8
+Min: 159; Max: 172
 Repetition 3: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 162.9
-Standard deviation: 25.9
+Average executions: 161.7; Standard deviation: 4.8
+Min: 156; Max: 170
 Repetition 4: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 164.1
-Standard deviation: 17.2
+Average executions: 154.3; Standard deviation: 5.5
+Min: 147; Max: 166
 Repetition 5: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 173.3
-Standard deviation: 26.0
+Average executions: 158.5; Standard deviation: 5.4
+Min: 145; Max: 165
 Repetition 6: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 157.5
-Standard deviation: 24.6
+Average executions: 161.6; Standard deviation: 4.2
+Min: 155; Max: 168
 Repetition 7: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 160.6
-Standard deviation: 35.3
+Average executions: 150.4; Standard deviation: 6.9
+Min: 140; Max: 163
 Repetition 8: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 164.1
-Standard deviation: 24.1
+Average executions: 161.9; Standard deviation: 4.3
+Min: 153; Max: 168
 Repetition 9: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 158.1
-Standard deviation: 33.0
+Average executions: 162.7; Standard deviation: 6.3
+Min: 153; Max: 174
 Repetition 10: Report execution of ThreadPool implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 158.1
-Standard deviation: 31.5
+Average executions: 160.5; Standard deviation: 3.7
+Min: 152; Max: 167
 Repetition 1: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 35.7
-Standard deviation: 193.7
+Average executions: 33.3; Standard deviation: 18.7
+Min: 15; Max: 96
 Repetition 2: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 35.8
-Standard deviation: 186.7
+Average executions: 34.5; Standard deviation: 13.9
+Min: 19; Max: 85
 Repetition 3: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 35.1
-Standard deviation: 147.2
+Average executions: 33.9; Standard deviation: 11.2
+Min: 21; Max: 75
 Repetition 4: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 35.6
-Standard deviation: 71.7
+Average executions: 32.4; Standard deviation: 11.7
+Min: 20; Max: 72
 Repetition 5: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 33.6
-Standard deviation: 179.1
+Average executions: 29.9; Standard deviation: 13.2
+Min: 17; Max: 81
 Repetition 6: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 32.3
-Standard deviation: 208.8
+Average executions: 30.8; Standard deviation: 10.2
+Min: 19; Max: 65
 Repetition 7: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 32.5
-Standard deviation: 94.1
+Average executions: 33.1; Standard deviation: 8.4
+Min: 22; Max: 58
 Repetition 8: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 36.5
-Standard deviation: 286.4
+Average executions: 33.8; Standard deviation: 11.5
+Min: 19; Max: 69
 Repetition 9: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 36.0
-Standard deviation: 136.3
+Average executions: 33.8; Standard deviation: 12.6
+Min: 20; Max: 76
 Repetition 10: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 34.7
-Standard deviation: 190.7
+Average executions: 35.4; Standard deviation: 15.7
+Min: 19; Max: 81
 Repetition 1: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 47.4
-Standard deviation: 142.6
+Average executions: 48.4; Standard deviation: 29.9
+Min: 21; Max: 160
 Repetition 2: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 45.0
-Standard deviation: 79.4
+Average executions: 47.1; Standard deviation: 8.7
+Min: 29; Max: 76
 Repetition 3: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 47.4
-Standard deviation: 823.8
+Average executions: 46.9; Standard deviation: 16.0
+Min: 24; Max: 99
 Repetition 4: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 49.1
-Standard deviation: 166.3
+Average executions: 44.8; Standard deviation: 9.3
+Min: 31; Max: 78
 Repetition 5: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 51.1
-Standard deviation: 284.0
+Average executions: 38.6; Standard deviation: 5.3
+Min: 26; Max: 49
 Repetition 6: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 50.2
-Standard deviation: 560.0
+Average executions: 42.4; Standard deviation: 8.1
+Min: 31; Max: 72
 Repetition 7: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 56.1
-Standard deviation: 2903.7
+Average executions: 46.3; Standard deviation: 9.4
+Min: 33; Max: 74
 Repetition 8: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 47.1
-Standard deviation: 133.0
+Average executions: 45.4; Standard deviation: 9.9
+Min: 35; Max: 79
 Repetition 9: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 46.9
-Standard deviation: 107.2
+Average executions: 44.9; Standard deviation: 13.1
+Min: 28; Max: 89
 Repetition 10: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 43.7
-Standard deviation: 84.2
+Average executions: 46.7; Standard deviation: 10.9
+Min: 27; Max: 77
 Repetition 1: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 34.1
-Standard deviation: 223.9
+Average executions: 30.6; Standard deviation: 6.3
+Min: 22; Max: 52
 Repetition 2: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 35.5
-Standard deviation: 225.7
+Average executions: 33.2; Standard deviation: 11.9
+Min: 21; Max: 78
 Repetition 3: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 35.3
-Standard deviation: 102.1
+Average executions: 34.2; Standard deviation: 9.7
+Min: 22; Max: 64
 Repetition 4: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 35.1
-Standard deviation: 178.3
+Average executions: 34.6; Standard deviation: 11.4
+Min: 20; Max: 70
 Repetition 5: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 36.2
-Standard deviation: 854.2
+Average executions: 34.1; Standard deviation: 13.9
+Min: 18; Max: 69
 Repetition 6: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 34.8
-Standard deviation: 134.2
+Average executions: 31.8; Standard deviation: 10.2
+Min: 22; Max: 73
 Repetition 7: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 34.2
-Standard deviation: 161.6
+Average executions: 32.7; Standard deviation: 11.9
+Min: 20; Max: 78
 Repetition 8: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 35.5
-Standard deviation: 547.4
+Average executions: 32.8; Standard deviation: 13.8
+Min: 18; Max: 89
 Repetition 9: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 32.9
-Standard deviation: 73.9
+Average executions: 36.5; Standard deviation: 14.9
+Min: 23; Max: 85
 Repetition 10: Report execution of ThreadPool implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 34.9
-Standard deviation: 167.9
+Average executions: 34.7; Standard deviation: 16.6
+Min: 17; Max: 92
 Repetition 1: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 394.6
-Standard deviation: 9.8
+Average executions: 351.8; Standard deviation: 4.7
+Min: 348; Max: 361
 Repetition 2: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 392.0
-Standard deviation: 9.6
+Average executions: 374.8; Standard deviation: 3.8
+Min: 368; Max: 379
 Repetition 3: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 388.2
-Standard deviation: 17.4
+Average executions: 376.6; Standard deviation: 1.2
+Min: 375; Max: 378
 Repetition 4: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 394.8
-Standard deviation: 20.2
+Average executions: 371.8; Standard deviation: 2.3
+Min: 369; Max: 376
 Repetition 5: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 391.0
-Standard deviation: 26.8
+Average executions: 372.2; Standard deviation: 4.4
+Min: 367; Max: 378
 Repetition 6: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 383.0
-Standard deviation: 12.4
+Average executions: 375.2; Standard deviation: 2.1
+Min: 372; Max: 378
 Repetition 7: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 389.6
-Standard deviation: 3.8
+Average executions: 367.0; Standard deviation: 2.6
+Min: 365; Max: 372
 Repetition 8: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 391.4
-Standard deviation: 9.8
+Average executions: 370.2; Standard deviation: 2.7
+Min: 366; Max: 373
 Repetition 9: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 393.4
-Standard deviation: 28.6
+Average executions: 376.0; Standard deviation: 3.7
+Min: 371; Max: 379
 Repetition 10: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 395.8
-Standard deviation: 5.4
+Average executions: 371.8; Standard deviation: 3.5
+Min: 366; Max: 376
 Repetition 1: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 595.0
-Standard deviation: 4.0
+Average executions: 564.6; Standard deviation: 4.1
+Min: 557; Max: 569
 Repetition 2: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 589.2
-Standard deviation: 18.2
+Average executions: 562.8; Standard deviation: 2.1
+Min: 559; Max: 565
 Repetition 3: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 587.6
-Standard deviation: 27.8
+Average executions: 563.6; Standard deviation: 7.6
+Min: 554; Max: 575
 Repetition 4: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 591.0
-Standard deviation: 6.8
+Average executions: 560.0; Standard deviation: 5.2
+Min: 554; Max: 567
 Repetition 5: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 590.6
-Standard deviation: 41.0
+Average executions: 563.6; Standard deviation: 1.7
+Min: 561; Max: 566
 Repetition 6: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 594.2
-Standard deviation: 12.2
+Average executions: 557.2; Standard deviation: 2.7
+Min: 554; Max: 562
 Repetition 7: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 592.6
-Standard deviation: 10.6
+Average executions: 567.8; Standard deviation: 3.2
+Min: 563; Max: 573
 Repetition 8: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 596.2
-Standard deviation: 2.6
+Average executions: 559.8; Standard deviation: 1.2
+Min: 558; Max: 561
 Repetition 9: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 596.2
-Standard deviation: 7.4
+Average executions: 540.0; Standard deviation: 5.7
+Min: 532; Max: 547
 Repetition 10: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 592.0
-Standard deviation: 5.2
+Average executions: 552.0; Standard deviation: 5.3
+Min: 545; Max: 557
 Repetition 1: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 388.4
-Standard deviation: 5.4
+Average executions: 373.4; Standard deviation: 3.0
+Min: 370; Max: 377
 Repetition 2: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 395.4
-Standard deviation: 9.4
+Average executions: 373.6; Standard deviation: 2.2
+Min: 372; Max: 378
 Repetition 3: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 391.4
-Standard deviation: 13.4
+Average executions: 370.4; Standard deviation: 2.0
+Min: 368; Max: 374
 Repetition 4: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 390.2
-Standard deviation: 4.2
+Average executions: 372.0; Standard deviation: 1.4
+Min: 370; Max: 374
 Repetition 5: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 395.0
-Standard deviation: 6.4
+Average executions: 375.2; Standard deviation: 2.9
+Min: 372; Max: 380
 Repetition 6: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 391.8
-Standard deviation: 9.0
+Average executions: 378.0; Standard deviation: 4.3
+Min: 371; Max: 382
 Repetition 7: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 397.0
-Standard deviation: 8.4
+Average executions: 364.4; Standard deviation: 3.6
+Min: 360; Max: 370
 Repetition 8: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 385.8
-Standard deviation: 3.0
+Average executions: 367.4; Standard deviation: 1.9
+Min: 364; Max: 369
 Repetition 9: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 388.8
-Standard deviation: 6.2
+Average executions: 367.6; Standard deviation: 4.6
+Min: 360; Max: 372
 Repetition 10: Report execution of HaMeR framework implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 395.4
-Standard deviation: 6.6
+Average executions: 369.0; Standard deviation: 1.1
+Min: 367; Max: 370
 Repetition 1: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 153.5
-Standard deviation: 42.8
+Average executions: 140.9; Standard deviation: 6.6
+Min: 129; Max: 155
 Repetition 2: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 162.6
-Standard deviation: 18.4
+Average executions: 163.8; Standard deviation: 3.1
+Min: 156; Max: 169
 Repetition 3: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 158.3
-Standard deviation: 13.5
+Average executions: 159.7; Standard deviation: 3.9
+Min: 150; Max: 165
 Repetition 4: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 166.5
-Standard deviation: 11.9
+Average executions: 162.6; Standard deviation: 5.5
+Min: 154; Max: 173
 Repetition 5: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 164.0
-Standard deviation: 18.0
+Average executions: 159.5; Standard deviation: 5.6
+Min: 150; Max: 167
 Repetition 6: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 162.1
-Standard deviation: 17.9
+Average executions: 163.0; Standard deviation: 4.1
+Min: 158; Max: 169
 Repetition 7: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 155.5
-Standard deviation: 18.8
+Average executions: 161.5; Standard deviation: 4.3
+Min: 154; Max: 171
 Repetition 8: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 165.9
-Standard deviation: 34.8
+Average executions: 156.4; Standard deviation: 4.2
+Min: 148; Max: 163
 Repetition 9: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 165.0
-Standard deviation: 23.3
+Average executions: 168.8; Standard deviation: 4.9
+Min: 162; Max: 177
 Repetition 10: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 158.6
-Standard deviation: 22.2
+Average executions: 150.8; Standard deviation: 2.9
+Min: 146; Max: 155
 Repetition 1: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 242.4
-Standard deviation: 18.0
+Average executions: 232.4; Standard deviation: 4.5
+Min: 226; Max: 239
 Repetition 2: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 237.9
-Standard deviation: 69.5
+Average executions: 247.5; Standard deviation: 5.7
+Min: 238; Max: 255
 Repetition 3: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 244.8
-Standard deviation: 36.9
+Average executions: 227.5; Standard deviation: 6.9
+Min: 220; Max: 242
 Repetition 4: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 244.0
-Standard deviation: 27.5
+Average executions: 236.5; Standard deviation: 7.1
+Min: 218; Max: 244
 Repetition 5: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 239.6
-Standard deviation: 38.4
+Average executions: 236.1; Standard deviation: 3.7
+Min: 229; Max: 242
 Repetition 6: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 240.5
-Standard deviation: 67.2
+Average executions: 232.4; Standard deviation: 5.3
+Min: 220; Max: 240
 Repetition 7: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 239.8
-Standard deviation: 22.5
+Average executions: 244.5; Standard deviation: 6.9
+Min: 232; Max: 259
 Repetition 8: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 237.6
-Standard deviation: 55.1
+Average executions: 238.6; Standard deviation: 7.4
+Min: 225; Max: 250
 Repetition 9: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 240.0
-Standard deviation: 40.5
+Average executions: 244.8; Standard deviation: 4.6
+Min: 235; Max: 251
 Repetition 10: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 246.6
-Standard deviation: 31.7
+Average executions: 235.2; Standard deviation: 4.7
+Min: 226; Max: 243
 Repetition 1: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 163.3
-Standard deviation: 38.6
+Average executions: 163.5; Standard deviation: 4.8
+Min: 156; Max: 171
 Repetition 2: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 167.1
-Standard deviation: 35.5
+Average executions: 151.1; Standard deviation: 3.8
+Min: 146; Max: 160
 Repetition 3: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 159.7
-Standard deviation: 16.7
+Average executions: 147.6; Standard deviation: 5.0
+Min: 139; Max: 154
 Repetition 4: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 164.5
-Standard deviation: 12.6
+Average executions: 155.5; Standard deviation: 4.1
+Min: 146; Max: 160
 Repetition 5: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 159.3
-Standard deviation: 13.7
+Average executions: 157.8; Standard deviation: 4.0
+Min: 151; Max: 164
 Repetition 6: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 167.9
-Standard deviation: 15.0
+Average executions: 161.6; Standard deviation: 3.8
+Min: 156; Max: 169
 Repetition 7: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 168.0
-Standard deviation: 41.3
+Average executions: 158.6; Standard deviation: 4.9
+Min: 151; Max: 168
 Repetition 8: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 168.5
-Standard deviation: 15.5
+Average executions: 150.7; Standard deviation: 4.9
+Min: 141; Max: 156
 Repetition 9: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 167.1
-Standard deviation: 10.8
+Average executions: 158.1; Standard deviation: 4.7
+Min: 149; Max: 166
 Repetition 10: Report execution of HaMeR framework implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 163.0
-Standard deviation: 37.8
+Average executions: 153.0; Standard deviation: 3.4
+Min: 147; Max: 159
 Repetition 1: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 28.3
-Standard deviation: 19.1
+Average executions: 26.3; Standard deviation: 5.0
+Min: 14; Max: 37
 Repetition 2: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 27.3
-Standard deviation: 8.7
+Average executions: 27.4; Standard deviation: 3.2
+Min: 19; Max: 33
 Repetition 3: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 30.0
-Standard deviation: 45.0
+Average executions: 27.7; Standard deviation: 5.0
+Min: 17; Max: 37
 Repetition 4: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 26.8
-Standard deviation: 15.3
+Average executions: 28.5; Standard deviation: 4.0
+Min: 22; Max: 42
 Repetition 5: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 27.7
-Standard deviation: 15.8
+Average executions: 26.7; Standard deviation: 3.6
+Min: 20; Max: 36
 Repetition 6: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 29.3
-Standard deviation: 24.8
+Average executions: 25.7; Standard deviation: 4.3
+Min: 17; Max: 39
 Repetition 7: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 28.6
-Standard deviation: 16.1
+Average executions: 28.3; Standard deviation: 6.4
+Min: 17; Max: 50
 Repetition 8: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 26.8
-Standard deviation: 15.8
+Average executions: 28.4; Standard deviation: 6.3
+Min: 18; Max: 45
 Repetition 9: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 27.6
-Standard deviation: 12.1
+Average executions: 27.0; Standard deviation: 4.6
+Min: 16; Max: 42
 Repetition 10: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 29.5
-Standard deviation: 368.9
+Average executions: 26.6; Standard deviation: 3.7
+Min: 20; Max: 34
 Repetition 1: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 39.8
-Standard deviation: 25.2
+Average executions: 40.5; Standard deviation: 5.8
+Min: 31; Max: 55
 Repetition 2: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 42.6
-Standard deviation: 19.8
+Average executions: 43.1; Standard deviation: 5.0
+Min: 31; Max: 55
 Repetition 3: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 42.5
-Standard deviation: 29.0
+Average executions: 38.8; Standard deviation: 5.2
+Min: 28; Max: 54
 Repetition 4: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 42.6
-Standard deviation: 22.8
+Average executions: 41.8; Standard deviation: 6.4
+Min: 20; Max: 57
 Repetition 5: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 40.8
-Standard deviation: 16.5
+Average executions: 38.7; Standard deviation: 4.1
+Min: 26; Max: 46
 Repetition 6: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 43.0
-Standard deviation: 36.6
+Average executions: 40.1; Standard deviation: 5.4
+Min: 30; Max: 57
 Repetition 7: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 43.7
-Standard deviation: 27.8
+Average executions: 38.0; Standard deviation: 5.3
+Min: 26; Max: 47
 Repetition 8: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 42.6
-Standard deviation: 21.7
+Average executions: 42.6; Standard deviation: 4.5
+Min: 33; Max: 53
 Repetition 9: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 40.5
-Standard deviation: 39.9
+Average executions: 41.8; Standard deviation: 5.1
+Min: 30; Max: 53
 Repetition 10: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 38.7
-Standard deviation: 25.5
+Average executions: 41.5; Standard deviation: 5.2
+Min: 32; Max: 53
 Repetition 1: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 30.4
-Standard deviation: 26.6
+Average executions: 28.8; Standard deviation: 7.7
+Min: 17; Max: 56
 Repetition 2: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 28.4
-Standard deviation: 13.6
+Average executions: 28.8; Standard deviation: 4.4
+Min: 21; Max: 41
 Repetition 3: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 29.1
-Standard deviation: 16.1
+Average executions: 28.9; Standard deviation: 4.6
+Min: 18; Max: 39
 Repetition 4: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 29.5
-Standard deviation: 18.6
+Average executions: 27.4; Standard deviation: 4.3
+Min: 19; Max: 39
 Repetition 5: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 29.6
-Standard deviation: 17.0
+Average executions: 29.8; Standard deviation: 4.1
+Min: 20; Max: 40
 Repetition 6: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 30.5
-Standard deviation: 18.9
+Average executions: 27.1; Standard deviation: 3.9
+Min: 20; Max: 36
 Repetition 7: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 27.1
-Standard deviation: 18.8
+Average executions: 25.7; Standard deviation: 11.5
+Min: 13; Max: 71
 Repetition 8: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 29.3
-Standard deviation: 14.3
+Average executions: 26.8; Standard deviation: 4.2
+Min: 16; Max: 36
 Repetition 9: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 28.5
-Standard deviation: 21.3
+Average executions: 26.7; Standard deviation: 3.8
+Min: 19; Max: 35
 Repetition 10: Report execution of HaMeR framework implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 24.7
-Standard deviation: 98.3
+Average executions: 26.5; Standard deviation: 8.6
+Min: 13; Max: 45
 Repetition 1: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 594.0
-Standard deviation: 9.6
+Average executions: 554.6; Standard deviation: 1.9
+Min: 552; Max: 557
 Repetition 2: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 594.2
-Standard deviation: 77.8
+Average executions: 554.6; Standard deviation: 1.6
+Min: 553; Max: 557
 Repetition 3: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 592.6
-Standard deviation: 21.4
+Average executions: 557.6; Standard deviation: 1.6
+Min: 556; Max: 560
 Repetition 4: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 594.8
-Standard deviation: 36.2
+Average executions: 561.8; Standard deviation: 2.5
+Min: 557; Max: 564
 Repetition 5: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 593.4
-Standard deviation: 29.8
+Average executions: 559.8; Standard deviation: 3.9
+Min: 553; Max: 564
 Repetition 6: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 590.6
-Standard deviation: 17.0
+Average executions: 554.8; Standard deviation: 4.3
+Min: 547; Max: 560
 Repetition 7: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 594.4
-Standard deviation: 10.6
+Average executions: 553.8; Standard deviation: 2.2
+Min: 550; Max: 556
 Repetition 8: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 592.2
-Standard deviation: 33.0
+Average executions: 555.6; Standard deviation: 4.5
+Min: 548; Max: 560
 Repetition 9: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 592.4
-Standard deviation: 9.8
+Average executions: 552.0; Standard deviation: 3.5
+Min: 548; Max: 557
 Repetition 10: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 593.0
-Standard deviation: 11.6
+Average executions: 553.6; Standard deviation: 5.4
+Min: 549; Max: 562
 Repetition 1: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4172.4
-Standard deviation: 3426312.2
+Average executions: 4121.6; Standard deviation: 1866.7
+Min: 538; Max: 5884
 Repetition 2: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4247.0
-Standard deviation: 3960668.8
+Average executions: 4143.6; Standard deviation: 1908.9
+Min: 532; Max: 5885
 Repetition 3: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4165.0
-Standard deviation: 3420695.2
+Average executions: 4061.2; Standard deviation: 1884.4
+Min: 541; Max: 5953
 Repetition 4: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4267.4
-Standard deviation: 4020552.2
+Average executions: 3952.8; Standard deviation: 1779.6
+Min: 541; Max: 5525
 Repetition 5: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4336.4
-Standard deviation: 3832993.0
+Average executions: 3894.6; Standard deviation: 1797.8
+Min: 533; Max: 5747
 Repetition 6: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4205.4
-Standard deviation: 3572629.8
+Average executions: 3781.0; Standard deviation: 1794.0
+Min: 525; Max: 5567
 Repetition 7: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4358.2
-Standard deviation: 4229540.6
+Average executions: 4010.2; Standard deviation: 1777.6
+Min: 549; Max: 5414
 Repetition 8: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4264.4
-Standard deviation: 3796933.4
+Average executions: 4032.8; Standard deviation: 1875.7
+Min: 526; Max: 5701
 Repetition 9: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4266.6
-Standard deviation: 3783565.8
+Average executions: 3981.8; Standard deviation: 1819.4
+Min: 536; Max: 5751
 Repetition 10: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 4301.6
-Standard deviation: 3881616.6
+Average executions: 3976.6; Standard deviation: 1827.7
+Min: 538; Max: 5643
 Repetition 1: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 588.6
-Standard deviation: 5.8
+Average executions: 557.8; Standard deviation: 1.9
+Min: 556; Max: 561
 Repetition 2: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 587.6
-Standard deviation: 17.0
+Average executions: 559.0; Standard deviation: 4.0
+Min: 553; Max: 565
 Repetition 3: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 588.8
-Standard deviation: 7.8
+Average executions: 561.0; Standard deviation: 3.9
+Min: 556; Max: 566
 Repetition 4: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 577.6
-Standard deviation: 10.2
+Average executions: 556.8; Standard deviation: 3.8
+Min: 552; Max: 561
 Repetition 5: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 578.6
-Standard deviation: 1.8
+Average executions: 553.6; Standard deviation: 4.6
+Min: 547; Max: 559
 Repetition 6: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 584.0
-Standard deviation: 4.0
+Average executions: 558.0; Standard deviation: 1.4
+Min: 556; Max: 560
 Repetition 7: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 582.6
-Standard deviation: 27.0
+Average executions: 549.6; Standard deviation: 3.6
+Min: 543; Max: 553
 Repetition 8: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 580.6
-Standard deviation: 16.6
+Average executions: 551.6; Standard deviation: 2.2
+Min: 549; Max: 554
 Repetition 9: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 579.4
-Standard deviation: 29.0
+Average executions: 554.0; Standard deviation: 5.2
+Min: 548; Max: 562
 Repetition 10: Report execution of Kotlin coroutines implementation, with 5 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 583.4
-Standard deviation: 4.2
+Average executions: 552.4; Standard deviation: 4.3
+Min: 547; Max: 559
 Repetition 1: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 231.1
-Standard deviation: 32.3
+Average executions: 237.9; Standard deviation: 8.2
+Min: 222; Max: 250
 Repetition 2: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 243.9
-Standard deviation: 55.4
+Average executions: 238.2; Standard deviation: 5.7
+Min: 226; Max: 247
 Repetition 3: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 238.0
-Standard deviation: 24.4
+Average executions: 233.8; Standard deviation: 4.0
+Min: 225; Max: 243
 Repetition 4: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 231.6
-Standard deviation: 57.0
+Average executions: 231.6; Standard deviation: 6.3
+Min: 224; Max: 245
 Repetition 5: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 140.0
-Standard deviation: 46.9
+Average executions: 234.0; Standard deviation: 5.6
+Min: 227; Max: 242
 Repetition 6: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 231.5
-Standard deviation: 44.4
+Average executions: 222.3; Standard deviation: 6.6
+Min: 212; Max: 234
 Repetition 7: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 236.9
-Standard deviation: 29.7
+Average executions: 232.1; Standard deviation: 5.9
+Min: 222; Max: 244
 Repetition 8: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 240.0
-Standard deviation: 53.3
+Average executions: 236.9; Standard deviation: 6.5
+Min: 226; Max: 248
 Repetition 9: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 234.2
-Standard deviation: 31.4
+Average executions: 233.6; Standard deviation: 5.4
+Min: 224; Max: 243
 Repetition 10: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 237.2
-Standard deviation: 52.5
+Average executions: 234.6; Standard deviation: 6.0
+Min: 226; Max: 246
 Repetition 1: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 2911.3
-Standard deviation: 684073.3
+Average executions: 3224.5; Standard deviation: 920.9
+Min: 443; Max: 4276
 Repetition 2: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3359.6
-Standard deviation: 888659.5
+Average executions: 3300.5; Standard deviation: 918.9
+Min: 462; Max: 4085
 Repetition 3: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3104.0
-Standard deviation: 786694.4
+Average executions: 3313.3; Standard deviation: 935.8
+Min: 442; Max: 4197
 Repetition 4: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3123.1
-Standard deviation: 766284.8
+Average executions: 3316.1; Standard deviation: 940.8
+Min: 443; Max: 4164
 Repetition 5: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3070.7
-Standard deviation: 749196.7
+Average executions: 3340.7; Standard deviation: 940.8
+Min: 461; Max: 4215
 Repetition 6: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3084.9
-Standard deviation: 742006.6
+Average executions: 3303.6; Standard deviation: 942.5
+Min: 452; Max: 4374
 Repetition 7: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 2980.5
-Standard deviation: 669609.2
+Average executions: 3381.4; Standard deviation: 968.8
+Min: 452; Max: 4487
 Repetition 8: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3296.6
-Standard deviation: 909454.8
+Average executions: 3306.5; Standard deviation: 930.9
+Min: 464; Max: 4225
 Repetition 9: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3300.6
-Standard deviation: 851146.2
+Average executions: 3304.5; Standard deviation: 922.8
+Min: 447; Max: 4069
 Repetition 10: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 3212.6
-Standard deviation: 866258.2
+Average executions: 3248.7; Standard deviation: 898.9
+Min: 454; Max: 3916
 Repetition 1: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 239.6
-Standard deviation: 78.6
+Average executions: 240.6; Standard deviation: 3.0
+Min: 233; Max: 244
 Repetition 2: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 231.4
-Standard deviation: 59.0
+Average executions: 229.2; Standard deviation: 3.8
+Min: 224; Max: 236
 Repetition 3: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 231.6
-Standard deviation: 14.0
+Average executions: 224.5; Standard deviation: 6.5
+Min: 218; Max: 241
 Repetition 4: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 224.8
-Standard deviation: 30.9
+Average executions: 232.5; Standard deviation: 4.5
+Min: 223; Max: 239
 Repetition 5: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 233.4
-Standard deviation: 27.5
+Average executions: 224.5; Standard deviation: 4.5
+Min: 213; Max: 229
 Repetition 6: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 224.6
-Standard deviation: 35.7
+Average executions: 210.5; Standard deviation: 4.6
+Min: 205; Max: 221
 Repetition 7: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 227.4
-Standard deviation: 31.9
+Average executions: 240.6; Standard deviation: 6.9
+Min: 227; Max: 253
 Repetition 8: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 232.7
-Standard deviation: 30.7
+Average executions: 237.5; Standard deviation: 5.7
+Min: 229; Max: 249
 Repetition 9: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 233.7
-Standard deviation: 56.0
+Average executions: 231.6; Standard deviation: 5.4
+Min: 220; Max: 240
 Repetition 10: Report execution of Kotlin coroutines implementation, with 11 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 234.5
-Standard deviation: 43.5
+Average executions: 241.5; Standard deviation: 5.3
+Min: 233; Max: 250
 Repetition 1: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 49.1
-Standard deviation: 103.8
+Average executions: 48.6; Standard deviation: 10.5
+Min: 29; Max: 86
 Repetition 2: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 49.4
-Standard deviation: 298.0
+Average executions: 48.8; Standard deviation: 11.6
+Min: 35; Max: 96
 Repetition 3: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 49.3
-Standard deviation: 136.1
+Average executions: 49.7; Standard deviation: 16.1
+Min: 32; Max: 113
 Repetition 4: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 50.8
-Standard deviation: 274.9
+Average executions: 52.9; Standard deviation: 18.9
+Min: 34; Max: 124
 Repetition 5: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 47.8
-Standard deviation: 127.2
+Average executions: 46.1; Standard deviation: 30.5
+Min: 14; Max: 165
 Repetition 6: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 46.4
-Standard deviation: 127.0
+Average executions: 49.7; Standard deviation: 14.6
+Min: 34; Max: 98
 Repetition 7: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 47.0
-Standard deviation: 86.0
+Average executions: 46.6; Standard deviation: 14.2
+Min: 25; Max: 108
 Repetition 8: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 50.5
-Standard deviation: 423.6
+Average executions: 47.8; Standard deviation: 13.6
+Min: 35; Max: 101
 Repetition 9: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 47.1
-Standard deviation: 119.0
+Average executions: 46.9; Standard deviation: 11.9
+Min: 32; Max: 100
 Repetition 10: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Semaphore to synchronize
-Average executions: 47.6
-Standard deviation: 254.3
+Average executions: 46.0; Standard deviation: 15.8
+Min: 31; Max: 112
 Repetition 1: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 886.5
-Standard deviation: 18568.7
+Average executions: 874.5; Standard deviation: 157.9
+Min: 99; Max: 1426
 Repetition 2: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 900.3
-Standard deviation: 25995.0
+Average executions: 857.8; Standard deviation: 146.3
+Min: 119; Max: 1235
 Repetition 3: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 884.6
-Standard deviation: 24206.3
+Average executions: 903.6; Standard deviation: 171.2
+Min: 120; Max: 1397
 Repetition 4: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 897.5
-Standard deviation: 25885.9
+Average executions: 851.2; Standard deviation: 153.0
+Min: 112; Max: 1174
 Repetition 5: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 852.0
-Standard deviation: 23133.2
+Average executions: 845.9; Standard deviation: 144.6
+Min: 117; Max: 1127
 Repetition 6: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 876.9
-Standard deviation: 23828.5
+Average executions: 754.8; Standard deviation: 124.3
+Min: 106; Max: 976
 Repetition 7: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 848.7
-Standard deviation: 19855.7
+Average executions: 739.0; Standard deviation: 182.8
+Min: 85; Max: 1278
 Repetition 8: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 864.9
-Standard deviation: 25234.4
+Average executions: 877.2; Standard deviation: 162.6
+Min: 110; Max: 1208
 Repetition 9: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 835.3
-Standard deviation: 24794.0
+Average executions: 881.4; Standard deviation: 160.1
+Min: 117; Max: 1392
 Repetition 10: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Synchronized to synchronize
-Average executions: 835.6
-Standard deviation: 24011.8
+Average executions: 846.4; Standard deviation: 152.9
+Min: 124; Max: 1355
 Repetition 1: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 43.5
-Standard deviation: 249.1
+Average executions: 50.8; Standard deviation: 17.1
+Min: 36; Max: 106
 Repetition 2: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 43.3
-Standard deviation: 64.8
+Average executions: 45.3; Standard deviation: 8.8
+Min: 34; Max: 81
 Repetition 3: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 49.7
-Standard deviation: 147.8
+Average executions: 47.8; Standard deviation: 7.6
+Min: 32; Max: 81
 Repetition 4: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 45.6
-Standard deviation: 117.3
+Average executions: 45.3; Standard deviation: 8.2
+Min: 31; Max: 72
 Repetition 5: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 47.3
-Standard deviation: 109.3
+Average executions: 43.9; Standard deviation: 7.9
+Min: 30; Max: 74
 Repetition 6: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 47.0
-Standard deviation: 137.6
+Average executions: 44.0; Standard deviation: 37.6
+Min: 10; Max: 170
 Repetition 7: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 46.5
-Standard deviation: 1549.0
+Average executions: 45.5; Standard deviation: 13.9
+Min: 30; Max: 107
 Repetition 8: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 45.6
-Standard deviation: 98.6
+Average executions: 54.1; Standard deviation: 56.1
+Min: 11; Max: 237
 Repetition 9: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 48.8
-Standard deviation: 1479.9
+Average executions: 49.5; Standard deviation: 23.7
+Min: 15; Max: 122
 Repetition 10: Report execution of Kotlin coroutines implementation, with 51 philosophers, running by 2 seconds using Lock and Condition to synchronize
-Average executions: 48.2
-Standard deviation: 113.8
+Average executions: 46.4; Standard deviation: 16.4
+Min: 34; Max: 144
 ====================================================================================================

@@ -96,7 +96,7 @@ for p in philosophers:
 				out.write(';;;')
 			out.write(';\n')
 		
-		out.write(';\n')
+		out.write(';\n\n\n')
 		out.write('; Min;;;;;;Max;;;;;;;Min;;;;;;Max;;;;;;;Min;;;;;;Max\n;;')
 
 		for s in sync:
@@ -124,6 +124,7 @@ for p in philosophers:
 					else:
 						out.write(';')
 				out.write(';;;')
+			out.write(';\n')
 	out.write(';\n;\n;\n')
 
 
