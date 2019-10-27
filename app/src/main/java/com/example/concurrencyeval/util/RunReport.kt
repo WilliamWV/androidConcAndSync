@@ -1,6 +1,7 @@
 package com.example.concurrencyeval.util
 
 import kotlin.math.pow
+import kotlin.math.sqrt
 
 class RunReport{
     val time: Long
@@ -34,7 +35,7 @@ class RunReport{
         share.forEach {
             diffs += (it - avg).pow(2)
         }
-        this.std = diffs/share.size
+        this.std = sqrt(diffs/share.size)
         this.ans = null
         this.prod = 0
         this.cons = 0
