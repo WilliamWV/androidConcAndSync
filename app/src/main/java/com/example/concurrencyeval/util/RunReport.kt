@@ -9,6 +9,8 @@ class RunReport{
     val ans: Any?
     val prod: Int
     val cons: Int
+    val minExec: Int
+    val maxExec: Int
 
     private val noTime: Long = -1
     private val noAvg: Double = 0.0
@@ -21,6 +23,8 @@ class RunReport{
         this.ans = null
         this.prod = 0
         this.cons = 0
+        this.minExec = 0
+        this.maxExec = 0
     }
     constructor(share: IntArray){
         this.time = this.noTime
@@ -34,6 +38,8 @@ class RunReport{
         this.ans = null
         this.prod = 0
         this.cons = 0
+        this.minExec = share.min()!!
+        this.maxExec = share.max()!!
     }
 
     constructor(time: Long, ans: Any?){
@@ -43,6 +49,8 @@ class RunReport{
         this.avg = this.noAvg
         this.prod = 0
         this.cons = 0
+        this.minExec = 0
+        this.maxExec = 0
     }
 
     constructor(producedItems: Int, consumedItems: Int){
@@ -52,6 +60,8 @@ class RunReport{
         this.ans = null
         this.std = this.noStd
         this.avg = this.noAvg
+        this.minExec = 0
+        this.maxExec = 0
     }
 
 }

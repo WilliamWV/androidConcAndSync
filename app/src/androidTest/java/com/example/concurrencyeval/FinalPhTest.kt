@@ -42,8 +42,15 @@ class FinalPhTest : GeneralInstrTest{
                         " philosophers, running by " + report.testParams["time"] + " seconds" +
                         " using " + Constants.implNames[report.testParams["sync"]] + " to synchronize"
             )
-            Log.d(logTag, "Average executions: " + String.format(Locale.US, "%.1f", report.runReport.avg))
-            Log.d(logTag, "Standard deviation: " + String.format(Locale.US, "%.1f", report.runReport.std))
+            Log.d(logTag,
+                "Average executions: " + String.format(Locale.US, "%.1f", report.runReport.avg) +
+                        "; Standard deviation: " + String.format(Locale.US, "%.1f", report.runReport.std)
+            )
+            Log.d(logTag,
+                "Min: " + String.format(Locale.US, "%d", report.runReport.minExec) +
+                        "; Max: " + String.format(Locale.US, "%d", report.runReport.maxExec)
+            )
+
         }
         Log.d(logTag, "=".repeat(100))
     }

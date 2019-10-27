@@ -28,14 +28,16 @@ for file in log_files:
 		prev_line = ''
 		for line in inp.readlines():
 			
-			if prev_prev_line.find('Repetition') != -1 and prev_line.find('Average') != -1 and line.find('Standard') != -1:
+			if prev_prev_line.find('Repetition') != -1 and prev_line.find('Average') != -1 and line.find('Min') != -1:
 				# Log válido
 				time = int(prev_prev_line[prev_prev_line.find('running by') + 11:prev_prev_line.find('seconds')-1])
 				philosophers = int(prev_prev_line[prev_prev_line.find('with') + 5:prev_prev_line.find('philosophers')-1])
 				impl = prev_prev_line[prev_prev_line.find("of") + 3:prev_prev_line.find('implementation')-1]
 				sync = prev_prev_line[prev_prev_line.find("using") + 6: prev_prev_line.find('to synchronize')-1]
-				avg = float(prev_line[prev_line.find('Average executions:') + 20:])
-				std = float(line[line.find('Standard deviation:')+20:])
+				avg = float(prev_line[prev_line.find('Average executions:') + 20:prev_line.find('; Standard deviation:')])
+				std = float(prev_line[prev_line.find('Standard deviation:')+20:])
+				mini = int(line[line.find('Min: ') + 5:line.find('; Max:')])
+				maxi = int(line[line.find('; Max: ') + 7:])
 				if logs.get(impl) == None:
 					logs[impl] = {}
 				if logs[impl].get(time) == None:
@@ -45,7 +47,7 @@ for file in log_files:
 				if logs[impl][time][philosophers].get(sync) == None:
 					logs[impl][time][philosophers][sync] = []
 				
-				logs[impl][time][philosophers][sync].append((avg, std))
+				logs[impl][time][philosophers][sync].append((avg, std, mini, maxi))
 				
 			prev_prev_line = prev_line
 			prev_line = line
@@ -93,6 +95,35 @@ for p in philosophers:
 						out.write(';')
 				out.write(';;;')
 			out.write(';\n')
+		
+		out.write(';\n')
+		out.write('; Min;;;;;;Max;;;;;;;Min;;;;;;Max;;;;;;;Min;;;;;;Max\n;;')
+
+		for s in sync:
+			for i in impls:
+				out.write(str(i)+';')
+			out.write(';;')
+			
+			for i in impls:
+				out.write(str(i)+';')
+			out.write(';;;')
+		
+		out.write(';\n')
+		for r in range(repetitions):
+			out.write(';;')
+			for s in sync:
+				for i in impls:
+					if (len(logs[i][t][p][s]) > r):
+						out.write(str(logs[i][t][p][s][r][2])+';')
+					else:
+						out.write(';')
+				out.write(';;')
+				for i in impls:
+					if (len(logs[i][t][p][s]) > r):
+						out.write(str(logs[i][t][p][s][r][3])+';')
+					else:
+						out.write(';')
+				out.write(';;;')
 	out.write(';\n;\n;\n')
 
 
