@@ -1,0 +1,964 @@
+====================================================================================================
+====================================== MATRIX MULTIPLICATION =======================================
+====================================================================================================
+Repetition 1: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 12 ms
+Repetition 2: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 10 ms
+Repetition 3: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 11 ms
+Repetition 4: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 10 ms
+Repetition 5: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 11 ms
+Repetition 6: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 11 ms
+Repetition 7: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 11 ms
+Repetition 8: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 11 ms
+Repetition 9: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 10 ms
+Repetition 10: Report execution of Threads implementation, with size: 128x128; using 1 tasks
+Time: 14 ms
+Repetition 1: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 18 ms
+Repetition 2: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 17 ms
+Repetition 3: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 9 ms
+Repetition 4: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 7 ms
+Repetition 5: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 18 ms
+Repetition 6: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 17 ms
+Repetition 7: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 9 ms
+Repetition 8: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 8 ms
+Repetition 9: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 19 ms
+Repetition 10: Report execution of Threads implementation, with size: 128x128; using 2 tasks
+Time: 16 ms
+Repetition 1: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 10 ms
+Repetition 2: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 9 ms
+Repetition 3: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 13 ms
+Repetition 4: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 12 ms
+Repetition 5: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 7 ms
+Repetition 6: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 11 ms
+Repetition 7: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 8 ms
+Repetition 8: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 10 ms
+Repetition 9: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 17 ms
+Repetition 10: Report execution of Threads implementation, with size: 128x128; using 8 tasks
+Time: 11 ms
+Repetition 1: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 21 ms
+Repetition 2: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 14 ms
+Repetition 3: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 19 ms
+Repetition 4: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 32 ms
+Repetition 5: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 16 ms
+Repetition 6: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 17 ms
+Repetition 7: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 21 ms
+Repetition 8: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 21 ms
+Repetition 9: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 23 ms
+Repetition 10: Report execution of Threads implementation, with size: 128x128; using 64 tasks
+Time: 12 ms
+Repetition 1: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 97 ms
+Repetition 2: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 97 ms
+Repetition 3: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 103 ms
+Repetition 4: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 107 ms
+Repetition 5: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 108 ms
+Repetition 6: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 98 ms
+Repetition 7: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 105 ms
+Repetition 8: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 102 ms
+Repetition 9: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 107 ms
+Repetition 10: Report execution of Threads implementation, with size: 256x256; using 1 tasks
+Time: 106 ms
+Repetition 1: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 51 ms
+Repetition 2: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 63 ms
+Repetition 3: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 54 ms
+Repetition 4: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 56 ms
+Repetition 5: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 57 ms
+Repetition 6: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 52 ms
+Repetition 7: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 55 ms
+Repetition 8: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 58 ms
+Repetition 9: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 70 ms
+Repetition 10: Report execution of Threads implementation, with size: 256x256; using 2 tasks
+Time: 54 ms
+Repetition 1: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 41 ms
+Repetition 2: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 47 ms
+Repetition 3: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 48 ms
+Repetition 4: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 50 ms
+Repetition 5: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 45 ms
+Repetition 6: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 55 ms
+Repetition 7: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 42 ms
+Repetition 8: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 40 ms
+Repetition 9: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 49 ms
+Repetition 10: Report execution of Threads implementation, with size: 256x256; using 8 tasks
+Time: 50 ms
+Repetition 1: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 58 ms
+Repetition 2: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 49 ms
+Repetition 3: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 44 ms
+Repetition 4: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 44 ms
+Repetition 5: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 45 ms
+Repetition 6: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 47 ms
+Repetition 7: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 54 ms
+Repetition 8: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 47 ms
+Repetition 9: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 38 ms
+Repetition 10: Report execution of Threads implementation, with size: 256x256; using 64 tasks
+Time: 48 ms
+Repetition 1: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2431 ms
+Repetition 2: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2644 ms
+Repetition 3: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2626 ms
+Repetition 4: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2704 ms
+Repetition 5: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2621 ms
+Repetition 6: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2662 ms
+Repetition 7: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2649 ms
+Repetition 8: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2638 ms
+Repetition 9: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2570 ms
+Repetition 10: Report execution of Threads implementation, with size: 512x512; using 1 tasks
+Time: 2652 ms
+Repetition 1: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1389 ms
+Repetition 2: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1353 ms
+Repetition 3: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1409 ms
+Repetition 4: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1396 ms
+Repetition 5: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1404 ms
+Repetition 6: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1403 ms
+Repetition 7: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1362 ms
+Repetition 8: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1352 ms
+Repetition 9: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1381 ms
+Repetition 10: Report execution of Threads implementation, with size: 512x512; using 2 tasks
+Time: 1366 ms
+Repetition 1: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 520 ms
+Repetition 2: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 524 ms
+Repetition 3: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 520 ms
+Repetition 4: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 556 ms
+Repetition 5: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 563 ms
+Repetition 6: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 492 ms
+Repetition 7: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 572 ms
+Repetition 8: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 542 ms
+Repetition 9: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 526 ms
+Repetition 10: Report execution of Threads implementation, with size: 512x512; using 8 tasks
+Time: 524 ms
+Repetition 1: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 395 ms
+Repetition 2: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 385 ms
+Repetition 3: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 395 ms
+Repetition 4: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 384 ms
+Repetition 5: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 451 ms
+Repetition 6: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 435 ms
+Repetition 7: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 400 ms
+Repetition 8: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 413 ms
+Repetition 9: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 382 ms
+Repetition 10: Report execution of Threads implementation, with size: 512x512; using 64 tasks
+Time: 404 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 32 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 11 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 12 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 12 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 31 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 11 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 13 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 24 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 17 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 1 tasks
+Time: 10 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 6 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 15 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 6 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 7 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 18 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 7 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 7 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 18 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 7 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 2 tasks
+Time: 6 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 10 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 16 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 14 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 7 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 17 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 8 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 7 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 8 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 9 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 8 tasks
+Time: 7 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 5 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 11 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 6 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 9 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 10 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 6 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 10 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 17 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 14 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 128x128; using 64 tasks
+Time: 9 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 117 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 106 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 104 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 102 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 99 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 98 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 96 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 106 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 103 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 1 tasks
+Time: 116 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 55 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 51 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 56 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 57 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 51 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 75 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 51 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 69 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 53 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 2 tasks
+Time: 53 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 41 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 44 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 51 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 34 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 57 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 50 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 50 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 38 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 48 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 8 tasks
+Time: 45 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 27 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 37 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 27 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 30 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 29 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 32 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 25 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 33 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 24 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 256x256; using 64 tasks
+Time: 34 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2654 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2671 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2543 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2706 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2656 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2571 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2693 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2610 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2638 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 1 tasks
+Time: 2460 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1354 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1410 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1378 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1366 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1368 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1381 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1353 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1363 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1307 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 2 tasks
+Time: 1408 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 517 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 597 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 554 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 532 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 518 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 532 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 551 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 521 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 517 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 8 tasks
+Time: 500 ms
+Repetition 1: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 432 ms
+Repetition 2: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 440 ms
+Repetition 3: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 429 ms
+Repetition 4: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 423 ms
+Repetition 5: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 407 ms
+Repetition 6: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 453 ms
+Repetition 7: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 434 ms
+Repetition 8: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 461 ms
+Repetition 9: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 434 ms
+Repetition 10: Report execution of ThreadPool implementation, with size: 512x512; using 64 tasks
+Time: 448 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 17 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 15 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 15 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 15 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 13 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 16 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 16 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 14 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 18 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 1 tasks
+Time: 15 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 10 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 10 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 9 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 8 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 10 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 11 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 9 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 12 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 8 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 2 tasks
+Time: 14 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 10 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 14 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 7 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 12 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 8 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 7 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 8 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 14 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 11 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 8 tasks
+Time: 8 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 7 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 8 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 8 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 8 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 10 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 12 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 9 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 8 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 15 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 128x128; using 64 tasks
+Time: 11 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 100 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 98 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 108 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 116 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 105 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 134 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 112 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 112 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 103 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 256x256; using 1 tasks
+Time: 106 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 58 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 62 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 69 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 58 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 59 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 57 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 54 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 61 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 71 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 256x256; using 2 tasks
+Time: 83 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 46 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 48 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 56 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 44 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 49 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 46 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 53 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 52 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 46 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 256x256; using 8 tasks
+Time: 44 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 43 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 46 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 45 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 40 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 47 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 48 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 47 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 41 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 51 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 256x256; using 64 tasks
+Time: 40 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2685 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2750 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2607 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2649 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2681 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2635 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2665 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2627 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2631 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 512x512; using 1 tasks
+Time: 2581 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1378 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1383 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1444 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1395 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1430 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1410 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1415 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1370 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1376 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 512x512; using 2 tasks
+Time: 1388 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 483 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 576 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 587 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 567 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 528 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 543 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 535 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 528 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 587 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 512x512; using 8 tasks
+Time: 515 ms
+Repetition 1: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 499 ms
+Repetition 2: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 578 ms
+Repetition 3: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 536 ms
+Repetition 4: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 503 ms
+Repetition 5: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 537 ms
+Repetition 6: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 593 ms
+Repetition 7: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 523 ms
+Repetition 8: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 521 ms
+Repetition 9: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 540 ms
+Repetition 10: Report execution of HaMeR framework implementation, with size: 512x512; using 64 tasks
+Time: 597 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 46 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 49 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 43 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 43 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 50 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 43 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 44 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 54 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 44 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 1 tasks
+Time: 48 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 34 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 33 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 27 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 34 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 31 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 24 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 33 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 25 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 25 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 2 tasks
+Time: 26 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 35 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 20 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 37 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 20 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 30 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 33 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 37 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 25 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 33 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 8 tasks
+Time: 18 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 18 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 24 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 19 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 17 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 30 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 16 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 24 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 19 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 19 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 128x128; using 64 tasks
+Time: 25 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 362 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 360 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 365 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 373 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 359 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 372 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 359 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 356 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 348 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 1 tasks
+Time: 356 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 196 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 179 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 194 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 182 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 197 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 187 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 201 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 185 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 179 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 2 tasks
+Time: 188 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 117 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 125 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 120 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 113 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 115 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 114 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 121 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 123 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 122 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 8 tasks
+Time: 116 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 90 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 93 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 87 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 93 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 99 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 102 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 100 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 94 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 96 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 256x256; using 64 tasks
+Time: 88 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4048 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4053 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4124 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4068 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4051 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4080 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 3995 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4029 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 3999 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 1 tasks
+Time: 4049 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2498 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2500 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2545 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2548 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2498 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2455 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2508 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2521 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2548 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 2 tasks
+Time: 2529 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1017 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1080 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1098 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1053 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1122 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1048 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1004 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1060 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1069 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 8 tasks
+Time: 1116 ms
+Repetition 1: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 937 ms
+Repetition 2: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 924 ms
+Repetition 3: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 950 ms
+Repetition 4: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 903 ms
+Repetition 5: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 919 ms
+Repetition 6: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 905 ms
+Repetition 7: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 932 ms
+Repetition 8: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 893 ms
+Repetition 9: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 893 ms
+Repetition 10: Report execution of Kotlin coroutines implementation, with size: 512x512; using 64 tasks
+Time: 915 ms
+====================================================================================================
