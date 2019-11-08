@@ -25,7 +25,6 @@ for file in files:
 		else:
 			log_files.append(args.dir + '/' + file)
 	
-print(log_files)
 logs = {}
 
 for file in log_files:
@@ -51,7 +50,6 @@ for file in log_files:
 				
 			previousLine = line
 
-print(logs)
 			
 out.write(';Matrix multiplication;\n')
 sizes = [128, 256, 512]

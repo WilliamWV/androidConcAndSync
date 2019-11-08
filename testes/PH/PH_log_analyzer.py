@@ -6,19 +6,27 @@ parser = argparse.ArgumentParser(description='Receive files to analyze')
 parser.add_argument('-f', "--file", required=True, type=str,
                         help="base name of the log file, ex: \"J5_Log\" to \"J5_Log_01\" ")
 						
+parser.add_argument('-d', '--dir', required=False, type=str, 
+						help="Directory to find the log files")
+						
 args = parser.parse_args()
 
 
 out = open(args.file.replace('.txt', '') + '_agreggated.csv', 'w')
 
 
-files = os.listdir('.')
+if args.dir == None:
+	files = os.listdir('.')
+else:
+	files = os.listdir(args.dir)
 log_files = []
 for file in files:
 	if file.find(args.file) >= 0 and file.find('processed.txt') >=0:
-		log_files.append(file)
-		
-		
+		if args.dir == None:
+			log_files.append(file)
+		else:
+			log_files.append(args.dir + '/' + file)
+
 logs = {}
 
 for file in log_files:
