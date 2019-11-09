@@ -62,6 +62,7 @@ for file in log_files:
 			prev_line = line
 			
 		
+
 out.write(';Producers-Consumers problem;\n')
 buffs = [2,8]
 prods = [5,10,20]
@@ -95,15 +96,21 @@ for p in prods:
 			out.write(';;')
 			for b in buffs:
 				for i in impls:
-					if (len(logs[i][b][p][c]) > r):
-						out.write(str(logs[i][b][p][c][r][0])+';')
-					else:
+					try:
+						if (len(logs[i][b][p][c]) > r):
+							out.write(str(logs[i][b][p][c][r][0])+';')
+						else:
+							out.write(';')
+					except KeyError:
 						out.write(';')
 				out.write(';;;')
 				for i in impls:
-					if (len(logs[i][b][p][c]) > r):
-						out.write(str(logs[i][b][p][c][r][1])+';')
-					else:
+					try:
+						if (len(logs[i][b][p][c]) > r):
+							out.write(str(logs[i][b][p][c][r][1])+';')
+						else:
+							out.write(';')
+					except KeyError:
 						out.write(';')
 				
 				
