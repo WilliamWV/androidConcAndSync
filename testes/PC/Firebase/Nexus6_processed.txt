@@ -1,0 +1,512 @@
+====================================================================================================
+===================================== PRODUCERS AND CONSUMERS ======================================
+====================================================================================================
+Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 49
+Consumed items: 47
+Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 37
+Consumed items: 35
+Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 47
+Consumed items: 45
+Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 38
+Consumed items: 36
+Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 35
+Consumed items: 33
+Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 39
+Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 48
+Consumed items: 46
+Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 39
+Consumed items: 37
+Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 39
+Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 44
+Consumed items: 43
+Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 49
+Consumed items: 47
+Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 39
+Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 39
+Consumed items: 37
+Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 39
+Consumed items: 37
+Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 46
+Consumed items: 44
+Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 33
+Consumed items: 31
+Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 46
+Consumed items: 44
+Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 45
+Consumed items: 43
+Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 43
+Consumed items: 41
+Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 43
+Consumed items: 41
+Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 39
+Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 45
+Consumed items: 43
+Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 46
+Consumed items: 44
+Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 46
+Consumed items: 44
+Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 2 buffer positions.
+Produced items: 45
+Consumed items: 43
+Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 35
+Consumed items: 33
+Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 33
+Consumed items: 31
+Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 35
+Consumed items: 33
+Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 2 buffer positions.
+Produced items: 38
+Consumed items: 36
+Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 39
+Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 37
+Consumed items: 35
+Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 38
+Consumed items: 36
+Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 44
+Consumed items: 42
+Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 44
+Consumed items: 42
+Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 47
+Consumed items: 46
+Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 49
+Consumed items: 49
+Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 46
+Consumed items: 44
+Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 50
+Consumed items: 48
+Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 54
+Consumed items: 52
+Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 53
+Consumed items: 45
+Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 45
+Consumed items: 40
+Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 45
+Consumed items: 40
+Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 54
+Consumed items: 50
+Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 46
+Consumed items: 40
+Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 37
+Consumed items: 33
+Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 49
+Consumed items: 46
+Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 45
+Consumed items: 40
+Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 50
+Consumed items: 46
+Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 39
+Consumed items: 36
+Repetition 1: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 48
+Consumed items: 43
+Repetition 2: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 33
+Consumed items: 32
+Repetition 3: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 48
+Consumed items: 45
+Repetition 4: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 45
+Consumed items: 40
+Repetition 5: Report execution of Lock and Condition implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 44
+Consumed items: 39
+Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 44
+Consumed items: 36
+Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 43
+Consumed items: 35
+Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 44
+Consumed items: 36
+Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 44
+Consumed items: 36
+Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 47
+Consumed items: 39
+Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 50
+Consumed items: 42
+Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 49
+Consumed items: 41
+Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 51
+Consumed items: 43
+Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 48
+Consumed items: 41
+Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 49
+Consumed items: 41
+Repetition 1: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 52
+Consumed items: 44
+Repetition 2: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 49
+Consumed items: 41
+Repetition 3: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 50
+Consumed items: 42
+Repetition 4: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 49
+Consumed items: 41
+Repetition 5: Report execution of Lock and Condition implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 51
+Consumed items: 43
+Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 42
+Consumed items: 34
+Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 43
+Consumed items: 35
+Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 36
+Consumed items: 28
+Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 42
+Consumed items: 34
+Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 32
+Consumed items: 24
+Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 48
+Consumed items: 40
+Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 43
+Consumed items: 35
+Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 44
+Consumed items: 36
+Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 47
+Consumed items: 39
+Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 42
+Consumed items: 34
+Repetition 1: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 56
+Consumed items: 48
+Repetition 2: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 63
+Consumed items: 55
+Repetition 3: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 59
+Consumed items: 51
+Repetition 4: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 57
+Consumed items: 49
+Repetition 5: Report execution of Lock and Condition implementation, with 20 producers and 20 consumers, and 8 buffer positions.
+Produced items: 57
+Consumed items: 49
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 40
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 45
+Consumed items: 43
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 40
+Consumed items: 40
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 40
+Consumed items: 39
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 5 consumers, and 2 buffer positions.
+Produced items: 43
+Consumed items: 42
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 30
+Consumed items: 30
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 33
+Consumed items: 33
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 32
+Consumed items: 32
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 31
+Consumed items: 31
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 10 consumers, and 2 buffer positions.
+Produced items: 33
+Consumed items: 33
+Repetition 1: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 20
+Consumed items: 20
+Repetition 2: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 20
+Consumed items: 20
+Repetition 3: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 22
+Consumed items: 22
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 20
+Consumed items: 20
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 20
+Consumed items: 20
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 32
+Consumed items: 30
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 34
+Consumed items: 32
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 33
+Consumed items: 31
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 31
+Consumed items: 29
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 32
+Consumed items: 29
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 40
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 39
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 44
+Consumed items: 44
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 42
+Consumed items: 40
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 2 buffer positions.
+Produced items: 41
+Consumed items: 41
+Produced items: 20
+Consumed items: 20
+Repetition 4: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 22
+Consumed items: 22
+Repetition 5: Report execution of Atomic variables implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 20
+Consumed items: 20
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 38
+Consumed items: 30
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 39
+Consumed items: 31
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 41
+Consumed items: 33
+Repetition 4: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 38
+Consumed items: 30
+Repetition 5: Report execution of Atomic variables implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 40
+Consumed items: 32
+Repetition 1: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 43
+Consumed items: 42
+Repetition 2: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 45
+Consumed items: 42
+Repetition 3: Report execution of Atomic variables implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 44
+Consumed items: 25
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 2 buffer positions.
+Produced items: 17
+Consumed items: 17
+Produced items: 27
+Consumed items: 25
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 27
+Consumed items: 26
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 2 buffer positions.
+Produced items: 28
+Consumed items: 26
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 30
+Consumed items: 28
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 26
+Consumed items: 24
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 2 buffer positions.
+Produced items: 32
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 20 consumers, and 2 buffer positions.
+Produced items: 36
+Consumed items: 36
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 22
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 35
+Consumed items: 34
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 35
+Consumed items: 35
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 36
+Consumed items: 35
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 5 consumers, and 8 buffer positions.
+Produced items: 35
+Consumed items: 35
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 25
+Consumed items: 25
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 26
+Consumed items: 26
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 25
+Consumed items: 25
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 27
+Consumed items: 26
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 10 consumers, and 8 buffer positions.
+Produced items: 26
+Consumed items: 26
+Repetition 1: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 15
+Consumed items: 15
+Repetition 2: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 16
+Consumed items: 16
+Repetition 3: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 16
+Consumed items: 16
+Repetition 4: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 15
+Consumed items: 15
+Repetition 5: Report execution of Synchronized implementation, with 5 producers and 20 consumers, and 8 buffer positions.
+Produced items: 16
+Consumed items: 16
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 30
+Consumed items: 22
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 33
+Consumed items: 25
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 33
+Consumed items: 25
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 35
+Consumed items: 27
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 5 consumers, and 8 buffer positions.
+Produced items: 33
+Consumed items: 25
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 40
+Consumed items: 40
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 39
+Consumed items: 39
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 39
+Consumed items: 36
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 38
+Consumed items: 38
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 10 consumers, and 8 buffer positions.
+Produced items: 41
+Consumed items: 39
+Repetition 1: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 26
+Consumed items: 26
+Repetition 2: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 27
+Consumed items: 27
+Repetition 3: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 20
+Consumed items: 20
+Repetition 4: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 20
+Consumed items: 20
+Repetition 5: Report execution of Synchronized implementation, with 10 producers and 20 consumers, and 8 buffer positions.
+Produced items: 26
+Consumed items: 26
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 22
+Consumed items: 14
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 23
+Consumed items: 15
+Repetition 3: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 23
+Consumed items: 15
+Repetition 4: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 23
+Consumed items: 15
+Repetition 5: Report execution of Synchronized implementation, with 20 producers and 5 consumers, and 8 buffer positions.
+Produced items: 19
+Consumed items: 11
+Repetition 1: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 28
+Consumed items: 20
+Repetition 2: Report execution of Synchronized implementation, with 20 producers and 10 consumers, and 8 buffer positions.
+Produced items: 31
+Consumed items: 23

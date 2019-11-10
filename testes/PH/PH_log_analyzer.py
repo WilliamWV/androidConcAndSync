@@ -91,15 +91,21 @@ for p in philosophers:
 			out.write(';;')
 			for s in sync:
 				for i in impls:
-					if (len(logs[i][t][p][s]) > r):
-						out.write(str(logs[i][t][p][s][r][0])+';')
-					else:
+					try:
+						if (len(logs[i][t][p][s]) > r):
+							out.write(str(logs[i][t][p][s][r][0])+';')
+						else:
+							out.write(';')
+					except KeyError:
 						out.write(';')
 				out.write(';;')
 				for i in impls:
-					if (len(logs[i][t][p][s]) > r):
-						out.write(str(logs[i][t][p][s][r][1])+';')
-					else:
+					try:
+						if (len(logs[i][t][p][s]) > r):
+							out.write(str(logs[i][t][p][s][r][1])+';')
+						else:
+							out.write(';')
+					except KeyError:
 						out.write(';')
 				out.write(';;;')
 			out.write(';\n')
@@ -121,15 +127,21 @@ for p in philosophers:
 			out.write(';;')
 			for s in sync:
 				for i in impls:
-					if (len(logs[i][t][p][s]) > r):
-						out.write(str(logs[i][t][p][s][r][2])+';')
-					else:
+					try:
+						if (len(logs[i][t][p][s]) > r):
+							out.write(str(logs[i][t][p][s][r][2])+';')
+						else:
+							out.write(';')
+					except KeyError:
 						out.write(';')
 				out.write(';;')
 				for i in impls:
-					if (len(logs[i][t][p][s]) > r):
-						out.write(str(logs[i][t][p][s][r][3])+';')
-					else:
+					try:
+						if (len(logs[i][t][p][s]) > r):
+							out.write(str(logs[i][t][p][s][r][3])+';')
+						else:
+							out.write(';')
+					except KeyError:
 						out.write(';')
 				out.write(';;;')
 			out.write(';\n')
